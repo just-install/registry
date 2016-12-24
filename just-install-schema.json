@@ -123,8 +123,8 @@
       "type": "object"
     },
     "version": {
-      "maximum": 3,
-      "minimum": 3,
+      "maximum": 4,
+      "minimum": 4,
       "type": "integer"
     }
   },
