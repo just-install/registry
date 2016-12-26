@@ -808,9 +808,9 @@
           ],
           "extension": ".exe"
         },
-        "version": "latest",
         "x86": "http://www.opera.com/download/get/?id=40225&location=410&nothanks=yes&sub=marine"
-      }
+      },
+      "version": "latest"
     },
     "origin": {
       "installer": {
