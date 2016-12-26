@@ -1,5 +1,7 @@
 # Just Install Registry
 
+[![Build Status](https://travis-ci.org/just-install/registry.svg?branch=master)](https://travis-ci.org/just-install/registry)
+
 This repository contains the just-install "registry": the list of packages available for
 installation through just-install.
 

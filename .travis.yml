@@ -1,0 +1,7 @@
+language: go
+install:
+  - go get github.com/lvillani/just-install
+  - go get github.com/stretchr/testify/assert
+  - go get github.com/ungerik/go-dry
+script:
+  - go test -v
