@@ -4,4 +4,4 @@ install:
   - go get github.com/stretchr/testify/assert
   - go get github.com/ungerik/go-dry
 script:
-  - go test -v
+  - go test -timeout 1h -v
