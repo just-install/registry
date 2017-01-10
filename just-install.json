@@ -575,7 +575,7 @@
         "x86": "https://handbrake.fr/rotation.php?file=HandBrake-{{.version}}-i686-Win_GUI.exe",
         "x86_64": "https://handbrake.fr/rotation.php?file=HandBrake-{{.version}}-x86_64-Win_GUI.exe"
       },
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
     "hashcheck": {
       "installer": {
@@ -587,10 +587,10 @@
     "inkscape": {
       "installer": {
         "kind": "msi",
-        "x86": "https://inkscape.org/en/gallery/item/3950/inkscape-{{.version}}.msi",
-        "x86_64": "https://inkscape.org/en/gallery/item/3956/inkscape-{{.version}}-x64.msi"
+        "x86": "https://inkscape.org/gallery/item/10558/Inkscape-{{.version}}.msi",
+        "x86_64": "https://inkscape.org/en/gallery/item/10559/Inkscape-{{.version}}-x64.msi"
       },
-      "version": "0.91"
+      "version": "0.92.0"
     },
     "innosetup": {
       "installer": {
@@ -1147,10 +1147,10 @@
             "{{.PROGRAMFILES}}\\Sublime Text 3\\subl.exe"
           ]
         },
-        "x86": "https://download.sublimetext.com/Sublime Text Build {{.version}} Setup.exe",
-        "x86_64": "https://download.sublimetext.com/Sublime Text Build {{.version}} x64 Setup.exe"
+        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%20{{.version}}%20Setup.exe",
+        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%20{{.version}}%20x64%20Setup.exe"
       },
-      "version": "3109"
+      "version": "3126"
     },
     "subversion": {
       "installer": {
@@ -1161,10 +1161,10 @@
             "{{.PROGRAMFILES}}\\SlikSvn\bin\\svnversion.exe"
           ]
         },
-        "x86": "http://www.sliksvn.com/pub/Slik-Subversion-{{.version}}-win32.msi",
-        "x86_64": "http://www.sliksvn.com/pub/Slik-Subversion-{{.version}}-x64.msi"
+        "x86": "https://sliksvn.com/pub/Slik-Subversion-{{.version}}-win32.msi",
+        "x86_64": "https://sliksvn.com/pub/Slik-Subversion-{{.version}}-x64.msi"
       },
-      "version": "1.8.8"
+      "version": "1.9.5"
     },
     "sumatrapdf": {
       "installer": {
@@ -1183,7 +1183,7 @@
         "x86": "https://github.com/syncthing/syncthing/releases/download/v{{.version}}/syncthing-windows-386-v{{.version}}.zip",
         "x86_64": "https://github.com/syncthing/syncthing/releases/download/v{{.version}}/syncthing-windows-amd64-v{{.version}}.zip"
       },
-      "version": "0.14.18"
+      "version": "0.14.19"
     },
     "sysinternals": {
       "installer": {
