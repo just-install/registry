@@ -362,9 +362,10 @@
             "{{.PROGRAMFILES_X86}}\\Emacs\bin\runemacs.exe"
           ]
         },
-        "x86": "https://ftp.gnu.org/gnu/emacs/windows/emacs-{{.version}}-bin-i686-mingw32.zip"
+        "x86": "https://ftp.gnu.org/gnu/emacs/windows/emacs-25.1-2-i686-w64-mingw32.zip",
+        "x86_64": "https://ftp.gnu.org/gnu/emacs/windows/emacs-25.1-2-x86_64-w64-mingw32.zip"
       },
-      "version": "24.5"
+      "version": "25.1-2"
     },
     "enpass": {
       "installer": {
@@ -1442,9 +1443,9 @@
     "ynab": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://s3.amazonaws.com/cf.download/ynab4/YNAB+{{.version}}_Setup.exe"
+        "x86": "https://www.youneedabudget.com/CDNOrigin/download/ynab4/liveCaptive/Win/YNAB%204_{{.version}}_Setup.exe"
       },
-      "version": "4_4.3.820"
+      "version": "4.3.857"
     }
   },
   "version": 4
