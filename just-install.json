@@ -617,7 +617,7 @@
     "jetbrains-toolbox": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://data.services.jetbrains.com/products/download?code=TBA&platform=Windows"
+        "x86": "https://data.services.jetbrains.com/products/download?code=TBA&platform=windows"
       },
       "version": "latest"
     },
@@ -652,7 +652,7 @@
     "just-install": {
       "installer": {
         "kind": "msi",
-        "x86": "http://www.just-install.it/just-install.msi"
+        "x86": "http://go.just-install.it"
       },
       "version": "latest"
     },
@@ -1285,7 +1285,7 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://download-codeplex.sec.s-msft.com/Download/Release?ProjectName=veracrypt&DownloadId=1614078&FileTime=131212015489500000&Build=21031"
+        "x86": "https://launchpad.net/veracrypt/trunk/{{.version}}/+download/VeraCrypt Setup {{.version}}.exe"
       },
       "version": "1.19"
     },
@@ -1375,9 +1375,9 @@
     "windirstat": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.fosshub.com/WinDirStat.html/windirstat1_1_2_setup.exe"
+        "x86": "http://download01.windirstat.info/wds_current_setup.exe"
       },
-      "version": "1.1.2"
+      "version": "latest"
     },
     "windows-usb-dvd-tool": {
       "installer": {
