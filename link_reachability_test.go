@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	justinstall "github.com/lvillani/just-install"
+	justinstall "github.com/just-install/just-install"
 	"github.com/stretchr/testify/assert"
 	"github.com/ungerik/go-dry"
 )
