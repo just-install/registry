@@ -635,13 +635,6 @@
       },
       "version": "8.111"
     },
-    "just-install": {
-      "installer": {
-        "kind": "msi",
-        "x86": "http://go.just-install.it"
-      },
-      "version": "latest"
-    },
     "keepass": {
       "installer": {
         "kind": "innosetup",
