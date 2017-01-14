@@ -520,6 +520,16 @@
       },
       "version": "1.7.4"
     },
+	"gog-galaxy": {
+      "installer": {
+        "kind": "innosetup",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://cdn.gog.com/open/galaxy/client/setup_galaxy_1.1.25.13.exe"
+      },
+      "version": "1.1.25.13"
+    },
     "google-chrome": {
       "installer": {
         "kind": "msi",
