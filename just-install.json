@@ -684,6 +684,16 @@
       },
       "version": "3-1-1"
     },
+	"mailstore-home": {
+      "installer": {
+        "kind": "as-is",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://my.mailstore.com/Downloads/Home"
+      },
+      "version": "latest"
+    },
     "malwarebytes": {
       "installer": {
         "kind": "innosetup",
