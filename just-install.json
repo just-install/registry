@@ -39,6 +39,16 @@
       },
       "version": "latest"
     },
+	"audacity": {
+      "installer": {
+        "kind": "innosetup",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://downloads.sourceforge.net/project/liteapps/Audacity/audacity-win-{{.version}}.exe"
+      },
+      "version": "2.1.2"
+    },
     "autohotkey": {
       "installer": {
         "kind": "nsis",
