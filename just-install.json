@@ -1200,6 +1200,16 @@
       },
       "version": "latest"
     },
+	"telegram": {
+      "installer": {
+        "kind": "innosetup",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://telegram.org/dl/desktop/win"
+      },
+      "version": "latest"
+    },
     "thunderbird": {
       "installer": {
         "kind": "nsis",
