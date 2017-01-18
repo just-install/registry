@@ -439,6 +439,20 @@
       },
       "version": "latest"
     },
+    "flash-player": {
+      "installer": {
+        "kind": "msi",
+        "x86": "http://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_24_plugin.msi"
+      },
+      "version": "24.0.0.194"
+    },
+    "flash-player-ie": {
+      "installer": {
+        "kind": "msi",
+        "x86": "http://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_24_active_x.msi"
+      },
+      "version": "24.0.0.194"
+    },
     "flux": {
       "installer": {
         "kind": "nsis",
