@@ -844,7 +844,7 @@
     },
     "perl": {
       "installer": {
-        "kind": "msi",
+        "kind": "advancedinstaller",
         "options": {
           "x86": {
             "shims": [
@@ -857,10 +857,10 @@
             ]
           }
         },
-        "x86": "http://downloads.activestate.com/ActivePerl/releases/{{.version}}/ActivePerl-{{.version}}-MSWin32-x86-64int-299574.msi",
-        "x86_64": "http://downloads.activestate.com/ActivePerl/releases/{{.version}}/ActivePerl-{{.version}}-MSWin32-x64-299574.msi"
+        "x86": "https://downloads.activestate.com/ActivePerl/releases/{{.version}}/ActivePerl-{{.version}}-MSWin32-x86-64int-401627.exe",
+        "x86_64": "https://downloads.activestate.com/ActivePerl/releases/{{.version}}/ActivePerl-{{.version}}-MSWin32-x64-401627.exe"
       },
-      "version": "5.22.1.2201"
+      "version": "5.24.1.2402"
     },
     "plex-home-theater": {
       "installer": {
