@@ -576,7 +576,7 @@
         "x86": "https://handbrake.fr/rotation.php?file=HandBrake-{{.version}}-i686-Win_GUI.exe",
         "x86_64": "https://handbrake.fr/rotation.php?file=HandBrake-{{.version}}-x86_64-Win_GUI.exe"
       },
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
     "hashcheck": {
       "installer": {
