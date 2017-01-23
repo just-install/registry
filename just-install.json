@@ -146,9 +146,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.161206.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.170118.exe"
       },
-      "version": "16.12.06"
+      "version": "17.01.18"
     },
     "crashplan": {
       "installer": {
@@ -699,7 +699,7 @@
         "x86": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x86.msi",
         "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x64.msi"
       },
-      "version": "4.0.1"
+      "version": "4.0.2"
     },
     "microsoft-security-essentials": {
       "installer": {
@@ -797,9 +797,9 @@
     "obs-studio": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/jp9000/obs-studio/releases/download/{{.version}}/OBS-Studio-17.0-Full-Installer.exe"
+        "x86": "https://github.com/jp9000/obs-studio/releases/download/{{.version}}/OBS-Studio-{{.version}}-Full-Installer.exe"
       },
-      "version": "17.0.0"
+      "version": "17.0.2"
     },
     "openssh": {
       "installer": {
@@ -1087,9 +1087,9 @@
     "sourcetree": {
       "installer": {
         "kind": "advancedinstaller",
-        "x86": "https://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_{{.version}}.exe"
+        "x86": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-{{.version}}.exe"
       },
-      "version": "1.9.10.0"
+      "version": "1.10.15.4"
     },
     "spotify": {
       "installer": {
@@ -1195,7 +1195,7 @@
         "x86": "http://dl.4players.de/ts/releases/{{.version}}/TeamSpeak3-Client-win32-{{.version}}.exe",
         "x86_64": "http://dl.4players.de/ts/releases/{{.version}}/TeamSpeak3-Client-win64-{{.version}}.exe"
       },
-      "version": "3.0.19.4"
+      "version": "3.1.0.1"
     },
     "teamviewer": {
       "installer": {
