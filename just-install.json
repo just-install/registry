@@ -39,14 +39,14 @@
       },
       "version": "latest"
     },
-	"audacity": {
+    "audacity": {
       "installer": {
         "kind": "innosetup",
         "options": {
           "extension": ".exe"
         },
         "x86": "https://downloads.sourceforge.net/project/liteapps/Audacity/audacity-win-{{.version}}.exe"
-      },
+    },
       "version": "2.1.2"
     },
     "autohotkey": {
@@ -544,7 +544,7 @@
       },
       "version": "1.7.5"
     },
-	"gog-galaxy": {
+    "gog-galaxy": {
       "installer": {
         "kind": "innosetup",
         "options": {
@@ -1234,7 +1234,7 @@
       },
       "version": "latest"
     },
-	"telegram": {
+    "telegram": {
       "installer": {
         "kind": "innosetup",
         "options": {
