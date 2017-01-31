@@ -79,14 +79,14 @@
         "x86": "https://github.com/kovidgoyal/calibre/releases/download/v{{.version}}/calibre-{{.version}}.msi",
         "x86_64": "https://github.com/kovidgoyal/calibre/releases/download/v{{.version}}/calibre-64bit-{{.version}}.msi"
       },
-      "version": "2.77.0"
+      "version": "2.78.0"
     },
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.piriform.com/ccsetup525.exe"
+        "x86": "https://download.piriform.com/ccsetup526.exe"
       },
-      "version": "5.25"
+      "version": "5.26"
     },
     "chrome-remote-desktop-host": {
       "installer": {
@@ -122,7 +122,7 @@
         "x86": "https://cmake.org/files/v3.7/cmake-{{.version}}-win32-x86.msi",
         "x86_64": "https://cmake.org/files/v3.7/cmake-{{.version}}-win64-x64.msi"
       },
-      "version": "3.7.1"
+      "version": "3.7.2"
     },
     "colemak": {
       "installer": {
@@ -156,9 +156,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.161206.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.170118.exe"
       },
-      "version": "16.12.06"
+      "version": "17.01.18"
     },
     "crashplan": {
       "installer": {
@@ -449,6 +449,20 @@
       },
       "version": "latest"
     },
+    "flash-player": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_24_plugin.msi"
+      },
+      "version": "24.0.0.194"
+    },
+    "flash-player-ie": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_24_active_x.msi"
+      },
+      "version": "24.0.0.194"
+    },
     "flux": {
       "installer": {
         "kind": "nsis",
@@ -474,7 +488,7 @@
         },
         "x86": "http://us.download.nvidia.com/GFE/GFEClient/{{.version}}/GeForce_Experience_v{{.version}}.exe"
       },
-      "version": "3.2.2.49"
+      "version": "3.3.0.95"
     },
     "gimp": {
       "installer": {
@@ -491,10 +505,10 @@
             "{{.PROGRAMFILES_X86}}\\Git\bin\\git.exe"
           ]
         },
-        "x86": "https://github.com/git-for-windows/git/releases/download/v{{.version}}.windows.1/Git-{{.version}}-32-bit.exe",
-        "x86_64": "https://github.com/git-for-windows/git/releases/download/v{{.version}}.windows.1/Git-{{.version}}-64-bit.exe"
+        "x86": "https://github.com/git-for-windows/git/releases/download/v2.11.0.windows.3/Git-{{.version}}-32-bit.exe",
+        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.11.0.windows.3/Git-{{.version}}-64-bit.exe"
       },
-      "version": "2.11.0"
+      "version": "2.11.0.3"
     },
     "git-lfs": {
       "installer": {
@@ -506,7 +520,7 @@
         },
         "x86": "https://github.com/git-lfs/git-lfs/releases/download/v{{.version}}/git-lfs-windows-{{.version}}.exe"
       },
-      "version": "1.5.4"
+      "version": "1.5.5"
     },
     "github": {
       "installer": {
@@ -528,7 +542,7 @@
         "x86": "https://storage.googleapis.com/golang/go{{.version}}.windows-amd64.msi",
         "x86_64": "https://storage.googleapis.com/golang/go{{.version}}.windows-386.msi"
       },
-      "version": "1.7.4"
+      "version": "1.7.5"
     },
 	"gog-galaxy": {
       "installer": {
@@ -567,7 +581,7 @@
         "kind": "innosetup",
         "x86": "https://github.com/greenshot/greenshot/releases/download/Greenshot-RELEASE-{{.version}}/Greenshot-INSTALLER-{{.version}}-RELEASE.exe"
       },
-      "version": "1.2.9.112"
+      "version": "1.2.9.129"
     },
     "gvim": {
       "installer": {
@@ -582,7 +596,7 @@
         "x86": "https://handbrake.fr/rotation.php?file=HandBrake-{{.version}}-i686-Win_GUI.exe",
         "x86_64": "https://handbrake.fr/rotation.php?file=HandBrake-{{.version}}-x86_64-Win_GUI.exe"
       },
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
     "hashcheck": {
       "installer": {
@@ -650,10 +664,10 @@
           ],
           "extension": ".exe"
         },
-        "x86": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=216432",
-        "x86_64": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=216434"
+        "x86": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=218831_e9e7ea248e2c4826b92b3f075a80e441",
+        "x86_64": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=218833_e9e7ea248e2c4826b92b3f075a80e441"
       },
-      "version": "8.111"
+      "version": "8.121"
     },
     "keepass": {
       "installer": {
@@ -675,7 +689,7 @@
         "x86": "https://download.documentfoundation.org/libreoffice/stable/{{.version}}/win/x86/LibreOffice_{{.version}}_Win_x86.msi",
         "x86_64": "https://download.documentfoundation.org/libreoffice/stable/{{.version}}/win/x86_64/LibreOffice_{{.version}}_Win_x64.msi"
       },
-      "version": "5.2.4"
+      "version": "5.2.5"
     },
     "lockhunter": {
       "installer": {
@@ -715,7 +729,7 @@
         "x86": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x86.msi",
         "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x64.msi"
       },
-      "version": "4.0.1"
+      "version": "4.0.2"
     },
     "microsoft-security-essentials": {
       "installer": {
@@ -751,7 +765,7 @@
         "kind": "msi",
         "x86": "https://github.com/mumble-voip/mumble/releases/download/{{.version}}/mumble-{{.version}}.msi"
       },
-      "version": "1.2.18"
+      "version": "1.2.19"
     },
     "mysql-workbench": {
       "installer": {
@@ -813,9 +827,9 @@
     "obs-studio": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/jp9000/obs-studio/releases/download/{{.version}}/OBS-Studio-17.0-Full-Installer.exe"
+        "x86": "https://github.com/jp9000/obs-studio/releases/download/{{.version}}/OBS-Studio-{{.version}}-Full-Installer.exe"
       },
-      "version": "17.0.0"
+      "version": "17.0.2"
     },
     "openssh": {
       "installer": {
@@ -830,9 +844,9 @@
             "/S"
           ]
         },
-        "x86": "https://www.mls-software.com/files/setupssh-{{.version}}.exe"
+        "x86": "https://www.mls-software.com/files/setupssh-{{.version}}p1-1.exe"
       },
-      "version": "7.3p1-2"
+      "version": "7.4"
     },
     "opera": {
       "installer": {
@@ -860,7 +874,7 @@
     },
     "perl": {
       "installer": {
-        "kind": "msi",
+        "kind": "advancedinstaller",
         "options": {
           "x86": {
             "shims": [
@@ -873,10 +887,10 @@
             ]
           }
         },
-        "x86": "http://downloads.activestate.com/ActivePerl/releases/{{.version}}/ActivePerl-{{.version}}-MSWin32-x86-64int-299574.msi",
-        "x86_64": "http://downloads.activestate.com/ActivePerl/releases/{{.version}}/ActivePerl-{{.version}}-MSWin32-x64-299574.msi"
+        "x86": "https://downloads.activestate.com/ActivePerl/releases/{{.version}}/ActivePerl-{{.version}}-MSWin32-x86-64int-401627.exe",
+        "x86_64": "https://downloads.activestate.com/ActivePerl/releases/{{.version}}/ActivePerl-{{.version}}-MSWin32-x64-401627.exe"
       },
-      "version": "5.22.1.2201"
+      "version": "5.24.1.2402"
     },
     "plex-home-theater": {
       "installer": {
@@ -1074,7 +1088,7 @@
         "kind": "innosetup",
         "x86": "https://github.com/ShareX/ShareX/releases/download/v{{.version}}/ShareX-{{.version}}-setup.exe"
       },
-      "version": "11.4.1"
+      "version": "11.5.0"
     },
     "sharpkeys": {
       "installer": {
@@ -1103,9 +1117,9 @@
     "sourcetree": {
       "installer": {
         "kind": "advancedinstaller",
-        "x86": "https://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_{{.version}}.exe"
+        "x86": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-{{.version}}.exe"
       },
-      "version": "1.9.10.0"
+      "version": "1.10.15.4"
     },
     "spotify": {
       "installer": {
@@ -1193,7 +1207,7 @@
         "x86": "https://github.com/syncthing/syncthing/releases/download/v{{.version}}/syncthing-windows-386-v{{.version}}.zip",
         "x86_64": "https://github.com/syncthing/syncthing/releases/download/v{{.version}}/syncthing-windows-amd64-v{{.version}}.zip"
       },
-      "version": "0.14.19"
+      "version": "0.14.21"
     },
     "sysinternals": {
       "installer": {
@@ -1211,7 +1225,7 @@
         "x86": "http://dl.4players.de/ts/releases/{{.version}}/TeamSpeak3-Client-win32-{{.version}}.exe",
         "x86_64": "http://dl.4players.de/ts/releases/{{.version}}/TeamSpeak3-Client-win64-{{.version}}.exe"
       },
-      "version": "3.0.19.4"
+      "version": "3.1.0.1"
     },
     "teamviewer": {
       "installer": {
@@ -1287,9 +1301,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES_X86}}\\UPX"
         },
-        "x86": "https://github.com/upx/upx/releases/download/v{{.version}}/upx392w.zip"
+        "x86": "https://github.com/upx/upx/releases/download/v{{.version}}/upx393w.zip"
       },
-      "version": "3.92"
+      "version": "3.93"
     },
     "vagrant": {
       "installer": {
@@ -1317,9 +1331,9 @@
             "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBoxManage.exe"
           ]
         },
-        "x86": "http://download.virtualbox.org/virtualbox/{{.version}}/VirtualBox-{{.version}}-112440-Win.exe"
+        "x86": "http://download.virtualbox.org/virtualbox/{{.version}}/VirtualBox-{{.version}}-112924-Win.exe"
       },
-      "version": "5.1.12"
+      "version": "5.1.14"
     },
     "virtualbox-extpack": {
       "installer": {
@@ -1334,9 +1348,9 @@
           ],
           "filename": "Oracle_VM_VirtualBox_Extension_Pack-5.0.16-105871.vbox-extpack"
         },
-        "x86": "http://download.virtualbox.org/virtualbox/{{.version}}/Oracle_VM_VirtualBox_Extension_Pack-{{.version}}-112440.vbox-extpack"
+        "x86": "http://download.virtualbox.org/virtualbox/{{.version}}/Oracle_VM_VirtualBox_Extension_Pack-{{.version}}-112924.vbox-extpack"
       },
-      "version": "5.1.12"
+      "version": "5.1.14"
     },
     "visual-studio-code": {
       "installer": {
