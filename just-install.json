@@ -39,6 +39,16 @@
       },
       "version": "latest"
     },
+    "audacity": {
+      "installer": {
+        "kind": "innosetup",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://downloads.sourceforge.net/project/liteapps/Audacity/audacity-win-{{.version}}.exe"
+    },
+      "version": "2.1.2"
+    },
     "autohotkey": {
       "installer": {
         "kind": "nsis",
@@ -534,6 +544,16 @@
       },
       "version": "1.7.5"
     },
+    "gog-galaxy": {
+      "installer": {
+        "kind": "innosetup",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://cdn.gog.com/open/galaxy/client/setup_galaxy_{{.version}}.exe"
+      },
+      "version": "1.1.25.13"
+    },
     "google-chrome": {
       "installer": {
         "kind": "msi",
@@ -677,6 +697,16 @@
         "x86": "http://lockhunter.com/exe/lockhuntersetup_{{.version}}.exe"
       },
       "version": "3-1-1"
+    },
+	"mailstore-home": {
+      "installer": {
+        "kind": "as-is",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://my.mailstore.com/Downloads/Home"
+      },
+      "version": "latest"
     },
     "malwarebytes": {
       "installer": {
@@ -1201,6 +1231,16 @@
       "installer": {
         "kind": "nsis",
         "x86": "https://download.teamviewer.com/download/TeamViewer_Setup.exe"
+      },
+      "version": "latest"
+    },
+    "telegram": {
+      "installer": {
+        "kind": "innosetup",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://telegram.org/dl/desktop/win"
       },
       "version": "latest"
     },
