@@ -1,11 +1,11 @@
 Registry
 ========
 
-The registry file is a JSON document with a single top-level JSON object that follows the schema
+The registry file is a JSON document with a single top-level JSON object which follows the schema
 described in [just-install-schema.json](../just-install-schema.json). This document roughly describes
 the format of the registry file for humans :smile:
 
-There are no examples in this document, the registry file itself is a living example of what you can
+There are no examples in this document, [the registry file](http://registry.just-install.it) itself is a living example of what you can
 do.
 
 
@@ -25,7 +25,7 @@ The top-level JSON object must contain two keys:
 
 Each entry is a JSON object that must contain at least the following two keys:
 
-* `installer`: A JSON object that describes where the installer is and how to run it once
+* `installer`: A JSON object which describes where the installer is and how to run it once
   downloaded. See "Installer Options" below for a description.
 * `version`: The software's version. If you are adding an unversioned link that always points to the
   latest stable version use `latest` here.
@@ -41,22 +41,22 @@ This JSON object must contain at least the following two keys:
   interaction to complete its installation.
 * `kind`: It can be one of the following:
   - `advancedinstaller`: Silently installs Advanced Installer packages;
-  - `as-is`: Will just run the executable, as-is;
+  - `as-is`: Will run the executable as-is;
   - `copy`: Copy the file according to the `destination` parameter;
   - `custom`: Allows you to specify how to call the installer
-    ([example](https://github.com/lvillani/just-install/blob/18876192c5ed7f24a3acaa34524d3680ec17da3e/just-install.json#L79-L101));
+    ([example](https://github.com/just-install/just-install/blob/18876192c5ed7f24a3acaa34524d3680ec17da3e/just-install.json#L79-L101));
   - `easy_install26` and `easy_install_27`: used to install Python packages (the user must have
     installed Python 2.6 or Python 2.7 first);
   - `innosetup`: Silently installs InnoSetup packages;
   - `msi`: Silently installs Windows Installer packages;
   - `nsis`: Silently installs NSIS packages;
-  - `zip`: [Runs](https://github.com/lvillani/just-install/blob/18876192c5ed7f24a3acaa34524d3680ec17da3e/just-install.json#L66-L78)
-    an installer within a .zip file or [extracts](https://github.com/lvillani/just-install/blob/18876192c5ed7f24a3acaa34524d3680ec17da3e/just-install.json#L216-L231)
+  - `zip`: [Runs](https://github.com/just-install/just-install/blob/18876192c5ed7f24a3acaa34524d3680ec17da3e/just-install.json#L66-L78)
+    an installer within a .zip file or [extracts](https://github.com/just-install/just-install/blob/18876192c5ed7f24a3acaa34524d3680ec17da3e/just-install.json#L216-L231)
     it to a destination directory.
 * `options`: A JSON object whose contents depend on the value of the `kind`, but other options are
   applicable to all installer types:
   - `extension`: Specify a custom extension for a file, in case `just-install` isn't able to
-    determine it by itself ([example](https://github.com/lvillani/just-install/blob/0a90135b8aaa4bdae65c63949673e57eed049294/just-install.json#L195-L208)).
+    determine it by itself ([example](https://github.com/just-install/just-install/blob/0a90135b8aaa4bdae65c63949673e57eed049294/just-install.json#L195-L208)).
   - `filename`: The complete name of the file that should be downloaded in the temporary
     directory. When specified, this value takes precedence over `extension`.
 
@@ -67,17 +67,16 @@ installed `exeproxy` (either through `just-install` itself or manually) and only
 entry specifies some shims to create.
 
 Take, for example, the
-[Go entry](https://github.com/lvillani/just-install/blob/18876192c5ed7f24a3acaa34524d3680ec17da3e/just-install.json#L336-L350):
-this will create three executables called `go.exe`, `godoc.exe` and `gofmt.exe`
-under `%SystemDrive%\Shims` that will forward any argument to the original file.
+[Go entry](https://github.com/just-install/just-install/blob/18876192c5ed7f24a3acaa34524d3680ec17da3e/just-install.json#L336-L350), which will create three executables called `go.exe`, `godoc.exe` and `gofmt.exe`
+under `%SystemDrive%\Shims` which will forward arguments to the original executable.
 
-This way users don't have to add a directory for each installed software to their `%PATH%` since
+This way, users do not need to add a directory for each installed program to their `%PATH%` since
 they can just add `%SystemDrive%\Shims`.
 
 
 ## Placeholders
 
-In some places you can use the following placeholders:
+In some places, you can use the following placeholders:
 
 * `{{.version}}`: This placeholder gets expanded with the package's version.
 * `{{.installer}}`: This placeholder gets replaced with the absolute path to the downloaded
