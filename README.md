@@ -21,7 +21,7 @@ Guidelines to follow:
   on Windows.
 
 :warning: Please also consider adding an update rule for your new entry in the [just-install
-updater](https://github.com/guiweber/just-install-updater) so that your entry can be automatically
+updater](https://github.com/just-install/just-install-updater) so that your entry can be automatically
 updated whenever a new version of your application is released.
 
 ## How To Test Changes Locally
