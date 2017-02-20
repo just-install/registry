@@ -488,7 +488,7 @@
         },
         "x86": "http://us.download.nvidia.com/GFE/GFEClient/{{.version}}/GeForce_Experience_v{{.version}}.exe"
       },
-      "version": "3.3.0.95"
+      "version": "3.3.0.100"
     },
     "gimp": {
       "installer": {
@@ -520,7 +520,7 @@
         },
         "x86": "https://github.com/git-lfs/git-lfs/releases/download/v{{.version}}/git-lfs-windows-{{.version}}.exe"
       },
-      "version": "1.5.5"
+      "version": "1.5.6"
     },
     "github": {
       "installer": {
@@ -542,7 +542,7 @@
         "x86": "https://storage.googleapis.com/golang/go{{.version}}.windows-amd64.msi",
         "x86_64": "https://storage.googleapis.com/golang/go{{.version}}.windows-386.msi"
       },
-      "version": "1.7.5"
+      "version": "1.8"
     },
     "gog-galaxy": {
       "installer": {
@@ -608,10 +608,10 @@
     "inkscape": {
       "installer": {
         "kind": "msi",
-        "x86": "https://inkscape.org/gallery/item/10558/Inkscape-{{.version}}.msi",
-        "x86_64": "https://inkscape.org/en/gallery/item/10559/Inkscape-{{.version}}-x64.msi"
+        "x86": "https://inkscape.org/gallery/item/10688/Inkscape-{{.version}}.msi",
+        "x86_64": "https://inkscape.org/gallery/item/10689/Inkscape-{{.version}}-x64.msi"
       },
-      "version": "0.92.0"
+      "version": "0.92.1"
     },
     "innosetup": {
       "installer": {
@@ -729,7 +729,7 @@
         "x86": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x86.msi",
         "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x64.msi"
       },
-      "version": "4.0.2"
+      "version": "4.1.0"
     },
     "microsoft-security-essentials": {
       "installer": {
@@ -1232,7 +1232,7 @@
         "x86": "http://dl.4players.de/ts/releases/{{.version}}/TeamSpeak3-Client-win32-{{.version}}.exe",
         "x86_64": "http://dl.4players.de/ts/releases/{{.version}}/TeamSpeak3-Client-win64-{{.version}}.exe"
       },
-      "version": "3.1.0.1"
+      "version": "3.1.1"
     },
     "teamviewer": {
       "installer": {
@@ -1447,7 +1447,7 @@
         "kind": "innosetup",
         "x86": "https://downloads.sourceforge.net/project/winscp/WinSCP/{{.version}}/WinSCP-{{.version}}-Setup.exe"
       },
-      "version": "5.9.3"
+      "version": "5.9.4"
     },
     "wix": {
       "installer": {
