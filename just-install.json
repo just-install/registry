@@ -916,7 +916,7 @@
     "processhacker": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://wj32.org/processhacker/rel/processhacker-{{.version}}-setup.exe"
+        "x86": "https://github.com/processhacker2/processhacker2/releases/download/v{{.version}}/processhacker-{{.version}}-setup.exe"
       },
       "version": "2.39"
     },
@@ -1152,10 +1152,10 @@
     "sublime-text": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://c758482.r82.cf2.rackcdn.com/Sublime Text {{.version}} Setup.exe",
-        "x86_64": "http://c758482.r82.cf2.rackcdn.com/Sublime Text {{.version}} x64 Setup.exe"
+        "x86": "https://download.sublimetext.com/Sublime%20Text%20{{.version}}%20Setup.exe",
+        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20{{.version}}%20x64%20Setup.exe"
       },
-      "version": "2.0.2"
+      "version": "2.0.2a"
     },
     "sublime-text-3": {
       "installer": {
