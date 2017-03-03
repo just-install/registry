@@ -18,16 +18,16 @@
     "android-studio-bundle": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.google.com/dl/android/studio/install/{{.version}}/android-studio-bundle-145.3537739-windows.exe"
+        "x86": "https://dl.google.com/dl/android/studio/install/{{.version}}/android-studio-bundle-162.3764568-windows.exe"
       },
-      "version": "2.2.3.0"
+      "version": "2.3.0.8"
     },
     "android-studio-ide": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.google.com/dl/android/studio/install/{{.version}}/android-studio-ide-145.3537739-windows.exe"
+        "x86": "https://dl.google.com/dl/android/studio/install/{{.version}}/android-studio-ide-162.3764568-windows.exe"
       },
-      "version": "2.2.3.0"
+      "version": "2.3.0.8"
     },
     "atom": {
       "installer": {
@@ -156,9 +156,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.170118.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.170227.exe"
       },
-      "version": "17.01.18"
+      "version": "17.02.27"
     },
     "crashplan": {
       "installer": {
@@ -488,7 +488,7 @@
         },
         "x86": "http://us.download.nvidia.com/GFE/GFEClient/{{.version}}/GeForce_Experience_v{{.version}}.exe"
       },
-      "version": "3.3.0.100"
+      "version": "3.4.0.70"
     },
     "gimp": {
       "installer": {
@@ -508,7 +508,7 @@
         "x86": "https://github.com/git-for-windows/git/releases/download/v{{.version}}.windows.1/Git-{{.version}}-32-bit.exe",
         "x86_64": "https://github.com/git-for-windows/git/releases/download/v{{.version}}.windows.1/Git-{{.version}}-64-bit.exe"
       },
-      "version": "2.11.1"
+      "version": "2.12.0"
     },
     "git-lfs": {
       "installer": {
@@ -520,7 +520,7 @@
         },
         "x86": "https://github.com/git-lfs/git-lfs/releases/download/v{{.version}}/git-lfs-windows-{{.version}}.exe"
       },
-      "version": "1.5.6"
+      "version": "2.0.0"
     },
     "github": {
       "installer": {
@@ -596,7 +596,7 @@
         "x86": "https://handbrake.fr/rotation.php?file=HandBrake-{{.version}}-i686-Win_GUI.exe",
         "x86_64": "https://handbrake.fr/rotation.php?file=HandBrake-{{.version}}-x86_64-Win_GUI.exe"
       },
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "hashcheck": {
       "installer": {
@@ -792,7 +792,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "7.6.0"
+      "version": "7.7.1"
     },
     "node-lts": {
       "installer": {
@@ -827,9 +827,9 @@
     "obs-studio": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/jp9000/obs-studio/releases/download/{{.version}}/OBS-Studio-{{.version}}-Full-Installer.exe"
+        "x86": "https://github.com/jp9000/obs-studio/releases/download/{{.version}}/OBS-Studio-18.0-Full-Installer.exe"
       },
-      "version": "17.0.2"
+      "version": "18.0.0"
     },
     "openssh": {
       "installer": {
@@ -1279,10 +1279,10 @@
     "tortoisegit": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.tortoisegit.org/tgit/{{.version}}/TortoiseGit-{{.version}}-32bit.msi",
-        "x86_64": "https://download.tortoisegit.org/tgit/{{.version}}/TortoiseGit-{{.version}}-64bit.msi"
+        "x86": "https://download.tortoisegit.org/tgit/2.4.0.0/TortoiseGit-{{.version}}-32bit.msi",
+        "x86_64": "https://download.tortoisegit.org/tgit/2.4.0.0/TortoiseGit-{{.version}}-64bit.msi"
       },
-      "version": "2.4.0.0"
+      "version": "2.4.0.2"
     },
     "tortoisesvn": {
       "installer": {
@@ -1317,7 +1317,7 @@
         "kind": "msi",
         "x86": "https://releases.hashicorp.com/vagrant/{{.version}}/vagrant_{{.version}}.msi"
       },
-      "version": "1.9.1"
+      "version": "1.9.2"
     },
     "veracrypt": {
       "installer": {
