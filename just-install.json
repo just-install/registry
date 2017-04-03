@@ -927,6 +927,16 @@
       },
       "version": "2.39"
     },
+    "procmon": {
+      "installer": {
+        "kind": "zip",
+        "options": {
+          "destination": "{{.PROGRAMFILES}}\\Process Monitor"
+        },
+        "x86": "https://download.sysinternals.com/files/ProcessMonitor.zip"
+      },
+      "version": "latest"
+    },
     "putty": {
       "installer": {
         "kind": "msi",
