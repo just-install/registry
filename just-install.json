@@ -156,9 +156,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.170326.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.170402.exe"
       },
-      "version": "17.03.26"
+      "version": "17.04.02"
     },
     "crashplan": {
       "installer": {
@@ -520,7 +520,7 @@
         },
         "x86": "https://github.com/git-lfs/git-lfs/releases/download/v{{.version}}/git-lfs-windows-{{.version}}.exe"
       },
-      "version": "2.0.1"
+      "version": "2.0.2"
     },
     "github": {
       "installer": {
@@ -792,7 +792,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "7.7.4"
+      "version": "7.8.0"
     },
     "node-lts": {
       "installer": {
@@ -800,7 +800,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "6.10.1"
+      "version": "6.10.2"
     },
     "notepad++": {
       "installer": {
@@ -1214,7 +1214,7 @@
         "x86": "https://github.com/syncthing/syncthing/releases/download/v{{.version}}/syncthing-windows-386-v{{.version}}.zip",
         "x86_64": "https://github.com/syncthing/syncthing/releases/download/v{{.version}}/syncthing-windows-amd64-v{{.version}}.zip"
       },
-      "version": "0.14.25"
+      "version": "0.14.26"
     },
     "sysinternals": {
       "installer": {
