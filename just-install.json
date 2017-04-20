@@ -79,14 +79,14 @@
         "x86": "https://github.com/kovidgoyal/calibre/releases/download/v{{.version}}/calibre-{{.version}}.msi",
         "x86_64": "https://github.com/kovidgoyal/calibre/releases/download/v{{.version}}/calibre-64bit-{{.version}}.msi"
       },
-      "version": "2.82.0"
+      "version": "2.83.0"
     },
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.piriform.com/ccsetup528.exe"
+        "x86": "https://download.piriform.com/ccsetup529.exe"
       },
-      "version": "5.28"
+      "version": "5.29"
     },
     "chrome-remote-desktop-host": {
       "installer": {
@@ -475,7 +475,7 @@
         "kind": "as-is",
         "x86": "http://www.freefilesync.org/download/FreeFileSync_{{.version}}_Windows_Setup.exe"
       },
-      "version": "8.10"
+      "version": "9.0"
     },
     "geforce-experience": {
       "installer": {
@@ -664,10 +664,10 @@
           ],
           "extension": ".exe"
         },
-        "x86": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=218831_e9e7ea248e2c4826b92b3f075a80e441",
-        "x86_64": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=218833_e9e7ea248e2c4826b92b3f075a80e441"
+        "x86": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=220313_d54c1d3a095b4ff2b6607d096fa80163",
+        "x86_64": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=220315_d54c1d3a095b4ff2b6607d096fa80163"
       },
-      "version": "8.121"
+      "version": "8.131"
     },
     "keepass": {
       "installer": {
@@ -729,7 +729,7 @@
         "x86": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x86.msi",
         "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x64.msi"
       },
-      "version": "4.1.2"
+      "version": "4.1.3"
     },
     "microsoft-security-essentials": {
       "installer": {
@@ -792,7 +792,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "7.8.0"
+      "version": "7.9.0"
     },
     "node-lts": {
       "installer": {
@@ -949,7 +949,7 @@
         "kind": "nsis",
         "x86": "https://download.jetbrains.com/python/pycharm-community-{{.version}}.exe"
       },
-      "version": "2017.1"
+      "version": "2017.1.1"
     },
     "pyqt": {
       "installer": {
@@ -1105,7 +1105,7 @@
         "kind": "innosetup",
         "x86": "https://github.com/ShareX/ShareX/releases/download/v{{.version}}/ShareX-{{.version}}-setup.exe"
       },
-      "version": "11.6.0"
+      "version": "11.7.0"
     },
     "sharpkeys": {
       "installer": {
@@ -1249,7 +1249,7 @@
         "x86": "http://dl.4players.de/ts/releases/{{.version}}/TeamSpeak3-Client-win32-{{.version}}.exe",
         "x86_64": "http://dl.4players.de/ts/releases/{{.version}}/TeamSpeak3-Client-win64-{{.version}}.exe"
       },
-      "version": "3.1.3"
+      "version": "3.1.4"
     },
     "teamviewer": {
       "installer": {
@@ -1355,9 +1355,9 @@
             "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBoxManage.exe"
           ]
         },
-        "x86": "http://download.virtualbox.org/virtualbox/{{.version}}/VirtualBox-{{.version}}-114002-Win.exe"
+        "x86": "http://download.virtualbox.org/virtualbox/{{.version}}/VirtualBox-{{.version}}-114628-Win.exe"
       },
-      "version": "5.1.18"
+      "version": "5.1.20"
     },
     "virtualbox-extpack": {
       "installer": {
@@ -1372,9 +1372,9 @@
           ],
           "filename": "Oracle_VM_VirtualBox_Extension_Pack-5.0.16-105871.vbox-extpack"
         },
-        "x86": "http://download.virtualbox.org/virtualbox/{{.version}}/Oracle_VM_VirtualBox_Extension_Pack-{{.version}}-114002.vbox-extpack"
+        "x86": "http://download.virtualbox.org/virtualbox/{{.version}}/Oracle_VM_VirtualBox_Extension_Pack-{{.version}}-114628.vbox-extpack"
       },
-      "version": "5.1.18"
+      "version": "5.1.20"
     },
     "visual-studio-code": {
       "installer": {
@@ -1464,7 +1464,7 @@
         "kind": "innosetup",
         "x86": "https://downloads.sourceforge.net/project/winscp/WinSCP/{{.version}}/WinSCP-{{.version}}-Setup.exe"
       },
-      "version": "5.9.4"
+      "version": "5.9.5"
     },
     "wix": {
       "installer": {
