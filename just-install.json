@@ -676,6 +676,14 @@
       },
       "version": "2.35"
     },
+    "kicad": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "http://downloads.kicad-pcb.org/windows/stable/kicad-4.0.6-i686.exe",
+        "x86_64": "http://downloads.kicad-pcb.org/windows/stable/kicad-4.0.6-x86_64.exe"
+      },
+      "version": "4.0.6"
+    },
     "kodi": {
       "installer": {
         "kind": "nsis",
