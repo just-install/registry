@@ -855,6 +855,14 @@
       },
       "version": "18.0.1"
     },
+    "octave": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://ftp.gnu.org/gnu/octave/windows/octave-4.2.1-w32-installer.exe",
+        "x86_64": "https://ftp.gnu.org/gnu/octave/windows/octave-4.2.1-w64-installer.exe"
+      },
+      "version": "4.2.1"
+    },
     "openssh": {
       "installer": {
         "kind": "custom",
