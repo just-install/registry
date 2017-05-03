@@ -131,7 +131,7 @@
         "x86": "https://cmake.org/files/v3.8/cmake-{{.version}}-win32-x86.msi",
         "x86_64": "https://cmake.org/files/v3.8/cmake-{{.version}}-win64-x64.msi"
       },
-      "version": "3.8.0"
+      "version": "3.8.1"
     },
     "colemak": {
       "installer": {
@@ -561,7 +561,7 @@
         },
         "x86": "https://cdn.gog.com/open/galaxy/client/setup_galaxy_{{.version}}.exe"
       },
-      "version": "1.1.25.13"
+      "version": "1.2.6.25"
     },
     "google-chrome": {
       "installer": {
@@ -809,7 +809,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "7.9.0"
+      "version": "7.10.0"
     },
     "node-lts": {
       "installer": {
@@ -817,7 +817,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "6.10.2"
+      "version": "6.10.3"
     },
     "notepad++": {
       "installer": {
@@ -941,9 +941,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/0.9.15.2.1663-7efd046/Plex-Media-Server-0.9.1502.1663-7efd046-en-US.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-995f1dead/Plex-Media-Server-{{.version}}-995f1dead.exe"
       },
-      "version": "0.9.15.2.1663-7efd046"
+      "version": "1.5.5.3634"
     },
     "processhacker": {
       "installer": {
@@ -1066,7 +1066,7 @@
         "x86": "https://www.python.org/ftp/python/{{.version}}/python-{{.version}}.exe",
         "x86_64": "https://www.python.org/ftp/python/{{.version}}/python-{{.version}}-amd64.exe"
       },
-      "version": "3.5.1"
+      "version": "3.6.1"
     },
     "qbittorrent": {
       "installer": {
