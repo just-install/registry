@@ -15,6 +15,14 @@
       },
       "version": "17.00"
     },
+    "anaconda": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://repo.continuum.io/archive/Anaconda3-4.3.1-Windows-x86.exe",
+        "x86_64": "https://repo.continuum.io/archive/Anaconda3-4.3.1-Windows-x86_64.exe"
+      },
+      "version": "4.3.1"
+    },
     "android-studio-bundle": {
       "installer": {
         "kind": "nsis",
