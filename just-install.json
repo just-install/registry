@@ -43,7 +43,8 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://atom.io/download/windows"
+        "x86": "https://atom.io/download/windows",
+        "x86_64": "https://atom.io/download/windows_x64"
       },
       "version": "latest"
     },
