@@ -26,16 +26,16 @@
     "android-studio-bundle": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.google.com/dl/android/studio/install/{{.version}}/android-studio-bundle-162.3871768-windows.exe"
+        "x86": "https://dl.google.com/dl/android/studio/install/{{.version}}/android-studio-bundle-162.3934792-windows.exe"
       },
-      "version": "2.3.1.0"
+      "version": "2.3.2.0"
     },
     "android-studio-ide": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.google.com/dl/android/studio/install/{{.version}}/android-studio-ide-162.3871768-windows.exe"
+        "x86": "https://dl.google.com/dl/android/studio/install/{{.version}}/android-studio-ide-162.3934792-windows.exe"
       },
-      "version": "2.3.1.0"
+      "version": "2.3.2.0"
     },
     "arduino": {
       "installer": {
@@ -470,14 +470,14 @@
         "kind": "msi",
         "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_25_plugin.msi"
       },
-      "version": "25.0.0.148"
+      "version": "25.0.0.171"
     },
     "flash-player-ie": {
       "installer": {
         "kind": "msi",
         "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_25_active_x.msi"
       },
-      "version": "25.0.0.148"
+      "version": "25.0.0.171"
     },
     "flux": {
       "installer": {
@@ -504,14 +504,14 @@
         },
         "x86": "http://us.download.nvidia.com/GFE/GFEClient/{{.version}}/GeForce_Experience_v{{.version}}.exe"
       },
-      "version": "3.5.0.76"
+      "version": "3.6.0.74"
     },
     "gimp": {
       "installer": {
         "kind": "innosetup",
         "x86": "https://download.gimp.org/mirror/pub/gimp/v2.8/windows/gimp-{{.version}}-setup.exe"
       },
-      "version": "2.8.20"
+      "version": "2.8.22"
     },
     "git": {
       "installer": {
@@ -713,7 +713,7 @@
         "x86": "https://download.documentfoundation.org/libreoffice/stable/{{.version}}/win/x86/LibreOffice_{{.version}}_Win_x86.msi",
         "x86_64": "https://download.documentfoundation.org/libreoffice/stable/{{.version}}/win/x86_64/LibreOffice_{{.version}}_Win_x64.msi"
       },
-      "version": "5.3.2"
+      "version": "5.3.3"
     },
     "lockhunter": {
       "installer": {
@@ -846,14 +846,14 @@
         "x86": "https://github.com/tim-lebedkov/npackd-cpp/releases/download/version_{{.version}}/Npackd32-{{.version}}.msi",
         "x86_64": "https://github.com/tim-lebedkov/npackd-cpp/releases/download/version_{{.version}}/Npackd64-{{.version}}.msi"
       },
-      "version": "1.21.6"
+      "version": "1.22.2"
     },
     "npackdcl": {
       "installer": {
         "kind": "msi",
         "x86": "https://github.com/tim-lebedkov/npackd-cpp/releases/download/version_{{.version}}/NpackdCL-{{.version}}.msi"
       },
-      "version": "1.21.6"
+      "version": "1.22.2"
     },
     "obs-studio": {
       "installer": {
@@ -948,9 +948,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-995f1dead/Plex-Media-Server-{{.version}}-995f1dead.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-4613ce077/Plex-Media-Server-{{.version}}-4613ce077.exe"
       },
-      "version": "1.5.5.3634"
+      "version": "1.5.6.3790"
     },
     "processhacker": {
       "installer": {
