@@ -1175,7 +1175,7 @@
         "kind": "advancedinstaller",
         "x86": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-{{.version}}.exe"
       },
-      "version": "2.0.19.1"
+      "version": "2.0.20.1"
     },
     "spotify": {
       "installer": {
