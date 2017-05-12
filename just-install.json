@@ -829,9 +829,10 @@
     "notepad++": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://notepad-plus-plus.org/repository/6.x/{{.version}}/npp.{{.version}}.Installer.exe"
+        "x86": "https://notepad-plus-plus.org/repository/7.x/{{.version}}/npp.{{.version}}.Installer.exe",
+        "x86_64": "https://notepad-plus-plus.org/repository/7.x/{{.version}}/npp.{{.version}}.Installer.x64.exe"
       },
-      "version": "6.9.1"
+      "version": "7.3.3"
     },
     "notepad2-mod": {
       "installer": {
