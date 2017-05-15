@@ -95,7 +95,7 @@
         "x86": "https://github.com/kovidgoyal/calibre/releases/download/v{{.version}}/calibre-{{.version}}.msi",
         "x86_64": "https://github.com/kovidgoyal/calibre/releases/download/v{{.version}}/calibre-64bit-{{.version}}.msi"
       },
-      "version": "2.84.0"
+      "version": "2.85.1"
     },
     "ccleaner": {
       "installer": {
@@ -244,7 +244,7 @@
         "kind": "nsis",
         "x86": "http://download.deluge-torrent.org/windows/deluge-{{.version}}-win32-py2.7.exe"
       },
-      "version": "1.3.14"
+      "version": "1.3.15"
     },
     "dependency-walker": {
       "installer": {
@@ -832,7 +832,7 @@
         "x86": "https://notepad-plus-plus.org/repository/7.x/{{.version}}/npp.{{.version}}.Installer.exe",
         "x86_64": "https://notepad-plus-plus.org/repository/7.x/{{.version}}/npp.{{.version}}.Installer.x64.exe"
       },
-      "version": "7.3.3"
+      "version": "7.4"
     },
     "notepad2-mod": {
       "installer": {
@@ -1358,9 +1358,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES_X86}}\\UPX"
         },
-        "x86": "https://github.com/upx/upx/releases/download/v{{.version}}/upx393w.zip"
+        "x86": "https://github.com/upx/upx/releases/download/v{{.version}}/upx394w.zip"
       },
-      "version": "3.93"
+      "version": "3.94"
     },
     "vagrant": {
       "installer": {
@@ -1446,7 +1446,7 @@
         "x86": "https://get.videolan.org/vlc/{{.version}}/win32/vlc-{{.version}}-win32.exe",
         "x86_64": "https://get.videolan.org/vlc/{{.version}}/win64/vlc-{{.version}}-win64.exe"
       },
-      "version": "2.2.4"
+      "version": "2.2.5.1"
     },
     "voicemeeter": {
       "installer": {
