@@ -1367,7 +1367,7 @@
         "kind": "msi",
         "x86": "https://releases.hashicorp.com/vagrant/{{.version}}/vagrant_{{.version}}.msi"
       },
-      "version": "1.9.4"
+      "version": "1.9.5"
     },
     "veracrypt": {
       "installer": {
