@@ -832,7 +832,7 @@
         "x86": "https://notepad-plus-plus.org/repository/7.x/{{.version}}/npp.{{.version}}.Installer.exe",
         "x86_64": "https://notepad-plus-plus.org/repository/7.x/{{.version}}/npp.{{.version}}.Installer.x64.exe"
       },
-      "version": "7.4"
+      "version": "7.4.1"
     },
     "notepad2-mod": {
       "installer": {
