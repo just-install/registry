@@ -536,7 +536,7 @@
         },
         "x86": "https://github.com/git-lfs/git-lfs/releases/download/v{{.version}}/git-lfs-windows-{{.version}}.exe"
       },
-      "version": "2.1.0"
+      "version": "2.1.1"
     },
     "github": {
       "installer": {
@@ -568,7 +568,7 @@
         },
         "x86": "https://cdn.gog.com/open/galaxy/client/setup_galaxy_{{.version}}.exe"
       },
-      "version": "1.2.7.73"
+      "version": "1.2.8.5"
     },
     "google-chrome": {
       "installer": {
