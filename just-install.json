@@ -568,7 +568,7 @@
         },
         "x86": "https://cdn.gog.com/open/galaxy/client/setup_galaxy_{{.version}}.exe"
       },
-      "version": "1.2.6.25"
+      "version": "1.2.7.73"
     },
     "google-chrome": {
       "installer": {
