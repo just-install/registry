@@ -861,7 +861,7 @@
         "kind": "nsis",
         "x86": "https://github.com/jp9000/obs-studio/releases/download/{{.version}}/OBS-Studio-{{.version}}-Full-Installer.exe"
       },
-      "version": "18.0.1"
+      "version": "18.0.2"
     },
     "octave": {
       "installer": {
