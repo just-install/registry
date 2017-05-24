@@ -491,7 +491,7 @@
         "kind": "as-is",
         "x86": "http://www.freefilesync.org/download/FreeFileSync_{{.version}}_Windows_Setup.exe"
       },
-      "version": "9.0"
+      "version": "9.1"
     },
     "geforce-experience": {
       "installer": {
@@ -558,7 +558,7 @@
         "x86": "https://storage.googleapis.com/golang/go{{.version}}.windows-amd64.msi",
         "x86_64": "https://storage.googleapis.com/golang/go{{.version}}.windows-386.msi"
       },
-      "version": "1.8.1"
+      "version": "1.8.2"
     },
     "gog-galaxy": {
       "installer": {
@@ -705,7 +705,7 @@
         "kind": "nsis",
         "x86": "http://mirrors.kodi.tv/releases/win32/kodi-{{.version}}-Krypton.exe"
       },
-      "version": "17.1"
+      "version": "17.2"
     },
     "libreoffice": {
       "installer": {
@@ -982,7 +982,7 @@
         "kind": "nsis",
         "x86": "https://download.jetbrains.com/python/pycharm-community-{{.version}}.exe"
       },
-      "version": "2017.1.2"
+      "version": "2017.1.3"
     },
     "pyqt": {
       "installer": {
