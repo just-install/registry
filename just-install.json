@@ -1414,7 +1414,7 @@
         "kind": "innosetup",
         "x86": "https://www.sparklabs.com/downloads/Viscosity%20Installer.exe"
       },
-      "version": "1.6.8"
+      "version": "latest"
     },
     "visual-studio-code": {
       "installer": {
