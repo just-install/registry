@@ -816,7 +816,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "7.10.0"
+      "version": "8.0.0"
     },
     "node-lts": {
       "installer": {
