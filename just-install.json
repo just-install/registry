@@ -18,10 +18,10 @@
     "anaconda": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://repo.continuum.io/archive/Anaconda3-4.3.1-Windows-x86.exe",
-        "x86_64": "https://repo.continuum.io/archive/Anaconda3-4.3.1-Windows-x86_64.exe"
+        "x86": "https://repo.continuum.io/archive/Anaconda3-{{.version}}-Windows-x86.exe",
+        "x86_64": "https://repo.continuum.io/archive/Anaconda3-{{.version}}-Windows-x86_64.exe"
       },
-      "version": "4.3.1"
+      "version": "4.4.0"
     },
     "android-studio-bundle": {
       "installer": {
@@ -138,7 +138,7 @@
         "x86": "https://cmake.org/files/v3.8/cmake-{{.version}}-win32-x86.msi",
         "x86_64": "https://cmake.org/files/v3.8/cmake-{{.version}}-win64-x64.msi"
       },
-      "version": "3.8.1"
+      "version": "3.8.2"
     },
     "colemak": {
       "installer": {
@@ -1504,7 +1504,7 @@
         "kind": "innosetup",
         "x86": "https://downloads.sourceforge.net/project/winscp/WinSCP/{{.version}}/WinSCP-{{.version}}-Setup.exe"
       },
-      "version": "5.9.5"
+      "version": "5.10"
     },
     "wix": {
       "installer": {
