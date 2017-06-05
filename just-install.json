@@ -40,9 +40,9 @@
     "arduino": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://downloads.arduino.cc/arduino-1.8.2-windows.exe"
+        "x86": "https://downloads.arduino.cc/arduino-{{.version}}-windows.exe"
       },
-      "version": "1.8.2"
+      "version": "1.8.3"
     },
     "atom": {
       "installer": {
