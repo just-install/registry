@@ -824,7 +824,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "6.10.3"
+      "version": "6.11.0"
     },
     "notepad++": {
       "installer": {
