@@ -26,16 +26,16 @@
     "android-studio-bundle": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.google.com/dl/android/studio/install/{{.version}}/android-studio-bundle-162.3934792-windows.exe"
+        "x86": "https://dl.google.com/dl/android/studio/install/{{.version}}/android-studio-bundle-162.4069837-windows.exe"
       },
-      "version": "2.3.2.0"
+      "version": "2.3.3.0"
     },
     "android-studio-ide": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.google.com/dl/android/studio/install/{{.version}}/android-studio-ide-162.3934792-windows.exe"
+        "x86": "https://dl.google.com/dl/android/studio/install/{{.version}}/android-studio-ide-162.4069837-windows.exe"
       },
-      "version": "2.3.2.0"
+      "version": "2.3.3.0"
     },
     "arduino": {
       "installer": {
