@@ -100,9 +100,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.piriform.com/ccsetup530.exe"
+        "x86": "https://download.piriform.com/ccsetup531.exe"
       },
-      "version": "5.30"
+      "version": "5.31"
     },
     "chrome-remote-desktop-host": {
       "installer": {
@@ -182,7 +182,7 @@
         "x86": "https://download.code42.com/installs/win/install/CrashPlan/jre/CrashPlan_{{.version}}_Win.msi",
         "x86_64": "https://download.code42.com/installs/win/install/CrashPlan/jre/CrashPlan_{{.version}}_Win64.msi"
       },
-      "version": "4.8.2"
+      "version": "4.8.3"
     },
     "cryptomator": {
       "installer": {
@@ -396,9 +396,9 @@
     "enpass": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.sinew.in/windows/setup/5-5-3/Enpass_Setup.exe"
+        "x86": "https://dl.sinew.in/windows/setup/5-5-6/Enpass_Setup.exe"
       },
-      "version": "5.5.3"
+      "version": "5.5.6"
     },
     "enpass-beta": {
       "installer": {
@@ -468,16 +468,16 @@
     "flash-player": {
       "installer": {
         "kind": "msi",
-        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_25_plugin.msi"
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_26_plugin.msi"
       },
-      "version": "25.0.0.171"
+      "version": "26.0.0.126"
     },
     "flash-player-ie": {
       "installer": {
         "kind": "msi",
-        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_25_active_x.msi"
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_26_active_x.msi"
       },
-      "version": "25.0.0.171"
+      "version": "26.0.0.126"
     },
     "flux": {
       "installer": {
@@ -816,7 +816,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "8.1.0"
+      "version": "8.1.1"
     },
     "node-lts": {
       "installer": {
@@ -1264,7 +1264,7 @@
         "x86": "https://github.com/syncthing/syncthing/releases/download/v{{.version}}/syncthing-windows-386-v{{.version}}.zip",
         "x86_64": "https://github.com/syncthing/syncthing/releases/download/v{{.version}}/syncthing-windows-amd64-v{{.version}}.zip"
       },
-      "version": "0.14.29"
+      "version": "0.14.30"
     },
     "sysinternals": {
       "installer": {
