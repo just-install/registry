@@ -502,7 +502,7 @@
             "-s"
           ]
         },
-        "x86": "http://us.download.nvidia.com/GFE/GFEClient/{{.version}}/GeForce_Experience_v{{.version}}.exe"
+        "x86": "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/home/GeForce_Experience_v{{.version}}.exe"
       },
       "version": "3.6.0.74"
     },
@@ -753,7 +753,7 @@
         "x86": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x86.msi",
         "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x64.msi"
       },
-      "version": "4.2.104"
+      "version": "4.2.1"
     },
     "microsoft-security-essentials": {
       "installer": {
