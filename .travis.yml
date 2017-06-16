@@ -1,7 +1,12 @@
-language: go
+dist: trusty
+sudo: false
 install:
   - go get github.com/just-install/just-install
   - go get github.com/stretchr/testify/assert
   - go get github.com/ungerik/go-dry
+  - virtualenv ~/.venv
+  - source ~/.venv/bin/activate
+  - pip install jsonschema
 script:
+  - jsonschema -i just-install.json just-install-schema.json
   - go test -timeout 1h -v

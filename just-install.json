@@ -1,4 +1,6 @@
 {
+  "$schema": "./just-install-schema.json",
+  "version": 4,
   "packages": {
     "1password": {
       "installer": {
@@ -1552,6 +1554,5 @@
       },
       "version": "4.3.857"
     }
-  },
-  "version": 4
+  }
 }
