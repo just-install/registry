@@ -1506,7 +1506,7 @@
         "kind": "innosetup",
         "x86": "https://downloads.sourceforge.net/project/winscp/WinSCP/{{.version}}/WinSCP-{{.version}}-Setup.exe"
       },
-      "version": "5.9.5"
+      "version": "5.9.6"
     },
     "wix": {
       "installer": {
