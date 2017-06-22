@@ -715,7 +715,7 @@
         "x86": "https://download.documentfoundation.org/libreoffice/stable/{{.version}}/win/x86/LibreOffice_{{.version}}_Win_x86.msi",
         "x86_64": "https://download.documentfoundation.org/libreoffice/stable/{{.version}}/win/x86_64/LibreOffice_{{.version}}_Win_x64.msi"
       },
-      "version": "5.3.3"
+      "version": "5.3.4"
     },
     "lockhunter": {
       "installer": {
@@ -863,7 +863,7 @@
         "kind": "nsis",
         "x86": "https://github.com/jp9000/obs-studio/releases/download/{{.version}}/OBS-Studio-{{.version}}-Full-Installer.exe"
       },
-      "version": "19.0.2"
+      "version": "19.0.3"
     },
     "octave": {
       "installer": {
