@@ -307,10 +307,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-Committers"
         },
-        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/3/eclipse-committers-neon-3-win32.zip&r=1",
-        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/3/eclipse-committers-neon-3-win32-x86_64.zip&r=1"
+        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/R/eclipse-committers-oxygen-R-win32.zip&r=1",
+        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/R/eclipse-committers-oxygen-R-win32-x86_64.zip&r=1"
       },
-      "version": "4.6.3"
+      "version": "4.7"
     },
     "eclipse-cpp": {
       "installer": {
@@ -318,10 +318,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-CPP"
         },
-        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/3/eclipse-cpp-neon-3-win32.zip&r=1",
-        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/3/eclipse-cpp-neon-3-win32-x86_64.zip&r=1"
+        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/R/eclipse-cpp-oxygen-R-win32.zip&r=1",
+        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/R/eclipse-cpp-oxygen-R-win32-x86_64.zip&r=1"
       },
-      "version": "4.6.3"
+      "version": "4.7"
     },
     "eclipse-java": {
       "installer": {
@@ -329,10 +329,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-Java"
         },
-        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/3/eclipse-java-neon-3-win32.zip&r=1",
-        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/3/eclipse-java-neon-3-win32-x86_64.zip&r=1"
+        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/R/eclipse-java-oxygen-R-win32.zip&r=1",
+        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/R/eclipse-java-oxygen-R-win32-x86_64.zip&r=1"
       },
-      "version": "4.6.3"
+      "version": "4.7"
     },
     "eclipse-jee": {
       "installer": {
@@ -340,10 +340,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-JEE"
         },
-        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/3/eclipse-jee-neon-3-win32.zip&r=1",
-        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/3/eclipse-jee-neon-3-win32-x86_64.zip&r=1"
+        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/R/eclipse-jee-oxygen-R-win32.zip&r=1",
+        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/R/eclipse-jee-oxygen-R-win32-x86_64.zip&r=1"
       },
-      "version": "4.6.3"
+      "version": "4.7"
     },
     "eclipse-php": {
       "installer": {
@@ -351,10 +351,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-PHP"
         },
-        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/3/eclipse-php-neon-3-win32.zip&r=1",
-        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/3/eclipse-php-neon-3-win32-x86_64.zip&r=1"
+        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/R/eclipse-php-oxygen-R-win32.zip&r=1",
+        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/R/eclipse-php-oxygen-R-win32-x86_64.zip&r=1"
       },
-      "version": "4.6.3"
+      "version": "4.7"
     },
     "eig": {
       "installer": {
@@ -951,9 +951,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-25d94bad9/Plex-Media-Server-{{.version}}-25d94bad9.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-313f93718/Plex-Media-Server-{{.version}}-313f93718.exe"
       },
-      "version": "1.5.7.4016"
+      "version": "1.7.5.4035"
     },
     "processhacker": {
       "installer": {
