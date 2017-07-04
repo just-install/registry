@@ -192,7 +192,7 @@
         "x86": "https://bintray.com/cryptomator/cryptomator/download_file?file_path=Cryptomator-{{.version}}-x86.exe",
         "x86_64": "https://bintray.com/cryptomator/cryptomator/download_file?file_path=Cryptomator-{{.version}}-x64.exe"
       },
-      "version": "1.3.0"
+      "version": "1.3.1"
     },
     "crystaldisk-info": {
       "installer": {
