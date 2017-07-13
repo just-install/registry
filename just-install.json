@@ -570,7 +570,7 @@
         },
         "x86": "https://cdn.gog.com/open/galaxy/client/setup_galaxy_{{.version}}.exe"
       },
-      "version": "1.2.12.10"
+      "version": "1.2.12.10a"
     },
     "google-chrome": {
       "installer": {
@@ -1367,9 +1367,10 @@
     "vagrant": {
       "installer": {
         "kind": "msi",
-        "x86": "https://releases.hashicorp.com/vagrant/{{.version}}/vagrant_{{.version}}.msi"
+        "x86": "https://releases.hashicorp.com/vagrant/{{.version}}/vagrant_{{.version}}_i686.msi",
+        "x86_64": "https://releases.hashicorp.com/vagrant/{{.version}}/vagrant_{{.version}}_x86_64.msi"
       },
-      "version": "1.9.5"
+      "version": "1.9.7"
     },
     "veracrypt": {
       "installer": {
