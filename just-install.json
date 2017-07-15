@@ -763,7 +763,7 @@
         "x86": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x86.msi",
         "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x64.msi"
       },
-      "version": "4.2.1"
+      "version": "4.2.2"
     },
     "microsoft-security-essentials": {
       "installer": {
