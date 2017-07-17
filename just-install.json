@@ -1255,7 +1255,7 @@
         "x86": "https://sliksvn.com/pub/Slik-Subversion-{{.version}}-win32.msi",
         "x86_64": "https://sliksvn.com/pub/Slik-Subversion-{{.version}}-x64.msi"
       },
-      "version": "1.9.5"
+      "version": "1.9.6"
     },
     "sumatrapdf": {
       "installer": {
