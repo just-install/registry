@@ -137,10 +137,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://cmake.org/files/v3.8/cmake-{{.version}}-win32-x86.msi",
-        "x86_64": "https://cmake.org/files/v3.8/cmake-{{.version}}-win64-x64.msi"
+        "x86": "https://cmake.org/files/v3.9/cmake-{{.version}}-win32-x86.msi",
+        "x86_64": "https://cmake.org/files/v3.9/cmake-{{.version}}-win64-x64.msi"
       },
-      "version": "3.8.2"
+      "version": "3.9.0"
     },
     "colemak": {
       "installer": {
@@ -578,7 +578,7 @@
         },
         "x86": "https://cdn.gog.com/open/galaxy/client/setup_galaxy_{{.version}}.exe"
       },
-      "version": "1.2.12.10a"
+      "version": "1.2.14.50"
     },
     "google-chrome": {
       "installer": {
@@ -690,10 +690,10 @@
           ],
           "extension": ".exe"
         },
-        "x86": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=220313_d54c1d3a095b4ff2b6607d096fa80163",
-        "x86_64": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=220315_d54c1d3a095b4ff2b6607d096fa80163"
+        "x86": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=224927_336fa29ff2bb4ef291e347e091f7f4a7",
+        "x86_64": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=224929_336fa29ff2bb4ef291e347e091f7f4a7"
       },
-      "version": "8.131"
+      "version": "8.141"
     },
     "keepass": {
       "installer": {
