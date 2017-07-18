@@ -1399,9 +1399,9 @@
             "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBoxManage.exe"
           ]
         },
-        "x86": "http://download.virtualbox.org/virtualbox/{{.version}}/VirtualBox-{{.version}}-115126-Win.exe"
+        "x86": "http://download.virtualbox.org/virtualbox/{{.version}}/VirtualBox-{{.version}}-117012-Win.exe"
       },
-      "version": "5.1.22"
+      "version": "5.1.24"
     },
     "virtualbox-extpack": {
       "installer": {
@@ -1416,9 +1416,9 @@
           ],
           "filename": "Oracle_VM_VirtualBox_Extension_Pack-5.0.16-105871.vbox-extpack"
         },
-        "x86": "http://download.virtualbox.org/virtualbox/{{.version}}/Oracle_VM_VirtualBox_Extension_Pack-{{.version}}-115126.vbox-extpack"
+        "x86": "http://download.virtualbox.org/virtualbox/{{.version}}/Oracle_VM_VirtualBox_Extension_Pack-{{.version}}-117012.vbox-extpack"
       },
-      "version": "5.1.22"
+      "version": "5.1.24"
     },
     "viscosity": {
       "installer": {
