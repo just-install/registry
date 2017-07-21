@@ -398,9 +398,9 @@
     "enpass": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.sinew.in/windows/setup/5-5-7/Enpass_Setup.exe"
+        "x86": "https://dl.sinew.in/windows/setup/5-5-8/Enpass_Setup.exe"
       },
-      "version": "5.5.7"
+      "version": "5.5.8"
     },
     "enpass-beta": {
       "installer": {
@@ -826,7 +826,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "8.2.0"
+      "version": "8.2.1"
     },
     "node-lts": {
       "installer": {
