@@ -174,9 +174,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.170709.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.170723.exe"
       },
-      "version": "17.07.09"
+      "version": "17.07.23"
     },
     "crashplan": {
       "installer": {
@@ -1339,10 +1339,10 @@
     "tortoisegit": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.tortoisegit.org/tgit/2.4.0.0/TortoiseGit-{{.version}}-32bit.msi",
-        "x86_64": "https://download.tortoisegit.org/tgit/2.4.0.0/TortoiseGit-{{.version}}-64bit.msi"
+        "x86": "https://download.tortoisegit.org/tgit/{{.version}}/TortoiseGit-{{.version}}-32bit.msi",
+        "x86_64": "https://download.tortoisegit.org/tgit/{{.version}}/TortoiseGit-{{.version}}-64bit.msi"
       },
-      "version": "2.4.0.2"
+      "version": "2.5.0.0"
     },
     "tortoisesvn": {
       "installer": {
