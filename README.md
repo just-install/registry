@@ -26,7 +26,7 @@ updated whenever a new version of your application is released.
 
 ## How To Test Changes Locally
 
-* To test the latest features, you can install the Beta version that gets automatically rebuilt after each commit on the master branch by running `msiexec /i http://beta.just-install.it`
+* To test the latest features, you can install the Beta version that gets automatically rebuilt after each commit on the master branch by running `msiexec /i http://unstable.just-install.it`
 * Run `just-install update` to fetch the latest version of the registry file.
 * The registry is saved at `%TEMP%\just-install\just-install-v4.json`
 * Make your changes to said file:
