@@ -992,7 +992,7 @@
         "kind": "nsis",
         "x86": "https://download.jetbrains.com/python/pycharm-community-{{.version}}.exe"
       },
-      "version": "2017.1.5"
+      "version": "2017.2"
     },
     "pyqt": {
       "installer": {
