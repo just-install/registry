@@ -809,6 +809,13 @@
       },
       "version": "6.3.9"
     },
+    "nextcloud": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-{{.version}}-setup.exe"
+      },
+      "version": "2.3.1.8"
+    },
     "nircmd": {
       "installer": {
         "kind": "zip",
