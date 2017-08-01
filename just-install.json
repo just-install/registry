@@ -7,7 +7,7 @@
         "kind": "innosetup",
         "x86": "https://d13itkw33a7sus.cloudfront.net/dist/1P/win4/1Password-{{.version}}.exe"
       },
-      "version": "4.6.2.624"
+      "version": "4.6.2.625"
     },
     "7zip": {
       "installer": {
