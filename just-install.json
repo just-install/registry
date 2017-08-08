@@ -174,9 +174,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.170805.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.170807.exe"
       },
-      "version": "17.08.05"
+      "version": "17.08.07"
     },
     "crashplan": {
       "installer": {
@@ -472,14 +472,14 @@
         "kind": "msi",
         "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_26_plugin.msi"
       },
-      "version": "26.0.0.137"
+      "version": "26.0.0.151"
     },
     "flash-player-ie": {
       "installer": {
         "kind": "msi",
         "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_26_active_x.msi"
       },
-      "version": "26.0.0.137"
+      "version": "26.0.0.151"
     },
     "flux": {
       "installer": {
@@ -531,10 +531,10 @@
             "{{.PROGRAMFILES_X86}}\\Git\bin\\git.exe"
           ]
         },
-        "x86": "https://github.com/git-for-windows/git/releases/download/v{{.version}}.windows.1/Git-{{.version}}-32-bit.exe",
-        "x86_64": "https://github.com/git-for-windows/git/releases/download/v{{.version}}.windows.1/Git-{{.version}}-64-bit.exe"
+        "x86": "https://github.com/git-for-windows/git/releases/download/v2.14.0.windows.2/Git-{{.version}}-32-bit.exe",
+        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.14.0.windows.2/Git-{{.version}}-64-bit.exe"
       },
-      "version": "2.14.0"
+      "version": "2.14.0.2"
     },
     "git-lfs": {
       "installer": {
