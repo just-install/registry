@@ -825,7 +825,7 @@
         "kind": "nsis",
         "x86": "https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-{{.version}}-setup.exe"
       },
-      "version": "2.3.1.8"
+      "version": "2.3.2.1"
     },
     "nircmd": {
       "installer": {
@@ -1010,7 +1010,7 @@
         "kind": "nsis",
         "x86": "https://download.jetbrains.com/python/pycharm-community-{{.version}}.exe"
       },
-      "version": "2017.2"
+      "version": "2017.2.1"
     },
     "pyqt": {
       "installer": {
