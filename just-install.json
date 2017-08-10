@@ -84,6 +84,13 @@
       },
       "version": "latest"
     },
+    "bcuninstaller": {
+      "installer": {
+        "kind": "innosetup",
+        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v{{.version}}/BCUninstaller_{{.version}}_setup.exe"
+      },
+      "version": "3.13"
+	},
     "brackets": {
       "installer": {
         "kind": "msi",
