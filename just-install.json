@@ -419,10 +419,10 @@
     "everything-search": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.voidtools.com/Everything-{{.version}}.x86.Multilingual-Setup.exe",
-        "x86_64": "https://www.voidtools.com/Everything-{{.version}}.x64.Multilingual-Setup.exe"
+        "x86": "https://www.voidtools.com/Everything-{{.version}}.x86-Setup.exe",
+        "x86_64": "https://www.voidtools.com/Everything-{{.version}}.x64-Setup.exe"
       },
-      "version": "1.3.4.686"
+      "version": "1.4.1.877"
     },
     "exeproxy": {
       "installer": {
