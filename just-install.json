@@ -109,9 +109,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.piriform.com/ccsetup532.exe"
+        "x86": "https://download.piriform.com/ccsetup533.exe"
       },
-      "version": "5.32"
+      "version": "5.33"
     },
     "chrome-remote-desktop-host": {
       "installer": {
@@ -181,9 +181,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.170807.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.170814.exe"
       },
-      "version": "17.08.07"
+      "version": "17.08.14"
     },
     "crashplan": {
       "installer": {
@@ -1173,7 +1173,7 @@
         "kind": "innosetup",
         "x86": "https://github.com/ShareX/ShareX/releases/download/v{{.version}}/ShareX-{{.version}}-setup.exe"
       },
-      "version": "11.9.0"
+      "version": "11.9.1"
     },
     "sharpkeys": {
       "installer": {
