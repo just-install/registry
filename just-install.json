@@ -532,7 +532,7 @@
         },
         "x86": "https://us.download.nvidia.com/GFE/GFEClient/{{.version}}/GeForce_Experience_v{{.version}}.exe"
       },
-      "version": "3.8.0.89"
+      "version": "3.9.0.61"
     },
     "gimp": {
       "installer": {
