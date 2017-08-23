@@ -1403,7 +1403,7 @@
         "x86": "https://releases.hashicorp.com/vagrant/{{.version}}/vagrant_{{.version}}_i686.msi",
         "x86_64": "https://releases.hashicorp.com/vagrant/{{.version}}/vagrant_{{.version}}_x86_64.msi"
       },
-      "version": "1.9.7"
+      "version": "1.9.8"
     },
     "veracrypt": {
       "installer": {
