@@ -984,9 +984,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-313f93718/Plex-Media-Server-{{.version}}-313f93718.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-c789b3fbb/Plex-Media-Server-{{.version}}-c789b3fbb.exe"
       },
-      "version": "1.7.5.4035"
+      "version": "1.8.1.4139"
     },
     "processhacker": {
       "installer": {
@@ -1017,7 +1017,7 @@
         "kind": "nsis",
         "x86": "https://download.jetbrains.com/python/pycharm-community-{{.version}}.exe"
       },
-      "version": "2017.2.1"
+      "version": "2017.2.2"
     },
     "pyqt": {
       "installer": {
@@ -1211,7 +1211,7 @@
         "kind": "advancedinstaller",
         "x86": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-{{.version}}.exe"
       },
-      "version": "2.1.10.0"
+      "version": "2.1.11.0"
     },
     "spotify": {
       "installer": {
