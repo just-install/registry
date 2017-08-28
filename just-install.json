@@ -12,10 +12,10 @@
     "7zip": {
       "installer": {
         "kind": "msi",
-        "x86": "http://www.7-zip.org/a/7z1700.msi",
-        "x86_64": "http://www.7-zip.org/a/7z1700-x64.msi"
+        "x86": "http://www.7-zip.org/a/7z1701.msi",
+        "x86_64": "http://www.7-zip.org/a/7z1701-x64.msi"
       },
-      "version": "17.00"
+      "version": "17.01"
     },
     "anaconda": {
       "installer": {
@@ -673,10 +673,10 @@
             "/s"
           ]
         },
-        "x86": "http://download.oracle.com/otn-pub/java/jdk/{{.version}}-b27/jdk-{{.version}}-windows-i586.exe",
-        "x86_64": "http://download.oracle.com/otn-pub/java/jdk/{{.version}}-b27/jdk-{{.version}}-windows-x64.exe"
+        "x86": "http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-windows-i586.exe",
+        "x86_64": "http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-windows-x64.exe"
       },
-      "version": "8u60"
+      "version": "8.144"
     },
     "jetbrains-toolbox": {
       "installer": {
