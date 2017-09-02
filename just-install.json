@@ -1458,7 +1458,8 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://go.microsoft.com/fwlink/?LinkID=623230"
+        "x86": "https://go.microsoft.com/fwlink/?LinkID=623230",
+        "x86_64": "https://go.microsoft.com/fwlink/?Linkid=852157"
       },
       "version": "latest"
     },
