@@ -12,10 +12,10 @@
     "7zip": {
       "installer": {
         "kind": "msi",
-        "x86": "http://www.7-zip.org/a/7z1700.msi",
-        "x86_64": "http://www.7-zip.org/a/7z1700-x64.msi"
+        "x86": "http://www.7-zip.org/a/7z1701.msi",
+        "x86_64": "http://www.7-zip.org/a/7z1701-x64.msi"
       },
-      "version": "17.00"
+      "version": "17.01"
     },
     "anaconda": {
       "installer": {
@@ -44,7 +44,7 @@
         "kind": "nsis",
         "x86": "https://downloads.arduino.cc/arduino-{{.version}}-windows.exe"
       },
-      "version": "1.8.3"
+      "version": "1.8.4"
     },
     "atom": {
       "installer": {
@@ -84,6 +84,13 @@
       },
       "version": "latest"
     },
+    "bcuninstaller": {
+      "installer": {
+        "kind": "innosetup",
+        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v{{.version}}/BCUninstaller_{{.version}}_setup.exe"
+      },
+      "version": "3.14"
+    },
     "brackets": {
       "installer": {
         "kind": "msi",
@@ -97,14 +104,14 @@
         "x86": "https://github.com/kovidgoyal/calibre/releases/download/v{{.version}}/calibre-{{.version}}.msi",
         "x86_64": "https://github.com/kovidgoyal/calibre/releases/download/v{{.version}}/calibre-64bit-{{.version}}.msi"
       },
-      "version": "3.6.0"
+      "version": "3.7.0"
     },
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.piriform.com/ccsetup532.exe"
+        "x86": "https://download.piriform.com/ccsetup533.exe"
       },
-      "version": "5.32"
+      "version": "5.33"
     },
     "chrome-remote-desktop-host": {
       "installer": {
@@ -123,9 +130,9 @@
             "NOSTART=1"
           ]
         },
-        "x86": "http://www.mediafire.com/download/dbbil746gavpirr/ClassicShellSetup_4_3_0.exe"
+        "x86": "https://www.fosshub.com/Classic-Shell.html/ClassicShellSetup_4_3_1.exe"
       },
-      "version": "4.3.0"
+      "version": "4.3.1"
     },
     "clementine-player": {
       "installer": {
@@ -140,7 +147,7 @@
         "x86": "https://cmake.org/files/v3.9/cmake-{{.version}}-win32-x86.msi",
         "x86_64": "https://cmake.org/files/v3.9/cmake-{{.version}}-win64-x64.msi"
       },
-      "version": "3.9.0"
+      "version": "3.9.1"
     },
     "colemak": {
       "installer": {
@@ -174,9 +181,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.170805.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.170819.exe"
       },
-      "version": "17.08.05"
+      "version": "17.08.19"
     },
     "crashplan": {
       "installer": {
@@ -412,10 +419,10 @@
     "everything-search": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.voidtools.com/Everything-{{.version}}.x86.Multilingual-Setup.exe",
-        "x86_64": "https://www.voidtools.com/Everything-{{.version}}.x64.Multilingual-Setup.exe"
+        "x86": "https://www.voidtools.com/Everything-{{.version}}.x86-Setup.exe",
+        "x86_64": "https://www.voidtools.com/Everything-{{.version}}.x64-Setup.exe"
       },
-      "version": "1.3.4.686"
+      "version": "1.4.1.877"
     },
     "exeproxy": {
       "installer": {
@@ -467,19 +474,30 @@
       },
       "version": "latest"
     },
+    "firefox-esr": {
+      "installer": {
+        "kind": "nsis",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://download.mozilla.org/?product=firefox-esr-latest&os=win&lang=en-US",
+        "x86_64": "https://download.mozilla.org/?product=firefox-esr-latest&os=win64&lang=en-US"
+      },
+      "version": "latest"
+    },
     "flash-player": {
       "installer": {
         "kind": "msi",
         "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_26_plugin.msi"
       },
-      "version": "26.0.0.137"
+      "version": "26.0.0.151"
     },
     "flash-player-ie": {
       "installer": {
         "kind": "msi",
         "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_26_active_x.msi"
       },
-      "version": "26.0.0.137"
+      "version": "26.0.0.151"
     },
     "flux": {
       "installer": {
@@ -501,7 +519,7 @@
         "kind": "as-is",
         "x86": "http://www.freefilesync.org/download/FreeFileSync_{{.version}}_Windows_Setup.exe"
       },
-      "version": "9.2"
+      "version": "9.3"
     },
     "geforce-experience": {
       "installer": {
@@ -514,7 +532,7 @@
         },
         "x86": "https://us.download.nvidia.com/GFE/GFEClient/{{.version}}/GeForce_Experience_v{{.version}}.exe"
       },
-      "version": "3.8.0.89"
+      "version": "3.9.0.61"
     },
     "gimp": {
       "installer": {
@@ -534,7 +552,7 @@
         "x86": "https://github.com/git-for-windows/git/releases/download/v{{.version}}.windows.1/Git-{{.version}}-32-bit.exe",
         "x86_64": "https://github.com/git-for-windows/git/releases/download/v{{.version}}.windows.1/Git-{{.version}}-64-bit.exe"
       },
-      "version": "2.14.0"
+      "version": "2.14.1"
     },
     "git-lfs": {
       "installer": {
@@ -568,7 +586,7 @@
         "x86": "https://storage.googleapis.com/golang/go{{.version}}.windows-amd64.msi",
         "x86_64": "https://storage.googleapis.com/golang/go{{.version}}.windows-386.msi"
       },
-      "version": "1.8.3"
+      "version": "1.9"
     },
     "gog-galaxy": {
       "installer": {
@@ -578,7 +596,7 @@
         },
         "x86": "https://cdn.gog.com/open/galaxy/client/setup_galaxy_{{.version}}.exe"
       },
-      "version": "1.2.17.9"
+      "version": "1.2.20.36"
     },
     "google-chrome": {
       "installer": {
@@ -655,10 +673,10 @@
             "/s"
           ]
         },
-        "x86": "http://download.oracle.com/otn-pub/java/jdk/{{.version}}-b27/jdk-{{.version}}-windows-i586.exe",
-        "x86_64": "http://download.oracle.com/otn-pub/java/jdk/{{.version}}-b27/jdk-{{.version}}-windows-x64.exe"
+        "x86": "http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-windows-i586.exe",
+        "x86_64": "http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-windows-x64.exe"
       },
-      "version": "8u60"
+      "version": "8.144"
     },
     "jetbrains-toolbox": {
       "installer": {
@@ -705,10 +723,10 @@
     "kicad": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://downloads.kicad-pcb.org/windows/stable/kicad-4.0.6-i686.exe",
-        "x86_64": "http://downloads.kicad-pcb.org/windows/stable/kicad-4.0.6-x86_64.exe"
+        "x86": "http://downloads.kicad-pcb.org/windows/stable/kicad-{{.version}}-i686.exe",
+        "x86_64": "http://downloads.kicad-pcb.org/windows/stable/kicad-{{.version}}-x86_64.exe"
       },
-      "version": "4.0.6"
+      "version": "4.0.7"
     },
     "kodi": {
       "installer": {
@@ -723,7 +741,7 @@
         "x86": "https://download.documentfoundation.org/libreoffice/stable/{{.version}}/win/x86/LibreOffice_{{.version}}_Win_x86.msi",
         "x86_64": "https://download.documentfoundation.org/libreoffice/stable/{{.version}}/win/x86_64/LibreOffice_{{.version}}_Win_x64.msi"
       },
-      "version": "5.4.0"
+      "version": "5.4.1"
     },
     "lockhunter": {
       "installer": {
@@ -763,7 +781,7 @@
         "x86": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x86.msi",
         "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x64.msi"
       },
-      "version": "4.2.2"
+      "version": "4.3.1"
     },
     "microsoft-security-essentials": {
       "installer": {
@@ -814,7 +832,7 @@
         "kind": "nsis",
         "x86": "https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-{{.version}}-setup.exe"
       },
-      "version": "2.3.1.8"
+      "version": "2.3.2.1"
     },
     "nircmd": {
       "installer": {
@@ -833,7 +851,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "8.2.1"
+      "version": "8.4.0"
     },
     "node-lts": {
       "installer": {
@@ -849,7 +867,7 @@
         "x86": "https://notepad-plus-plus.org/repository/7.x/{{.version}}/npp.{{.version}}.Installer.exe",
         "x86_64": "https://notepad-plus-plus.org/repository/7.x/{{.version}}/npp.{{.version}}.Installer.x64.exe"
       },
-      "version": "7.4.2"
+      "version": "7.5.1"
     },
     "notepad2-mod": {
       "installer": {
@@ -878,7 +896,7 @@
         "kind": "nsis",
         "x86": "https://github.com/jp9000/obs-studio/releases/download/{{.version}}/OBS-Studio-{{.version}}-Full-Installer.exe"
       },
-      "version": "19.0.3"
+      "version": "20.0.1"
     },
     "octave": {
       "installer": {
@@ -966,9 +984,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-313f93718/Plex-Media-Server-{{.version}}-313f93718.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-c789b3fbb/Plex-Media-Server-{{.version}}-c789b3fbb.exe"
       },
-      "version": "1.7.5.4035"
+      "version": "1.8.1.4139"
     },
     "processhacker": {
       "installer": {
@@ -999,7 +1017,7 @@
         "kind": "nsis",
         "x86": "https://download.jetbrains.com/python/pycharm-community-{{.version}}.exe"
       },
-      "version": "2017.2"
+      "version": "2017.2.2"
     },
     "pyqt": {
       "installer": {
@@ -1155,7 +1173,7 @@
         "kind": "innosetup",
         "x86": "https://github.com/ShareX/ShareX/releases/download/v{{.version}}/ShareX-{{.version}}-setup.exe"
       },
-      "version": "11.8.0"
+      "version": "11.9.1"
     },
     "sharpkeys": {
       "installer": {
@@ -1193,7 +1211,7 @@
         "kind": "advancedinstaller",
         "x86": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-{{.version}}.exe"
       },
-      "version": "2.1.2.5"
+      "version": "2.1.11.0"
     },
     "spotify": {
       "installer": {
@@ -1262,7 +1280,7 @@
         "x86": "https://sliksvn.com/pub/Slik-Subversion-{{.version}}-win32.msi",
         "x86_64": "https://sliksvn.com/pub/Slik-Subversion-{{.version}}-x64.msi"
       },
-      "version": "1.9.6"
+      "version": "1.9.7"
     },
     "sumatrapdf": {
       "installer": {
@@ -1281,7 +1299,7 @@
         "x86": "https://github.com/syncthing/syncthing/releases/download/v{{.version}}/syncthing-windows-386-v{{.version}}.zip",
         "x86_64": "https://github.com/syncthing/syncthing/releases/download/v{{.version}}/syncthing-windows-amd64-v{{.version}}.zip"
       },
-      "version": "0.14.33"
+      "version": "0.14.36"
     },
     "sysinternals": {
       "installer": {
@@ -1299,7 +1317,7 @@
         "x86": "http://dl.4players.de/ts/releases/{{.version}}/TeamSpeak3-Client-win32-{{.version}}.exe",
         "x86_64": "http://dl.4players.de/ts/releases/{{.version}}/TeamSpeak3-Client-win64-{{.version}}.exe"
       },
-      "version": "3.1.5"
+      "version": "3.1.6"
     },
     "teamviewer": {
       "installer": {
@@ -1354,10 +1372,10 @@
     "tortoisesvn": {
       "installer": {
         "kind": "msi",
-        "x86": "https://sourceforge.net/projects/tortoisesvn/files/{{.version}}/Application/TortoiseSVN-{{.version}}.27867-win32-svn-{{.version}}.msi/download",
-        "x86_64": "https://sourceforge.net/projects/tortoisesvn/files/{{.version}}/Application/TortoiseSVN-{{.version}}.27867-x64-svn-{{.version}}.msi/download"
+        "x86": "https://sourceforge.net/projects/tortoisesvn/files/{{.version}}/Application/TortoiseSVN-{{.version}}.27907-win32-svn-{{.version}}.msi/download",
+        "x86_64": "https://sourceforge.net/projects/tortoisesvn/files/{{.version}}/Application/TortoiseSVN-{{.version}}.27907-x64-svn-{{.version}}.msi/download"
       },
-      "version": "1.9.6"
+      "version": "1.9.7"
     },
     "uplay": {
       "installer": {
@@ -1385,7 +1403,7 @@
         "x86": "https://releases.hashicorp.com/vagrant/{{.version}}/vagrant_{{.version}}_i686.msi",
         "x86_64": "https://releases.hashicorp.com/vagrant/{{.version}}/vagrant_{{.version}}_x86_64.msi"
       },
-      "version": "1.9.7"
+      "version": "1.9.8"
     },
     "veracrypt": {
       "installer": {
