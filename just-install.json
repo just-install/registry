@@ -1349,8 +1349,8 @@
     "tightvnc": {
       "installer": {
         "kind": "msi",
-        "x86": "http://www.tightvnc.com/download/{{.version}}/tightvnc-{{.version}}-gpl-setup-32bit.msi",
-        "x86_64": "http://www.tightvnc.com/download/{{.version}}/tightvnc-{{.version}}-gpl-setup-64bit.msi"
+        "x86": "https://www.tightvnc.com/download/{{.version}}/tightvnc-{{.version}}-gpl-setup-32bit.msi",
+        "x86_64": "https://www.tightvnc.com/download/{{.version}}/tightvnc-{{.version}}-gpl-setup-64bit.msi"
       },
       "version": "2.8.8"
     },
