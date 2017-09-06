@@ -1017,7 +1017,7 @@
         "kind": "nsis",
         "x86": "https://download.jetbrains.com/python/pycharm-community-{{.version}}.exe"
       },
-      "version": "2017.2.2"
+      "version": "2017.2.3"
     },
     "pyqt": {
       "installer": {
