@@ -147,7 +147,7 @@
         "x86": "https://cmake.org/files/v3.9/cmake-{{.version}}-win32-x86.msi",
         "x86_64": "https://cmake.org/files/v3.9/cmake-{{.version}}-win64-x64.msi"
       },
-      "version": "3.9.1"
+      "version": "3.9.2"
     },
     "colemak": {
       "installer": {
@@ -984,9 +984,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-2d20185b0/Plex-Media-Server-{{.version}}-2d20185b0.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-3497d6779/Plex-Media-Server-{{.version}}-3497d6779.exe"
       },
-      "version": "1.8.3.4235"
+      "version": "1.8.4.4249"
     },
     "processhacker": {
       "installer": {
@@ -1403,7 +1403,7 @@
         "x86": "https://releases.hashicorp.com/vagrant/{{.version}}/vagrant_{{.version}}_i686.msi",
         "x86_64": "https://releases.hashicorp.com/vagrant/{{.version}}/vagrant_{{.version}}_x86_64.msi"
       },
-      "version": "1.9.8"
+      "version": "2.0.0"
     },
     "veracrypt": {
       "installer": {
