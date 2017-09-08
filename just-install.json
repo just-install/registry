@@ -1117,7 +1117,7 @@
         "x86": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-{{.version}}/qbittorrent_{{.version}}_setup.exe",
         "x86_64": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-{{.version}}/qbittorrent_{{.version}}_x64_setup.exe"
       },
-      "version": "3.3.15"
+      "version": "3.3.16"
     },
     "qt-vs2008": {
       "installer": {
@@ -1540,7 +1540,7 @@
         "kind": "innosetup",
         "x86": "https://downloads.sourceforge.net/project/winscp/WinSCP/{{.version}}/WinSCP-{{.version}}-Setup.exe"
       },
-      "version": "5.11"
+      "version": "5.11.1"
     },
     "wix": {
       "installer": {
