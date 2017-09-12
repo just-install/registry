@@ -109,9 +109,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.piriform.com/ccsetup533.exe"
+        "x86": "https://download.piriform.com/ccsetup534.exe"
       },
-      "version": "5.33"
+      "version": "5.34"
     },
     "chrome-remote-desktop-host": {
       "installer": {
@@ -488,16 +488,16 @@
     "flash-player": {
       "installer": {
         "kind": "msi",
-        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_26_plugin.msi"
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_27_plugin.msi"
       },
-      "version": "26.0.0.151"
+      "version": "27.0.0.130"
     },
     "flash-player-ie": {
       "installer": {
         "kind": "msi",
-        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_26_active_x.msi"
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_27_active_x.msi"
       },
-      "version": "26.0.0.151"
+      "version": "27.0.0.130"
     },
     "flux": {
       "installer": {
