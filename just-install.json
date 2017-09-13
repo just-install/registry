@@ -625,7 +625,7 @@
         "kind": "innosetup",
         "x86": "https://github.com/greenshot/greenshot/releases/download/Greenshot-RELEASE-{{.version}}/Greenshot-INSTALLER-{{.version}}-RELEASE.exe"
       },
-      "version": "1.2.9.129"
+      "version": "1.2.10.6"
     },
     "gvim": {
       "installer": {
@@ -1253,7 +1253,7 @@
         "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%20{{.version}}%20Setup.exe",
         "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%20{{.version}}%20x64%20Setup.exe"
       },
-      "version": "3126"
+      "version": "3143"
     },
     "sublime-text-dev": {
       "installer": {
@@ -1266,7 +1266,7 @@
         "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%20{{.version}}%20Setup.exe",
         "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%20{{.version}}%20x64%20Setup.exe"
       },
-      "version": "3126"
+      "version": "3143"
     },
     "subversion": {
       "installer": {
