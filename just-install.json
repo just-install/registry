@@ -109,9 +109,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.piriform.com/ccsetup534.exe"
+        "x86": "https://download.piriform.com/ccsetup535.exe"
       },
-      "version": "5.34"
+      "version": "5.35"
     },
     "chrome-remote-desktop-host": {
       "installer": {
@@ -147,7 +147,7 @@
         "x86": "https://cmake.org/files/v3.9/cmake-{{.version}}-win32-x86.msi",
         "x86_64": "https://cmake.org/files/v3.9/cmake-{{.version}}-win64-x64.msi"
       },
-      "version": "3.9.2"
+      "version": "3.9.3"
     },
     "colemak": {
       "installer": {
@@ -532,7 +532,7 @@
         },
         "x86": "https://us.download.nvidia.com/GFE/GFEClient/{{.version}}/GeForce_Experience_v{{.version}}.exe"
       },
-      "version": "3.9.0.61"
+      "version": "3.9.0.97"
     },
     "gimp": {
       "installer": {
@@ -984,9 +984,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-3497d6779/Plex-Media-Server-{{.version}}-3497d6779.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-b207937f1/Plex-Media-Server-{{.version}}-b207937f1.exe"
       },
-      "version": "1.8.4.4249"
+      "version": "1.9.1.4272"
     },
     "processhacker": {
       "installer": {
