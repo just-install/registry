@@ -39,6 +39,13 @@
       },
       "version": "2.3.3.0"
     },
+    "anydesk": {
+      "installer": {
+        "kind": "msi",
+        "x86": "http://download.anydesk.com/AnyDesk.msi"
+      },
+      "version": "latest"
+    },
     "arduino": {
       "installer": {
         "kind": "nsis",
@@ -583,8 +590,8 @@
             "{{.SYSTEMDRIVE}}\\Go\bin\\gofmt.exe"
           ]
         },
-        "x86": "https://storage.googleapis.com/golang/go{{.version}}.windows-amd64.msi",
-        "x86_64": "https://storage.googleapis.com/golang/go{{.version}}.windows-386.msi"
+        "x86": "https://storage.googleapis.com/golang/go{{.version}}.windows-386.msi",
+        "x86_64": "https://storage.googleapis.com/golang/go{{.version}}.windows-amd64.msi"
       },
       "version": "1.9"
     },
@@ -648,6 +655,13 @@
         "x86": "https://github.com/gurnec/HashCheck/releases/download/v{{.version}}/HashCheckSetup-v{{.version}}.exe"
       },
       "version": "2.4.0"
+    },
+    "imageglass": {
+      "installer": {
+        "kind": "innosetup",
+        "x86": "https://github.com/d2phap/ImageGlass/releases/download/{{.version}}/ImageGlass_{{.version}}.exe"
+      },
+      "version": "4.1.7.26"
     },
     "inkscape": {
       "installer": {
@@ -1008,7 +1022,8 @@
     "putty": {
       "installer": {
         "kind": "msi",
-        "x86": "https://the.earth.li/~sgtatham/putty/latest/w32/putty-{{.version}}-installer.msi"
+        "x86": "https://the.earth.li/~sgtatham/putty/latest/w32/putty-{{.version}}-installer.msi",
+        "x86_64": "https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-{{.version}}-installer.msi"
       },
       "version": "0.70"
     },
@@ -1189,6 +1204,13 @@
       },
       "version": "2.0"
     },
+    "simplenote": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v{{.version}}/Simplenote-{{.version}}-Setup.exe"
+      },
+      "version": "1.0.8"
+    },
     "skype": {
       "installer": {
         "kind": "msi",
@@ -1205,6 +1227,14 @@
         "x86": "https://slack.com/ssb/download-win"
       },
       "version": "latest"
+    },
+    "smplayer": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/{{.version}}/smplayer-{{.version}}-win32.exe",
+        "x86_64": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/{{.version}}/smplayer-{{.version}}-x64.exe"
+      },
+      "version": "17.9.0"
     },
     "sourcetree": {
       "installer": {
@@ -1458,7 +1488,8 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://go.microsoft.com/fwlink/?LinkID=623230"
+        "x86": "https://go.microsoft.com/fwlink/?LinkID=623230",
+        "x86_64": "https://go.microsoft.com/fwlink/?Linkid=852157"
       },
       "version": "latest"
     },
