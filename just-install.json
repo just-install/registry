@@ -656,6 +656,13 @@
       },
       "version": "2.4.0"
     },
+    "imageglass": {
+      "installer": {
+        "kind": "innosetup",
+        "x86": "https://github.com/d2phap/ImageGlass/releases/download/{{.version}}/ImageGlass_{{.version}}.exe"
+      },
+      "version": "4.1.7.26"
+    },
     "inkscape": {
       "installer": {
         "kind": "msi",
