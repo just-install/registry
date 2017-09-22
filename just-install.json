@@ -1228,6 +1228,14 @@
       },
       "version": "latest"
     },
+    "smplayer": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/{{.version}}/smplayer-{{.version}}-win32.exe",
+        "x86_64": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/{{.version}}/smplayer-{{.version}}-x64.exe"
+      },
+      "version": "17.9.0"
+    },
     "sourcetree": {
       "installer": {
         "kind": "advancedinstaller",
