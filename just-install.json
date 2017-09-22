@@ -1015,7 +1015,8 @@
     "putty": {
       "installer": {
         "kind": "msi",
-        "x86": "https://the.earth.li/~sgtatham/putty/latest/w32/putty-{{.version}}-installer.msi"
+        "x86": "https://the.earth.li/~sgtatham/putty/latest/w32/putty-{{.version}}-installer.msi",
+        "x86_64": "https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-{{.version}}-installer.msi"
       },
       "version": "0.70"
     },
