@@ -39,6 +39,13 @@
       },
       "version": "2.3.3.0"
     },
+    "anydesk": {
+      "installer": {
+        "kind": "msi",
+        "x86": "http://download.anydesk.com/AnyDesk.msi"
+      },
+      "version": "latest"
+    },
     "arduino": {
       "installer": {
         "kind": "nsis",
@@ -583,8 +590,8 @@
             "{{.SYSTEMDRIVE}}\\Go\bin\\gofmt.exe"
           ]
         },
-        "x86": "https://storage.googleapis.com/golang/go{{.version}}.windows-amd64.msi",
-        "x86_64": "https://storage.googleapis.com/golang/go{{.version}}.windows-386.msi"
+        "x86": "https://storage.googleapis.com/golang/go{{.version}}.windows-386.msi",
+        "x86_64": "https://storage.googleapis.com/golang/go{{.version}}.windows-amd64.msi"
       },
       "version": "1.9"
     },
@@ -1189,6 +1196,13 @@
       },
       "version": "2.0"
     },
+    "simplenote": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v{{.version}}/Simplenote-{{.version}}-Setup.exe"
+      },
+      "version": "1.0.8"
+    },
     "skype": {
       "installer": {
         "kind": "msi",
@@ -1458,7 +1472,8 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://go.microsoft.com/fwlink/?LinkID=623230"
+        "x86": "https://go.microsoft.com/fwlink/?LinkID=623230",
+        "x86_64": "https://go.microsoft.com/fwlink/?Linkid=852157"
       },
       "version": "latest"
     },
