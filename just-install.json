@@ -96,7 +96,7 @@
         "kind": "innosetup",
         "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v{{.version}}/BCUninstaller_{{.version}}_setup.exe"
       },
-      "version": "3.15"
+      "version": "3.16"
     },
     "brackets": {
       "installer": {
@@ -1539,7 +1539,7 @@
     "vivaldi": {
       "installer": {
         "kind": "custom",
-        "options":{
+        "options": {
           "arguments": [
             "{{.installer}}",
             "--vivaldi-silent",
