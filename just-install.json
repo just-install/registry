@@ -120,6 +120,14 @@
       },
       "version": "5.35"
     },
+    "cdburnerxp": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://download.cdburnerxp.se/msi/cdbxp_setup_{{.version}.msi",
+        "x86_64": "https://download.cdburnerxp.se/msi/cdbxp_setup_x64_{{.version}}.msi"
+      },
+      "version": "4.5.7.6623"
+    },
     "chrome-remote-desktop-host": {
       "installer": {
         "kind": "msi",
@@ -841,6 +849,13 @@
       },
       "version": "6.3.9"
     },
+    "naps2": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://github.com/cyanfish/naps2/releases/download/v{{.version}}/naps2-{{.version}}-setup.msi"
+      },
+      "version": "5.5.0"
+    },
     "nextcloud": {
       "installer": {
         "kind": "nsis",
@@ -936,6 +951,13 @@
         "x86": "https://www.mls-software.com/files/setupssh-{{.version}}p1-1.exe"
       },
       "version": "7.5"
+    },
+    "openvpn": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://swupdate.openvpn.org/community/releases/openvpn-install-{{.version}}.exe"
+      },
+      "version": "2.4.3-I602"
     },
     "opera": {
       "installer": {
@@ -1514,6 +1536,22 @@
       },
       "version": "2013"
     },
+    "vivaldi": {
+      "installer": {
+        "kind": "custom",
+        "options":{
+          "arguments": [
+            "{{.installer}}",
+            "--vivaldi-silent",
+            "--do-not-launch-chrome",
+            "--vivaldi-update"
+          ]
+        },
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.{{.version}}.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.{{.version}}.x64.exe"
+      },
+      "version": "1.12.955.36"
+    },
     "vlc": {
       "installer": {
         "kind": "nsis",
@@ -1565,6 +1603,20 @@
         "x86": "http://download-codeplex.sec.s-msft.com/Download/Release?ProjectName=wudt&DownloadId=96313&FileTime=129048694816630000&Build=21018"
       },
       "version": "1.0"
+    },
+    "winrar": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/S"
+          ]
+        },
+        "x86": "https://rarlab.com/rar/wrar{{.version}}.exe",
+        "x86_64": "https://rarlab.com/rar/winrar-x64-{{.version}}.exe"
+      },
+      "version": "550"
     },
     "winscp": {
       "installer": {
