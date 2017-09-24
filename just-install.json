@@ -55,9 +55,13 @@
     },
     "atom": {
       "installer": {
-        "kind": "as-is",
+        "kind": "custom",
         "options": {
-          "extension": ".exe"
+          "extension": ".exe",
+          "arguments": [
+            "{{.installer}}",
+            "--silent"
+          ]
         },
         "x86": "https://atom.io/download/windows",
         "x86_64": "https://atom.io/download/windows_x64"
@@ -283,9 +287,13 @@
     },
     "discord": {
       "installer": {
-        "kind": "as-is",
+        "kind": "custom",
         "options": {
-          "extension": ".exe"
+          "extension": ".exe",
+          "arguments": [
+            "{{.installer}}",
+            "--silent"
+          ]
         },
         "x86": "https://discordapp.com/api/download?platform=win"
       },
@@ -1242,9 +1250,13 @@
     },
     "slack": {
       "installer": {
-        "kind": "as-is",
+        "kind": "custom",
         "options": {
-          "extension": ".exe"
+          "extension": ".exe",
+          "arguments": [
+            "{{.installer}}",
+            "--silent"
+          ]
         },
         "x86": "https://slack.com/ssb/download-win"
       },
@@ -1576,7 +1588,13 @@
     },
     "webtorrent": {
       "installer": {
-        "kind": "as-is",
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "--silent"
+          ]
+        },
         "x86": "https://github.com/feross/webtorrent-desktop/releases/download/v{{.version}}/WebTorrentSetup-v{{.version}}-ia32.exe",
         "x86_64": "https://github.com/feross/webtorrent-desktop/releases/download/v{{.version}}/WebTorrentSetup-v{{.version}}.exe"
       },
