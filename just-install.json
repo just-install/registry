@@ -957,6 +957,14 @@
       },
       "version": "4.2.1"
     },
+    "onlyoffice-desktopeditors": {
+      "installer": {
+        "kind": "innosetup",
+        "x86": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/ONLYOFFICE-DesktopEditors-{{.version}}/DesktopEditors_x86.exe",
+        "x86_64": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/ONLYOFFICE-DesktopEditors-{{.version}}/DesktopEditors_x64.exe"
+      },
+      "version": "4.4.1"
+    },
     "openssh": {
       "installer": {
         "kind": "custom",
