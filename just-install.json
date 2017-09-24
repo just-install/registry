@@ -109,6 +109,20 @@
       },
       "version": "1.10"
     },
+    "brave": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "--silent"
+          ]
+        },
+        "x86": "https://github.com/brave/browser-laptop/releases/download/v{{.version}}/BraveSetup-ia32.exe",
+        "x86_64": "https://github.com/brave/browser-laptop/releases/download/v{{.version}}/BraveSetup-x64.exe"
+      },
+      "version": "0.18.36dev"
+    },
     "calibre": {
       "installer": {
         "kind": "msi",
