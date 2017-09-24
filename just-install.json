@@ -1531,11 +1531,15 @@
     },
     "virtualbox": {
       "installer": {
-        "kind": "as-is",
+        "kind": "custom",
         "options": {
           "shims": [
             "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBox.exe",
             "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBoxManage.exe"
+          ],
+          "arguments": [
+            "{{.installer}}",
+            "--silent"
           ]
         },
         "x86": "http://download.virtualbox.org/virtualbox/{{.version}}/VirtualBox-{{.version}}-117968-Win.exe"
