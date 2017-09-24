@@ -610,6 +610,20 @@
       },
       "version": "latest"
     },
+    "gitkraken": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "--silent"
+          ]
+        },
+        "x86": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
+        "x86_64": "https://release.gitkraken.com/win64/GitKrakenSetup.exe"
+      },
+      "version": "latest"
+    },
     "go": {
       "installer": {
         "kind": "msi",
