@@ -107,7 +107,7 @@
         "kind": "msi",
         "x86": "https://github.com/adobe/brackets/releases/download/release-{{.version}}/Brackets.Release.{{.version}}.msi"
       },
-      "version": "1.10"
+      "version": "1.11"
     },
     "brave": {
       "installer": {
