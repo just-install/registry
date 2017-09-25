@@ -1064,9 +1064,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-b207937f1/Plex-Media-Server-{{.version}}-b207937f1.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-9f65b88ae/Plex-Media-Server-{{.version}}-9f65b88ae.exe"
       },
-      "version": "1.9.1.4272"
+      "version": "1.9.2.4285"
     },
     "processhacker": {
       "installer": {
