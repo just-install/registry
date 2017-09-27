@@ -23,7 +23,7 @@
         "x86": "https://repo.continuum.io/archive/Anaconda3-{{.version}}-Windows-x86.exe",
         "x86_64": "https://repo.continuum.io/archive/Anaconda3-{{.version}}-Windows-x86_64.exe"
       },
-      "version": "4.4.0"
+      "version": "5.0.0"
     },
     "android-studio-bundle": {
       "installer": {
@@ -589,7 +589,7 @@
         "x86": "https://github.com/git-for-windows/git/releases/download/v{{.version}}.windows.1/Git-{{.version}}-32-bit.exe",
         "x86_64": "https://github.com/git-for-windows/git/releases/download/v{{.version}}.windows.1/Git-{{.version}}-64-bit.exe"
       },
-      "version": "2.14.1"
+      "version": "2.14.2"
     },
     "git-lfs": {
       "installer": {
