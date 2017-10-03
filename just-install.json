@@ -601,7 +601,7 @@
         },
         "x86": "https://github.com/git-lfs/git-lfs/releases/download/v{{.version}}/git-lfs-windows-{{.version}}.exe"
       },
-      "version": "2.3.1"
+      "version": "2.3.2"
     },
     "github": {
       "installer": {
@@ -924,7 +924,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "6.11.3"
+      "version": "6.11.4"
     },
     "notepad++": {
       "installer": {
@@ -1190,7 +1190,7 @@
         "x86": "https://www.python.org/ftp/python/{{.version}}/python-{{.version}}.exe",
         "x86_64": "https://www.python.org/ftp/python/{{.version}}/python-{{.version}}-amd64.exe"
       },
-      "version": "3.6.2"
+      "version": "3.6.3"
     },
     "qbittorrent": {
       "installer": {
