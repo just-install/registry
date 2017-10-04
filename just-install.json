@@ -180,7 +180,7 @@
         "x86": "https://cmake.org/files/v3.9/cmake-{{.version}}-win32-x86.msi",
         "x86_64": "https://cmake.org/files/v3.9/cmake-{{.version}}-win64-x64.msi"
       },
-      "version": "3.9.3"
+      "version": "3.9.4"
     },
     "colemak": {
       "installer": {
@@ -637,7 +637,7 @@
         "x86": "https://storage.googleapis.com/golang/go{{.version}}.windows-386.msi",
         "x86_64": "https://storage.googleapis.com/golang/go{{.version}}.windows-amd64.msi"
       },
-      "version": "1.9"
+      "version": "1.9.1"
     },
     "gog-galaxy": {
       "installer": {
