@@ -556,7 +556,7 @@
         "kind": "as-is",
         "x86": "http://www.freefilesync.org/download/FreeFileSync_{{.version}}_Windows_Setup.exe"
       },
-      "version": "9.3"
+      "version": "9.4"
     },
     "geforce-experience": {
       "installer": {
