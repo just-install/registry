@@ -601,7 +601,7 @@
         },
         "x86": "https://github.com/git-lfs/git-lfs/releases/download/v{{.version}}/git-lfs-windows-{{.version}}.exe"
       },
-      "version": "2.3.2"
+      "version": "2.3.3"
     },
     "github": {
       "installer": {
