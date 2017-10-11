@@ -916,7 +916,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "8.6.0"
+      "version": "8.7.0"
     },
     "node-lts": {
       "installer": {
@@ -1064,9 +1064,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-9f65b88ae/Plex-Media-Server-{{.version}}-9f65b88ae.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-1bf240a65/Plex-Media-Server-{{.version}}-1bf240a65.exe"
       },
-      "version": "1.9.2.4285"
+      "version": "1.9.4.4325"
     },
     "processhacker": {
       "installer": {
