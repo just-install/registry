@@ -776,7 +776,7 @@
         "kind": "innosetup",
         "x86": "https://downloads.sourceforge.net/project/keepass/KeePass%202.x/{{.version}}/KeePass-{{.version}}-Setup.exe"
       },
-      "version": "2.36"
+      "version": "2.37"
     },
     "kicad": {
       "installer": {
@@ -994,7 +994,7 @@
         },
         "x86": "https://www.mls-software.com/files/setupssh-{{.version}}p1-1.exe"
       },
-      "version": "7.5"
+      "version": "7.6"
     },
     "openvpn": {
       "installer": {
