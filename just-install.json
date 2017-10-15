@@ -100,7 +100,7 @@
         "kind": "innosetup",
         "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v{{.version}}/BCUninstaller_{{.version}}_setup.exe"
       },
-      "version": "3.17"
+      "version": "3.18"
     },
     "brackets": {
       "installer": {
@@ -839,7 +839,7 @@
         "x86": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x86.msi",
         "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x64.msi"
       },
-      "version": "4.3.1"
+      "version": "4.3.3"
     },
     "microsoft-security-essentials": {
       "installer": {
