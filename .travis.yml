@@ -1,5 +1,8 @@
 dist: trusty
+language: go
 sudo: false
+go:
+  - 1.9
 install:
   - go get github.com/just-install/just-install
   - go get github.com/stretchr/testify/assert
