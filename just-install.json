@@ -731,10 +731,10 @@
             "/s"
           ]
         },
-        "x86": "http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-windows-i586.exe",
-        "x86_64": "http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-windows-x64.exe"
+        "x86": "http://download.oracle.com/otn-pub/java/jdk/8u151-b12/e758a0de34e24606bca991d704f6dcbf/jdk-8u151-windows-i586.exe",
+        "x86_64": "http://download.oracle.com/otn-pub/java/jdk/8u151-b12/e758a0de34e24606bca991d704f6dcbf/jdk-8u151-windows-x64.exe"
       },
-      "version": "8.144"
+      "version": "8.151"
     },
     "jetbrains-toolbox": {
       "installer": {
@@ -766,10 +766,10 @@
           ],
           "extension": ".exe"
         },
-        "x86": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=225353_090f390dda5b47b9b721c7dfaa008135",
-        "x86_64": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=225355_090f390dda5b47b9b721c7dfaa008135"
+        "x86": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=227550_e758a0de34e24606bca991d704f6dcbf",
+        "x86_64": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=227552_e758a0de34e24606bca991d704f6dcbf"
       },
-      "version": "8.144"
+      "version": "8.151"
     },
     "keepass": {
       "installer": {
@@ -959,9 +959,9 @@
     "obs-studio": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/jp9000/obs-studio/releases/download/{{.version}}/OBS-Studio-{{.version}}-Full-Installer.exe"
+        "x86": "https://github.com/jp9000/obs-studio/releases/download/{{.version}}/OBS-Studio-20.1-Full-Installer.exe"
       },
-      "version": "20.0.1"
+      "version": "20.1.0"
     },
     "octave": {
       "installer": {
