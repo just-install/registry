@@ -141,7 +141,7 @@
     "cdburnerxp": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.cdburnerxp.se/msi/cdbxp_setup_{{.version}.msi",
+        "x86": "https://download.cdburnerxp.se/msi/cdbxp_setup_{{.version}}.msi",
         "x86_64": "https://download.cdburnerxp.se/msi/cdbxp_setup_x64_{{.version}}.msi"
       },
       "version": "4.5.7.6623"
