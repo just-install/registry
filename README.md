@@ -1,6 +1,6 @@
 # Just Install Registry
 
-[![Build Status](https://travis-ci.org/just-install/registry.svg?branch=master)](https://travis-ci.org/just-install/registry)
+[![Build status](https://ci.appveyor.com/api/projects/status/asa2343a5ixlnmxn?svg=true)](https://ci.appveyor.com/project/lvillani/registry)
 
 This repository contains the just-install "registry": the list of packages available for
 installation through just-install.

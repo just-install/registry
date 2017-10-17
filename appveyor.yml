@@ -1,0 +1,8 @@
+shallow_clone: true
+skip_branch_with_pr: true
+build_script:
+    - cmd: pip install jsonschema
+test_script:
+    - cmd: jsonschema -i just-install.json just-install-schema.json
+    - cmd: msiexec /q /i https://unstable.just-install.it
+    - cmd: just-install audit
