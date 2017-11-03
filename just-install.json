@@ -1517,7 +1517,7 @@
         "x86": "https://releases.hashicorp.com/vagrant/{{.version}}/vagrant_{{.version}}_i686.msi",
         "x86_64": "https://releases.hashicorp.com/vagrant/{{.version}}/vagrant_{{.version}}_x86_64.msi"
       },
-      "version": "2.0.0"
+      "version": "2.0.1"
     },
     "veracrypt": {
       "installer": {
