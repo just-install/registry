@@ -799,7 +799,7 @@
         "x86": "https://download.documentfoundation.org/libreoffice/stable/{{.version}}/win/x86/LibreOffice_{{.version}}_Win_x86.msi",
         "x86_64": "https://download.documentfoundation.org/libreoffice/stable/{{.version}}/win/x86_64/LibreOffice_{{.version}}_Win_x64.msi"
       },
-      "version": "5.4.2"
+      "version": "5.4.3"
     },
     "lockhunter": {
       "installer": {
@@ -1064,9 +1064,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-1bf240a65/Plex-Media-Server-{{.version}}-1bf240a65.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-23901a099/Plex-Media-Server-{{.version}}-23901a099.exe"
       },
-      "version": "1.9.4.4325"
+      "version": "1.9.6.4429"
     },
     "processhacker": {
       "installer": {
