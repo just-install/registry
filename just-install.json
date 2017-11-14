@@ -527,14 +527,14 @@
         "kind": "msi",
         "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_27_plugin.msi"
       },
-      "version": "27.0.0.183"
+      "version": "27.0.0.187"
     },
     "flash-player-ie": {
       "installer": {
         "kind": "msi",
         "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_27_active_x.msi"
       },
-      "version": "27.0.0.183"
+      "version": "27.0.0.187"
     },
     "flux": {
       "installer": {
