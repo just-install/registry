@@ -134,9 +134,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.piriform.com/ccsetup536.exe"
+        "x86": "https://download.piriform.com/ccsetup537.exe"
       },
-      "version": "5.36"
+      "version": "5.37"
     },
     "cdburnerxp": {
       "installer": {
@@ -916,7 +916,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "9.1.0"
+      "version": "9.2.0"
     },
     "node-lts": {
       "installer": {
