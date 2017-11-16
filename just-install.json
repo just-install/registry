@@ -883,7 +883,7 @@
         "x86": "https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-{{.version}}-win32.msi",
         "x86_64": "https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-{{.version}}-winx64.msi"
       },
-      "version": "6.3.9"
+      "version": "6.3.10"
     },
     "naps2": {
       "installer": {
