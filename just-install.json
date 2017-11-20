@@ -35,9 +35,9 @@
     "android-studio-ide": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.google.com/dl/android/studio/install/{{.version}}/android-studio-ide-171.4408382-windows.exe"
+        "x86": "https://dl.google.com/dl/android/studio/install/{{.version}}/android-studio-ide-171.4443003-windows.exe"
       },
-      "version": "3.0.0.18"
+      "version": "3.0.1.0"
     },
     "anydesk": {
       "installer": {
@@ -177,10 +177,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://cmake.org/files/v3.9/cmake-{{.version}}-win32-x86.msi",
-        "x86_64": "https://cmake.org/files/v3.9/cmake-{{.version}}-win64-x64.msi"
+        "x86": "https://cmake.org/files/v3.10/cmake-{{.version}}-win32-x86.msi",
+        "x86_64": "https://cmake.org/files/v3.10/cmake-{{.version}}-win64-x64.msi"
       },
-      "version": "3.9.6"
+      "version": "3.10.0"
     },
     "colemak": {
       "installer": {
@@ -569,7 +569,7 @@
         },
         "x86": "https://us.download.nvidia.com/GFE/GFEClient/{{.version}}/GeForce_Experience_v{{.version}}.exe"
       },
-      "version": "3.10.0.95"
+      "version": "3.11.0.73"
     },
     "gimp": {
       "installer": {
