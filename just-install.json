@@ -25,13 +25,6 @@
       },
       "version": "5.0.1"
     },
-    "android-studio-bundle": {
-      "installer": {
-        "kind": "nsis",
-        "x86": "https://dl.google.com/dl/android/studio/install/{{.version}}/android-studio-bundle-162.4069837-windows.exe"
-      },
-      "version": "2.3.3.0"
-    },
     "android-studio-ide": {
       "installer": {
         "kind": "nsis",
