@@ -1013,6 +1013,17 @@
       },
       "version": "latest"
     },
+    "paint.net": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "/auto"
+          ]
+        }
+      },
+      "version": "latest"
+    },
     "origin": {
       "installer": {
         "kind": "innosetup",
@@ -1632,6 +1643,16 @@
         "x86": "http://vbaudio.jcedeveloppement.com/Download_CABLE/VoicemeeterProSetup.exe"
       },
       "version": "latest"
+    },
+    "workflowy": {
+      "installer": {
+        "kind": "as-is",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://github.com/workflowy/desktop/releases/download/{{.version}}/WorkFlowy.exe"
+      },
+      "version": "v1.0.12"
     },
     "webtorrent": {
       "installer": {
