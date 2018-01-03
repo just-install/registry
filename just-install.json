@@ -1664,6 +1664,14 @@
       },
       "version": "0.17.2"
     },
+    "whatsapp": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://web.whatsapp.com/desktop/windows/release/ia32/WhatsAppSetup.exe",
+        "x86_64": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe"
+      },
+      "version": "latest"
+    },
     "windirstat": {
       "installer": {
         "kind": "nsis",
