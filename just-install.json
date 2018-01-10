@@ -941,7 +941,7 @@
         "kind": "innosetup",
         "x86": "https://github.com/XhmikosR/notepad2-mod/releases/download/{{.version}}/Notepad2-mod.{{.version}}.exe"
       },
-      "version": "4.2.25.991"
+      "version": "4.2.25.998"
     },
     "npackd": {
       "installer": {
