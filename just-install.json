@@ -791,9 +791,9 @@
     "kodi": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://mirrors.kodi.tv/releases/win32/kodi-{{.version}}-Krypton.exe"
+        "x86": "http://mirrors.kodi.tv/releases/windows/win32/kodi-{{.version}}-Krypton-x86.exe"
       },
-      "version": "17.3"
+      "version": "17.6"
     },
     "libreoffice": {
       "installer": {
