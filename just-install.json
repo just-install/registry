@@ -690,8 +690,8 @@
     "handbrake": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://handbrake.fr/mirror/HandBrake-{{.version}}-i686-Win_GUI.exe",
-        "x86_64": "https://handbrake.fr/mirror/HandBrake-{{.version}}-x86_64-Win_GUI.exe"
+        "x86": "https://download.handbrake.fr/releases/{{.version}}/HandBrake-{{.version}}-i686-Win_GUI.exe",
+        "x86_64": "https://download.handbrake.fr/releases/{{.version}}/HandBrake-{{.version}}-x86_64-Win_GUI.exe"
       },
       "version": "1.0.7"
     },
