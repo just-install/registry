@@ -475,6 +475,16 @@
       },
       "version": "0.2"
     },
+    "fences": {
+      "installer": {
+        "kind": "innosetup",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://store.stardock.com/download/3875"
+      },
+      "version": "latest"
+    },
     "filezilla-server": {
       "installer": {
         "kind": "nsis",
