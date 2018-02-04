@@ -306,6 +306,14 @@
       },
       "version": "latest"
     },
+    "ditto": {
+      "installer": {
+        "kind": "innosetup",
+        "x86": "https://downloads.sourceforge.net/project/ditto-cp/Ditto/3.21.223.0/DittoSetup_3_21_223_0.exe",
+        "x86_64": "https://downloads.sourceforge.net/project/ditto-cp/Ditto/3.21.223.0/DittoSetup_64bit_3_21_223_0.exe"
+      },
+      "version": "3.21.223.0"
+    },
     "dropbox": {
       "installer": {
         "kind": "custom",
