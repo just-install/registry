@@ -771,6 +771,16 @@
       },
       "version": "2.37"
     },
+    "keepass-keepasshttp": {
+      "installer": {
+        "kind": "zip",
+        "options": {
+          "destination": "{{.PROGRAMFILES_X86}}\\KeePass Password Safe 2\\Plugins"
+        },
+        "x86": "https://github.com/pfn/keepasshttp/archive/{{.version}}.zip"
+      },
+      "version": "1.8.4.2"
+    },
     "kicad": {
       "installer": {
         "kind": "nsis",
