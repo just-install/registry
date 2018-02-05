@@ -137,7 +137,7 @@
         "x86": "https://download.cdburnerxp.se/msi/cdbxp_setup_{{.version}}.msi",
         "x86_64": "https://download.cdburnerxp.se/msi/cdbxp_setup_x64_{{.version}}.msi"
       },
-      "version": "4.5.7.6623"
+      "version": "4.5.8.6795"
     },
     "chrome-remote-desktop-host": {
       "installer": {
