@@ -780,6 +780,20 @@
       },
       "version": "2.37"
     },
+    "keybase": {
+      "installer": {
+        "kind": "custom",
+        "options":{
+          "arguments": [
+            "{{.installer}}",
+            "/install",
+            "/quiet"
+          ]
+        },
+        "x86": "https://prerelease.keybase.io/keybase_setup_386.exe"
+      },
+      "version": "latest"
+    },
     "kicad": {
       "installer": {
         "kind": "nsis",
