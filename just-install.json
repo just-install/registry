@@ -238,9 +238,9 @@
     "crystaldisk-mark": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://osdn.dl.osdn.jp/crystaldiskmark/66553/CrystalDiskMark5_2_0-en.exe"
+        "x86": "http://osdn.dl.osdn.jp/crystaldiskmark/68624/CrystalDiskMark6_0_0.exe"
       },
-      "version": "5.2.0"
+      "version": "6.0.0"
     },
     "cygwin": {
       "installer": {
