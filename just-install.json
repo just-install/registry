@@ -1644,10 +1644,7 @@
     },
     "workflowy": {
       "installer": {
-        "kind": "as-is",
-        "options": {
-          "extension": ".exe"
-        },
+        "kind": "nsis",
         "x86": "https://github.com/workflowy/desktop/releases/download/{{.version}}/WorkFlowy.exe"
       },
       "version": "v1.0.12"
