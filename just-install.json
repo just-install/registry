@@ -231,9 +231,9 @@
     "crystaldisk-info": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/65980/CrystalDiskInfo7_0_4-en.exe"
+        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/68590/CrystalDiskInfo7_5_1.exe"
       },
-      "version": "7.0.4"
+      "version": "7.5.1"
     },
     "crystaldisk-mark": {
       "installer": {
