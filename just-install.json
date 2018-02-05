@@ -231,16 +231,16 @@
     "crystaldisk-info": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/65980/CrystalDiskInfo7_0_4-en.exe"
+        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/68590/CrystalDiskInfo7_5_1.exe"
       },
-      "version": "7.0.4"
+      "version": "7.5.1"
     },
     "crystaldisk-mark": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://osdn.dl.osdn.jp/crystaldiskmark/66553/CrystalDiskMark5_2_0-en.exe"
+        "x86": "http://osdn.dl.osdn.jp/crystaldiskmark/68624/CrystalDiskMark6_0_0.exe"
       },
-      "version": "5.2.0"
+      "version": "6.0.0"
     },
     "cygwin": {
       "installer": {
@@ -791,7 +791,7 @@
     "keybase": {
       "installer": {
         "kind": "custom",
-        "options":{
+        "options": {
           "arguments": [
             "{{.installer}}",
             "/install",
