@@ -818,6 +818,19 @@
       },
       "version": "3.2.3"
     },
+    "mailspring": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "--silent"
+          ]
+        },
+        "x86": "https://github.com/Foundry376/Mailspring/releases/download/{{.version}}/MailspringSetup.exe"
+      },
+      "version": "1.1.2"
+    },
     "mailstore-home": {
       "installer": {
         "kind": "as-is",
