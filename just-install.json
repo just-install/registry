@@ -1610,9 +1610,16 @@
     },
     "visual-studio-code": {
       "installer": {
-        "kind": "innosetup",
+        "kind": "custom",
         "options": {
-          "extension": ".exe"
+          "extension": ".exe",
+          "arguments": [
+            "{{.installer}}",
+            "/norestart",
+            "/sp-",
+            "/verysilent",
+            "/mergetasks=!runcode"
+          ]
         },
         "x86": "https://go.microsoft.com/fwlink/?LinkID=623230",
         "x86_64": "https://go.microsoft.com/fwlink/?Linkid=852157"
