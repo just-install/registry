@@ -81,6 +81,7 @@
     "battlenet": {
       "installer": {
         "kind": "as-is",
+        "interactive": true,
         "options": {
           "extension": ".exe"
         },
