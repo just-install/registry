@@ -67,9 +67,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://downloads.sourceforge.net/project/liteapps/Audacity/audacity-win-{{.version}}.exe"
+        "x86": "http://app.oldfoss.com:81/download/Audacity/audacity-win-{{.version}}.exe"
       },
-      "version": "2.1.2"
+      "version": "2.2.1"
     },
     "autohotkey": {
       "installer": {
@@ -94,7 +94,7 @@
         "kind": "innosetup",
         "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v{{.version}}/BCUninstaller_{{.version}}_setup.exe"
       },
-      "version": "4.2"
+      "version": "4.3"
     },
     "brackets": {
       "installer": {
@@ -896,9 +896,9 @@
     "mono": {
       "installer": {
         "kind": "msi",
-        "x86": "http://download.mono-project.com/archive/{{.version}}/windows-installer/mono-4.2.2.30-gtksharp-2.12.30-win32-0.msi"
+        "x86": "https://download.mono-project.com/archive/5.8.0/windows-installer/mono-{{.version}}-gtksharp-2.12.45-win32-0.msi"
       },
-      "version": "4.2.2"
+      "version": "5.8.0.108"
     },
     "mpc-hc": {
       "installer": {
