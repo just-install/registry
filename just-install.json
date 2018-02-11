@@ -449,13 +449,6 @@
       },
       "version": "5.6.5"
     },
-    "enpass-beta": {
-      "installer": {
-        "kind": "nsis",
-        "x86": "https://dl.sinew.in/beta/desktop/Enpass_Beta_{{.version}}_Setup.exe"
-      },
-      "version": "5.2.4"
-    },
     "etcher": {
       "installer": {
         "kind": "nsis",
