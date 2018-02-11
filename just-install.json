@@ -67,9 +67,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://downloads.sourceforge.net/project/liteapps/Audacity/audacity-win-{{.version}}.exe"
+        "x86": "http://app.oldfoss.com:81/download/Audacity/audacity-win-{{.version}}.exe"
       },
-      "version": "2.1.2"
+      "version": "2.2.1"
     },
     "autohotkey": {
       "installer": {
