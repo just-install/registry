@@ -1344,13 +1344,6 @@
       },
       "version": "latest"
     },
-    "sqlserver-express-2008": {
-      "installer": {
-        "kind": "as-is",
-        "x86": "https://download.microsoft.com/download/e/9/b/e9bcf5d7-2421-464f-94dc-0c694ba1b5a4/SQLEXPRADV_x86_ENU.exe"
-      },
-      "version": "latest"
-    },
     "steam": {
       "installer": {
         "kind": "nsis",
