@@ -1030,9 +1030,9 @@
     "openvpn": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://swupdate.openvpn.org/community/releases/openvpn-install-{{.version}}.exe"
+        "x86": "https://swupdate.openvpn.org/community/releases/openvpn-install-{{.version}}-I601.exe"
       },
-      "version": "2.4.3-I602"
+      "version": "2.4.4"
     },
     "opera": {
       "installer": {
