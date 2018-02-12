@@ -1139,14 +1139,6 @@
       },
       "version": "4.11.4"
     },
-    "python26": {
-      "installer": {
-        "kind": "msi",
-        "x86": "https://python.org/ftp/python/{{.version}}/python-{{.version}}.msi",
-        "x86_64": "https://python.org/ftp/python/{{.version}}/python-{{.version}}.amd64.msi"
-      },
-      "version": "2.6.6"
-    },
     "python26-pip": {
       "installer": {
         "kind": "custom",
