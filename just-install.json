@@ -1598,20 +1598,6 @@
       },
       "version": "2008"
     },
-    "visualstudio-express-desktop": {
-      "installer": {
-        "kind": "custom",
-        "options": {
-          "arguments": [
-            "{{.installer}}",
-            "/Passive",
-            "/NoRestart"
-          ]
-        },
-        "x86": "http://download.microsoft.com/download/2/5/5/255DCCB6-F364-4ED8-9758-EF0734CA86B8/wdexpress_full.exe"
-      },
-      "version": "2013"
-    },
     "vivaldi": {
       "installer": {
         "kind": "custom",
