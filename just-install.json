@@ -1665,21 +1665,6 @@
       },
       "version": "latest"
     },
-    "windows-usb-dvd-tool": {
-      "installer": {
-        "kind": "custom",
-        "options": {
-          "arguments": [
-            "{{.installer}}",
-            "/Q",
-            "/C:msiexec /q /i Wudt.msi"
-          ],
-          "extension": ".exe"
-        },
-        "x86": "http://download-codeplex.sec.s-msft.com/Download/Release?ProjectName=wudt&DownloadId=96313&FileTime=129048694816630000&Build=21018"
-      },
-      "version": "1.0"
-    },
     "winrar": {
       "installer": {
         "kind": "custom",
