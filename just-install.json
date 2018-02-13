@@ -129,9 +129,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.ccleaner.com/ccsetup539.exe"
+        "x86": "https://download.ccleaner.com/ccsetup540.exe"
       },
-      "version": "5.39"
+      "version": "5.40"
     },
     "cdburnerxp": {
       "installer": {
@@ -1147,10 +1147,10 @@
             "{{.SYSTEMDRIVE}}\\Python27\\pythonw.exe"
           ]
         },
-        "x86": "https://python.org/ftp/python/{{.version}}/python-{{.version}}.msi",
-        "x86_64": "https://python.org/ftp/python/{{.version}}/python-{{.version}}.amd64.msi"
+        "x86": "https://www.python.org/ftp/python/{{.version}}/python-{{.version}}.msi",
+        "x86_64": "https://www.python.org/ftp/python/{{.version}}/python-{{.version}}-amd64.msi"
       },
-      "version": "2.7.12"
+      "version": "2.7.14"
     },
     "python2-vc": {
       "installer": {
