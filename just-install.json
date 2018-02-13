@@ -1146,7 +1146,7 @@
       },
       "version": "4.11.4"
     },
-    "python27": {
+    "python2": {
       "installer": {
         "kind": "msi",
         "options": {
@@ -1160,21 +1160,21 @@
       },
       "version": "2.7.12"
     },
-    "python27-vc": {
+    "python2-vc": {
       "installer": {
         "kind": "msi",
         "x86": "https://download.microsoft.com/download/7/9/6/796EF2E4-801B-4FC4-AB28-B59FBF6D907B/VCForPython27.msi"
       },
       "version": "latest"
     },
-    "python27-win32": {
+    "python2-win32": {
       "installer": {
         "kind": "easy_install_27",
         "x86": "https://downloads.sourceforge.net/project/pywin32/pywin32/Build%20{{.version}}/pywin32-{{.version}}.win32-py2.7.exe"
       },
       "version": "221"
     },
-    "python27-yaml": {
+    "python2-yaml": {
       "installer": {
         "kind": "easy_install_27",
         "x86": "http://pyyaml.org/download/pyyaml/PyYAML-3.10.win32-py2.7.exe"
