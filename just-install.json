@@ -1577,6 +1577,21 @@
       },
       "version": "latest"
     },
+    "visual-studio-community": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "extension": ".exe",
+          "arguments": [
+            "{{.installer}}",
+            "--quiet",
+            "--norestart"
+          ]
+        },
+        "x86": "https://aka.ms/vs/15/release/vs_community.exe"
+      },
+      "version": "2017"
+    },
     "vivaldi": {
       "installer": {
         "kind": "custom",
