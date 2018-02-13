@@ -1086,23 +1086,11 @@
     },
     "perl": {
       "installer": {
-        "kind": "advancedinstaller",
-        "options": {
-          "x86": {
-            "shims": [
-              "{{.SYSTEMDRIVE}}\\Perl\bin\\perl.exe"
-            ]
-          },
-          "x86_64": {
-            "shims": [
-              "{{.SYSTEMDRIVE}}\\Perl64\bin\\perl.exe"
-            ]
-          }
-        },
-        "x86": "https://downloads.activestate.com/ActivePerl/releases/{{.version}}/ActivePerl-{{.version}}-MSWin32-x86-64int-401627.exe",
-        "x86_64": "https://downloads.activestate.com/ActivePerl/releases/{{.version}}/ActivePerl-{{.version}}-MSWin32-x64-401627.exe"
+        "kind": "msi",
+        "x86": "http://strawberryperl.com/download/{{.version}}/strawberry-perl-{{.version}}-32bit.msi",
+        "x86_64": "http://strawberryperl.com/download/{{.version}}/strawberry-perl-{{.version}}-64bit.msi"
       },
-      "version": "5.24.1.2402"
+      "version": "5.26.1.1"
     },
     "plex-media-server": {
       "installer": {
