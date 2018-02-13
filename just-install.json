@@ -1140,19 +1140,6 @@
       },
       "version": "4.11.4"
     },
-    "python26-pip": {
-      "installer": {
-        "kind": "custom",
-        "options": {
-          "arguments": [
-            "\\Python26\\python.exe",
-            "{{.installer}}"
-          ]
-        },
-        "x86": "https://bootstrap.pypa.io/get-pip.py"
-      },
-      "version": "latest"
-    },
     "python27": {
       "installer": {
         "kind": "msi",
