@@ -790,6 +790,14 @@
       },
       "version": "2.2.4"
     },
+    "keeweb": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://github.com/keeweb/keeweb/releases/download/v{{.version}}/KeeWeb-{{.version}}.win.ia32.exe",
+        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v{{.version}}/KeeWeb-{{.version}}.win.x64.exe"
+      },
+      "version": "1.6.3"
+    },
     "keybase": {
       "installer": {
         "kind": "custom",
@@ -878,7 +886,7 @@
         "x86": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x86.msi",
         "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x64.msi"
       },
-      "version": "4.4.2"
+      "version": "4.5.0"
     },
     "microsoft-security-essentials": {
       "installer": {
@@ -1038,9 +1046,9 @@
     "openvpn": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://swupdate.openvpn.org/community/releases/openvpn-install-{{.version}}.exe"
+        "x86": "https://swupdate.openvpn.org/community/releases/openvpn-install-{{.version}}-I601.exe"
       },
-      "version": "2.4.3-I602"
+      "version": "2.4.4"
     },
     "opera": {
       "installer": {
@@ -1290,10 +1298,10 @@
             "{{.SYSTEMDRIVE}}\\Ruby193\bin\rubyw.exe"
           ]
         },
-        "x86": "https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-{{.version}}.exe",
-        "x86_64": "https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-{{.version}}-x64.exe"
+        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-{{.version}}-1/rubyinstaller-{{.version}}-1-x86.exe",
+        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-{{.version}}-1/rubyinstaller-{{.version}}-1-x64.exe"
       },
-      "version": "2.3.3"
+      "version": "2.5.0"
     },
     "sdm": {
       "installer": {
@@ -1312,9 +1320,9 @@
     "sharpkeys": {
       "installer": {
         "kind": "msi",
-        "x86": "http://download-codeplex.sec.s-msft.com/Download/Release?ProjectName=sharpkeys&DownloadId=319724&FileTime=129737577110830000&Build=21031"
+        "x86": "https://github.com/randyrants/sharpkeys/releases/download/v{{.version}}/sharpkeys36.msi"
       },
-      "version": "3.5"
+      "version": "3.6"
     },
     "signal": {
       "installer": {
@@ -1419,7 +1427,7 @@
         "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%20{{.version}}%20Setup.exe",
         "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%20{{.version}}%20x64%20Setup.exe"
       },
-      "version": "3143"
+      "version": "3157"
     },
     "subversion": {
       "installer": {
