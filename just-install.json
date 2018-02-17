@@ -641,7 +641,7 @@
         "x86": "https://dl.google.com/go/go{{.version}}.windows-386.msi",
         "x86_64": "https://dl.google.com/go/go{{.version}}.windows-amd64.msi"
       },
-      "version": "1.9.4"
+      "version": "1.10"
     },
     "gog-galaxy": {
       "installer": {
@@ -947,7 +947,7 @@
         "kind": "msi",
         "x86": "https://github.com/cyanfish/naps2/releases/download/v{{.version}}/naps2-{{.version}}-setup.msi"
       },
-      "version": "5.6.2"
+      "version": "5.7.0"
     },
     "nextcloud": {
       "installer": {
@@ -1313,7 +1313,7 @@
         "kind": "advancedinstaller",
         "x86": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-{{.version}}.exe"
       },
-      "version": "2.4.7.0"
+      "version": "2.4.8.0"
     },
     "spotify": {
       "installer": {
@@ -1462,7 +1462,7 @@
         "x86": "https://download.tortoisegit.org/tgit/{{.version}}/TortoiseGit-{{.version}}-32bit.msi",
         "x86_64": "https://download.tortoisegit.org/tgit/{{.version}}/TortoiseGit-{{.version}}-64bit.msi"
       },
-      "version": "2.5.0.0"
+      "version": "2.6.0.0"
     },
     "tortoisesvn": {
       "installer": {
