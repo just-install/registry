@@ -94,7 +94,7 @@
         "kind": "innosetup",
         "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v{{.version}}/BCUninstaller_{{.version}}_setup.exe"
       },
-      "version": "4.3"
+      "version": "4.3.1"
     },
     "brackets": {
       "installer": {
@@ -1306,7 +1306,7 @@
         "x86": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/{{.version}}/smplayer-{{.version}}-win32.exe",
         "x86_64": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/{{.version}}/smplayer-{{.version}}-x64.exe"
       },
-      "version": "18.2.0"
+      "version": "18.2.2"
     },
     "sourcetree": {
       "installer": {
