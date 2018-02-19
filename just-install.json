@@ -466,7 +466,8 @@
     },
     "fences": {
       "installer": {
-        "kind": "innosetup",
+        "kind": "nsis",
+        "interactive": true,
         "options": {
           "extension": ".exe"
         },
