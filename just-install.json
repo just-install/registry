@@ -69,7 +69,7 @@
         },
         "x86": "http://app.oldfoss.com:81/download/Audacity/audacity-win-{{.version}}.exe"
       },
-      "version": "2.2.1"
+      "version": "2.2.2"
     },
     "autohotkey": {
       "installer": {
@@ -232,9 +232,9 @@
     "crystaldisk-info": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/68590/CrystalDiskInfo7_5_1.exe"
+        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/68590/CrystalDiskInfo7_5_2.exe"
       },
-      "version": "7.5.1"
+      "version": "7.5.2"
     },
     "crystaldisk-mark": {
       "installer": {
@@ -272,7 +272,7 @@
     "defraggler": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.piriform.com/dfsetup221.exe"
+        "x86": "https://download.ccleaner.com/dfsetup221.exe"
       },
       "version": "2.21"
     },
@@ -455,7 +455,7 @@
         "x86": "https://github.com/resin-io/etcher/releases/download/v{{.version}}/Etcher-Setup-{{.version}}-x86.exe",
         "x86_64": "https://github.com/resin-io/etcher/releases/download/v{{.version}}/Etcher-Setup-{{.version}}-x64.exe"
       },
-      "version": "1.2.1"
+      "version": "1.3.1"
     },
     "everything-search": {
       "installer": {
@@ -601,10 +601,10 @@
             "{{.PROGRAMFILES_X86}}\\Git\bin\\git.exe"
           ]
         },
-        "x86": "https://github.com/git-for-windows/git/releases/download/v2.16.1.windows.4/Git-{{.version}}-32-bit.exe",
-        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.16.1.windows.4/Git-{{.version}}-64-bit.exe"
+        "x86": "https://github.com/git-for-windows/git/releases/download/v{{.version}}.windows.1/Git-{{.version}}-32-bit.exe",
+        "x86_64": "https://github.com/git-for-windows/git/releases/download/v{{.version}}.windows.1/Git-{{.version}}-64-bit.exe"
       },
-      "version": "2.16.1.4"
+      "version": "2.16.2"
     },
     "git-lfs": {
       "installer": {
@@ -984,7 +984,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "9.5.0"
+      "version": "9.6.0"
     },
     "node-lts": {
       "installer": {
@@ -1015,14 +1015,14 @@
         "x86": "https://github.com/tim-lebedkov/npackd-cpp/releases/download/version_{{.version}}/Npackd32-{{.version}}.msi",
         "x86_64": "https://github.com/tim-lebedkov/npackd-cpp/releases/download/version_{{.version}}/Npackd64-{{.version}}.msi"
       },
-      "version": "1.22.2"
+      "version": "1.23.2"
     },
     "npackdcl": {
       "installer": {
         "kind": "msi",
         "x86": "https://github.com/tim-lebedkov/npackd-cpp/releases/download/version_{{.version}}/NpackdCL-{{.version}}.msi"
       },
-      "version": "1.22.2"
+      "version": "1.23.2"
     },
     "obs-studio": {
       "installer": {
@@ -1113,14 +1113,14 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-f54242b6b/Plex-Media-Server-{{.version}}-f54242b6b.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-c40bba82e/Plex-Media-Server-{{.version}}-c40bba82e.exe"
       },
-      "version": "1.10.1.4602"
+      "version": "1.11.3.4803"
     },
     "processhacker": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/processhacker2/processhacker/releases/download/v{{.version}}/processhacker-{{.version}}-setup.exe"
+        "x86": "https://github.com/processhacker/processhacker/releases/download/v{{.version}}/processhacker-{{.version}}-setup.exe"
       },
       "version": "2.39"
     },
@@ -1230,9 +1230,9 @@
     "recuva": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.piriform.com/rcsetup153.exe"
+        "x86": "https://download.ccleaner.com/rcsetup153.exe"
       },
-      "version": "1.53.1087"
+      "version": "1.53"
     },
     "resource-hacker": {
       "installer": {
@@ -1703,7 +1703,7 @@
         "kind": "innosetup",
         "x86": "https://downloads.sourceforge.net/project/winscp/WinSCP/{{.version}}/WinSCP-{{.version}}-Setup.exe"
       },
-      "version": "5.11.3"
+      "version": "5.13"
     },
     "wix": {
       "installer": {
@@ -1739,7 +1739,7 @@
     "wixedit": {
       "installer": {
         "kind": "msi",
-        "x86": "http://downloads.sourceforge.net/project/wixedit/wixedit/0.7.5.0/wixedit-0.7.5.msi"
+        "x86": "https://github.com/WixEdit/WixEdit/releases/download/v{{.version}}.0/wixedit-{{.version}}.msi"
       },
       "version": "0.7.5"
     },
