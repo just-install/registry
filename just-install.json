@@ -148,6 +148,20 @@
       },
       "version": "latest"
     },
+    "citrix-receiver": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/silent",
+            "/noreboot"
+          ]
+        },
+        "x86": "https://downloadplugins.citrix.com/Windows/CitrixReceiver.exe"
+      },
+      "version": "latest"
+    },	
     "classic-shell": {
       "installer": {
         "kind": "custom",
@@ -1047,7 +1061,17 @@
       },
       "version": "latest"
     },
-    "openssh": {
+	"open-hardware-monitor": {
+	  "installer": {
+	   "kind": "zip",
+        "options": {
+          "destination": "{{.PROGRAMFILES_X86}}\\"
+        },
+	    "x86": "http://openhardwaremonitor.org/files/openhardwaremonitor-v{{.version}}.zip"
+	  },
+      "version": "0.8.0-beta"
+	},
+	  "openssh": {
       "installer": {
         "kind": "custom",
         "options": {
