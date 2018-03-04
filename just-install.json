@@ -943,6 +943,13 @@
         "x86": "https://download.mono-project.com/archive/5.8.0/windows-installer/mono-{{.version}}-gtksharp-2.12.45-win32-0.msi"
       },
       "version": "5.8.0.108"
+    "mountainduck": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-{{.version}}.msi"
+        "x86_64": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-{{.version}}.msi"
+      },
+"version": "2.3.0.9118"
     },
      "mp3tag": {
       "installer": {
