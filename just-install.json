@@ -1157,6 +1157,13 @@
       },
       "version": "1.11.3.4803"
     },
+    "postman": {
+      "installer": {
+        "kind": "custom",
+        "x86": "https://dl.pstmn.io/download/latest/win32",
+        "x86_64": "https://dl.pstmn.io/download/latest/win64"
+      },
+      "version": "latest"
     "processhacker": {
       "installer": {
         "kind": "innosetup",
