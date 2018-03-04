@@ -1127,6 +1127,14 @@
       },
       "version": "5.26.1.1"
     },
+    "pia": {
+      "installer": {
+        "kind": "innosetup",
+        "x86": "https://installers.privateinternetaccess.com/download/pia-v{{.version}}-installer-win.exe",
+        "x86_64": "https://installers.privateinternetaccess.com/download/pia-v{{.version}}-installer-win.exe"
+      },
+      "version": "77"
+    },
     "plex-media-server": {
       "installer": {
         "kind": "custom",
