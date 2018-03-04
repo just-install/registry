@@ -967,6 +967,14 @@
       },
       "version": "1.7.13"
     },
+    "mullvad": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://mullvad.net/de/download/latest/windows/"
+        "x86_64": "https://mullvad.net/de/download/latest/windows/"
+      },
+      "version": "latest"
+    },
     "mumble": {
       "installer": {
         "kind": "msi",
