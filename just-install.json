@@ -944,6 +944,14 @@
       },
       "version": "5.8.0.108"
     },
+     "mp3tag": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://www.mp3tag.de/dodownload.html",
+        "x86_64": "https://www.mp3tag.de/dodownload.html"
+      },
+      "version": "latest"
+    },
     "mpc-hc": {
       "installer": {
         "kind": "innosetup",
