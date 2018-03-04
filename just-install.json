@@ -1531,6 +1531,14 @@
       },
       "version": "0.8.4"
     },
+    "torguard": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://updates.torguard.biz/Software/Windows/torguard-setup-latest.exe",
+        "x86_64": "https://updates.torguard.biz/Software/Windows/torguard-setup-latest.exe"
+      },
+      "version": "latest"
+    },
     "tortoisegit": {
       "installer": {
         "kind": "msi",
