@@ -971,8 +971,10 @@
     "mullvad": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://mullvad.net/de/download/latest/windows/",
-        "x86_64": "https://mullvad.net/de/download/latest/windows/"
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://mullvad.net/en/download/latest/windows/"
       },
       "version": "latest"
     },
