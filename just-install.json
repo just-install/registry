@@ -1769,7 +1769,7 @@
           ],
           "extension": ".exe"
         },
-        "x86": "http://download-codeplex.sec.s-msft.com/Download/Release?ProjectName=wudt&DownloadId=96313&FileTime=129048694816630000&Build=21018"
+        "x86": "https://download.microsoft.com/download/C/4/8/C48F6E20-FE20-41C6-8C1C-408FE7B49A3A/Windows7-USB-DVD-Download-Tool-Installer-en-US.exe"
       },
       "version": "1.0"
     },
