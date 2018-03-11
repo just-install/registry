@@ -952,13 +952,12 @@
       },
       "version": "2.3.0.9118"
     },
-     "mp3tag": {
+    "mp3tag": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.mp3tag.de/dodownload.html",
-        "x86_64": "https://www.mp3tag.de/dodownload.html"
+        "x86": "https://download.mp3tag.de/mp3tagv{{.version}}setup.exe"
       },
-      "version": "latest"
+      "version": "286"
     },
     "mpc-hc": {
       "installer": {
