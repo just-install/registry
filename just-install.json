@@ -583,7 +583,7 @@
     "freefilesync": {
       "installer": {
         "kind": "as-is",
-        "x86": "http://www.freefilesync.org/download/FreeFileSync_{{.version}}_Windows_Setup.exe"
+        "x86": "https://www.freefilesync.org/download/FreeFileSync_{{.version}}_Windows_Setup.exe"
       },
       "version": "9.9"
     },
