@@ -172,7 +172,7 @@
             "NOSTART=1"
           ]
         },
-        "x86": "https://www.fosshub.com/Classic-Shell.html/ClassicShellSetup_4_3_1.exe"
+        "x86": "http://app.oldfoss.com:81/download/Classic-Shell/ClassicShellSetup_4_3_1.exe"
       },
       "version": "4.3.1"
     },
