@@ -1363,13 +1363,6 @@
       },
       "version": "1.1.3"
     },
-    "skype": {
-      "installer": {
-        "kind": "msi",
-        "x86": "https://www.skype.com/go/getskype-msi"
-      },
-      "version": "latest"
-    },
     "slack": {
       "installer": {
         "kind": "custom",
