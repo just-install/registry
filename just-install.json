@@ -1176,6 +1176,13 @@
     "postman": {
       "installer": {
         "kind": "custom",
+        "options": {
+          "extension": ".exe",
+          "arguments": [
+            "{{.installer}}",
+            "--silent"
+          ]
+        },
         "x86": "https://dl.pstmn.io/download/latest/win32",
         "x86_64": "https://dl.pstmn.io/download/latest/win64"
       },
