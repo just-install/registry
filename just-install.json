@@ -729,6 +729,13 @@
       },
       "version": "2.4.0"
     },
+    "heidisql": {
+      "installer": {
+        "kind": "innosetup",
+        "x86": "https://www.heidisql.com/installers/HeidiSQL_{{.version}}_Setup.exe"
+      },
+      "version": "9.5.0.5196"
+    },
     "imageglass": {
       "installer": {
         "kind": "innosetup",
