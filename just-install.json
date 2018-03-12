@@ -359,17 +359,6 @@
       },
       "version": "1.3"
     },
-    "eclipse-android": {
-      "installer": {
-        "kind": "zip",
-        "options": {
-          "destination": "{{.PROGRAMFILES}}\\Eclipse-Android"
-        },
-        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/3/eclipse-android-neon-3-incubation-win32.zip&r=1",
-        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/3/eclipse-android-neon-3-incubation-win32-x86_64.zip&r=1"
-      },
-      "version": "4.6.3"
-    },
     "eclipse-committers": {
       "installer": {
         "kind": "zip",
