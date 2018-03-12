@@ -338,6 +338,21 @@
       },
       "version": "3.21.223.0"
     },
+    "dotnet": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "extension": ".exe",
+          "arguments": [
+            "{{.installer}}",
+            "/q",
+            "/norestart"
+          ]
+        },
+        "x86": "https://download.microsoft.com/download/8/E/2/8E2BDDE7-F06E-44CC-A145-56C6B9BBE5DD/NDP471-KB4033344-Web.exe"
+      },
+      "version": "4.7.1"
+    },
     "dropbox": {
       "installer": {
         "kind": "custom",
