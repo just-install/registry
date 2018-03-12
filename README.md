@@ -1,6 +1,8 @@
 # Just Install Registry
 
 [![Build status](https://ci.appveyor.com/api/projects/status/asa2343a5ixlnmxn?svg=true)](https://ci.appveyor.com/project/lvillani/registry)
+[![License](http://img.shields.io/badge/license-GPL%203.0-blue.svg?style=flat)](http://choosealicense.com/licenses/gpl-3.0/)
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/just-install/support)
 
 This repository contains the just-install "registry": the list of packages available for
 installation through just-install.
