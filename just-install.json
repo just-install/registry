@@ -1404,13 +1404,6 @@
       },
       "version": "2.4.8.0"
     },
-    "spotify": {
-      "installer": {
-        "kind": "as-is",
-        "x86": "https://download.spotify.com/SpotifyFullSetup.exe"
-      },
-      "version": "latest"
-    },
     "steam": {
       "installer": {
         "kind": "nsis",
