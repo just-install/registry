@@ -1286,8 +1286,8 @@
     "qbittorrent": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-{{.version}}/qbittorrent_{{.version}}_setup.exe",
-        "x86_64": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-{{.version}}/qbittorrent_{{.version}}_x64_setup.exe"
+        "x86": "http://app.oldfoss.com:81/download/qBittorrent/qbittorrent_{{.version}}_setup.exe",
+        "x86_64": "http://app.oldfoss.com:81/download/qBittorrent/qbittorrent_{{.version}}_x64_setup.exe"
       },
       "version": "4.0.4"
     },
@@ -1366,7 +1366,7 @@
         "kind": "nsis",
         "x86": "https://updates.signal.org/desktop/signal-desktop-win-{{.version}}.exe"
       },
-      "version": "1.5.2"
+      "version": "1.6.0"
     },
     "simplenote": {
       "installer": {
