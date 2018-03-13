@@ -1264,9 +1264,10 @@
     "python2-yaml": {
       "installer": {
         "kind": "easy_install_27",
-        "x86": "http://pyyaml.org/download/pyyaml/PyYAML-3.10.win32-py2.7.exe"
+        "x86": "https://pyyaml.org/download/pyyaml/PyYAML-3.11.win32-py2.7.exe",
+        "x86_64": "https://pyyaml.org/download/pyyaml/PyYAML-3.11.win-amd64-py2.7.exe"
       },
-      "version": "3.10"
+      "version": "3.11"
     },
     "python3": {
       "installer": {
