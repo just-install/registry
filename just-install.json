@@ -129,9 +129,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.ccleaner.com/ccsetup540.exe"
+        "x86": "https://download.ccleaner.com/ccsetup541.exe"
       },
-      "version": "5.40"
+      "version": "5.41"
     },
     "cdburnerxp": {
       "installer": {
@@ -566,16 +566,16 @@
     "flash-player": {
       "installer": {
         "kind": "msi",
-        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_28_plugin.msi"
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_29_plugin.msi"
       },
-      "version": "28.0.0.161"
+      "version": "29.0.0.113"
     },
     "flash-player-ie": {
       "installer": {
         "kind": "msi",
-        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_28_active_x.msi"
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_29_active_x.msi"
       },
-      "version": "28.0.0.161"
+      "version": "29.0.0.113"
     },
     "flux": {
       "installer": {
