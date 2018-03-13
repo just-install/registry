@@ -1256,18 +1256,18 @@
     "python2-win32": {
       "installer": {
         "kind": "easy_install_27",
-        "x86": "https://downloads.sourceforge.net/project/pywin32/pywin32/Build%20{{.version}}/pywin32-{{.version}}.win32-py2.7.exe",
-        "x86_64": "https://downloads.sourceforge.net/project/pywin32/pywin32/Build%20{{.version}}/pywin32-{{.version}}.win-amd64-py2.7.exe"
+        "x86": "https://github.com/mhammond/pywin32/releases/download/b{{.version}}/pywin32-{{.version}}.win32-py2.7.exe",
+        "x86_64": "https://github.com/mhammond/pywin32/releases/download/b{{.version}}/pywin32-{{.version}}.win-amd64-py2.7.exe"
       },
-      "version": "221"
+      "version": "223"
     },
     "python2-yaml": {
       "installer": {
         "kind": "easy_install_27",
-        "x86": "https://pyyaml.org/download/pyyaml/PyYAML-3.11.win32-py2.7.exe",
-        "x86_64": "https://pyyaml.org/download/pyyaml/PyYAML-3.11.win-amd64-py2.7.exe"
+        "x86": "https://pyyaml.org/download/pyyaml/PyYAML-{{.version}}.win32-py2.7.exe",
+        "x86_64": "https://pyyaml.org/download/pyyaml/PyYAML-{{.version}}.win-amd64-py2.7.exe"
       },
-      "version": "3.11"
+      "version": "3.12"
     },
     "python3": {
       "installer": {
