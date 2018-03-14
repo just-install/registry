@@ -688,7 +688,7 @@
         },
         "x86": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_{{.version}}.exe"
       },
-      "version": "1.2.37.7"
+      "version": "1.2.39.53"
     },
     "google-chrome": {
       "installer": {
@@ -1085,10 +1085,10 @@
     "octave": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://ftp.gnu.org/gnu/octave/windows/octave-4.2.1-w32-installer.exe",
-        "x86_64": "https://ftp.gnu.org/gnu/octave/windows/octave-4.2.1-w64-installer.exe"
+        "x86": "https://ftp.gnu.org/gnu/octave/windows/octave-{{.version}}-w32-installer.exe",
+        "x86_64": "https://ftp.gnu.org/gnu/octave/windows/octave-{{.version}}-w64-installer.exe"
       },
-      "version": "4.2.1"
+      "version": "4.2.2"
     },
     "onlyoffice-desktopeditors": {
       "installer": {
