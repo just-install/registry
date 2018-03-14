@@ -1743,7 +1743,13 @@
     },
     "whatsapp": {
       "installer": {
-        "kind": "nsis",
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "--silent"
+          ]
+        },
         "x86": "https://web.whatsapp.com/desktop/windows/release/ia32/WhatsAppSetup.exe",
         "x86_64": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe"
       },
