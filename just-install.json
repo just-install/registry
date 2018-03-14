@@ -316,6 +316,13 @@
       },
       "version": "2.2"
     },
+    "deskpins": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://bitbucket.org/efotinis/deskpins/downloads/DeskPins-{{.version}}-setup.exe"
+      },
+      "version": "1.32"
+    },
     "discord": {
       "installer": {
         "kind": "custom",
