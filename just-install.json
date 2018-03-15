@@ -1275,7 +1275,8 @@
         "options": {
           "arguments": [
             "{{.installer}}",
-            "-s"
+            "/quiet",
+            "InstallAllUsers=1"
           ]
         },
         "x86": "https://www.python.org/ftp/python/{{.version}}/python-{{.version}}.exe",
