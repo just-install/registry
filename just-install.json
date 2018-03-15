@@ -470,10 +470,10 @@
             "{{.PROGRAMFILES_X86}}\\Emacs\bin\runemacs.exe"
           ]
         },
-        "x86": "https://ftp.gnu.org/gnu/emacs/windows/emacs-25.1-2-i686-w64-mingw32.zip",
-        "x86_64": "https://ftp.gnu.org/gnu/emacs/windows/emacs-25.1-2-x86_64-w64-mingw32.zip"
+        "x86": "https://ftp.gnu.org/gnu/emacs/windows/emacs-{{.version}}-i686.zip",
+        "x86_64": "https://ftp.gnu.org/gnu/emacs/windows/emacs-{{.version}}-x86_64.zip"
       },
-      "version": "25.1-2"
+      "version": "25.3"
     },
     "enpass": {
       "installer": {
