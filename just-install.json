@@ -1532,13 +1532,6 @@
       },
       "version": "2.8.8"
     },
-    "tomahawk": {
-      "installer": {
-        "kind": "nsis",
-        "x86": "http://download.tomahawk-player.org/tomahawk-{{.version}}.exe"
-      },
-      "version": "0.8.4"
-    },
     "torguard": {
       "installer": {
         "kind": "nsis",
