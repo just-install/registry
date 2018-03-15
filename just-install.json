@@ -675,13 +675,6 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "options": {
-          "shims": [
-            "{{.SYSTEMDRIVE}}\\Go\bin\\go.exe",
-            "{{.SYSTEMDRIVE}}\\Go\bin\\godoc.exe",
-            "{{.SYSTEMDRIVE}}\\Go\bin\\gofmt.exe"
-          ]
-        },
         "x86": "https://dl.google.com/go/go{{.version}}.windows-386.msi",
         "x86_64": "https://dl.google.com/go/go{{.version}}.windows-amd64.msi"
       },
