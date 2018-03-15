@@ -1855,6 +1855,19 @@
         "x86": "https://downloadpull-youneedabudgetco.netdna-ssl.com/ynab4/liveCaptive/Win/YNAB%204_{{.version}}_Setup.exe"
       },
       "version": "4.3.857"
+    },
+    "youtube-dl": {
+      "installer": {
+        "kind": "copy",
+        "options": {
+          "destination": "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe",
+          "shims": [
+            "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
+          ]
+        },
+        "x86": "https://github.com/rg3/youtube-dl/releases/download/{{.version}}/youtube-dl.exe"
+      },
+      "version": "2018.03.14"
     }
   }
 }
