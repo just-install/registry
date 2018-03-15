@@ -78,6 +78,14 @@
       },
       "version": "latest"
     },
+    "aws-cli": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://s3.amazonaws.com/aws-cli/AWSCLI32.msi",
+        "x86_64": "https://s3.amazonaws.com/aws-cli/AWSCLI64.msi"
+      },
+      "version": "latest"
+    },
     "battlenet": {
       "installer": {
         "kind": "as-is",
