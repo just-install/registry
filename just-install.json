@@ -780,6 +780,20 @@
       },
       "version": "9.5.0.5196"
     },
+    "hugo": {
+      "installer": {
+        "kind": "zip",
+        "options": {
+          "destination": "{{.PROGRAMFILES}}\\hugo",
+          "shims": [
+            "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
+          ]
+        },
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v{{.version}}/hugo_{{.version}}_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v{{.version}}/hugo_{{.version}}_Windows-64bit.zip"
+      },
+      "version": "0.37.1"
+    },
     "imageglass": {
       "installer": {
         "kind": "innosetup",
