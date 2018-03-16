@@ -812,9 +812,12 @@
     "innosetup": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://files.jrsoftware.org/is/5/innosetup-{{.version}}-unicode.exe"
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "http://www.jrsoftware.org/download.php/is-unicode.exe"
       },
-      "version": "5.5.9"
+      "version": "latest"
     },
     "jdk": {
       "installer": {
