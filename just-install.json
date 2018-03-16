@@ -946,14 +946,15 @@
       "installer": {
         "kind": "custom",
         "options": {
+          "extension": ".exe",
           "arguments": [
             "{{.installer}}",
             "--silent"
           ]
         },
-        "x86": "https://github.com/Foundry376/Mailspring/releases/download/{{.version}}/MailspringSetup.exe"
+        "x86": "https://updates.getmailspring.com/download?platform=win32"
       },
-      "version": "1.1.5"
+      "version": "latest"
     },
     "mailstore-home": {
       "installer": {
