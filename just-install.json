@@ -664,6 +664,13 @@
       },
       "version": "2.16.2"
     },
+    "gitextensions": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://github.com/gitextensions/gitextensions/releases/download/v{{.version}}/GitExtensions-{{.version}}-Setup.msi"
+      },
+      "version": "2.51"
+    },
     "git-lfs": {
       "installer": {
         "kind": "innosetup",
