@@ -86,6 +86,16 @@
       },
       "version": "latest"
     },
+    "azure-cli": {
+      "installer": {
+        "kind": "msi",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://aka.ms/installazurecliwindows"
+      },
+      "version": "latest"
+    },
     "battlenet": {
       "installer": {
         "kind": "as-is",
