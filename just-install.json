@@ -1191,7 +1191,7 @@
     "pdf24": {
       "installer": {
         "kind": "custom",
-        "options":{
+        "options": {
           "arguments": [
             "msiexec.exe",
             "/q",
@@ -1418,7 +1418,7 @@
         "kind": "nsis",
         "x86": "https://updates.signal.org/desktop/signal-desktop-win-{{.version}}.exe"
       },
-      "version": "1.6.0"
+      "version": "1.6.1"
     },
     "simplenote": {
       "installer": {
@@ -1633,7 +1633,7 @@
         "x86": "https://releases.hashicorp.com/vagrant/{{.version}}/vagrant_{{.version}}_i686.msi",
         "x86_64": "https://releases.hashicorp.com/vagrant/{{.version}}/vagrant_{{.version}}_x86_64.msi"
       },
-      "version": "2.0.2"
+      "version": "2.0.3"
     },
     "veracrypt": {
       "installer": {
