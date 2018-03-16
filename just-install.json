@@ -1164,6 +1164,25 @@
       },
       "version": "latest"
     },
+    "pdf24": {
+      "installer": {
+        "kind": "custom",
+        "options":{
+          "arguments": [
+            "msiexec.exe",
+            "/q",
+            "/i",
+            "{{.installer}}",
+            "ALLUSERS=1",
+            "REBOOT=ReallySuppress",
+            "DESKTOPICONS=No",
+            "FAXPRINTER=No"
+          ]
+        },
+        "x86": "https://www.pdf24.org/products/pdf-creator/download/pdf24-creator.msi"
+      },
+      "version": "latest"
+    },
     "perl": {
       "installer": {
         "kind": "msi",
