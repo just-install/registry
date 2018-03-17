@@ -139,7 +139,7 @@
     "calibre": {
       "installer": {
         "kind": "msi",
-        "options":{
+        "options": {
           "extension": ".exe"
         },
         "x86": "https://calibre-ebook.com/dist/win32",
@@ -1022,7 +1022,7 @@
         "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-{{.version}}.msi",
         "x86_64": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-{{.version}}.msi"
       },
-      "version": "2.3.0.9118"
+      "version": "2.3.1.9206"
     },
     "mp3tag": {
       "installer": {
