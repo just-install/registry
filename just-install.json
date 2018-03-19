@@ -251,9 +251,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.180309.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.180318.exe"
       },
-      "version": "18.03.09"
+      "version": "18.03.18"
     },
     "cpu-z": {
       "installer": {
@@ -324,7 +324,7 @@
         "x86": "https://github.com/dbeaver/dbeaver/releases/download/{{.version}}/dbeaver-ce-{{.version}}-x86-setup.exe",
         "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/{{.version}}/dbeaver-ce-{{.version}}-x86_64-setup.exe"
       },
-      "version": "5.0.0"
+      "version": "5.0.1"
     },
     "defraggler": {
       "installer": {
@@ -1029,7 +1029,7 @@
         "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-{{.version}}.msi",
         "x86_64": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-{{.version}}.msi"
       },
-      "version": "2.3.1.9206"
+      "version": "2.3.2.9219"
     },
     "mp3tag": {
       "installer": {
@@ -1111,7 +1111,7 @@
         "x86": "https://notepad-plus-plus.org/repository/7.x/{{.version}}/npp.{{.version}}.Installer.exe",
         "x86_64": "https://notepad-plus-plus.org/repository/7.x/{{.version}}/npp.{{.version}}.Installer.x64.exe"
       },
-      "version": "7.5.5"
+      "version": "7.5.6"
     },
     "notepad2-mod": {
       "installer": {
@@ -1138,9 +1138,9 @@
     "obs-studio": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/obsproject/obs-studio/releases/download/{{.version}}/OBS-Studio-{{.version}}-Full-Installer.exe"
+        "x86": "https://github.com/obsproject/obs-studio/releases/download/{{.version}}/OBS-Studio-21.1-Full-Installer.exe"
       },
-      "version": "21.0.1"
+      "version": "21.1.0"
     },
     "octave": {
       "installer": {
