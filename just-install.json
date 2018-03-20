@@ -260,7 +260,7 @@
         "kind": "innosetup",
         "x86": "http://download.cpuid.com/cpu-z/cpu-z_{{.version}}-en.exe"
       },
-      "version": "1.83"
+      "version": "1.84"
     },
     "crashplan": {
       "installer": {
