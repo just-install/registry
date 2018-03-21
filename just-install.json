@@ -422,10 +422,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-Committers"
         },
-        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-committers-oxygen-2-win32.zip&r=1",
-        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-committers-oxygen-2-win32-x86_64.zip&r=1"
+        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3/eclipse-committers-oxygen-3-win32.zip&r=1",
+        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3/eclipse-committers-oxygen-3-win32-x86_64.zip&r=1"
       },
-      "version": "4.7.2"
+      "version": "4.7.3"
     },
     "eclipse-cpp": {
       "installer": {
@@ -433,10 +433,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-CPP"
         },
-        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-cpp-oxygen-2-win32.zip&r=1",
-        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-cpp-oxygen-2-win32-x86_64.zip&r=1"
+        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3/eclipse-cpp-oxygen-3-win32.zip&r=1",
+        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3/eclipse-cpp-oxygen-3-win32-x86_64.zip&r=1"
       },
-      "version": "4.7.2"
+      "version": "4.7.3"
     },
     "eclipse-java": {
       "installer": {
@@ -444,10 +444,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-Java"
         },
-        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-java-oxygen-2-win32.zip&r=1",
-        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-java-oxygen-2-win32-x86_64.zip&r=1"
+        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3/eclipse-java-oxygen-3-win32.zip&r=1",
+        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3/eclipse-java-oxygen-3-win32-x86_64.zip&r=1"
       },
-      "version": "4.7.2"
+      "version": "4.7.3"
     },
     "eclipse-jee": {
       "installer": {
@@ -455,10 +455,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-JEE"
         },
-        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-jee-oxygen-2-win32.zip&r=1",
-        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-jee-oxygen-2-win32-x86_64.zip&r=1"
+        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3/eclipse-jee-oxygen-3-win32.zip&r=1",
+        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3/eclipse-jee-oxygen-3-win32-x86_64.zip&r=1"
       },
-      "version": "4.7.2"
+      "version": "4.7.3"
     },
     "eclipse-php": {
       "installer": {
@@ -466,10 +466,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-PHP"
         },
-        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-php-oxygen-2-win32.zip&r=1",
-        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-php-oxygen-2-win32-x86_64.zip&r=1"
+        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3/eclipse-php-oxygen-3-win32.zip&r=1",
+        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3/eclipse-php-oxygen-3-win32-x86_64.zip&r=1"
       },
-      "version": "4.7.2"
+      "version": "4.7.3"
     },
     "eig": {
       "installer": {
@@ -1095,7 +1095,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "9.8.0"
+      "version": "9.9.0"
     },
     "node-lts": {
       "installer": {
@@ -1488,7 +1488,7 @@
         "x86": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/{{.version}}/smplayer-{{.version}}-win32.exe",
         "x86_64": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/{{.version}}/smplayer-{{.version}}-x64.exe"
       },
-      "version": "18.2.2"
+      "version": "18.3.0"
     },
     "sourcetree": {
       "installer": {
