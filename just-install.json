@@ -1105,6 +1105,19 @@
       },
       "version": "8.10.0"
     },
+    "nordvpn": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/q"
+          ]
+        },
+        "x86": "https://downloads.nordcdn.com/apps/windows/10/NordVPN/latest/NordVPNSetup.exe"
+      },
+      "version": "latest"
+    },
     "notepad++": {
       "installer": {
         "kind": "nsis",
