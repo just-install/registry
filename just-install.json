@@ -288,9 +288,9 @@
     "crystaldisk-info": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/68590/CrystalDiskInfo7_5_2.exe"
+        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/69241/CrystalDiskInfo7_6_0.exe"
       },
-      "version": "7.5.2"
+      "version": "7.6.0"
     },
     "crystaldisk-mark": {
       "installer": {
@@ -1280,9 +1280,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-6de959918/Plex-Media-Server-{{.version}}-6de959918.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-1046ba85f/Plex-Media-Server-{{.version}}-1046ba85f.exe"
       },
-      "version": "1.12.0.4829"
+      "version": "1.12.1.4885"
     },
     "postman": {
       "installer": {
@@ -1452,7 +1452,7 @@
         "kind": "innosetup",
         "x86": "https://github.com/ShareX/ShareX/releases/download/v{{.version}}/ShareX-{{.version}}-setup.exe"
       },
-      "version": "12.0.0"
+      "version": "12.1.0"
     },
     "sharpkeys": {
       "installer": {
@@ -1781,7 +1781,7 @@
         "x86": "https://downloads.vivaldi.com/stable/Vivaldi.{{.version}}.exe",
         "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.{{.version}}.x64.exe"
       },
-      "version": "1.14.1077.55"
+      "version": "1.14.1077.60"
     },
     "vlc": {
       "installer": {
