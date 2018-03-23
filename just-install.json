@@ -679,7 +679,7 @@
         "x86": "https://github.com/git-for-windows/git/releases/download/v{{.version}}.windows.1/Git-{{.version}}-32-bit.exe",
         "x86_64": "https://github.com/git-for-windows/git/releases/download/v{{.version}}.windows.1/Git-{{.version}}-64-bit.exe"
       },
-      "version": "2.16.2"
+      "version": "2.16.3"
     },
     "gitextensions": {
       "installer": {
@@ -1076,7 +1076,7 @@
         "kind": "msi",
         "x86": "https://github.com/cyanfish/naps2/releases/download/v{{.version}}/naps2-{{.version}}-setup.msi"
       },
-      "version": "5.7.1"
+      "version": "5.8.1"
     },
     "nextcloud": {
       "installer": {
