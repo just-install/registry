@@ -114,6 +114,13 @@
       },
       "version": "4.3.1"
     },
+    "bitpay": {
+      "installer": {
+        "kind": "innosetup",
+        "x86": "https://github.com/bitpay/copay/releases/download/v{{.version}}/BitPay.exe"
+      },
+      "version": "3.15.2"
+    },
     "bleachbit": {
       "installer": {
         "kind": "nsis",
