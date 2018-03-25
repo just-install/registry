@@ -686,7 +686,7 @@
         "kind": "msi",
         "x86": "https://github.com/gitextensions/gitextensions/releases/download/v{{.version}}/GitExtensions-{{.version}}-Setup.msi"
       },
-      "version": "2.51"
+      "version": "2.51.01"
     },
     "git-lfs": {
       "installer": {
@@ -1452,7 +1452,7 @@
         "kind": "innosetup",
         "x86": "https://github.com/ShareX/ShareX/releases/download/v{{.version}}/ShareX-{{.version}}-setup.exe"
       },
-      "version": "12.1.0"
+      "version": "12.1.1"
     },
     "sharpkeys": {
       "installer": {
