@@ -7,7 +7,8 @@
         "kind": "innosetup",
         "x86": "https://c.1password.com/dist/1P/win4/1Password-{{.version}}.exe"
       },
-      "version": "4.6.2.626"
+      "version": "4.6.2.626",
+      "jiup": false
     },
     "7zip": {
       "installer": {
@@ -221,10 +222,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://cmake.org/files/v3.10/cmake-{{.version}}-win32-x86.msi",
-        "x86_64": "https://cmake.org/files/v3.10/cmake-{{.version}}-win64-x64.msi"
+        "x86": "https://cmake.org/files/v3.11/cmake-{{.version}}-win32-x86.msi",
+        "x86_64": "https://cmake.org/files/v3.11/cmake-{{.version}}-win64-x64.msi"
       },
-      "version": "3.10.3"
+      "version": "3.11.0"
     },
     "colemak": {
       "installer": {
@@ -1102,7 +1103,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "9.9.0"
+      "version": "9.10.0"
     },
     "node-lts": {
       "installer": {
@@ -1110,7 +1111,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "8.10.0"
+      "version": "8.11.0"
     },
     "nordvpn": {
       "installer": {
@@ -1329,7 +1330,7 @@
         "kind": "nsis",
         "x86": "https://download.jetbrains.com/python/pycharm-community-{{.version}}.exe"
       },
-      "version": "2017.3.4"
+      "version": "2018.1"
     },
     "python2": {
       "installer": {
@@ -1381,7 +1382,7 @@
         "x86": "https://www.python.org/ftp/python/{{.version}}/python-{{.version}}.exe",
         "x86_64": "https://www.python.org/ftp/python/{{.version}}/python-{{.version}}-amd64.exe"
       },
-      "version": "3.6.4"
+      "version": "3.6.5"
     },
     "qbittorrent": {
       "installer": {
@@ -1889,7 +1890,7 @@
         "kind": "innosetup",
         "x86": "https://downloads.sourceforge.net/project/winscp/WinSCP/{{.version}}/WinSCP-{{.version}}-Setup.exe"
       },
-      "version": "5.13"
+      "version": "5.13.1"
     },
     "wix": {
       "installer": {
