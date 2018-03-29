@@ -750,6 +750,14 @@
       },
       "version": "latest"
     },
+    "google-chrome-beta": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://dl.google.com/tag/s/dl/chrome/install/beta/googlechromebetastandaloneenterprise.msi",
+        "x86_64": "https://dl.google.com/tag/s/dl/chrome/install/beta/googlechromebetastandaloneenterprise64.msi"
+      },
+      "version": "latest"
+    },
     "google-drive": {
       "installer": {
         "kind": "msi",
