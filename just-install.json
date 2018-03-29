@@ -1495,6 +1495,27 @@
       },
       "version": "1.1.3"
     },
+    "skype": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "extension": ".exe",
+          "arguments": [
+            "msiexec",
+            "/q",
+            "/i",
+            "{{.installer}}",
+            "ALLUSERS=1",
+            "REBOOT=ReallySuppress",
+            "STARTSKYPE=FALSE",
+            "TRANSFORMS=:RemoveDesktopShortcut.mst",
+            "TRANSFORMS=:RemoveStartup.mst"
+          ]
+        },
+        "x86": "http://www.skype.com/go/getskype-msi"
+      },
+      "version": "latest-classic"
+    },
     "slack": {
       "installer": {
         "kind": "custom",
