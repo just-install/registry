@@ -730,7 +730,7 @@
         "x86": "https://dl.google.com/go/go{{.version}}.windows-386.msi",
         "x86_64": "https://dl.google.com/go/go{{.version}}.windows-amd64.msi"
       },
-      "version": "1.10"
+      "version": "1.10.1"
     },
     "gog-galaxy": {
       "installer": {
@@ -1062,7 +1062,7 @@
         "kind": "nsis",
         "x86": "https://download.mp3tag.de/mp3tagv{{.version}}setup.exe"
       },
-      "version": "286"
+      "version": "287"
     },
     "mpc-hc": {
       "installer": {
@@ -1584,7 +1584,7 @@
         "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%20{{.version}}%20Setup.exe",
         "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%20{{.version}}%20x64%20Setup.exe"
       },
-      "version": "3158"
+      "version": "3159"
     },
     "subversion": {
       "installer": {
