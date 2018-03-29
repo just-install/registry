@@ -1949,9 +1949,12 @@
     "yarn": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/yarnpkg/yarn/releases/download/v{{.version}}/yarn-{{.version}}.msi"
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://yarnpkg.com/latest.msi"
       },
-      "version": "1.5.1"
+      "version": "latest"
     },
     "ynab": {
       "installer": {
