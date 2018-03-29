@@ -840,10 +840,10 @@
     "inkscape": {
       "installer": {
         "kind": "msi",
-        "x86": "https://inkscape.org/gallery/item/10688/Inkscape-{{.version}}.msi",
-        "x86_64": "https://inkscape.org/gallery/item/10689/Inkscape-{{.version}}-x64.msi"
+        "x86": "https://media.inkscape.org/dl/resources/file/inkscape-{{.version}}-x86.msi",
+        "x86_64": "https://media.inkscape.org/dl/resources/file/inkscape-{{.version}}-x64.msi"
       },
-      "version": "0.92.1"
+      "version": "0.92.3"
     },
     "innosetup": {
       "installer": {
