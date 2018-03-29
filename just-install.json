@@ -4,11 +4,13 @@
   "packages": {
     "1password": {
       "installer": {
+        "options": {
+          "extension": ".exe"
+        },
         "kind": "innosetup",
-        "x86": "https://c.1password.com/dist/1P/win4/1Password-{{.version}}.exe"
+        "x86": "https://app-updates.agilebits.com/download/OPW4"
       },
-      "version": "4.6.2.626",
-      "jiup": false
+      "version": "latest-4.x"
     },
     "7zip": {
       "installer": {
