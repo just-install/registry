@@ -286,7 +286,7 @@
         "x86": "https://bintray.com/cryptomator/cryptomator/download_file?file_path=Cryptomator-{{.version}}-x86.exe",
         "x86_64": "https://bintray.com/cryptomator/cryptomator/download_file?file_path=Cryptomator-{{.version}}-x64.exe"
       },
-      "version": "1.3.3"
+      "version": "1.3.4"
     },
     "crystaldisk-info": {
       "installer": {
@@ -1062,7 +1062,7 @@
         "kind": "nsis",
         "x86": "https://download.mp3tag.de/mp3tagv{{.version}}setup.exe"
       },
-      "version": "287"
+      "version": "287a"
     },
     "mpc-hc": {
       "installer": {
@@ -1455,10 +1455,10 @@
             "{{.SYSTEMDRIVE}}\\Ruby193\bin\rubyw.exe"
           ]
         },
-        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-{{.version}}-2/rubyinstaller-{{.version}}-2-x86.exe",
-        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-{{.version}}-2/rubyinstaller-{{.version}}-2-x64.exe"
+        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-{{.version}}-1/rubyinstaller-{{.version}}-1-x86.exe",
+        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-{{.version}}-1/rubyinstaller-{{.version}}-1-x64.exe"
       },
-      "version": "2.5.0"
+      "version": "2.5.1"
     },
     "sdm": {
       "installer": {
