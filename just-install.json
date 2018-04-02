@@ -1467,6 +1467,13 @@
       },
       "version": "latest"
     },
+    "seafile-client": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://download.seadrive.org/seafile-{{.version}}-en.msi"
+      },
+      "version": "6.1.7"
+    },
     "sharex": {
       "installer": {
         "kind": "innosetup",
