@@ -89,6 +89,16 @@
       },
       "version": "latest"
     },
+    "azcopy": {
+      "installer": {
+        "kind": "msi",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "http://aka.ms/downloadazcopy"
+      },
+      "version": "latest"
+    },
     "azure-cli": {
       "installer": {
         "kind": "msi",
