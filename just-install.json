@@ -1877,7 +1877,7 @@
         },
         "x86": "https://aka.ms/vs/15/release/vs_community.exe"
       },
-      "version": "2017"
+      "version": "latest-2017"
     },
     "vivaldi": {
       "installer": {
