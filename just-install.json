@@ -791,6 +791,13 @@
       },
       "version": "0.8.0"
     },
+    "gpg4win": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://files.gpg4win.org/gpg4win-latest.exe"
+      },
+      "version": "latest"
+    },
     "greenshot": {
       "installer": {
         "kind": "innosetup",
