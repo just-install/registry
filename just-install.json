@@ -953,9 +953,9 @@
     },
     "keepass": {
       "installer": {
-        "kind": "innosetup",
+        "kind": "msi",
         "options": {
-          "extension": ".exe"
+          "extension": ".msi"
         },
         "x86": "https://downloads.sourceforge.net/project/keepass/KeePass%202.x/{{.version}}/KeePass-{{.version}}-Setup.exe"
       },
