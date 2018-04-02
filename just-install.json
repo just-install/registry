@@ -405,6 +405,17 @@
       },
       "version": "4.7.1"
     },
+    "doublecmd": {
+      "installer": {
+        "kind": "msi",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.8.2%20beta/doublecmd-{{.version}}.i386-win32.msi/download",
+        "x86_64": "https://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.8.2%20beta/doublecmd-{{.version}}.x86_64-win64.msi/download"
+      },
+      "version": "0.8.2"
+    },
     "dropbox": {
       "installer": {
         "kind": "custom",
