@@ -1218,6 +1218,13 @@
       },
       "version": "1.23.2"
     },
+    "nxlog": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://nxlog.co/system/files/products/files/348/nxlog-ce-{{.version}}.msi"
+      },
+      "version": "2.9.1716"
+    },
     "obs-studio": {
       "installer": {
         "kind": "nsis",
