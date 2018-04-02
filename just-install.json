@@ -1951,6 +1951,14 @@
       },
       "version": "5.13.1"
     },
+    "wireshark": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-{{.version}}.msi",
+        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-{{.version}}.msi"
+      },
+      "version": "2.4.5"
+    },
     "wix": {
       "installer": {
         "kind": "custom",
