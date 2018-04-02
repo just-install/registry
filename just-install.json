@@ -115,7 +115,7 @@
         "kind": "innosetup",
         "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v{{.version}}/BCUninstaller_{{.version}}_setup.exe"
       },
-      "version": "4.3.1"
+      "version": "4.3.2"
     },
     "bitpay": {
       "installer": {
@@ -1121,7 +1121,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "9.10.0"
+      "version": "9.10.1"
     },
     "node-lts": {
       "installer": {
@@ -1129,7 +1129,7 @@
         "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
         "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
       },
-      "version": "8.11.0"
+      "version": "8.11.1"
     },
     "nordvpn": {
       "installer": {
@@ -1584,7 +1584,7 @@
         "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%20{{.version}}%20Setup.exe",
         "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%20{{.version}}%20x64%20Setup.exe"
       },
-      "version": "3159"
+      "version": "3160"
     },
     "subversion": {
       "installer": {
@@ -1732,7 +1732,7 @@
         },
         "x86": "https://sourceforge.net/projects/veracrypt/files/VeraCrypt%20{{.version}}/VeraCrypt%20Setup%20{{.version}}.exe/download"
       },
-      "version": "1.21"
+      "version": "1.22"
     },
     "virtualbox": {
       "installer": {
