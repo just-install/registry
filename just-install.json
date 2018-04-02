@@ -593,6 +593,14 @@
       },
       "version": "latest"
     },
+    "filezilla": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://download.filezilla-project.org/client/FileZilla_latest_win32-setup.exe",
+        "x86_64": "https://download.filezilla-project.org/client/FileZilla_latest_win64-setup.exe"
+      },
+      "version": "latest"
+    },
     "filezilla-server": {
       "installer": {
         "kind": "nsis",
