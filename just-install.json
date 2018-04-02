@@ -1726,6 +1726,7 @@
     },
     "veracrypt": {
       "installer": {
+        "interactive": true,
         "kind": "as-is",
         "options": {
           "extension": ".exe"
