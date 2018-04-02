@@ -548,6 +548,14 @@
       },
       "version": "5.6.5"
     },
+    "erlang": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "http://erlang.org/download/otp_win32_{{.version}}.exe",
+        "x86_64": "http://erlang.org/download/otp_win64_{{.version}}.exe"
+      },
+      "version": "20.3"
+    },
     "etcher": {
       "installer": {
         "kind": "nsis",
