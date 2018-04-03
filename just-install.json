@@ -722,7 +722,7 @@
         "x86": "https://github.com/git-for-windows/git/releases/download/v{{.version}}.windows.1/Git-{{.version}}-32-bit.exe",
         "x86_64": "https://github.com/git-for-windows/git/releases/download/v{{.version}}.windows.1/Git-{{.version}}-64-bit.exe"
       },
-      "version": "2.16.3"
+      "version": "2.17.0"
     },
     "gitextensions": {
       "installer": {
@@ -1921,9 +1921,9 @@
       "installer": {
         "kind": "nsis",
         "interactive": true,
-        "x86": "https://c945a368a5487bece4a3-a5a4fb8b39b86d00a1eb7d52603ae1d2.ssl.cf1.rackcdn.com/VPN_Unlimited_4_18_008_release_STANDALONE.exe"
+        "x86": "https://c945a368a5487bece4a3-a5a4fb8b39b86d00a1eb7d52603ae1d2.ssl.cf1.rackcdn.com/VPN_Unlimited_v{{.version}}.exe"
       },
-      "version": "4.18.008"
+      "version": "4.19"
     },
     "workflowy": {
       "installer": {
@@ -2012,7 +2012,7 @@
         "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-{{.version}}.msi",
         "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-{{.version}}.msi"
       },
-      "version": "2.4.5"
+      "version": "2.4.6"
     },
     "wix": {
       "installer": {
