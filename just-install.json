@@ -875,7 +875,7 @@
         "x86": "https://github.com/gohugoio/hugo/releases/download/v{{.version}}/hugo_{{.version}}_Windows-32bit.zip",
         "x86_64": "https://github.com/gohugoio/hugo/releases/download/v{{.version}}/hugo_{{.version}}_Windows-64bit.zip"
       },
-      "version": "0.38"
+      "version": "0.38.1"
     },
     "imageglass": {
       "installer": {
@@ -1022,7 +1022,7 @@
         "x86": "https://download.documentfoundation.org/libreoffice/stable/{{.version}}/win/x86/LibreOffice_{{.version}}_Win_x86.msi",
         "x86_64": "https://download.documentfoundation.org/libreoffice/stable/{{.version}}/win/x86_64/LibreOffice_{{.version}}_Win_x64.msi"
       },
-      "version": "6.0.2"
+      "version": "6.0.3"
     },
     "lockhunter": {
       "installer": {
@@ -1930,7 +1930,7 @@
         "kind": "nsis",
         "x86": "https://github.com/workflowy/desktop/releases/download/v{{.version}}/WorkFlowy.exe"
       },
-      "version": "1.0.13"
+      "version": "1.0.14"
     },
     "webtorrent": {
       "installer": {
