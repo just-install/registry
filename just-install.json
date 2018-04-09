@@ -271,9 +271,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.180318.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.180408.exe"
       },
-      "version": "18.03.18"
+      "version": "18.04.08"
     },
     "cpu-z": {
       "installer": {
@@ -2093,7 +2093,7 @@
         },
         "x86": "https://github.com/rg3/youtube-dl/releases/download/{{.version}}/youtube-dl.exe"
       },
-      "version": "2018.04.03"
+      "version": "2018.04.09"
     }
   }
 }
