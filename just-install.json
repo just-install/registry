@@ -1356,9 +1356,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-1046ba85f/Plex-Media-Server-{{.version}}-1046ba85f.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/{{.version}}-29f6d1796/Plex-Media-Server-{{.version}}-29f6d1796.exe"
       },
-      "version": "1.12.1.4885"
+      "version": "1.12.2.4929"
     },
     "postman": {
       "installer": {
