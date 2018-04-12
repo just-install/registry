@@ -537,6 +537,13 @@
       },
       "version": "latest"
     },
+    "em-client": {
+      "installer": {
+        "kind": "msi",
+        "x86": "http://www.emclient.com/dist/latest/setup.msi"
+      },
+      "version": "latest"
+    },
     "emacs": {
       "installer": {
         "kind": "zip",
