@@ -851,14 +851,6 @@
       },
       "version": "8.0.586"
     },
-    "handbrake": {
-      "installer": {
-        "kind": "nsis",
-        "x86": "https://download.handbrake.fr/releases/{{.version}}/HandBrake-{{.version}}-i686-Win_GUI.exe",
-        "x86_64": "https://download.handbrake.fr/releases/{{.version}}/HandBrake-{{.version}}-x86_64-Win_GUI.exe"
-      },
-      "version": "1.1.0"
-    },
     "hashcheck": {
       "installer": {
         "kind": "nsis",
