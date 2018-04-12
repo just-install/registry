@@ -2085,6 +2085,16 @@
       },
       "version": "latest"
     },
+    "yatqa": {
+      "installer": {
+        "kind": "nsis",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://dl.yat.qa/stable/"
+      },
+      "version": "latest"
+    },
     "ynab": {
       "installer": {
         "kind": "innosetup",
