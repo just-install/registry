@@ -443,6 +443,16 @@
       },
       "version": "latest"
     },
+    "dynalist": {
+      "installer": {
+        "kind": "nsis",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://dynalist.io/standalone/download?file=Dynalist%20Setup.exe"
+      },
+      "version": "latest"
+    },
     "eac": {
       "installer": {
         "kind": "nsis",
