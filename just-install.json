@@ -4,10 +4,10 @@
   "packages": {
     "1password": {
       "installer": {
+        "kind": "innosetup",
         "options": {
           "extension": ".exe"
         },
-        "kind": "innosetup",
         "x86": "https://app-updates.agilebits.com/download/OPW4"
       },
       "version": "latest-4.x"
@@ -53,11 +53,11 @@
       "installer": {
         "kind": "custom",
         "options": {
-          "extension": ".exe",
           "arguments": [
             "{{.installer}}",
             "--silent"
-          ]
+          ],
+          "extension": ".exe"
         },
         "x86": "https://atom.io/download/windows",
         "x86_64": "https://atom.io/download/windows_x64"
@@ -111,8 +111,8 @@
     },
     "battlenet": {
       "installer": {
-        "kind": "as-is",
         "interactive": true,
+        "kind": "as-is",
         "options": {
           "extension": ".exe"
         },
@@ -152,11 +152,11 @@
       "installer": {
         "kind": "custom",
         "options": {
-          "extension": ".exe",
           "arguments": [
             "{{.installer}}",
             "--silent"
-          ]
+          ],
+          "extension": ".exe"
         },
         "x86": "https://laptop-updates.brave.com/latest/winia32",
         "x86_64": "https://laptop-updates.brave.com/latest/winx64"
@@ -382,11 +382,11 @@
       "installer": {
         "kind": "custom",
         "options": {
-          "extension": ".exe",
           "arguments": [
             "{{.installer}}",
             "--silent"
-          ]
+          ],
+          "extension": ".exe"
         },
         "x86": "https://discordapp.com/api/download?platform=win"
       },
@@ -407,12 +407,12 @@
       "installer": {
         "kind": "custom",
         "options": {
-          "extension": ".exe",
           "arguments": [
             "{{.installer}}",
             "/q",
             "/norestart"
-          ]
+          ],
+          "extension": ".exe"
         },
         "x86": "https://download.microsoft.com/download/8/E/2/8E2BDDE7-F06E-44CC-A145-56C6B9BBE5DD/NDP471-KB4033344-Web.exe"
       },
@@ -604,8 +604,8 @@
     },
     "fences": {
       "installer": {
-        "kind": "nsis",
         "interactive": true,
+        "kind": "nsis",
         "options": {
           "extension": ".exe"
         },
@@ -741,13 +741,6 @@
       },
       "version": "2.17.0"
     },
-    "gitextensions": {
-      "installer": {
-        "kind": "msi",
-        "x86": "https://github.com/gitextensions/gitextensions/releases/download/v{{.version}}/GitExtensions-{{.version}}-Setup.msi"
-      },
-      "version": "2.51.01"
-    },
     "git-lfs": {
       "installer": {
         "kind": "innosetup",
@@ -759,6 +752,13 @@
         "x86": "https://github.com/git-lfs/git-lfs/releases/download/v{{.version}}/git-lfs-windows-{{.version}}.exe"
       },
       "version": "2.4.0"
+    },
+    "gitextensions": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://github.com/gitextensions/gitextensions/releases/download/v{{.version}}/GitExtensions-{{.version}}-Setup.msi"
+      },
+      "version": "2.51.01"
     },
     "github": {
       "installer": {
@@ -970,6 +970,16 @@
       },
       "version": "2.38"
     },
+    "keepass-keepasshttp": {
+      "installer": {
+        "kind": "zip",
+        "options": {
+          "destination": "{{.PROGRAMFILES_X86}}\\KeePass Password Safe 2\\Plugins"
+        },
+        "x86": "https://github.com/pfn/keepasshttp/archive/{{.version}}.zip"
+      },
+      "version": "1.8.4.2"
+    },
     "keepassxc": {
       "installer": {
         "kind": "nsis",
@@ -999,16 +1009,6 @@
         "x86": "https://prerelease.keybase.io/keybase_setup_386.exe"
       },
       "version": "latest"
-    },
-    "keepass-keepasshttp": {
-      "installer": {
-        "kind": "zip",
-        "options": {
-          "destination": "{{.PROGRAMFILES_X86}}\\KeePass Password Safe 2\\Plugins"
-        },
-        "x86": "https://github.com/pfn/keepasshttp/archive/{{.version}}.zip"
-      },
-      "version": "1.8.4.2"
     },
     "kicad": {
       "installer": {
@@ -1044,11 +1044,11 @@
       "installer": {
         "kind": "custom",
         "options": {
-          "extension": ".exe",
           "arguments": [
             "{{.installer}}",
             "--silent"
-          ]
+          ],
+          "extension": ".exe"
         },
         "x86": "https://updates.getmailspring.com/download?platform=win32"
       },
@@ -1133,8 +1133,8 @@
     },
     "mullvad": {
       "installer": {
-        "kind": "nsis",
         "interactive": true,
+        "kind": "nsis",
         "options": {
           "extension": ".exe"
         },
@@ -1373,11 +1373,11 @@
       "installer": {
         "kind": "custom",
         "options": {
-          "extension": ".exe",
           "arguments": [
             "{{.installer}}",
             "--silent"
-          ]
+          ],
+          "extension": ".exe"
         },
         "x86": "https://dl.pstmn.io/download/latest/win32",
         "x86_64": "https://dl.pstmn.io/download/latest/win64"
@@ -1480,11 +1480,11 @@
       "installer": {
         "kind": "custom",
         "options": {
-          "extension": ".exe",
           "arguments": [
             "{{.installer}}",
             "--silent"
-          ]
+          ],
+          "extension": ".exe"
         },
         "x86": "https://getrambox.herokuapp.com/download/win32_ia32",
         "x86_64": "https://getrambox.herokuapp.com/download/win32_x64"
@@ -1572,7 +1572,6 @@
       "installer": {
         "kind": "custom",
         "options": {
-          "extension": ".exe",
           "arguments": [
             "msiexec",
             "/q",
@@ -1583,7 +1582,8 @@
             "STARTSKYPE=FALSE",
             "TRANSFORMS=:RemoveDesktopShortcut.mst",
             "TRANSFORMS=:RemoveStartup.mst"
-          ]
+          ],
+          "extension": ".exe"
         },
         "x86": "http://www.skype.com/go/getskype-msi"
       },
@@ -1593,11 +1593,11 @@
       "installer": {
         "kind": "custom",
         "options": {
-          "extension": ".exe",
           "arguments": [
             "{{.installer}}",
             "--silent"
-          ]
+          ],
+          "extension": ".exe"
         },
         "x86": "https://slack.com/ssb/download-win"
       },
@@ -1818,13 +1818,13 @@
       "installer": {
         "kind": "custom",
         "options": {
-          "shims": [
-            "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBox.exe",
-            "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBoxManage.exe"
-          ],
           "arguments": [
             "{{.installer}}",
             "--silent"
+          ],
+          "shims": [
+            "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBox.exe",
+            "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBoxManage.exe"
           ]
         },
         "x86": "https://download.virtualbox.org/virtualbox/{{.version}}/VirtualBox-{{.version}}-121009-Win.exe"
@@ -1859,14 +1859,14 @@
       "installer": {
         "kind": "custom",
         "options": {
-          "extension": ".exe",
           "arguments": [
             "{{.installer}}",
             "/norestart",
             "/sp-",
             "/verysilent",
             "/mergetasks=!runcode"
-          ]
+          ],
+          "extension": ".exe"
         },
         "x86": "https://go.microsoft.com/fwlink/?LinkID=623230",
         "x86_64": "https://go.microsoft.com/fwlink/?Linkid=852157"
@@ -1877,12 +1877,12 @@
       "installer": {
         "kind": "custom",
         "options": {
-          "extension": ".exe",
           "arguments": [
             "{{.installer}}",
             "--quiet",
             "--norestart"
-          ]
+          ],
+          "extension": ".exe"
         },
         "x86": "https://aka.ms/vs/15/release/vs_community.exe"
       },
@@ -1928,18 +1928,11 @@
     },
     "vpnunlimited": {
       "installer": {
-        "kind": "nsis",
         "interactive": true,
+        "kind": "nsis",
         "x86": "https://c945a368a5487bece4a3-a5a4fb8b39b86d00a1eb7d52603ae1d2.ssl.cf1.rackcdn.com/VPN_Unlimited_v{{.version}}.exe"
       },
       "version": "4.19"
-    },
-    "workflowy": {
-      "installer": {
-        "kind": "nsis",
-        "x86": "https://github.com/workflowy/desktop/releases/download/v{{.version}}/WorkFlowy.exe"
-      },
-      "version": "1.0.14"
     },
     "webtorrent": {
       "installer": {
@@ -2060,6 +2053,13 @@
         "x86": "https://github.com/WixEdit/WixEdit/releases/download/v{{.version}}.0/wixedit-{{.version}}.msi"
       },
       "version": "0.7.5"
+    },
+    "workflowy": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://github.com/workflowy/desktop/releases/download/v{{.version}}/WorkFlowy.exe"
+      },
+      "version": "1.0.14"
     },
     "wox": {
       "installer": {
