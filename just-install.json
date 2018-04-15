@@ -125,7 +125,7 @@
         "kind": "innosetup",
         "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v{{.version}}/BCUninstaller_{{.version}}_setup.exe"
       },
-      "version": "4.3.2"
+      "version": "4.3.3"
     },
     "bitpay": {
       "installer": {
@@ -1288,7 +1288,7 @@
         },
         "x86": "https://www.mls-software.com/files/setupssh-{{.version}}p1-1.exe"
       },
-      "version": "7.6"
+      "version": "7.7"
     },
     "openvpn": {
       "installer": {
@@ -1559,7 +1559,7 @@
         "kind": "nsis",
         "x86": "https://updates.signal.org/desktop/signal-desktop-win-{{.version}}.exe"
       },
-      "version": "1.7.0"
+      "version": "1.7.1"
     },
     "simplenote": {
       "installer": {
@@ -1770,10 +1770,10 @@
         "options": {
           "extension": ".msi"
         },
-        "x86": "https://sourceforge.net/projects/tortoisesvn/files/{{.version}}/Application/TortoiseSVN-{{.version}}.27907-win32-svn-{{.version}}.msi/download",
-        "x86_64": "https://sourceforge.net/projects/tortoisesvn/files/{{.version}}/Application/TortoiseSVN-{{.version}}.27907-x64-svn-{{.version}}.msi/download"
+        "x86": "https://osdn.net/projects/tortoisesvn/storage/{{.version}}/Application/TortoiseSVN-{{.version}}.28176-win32-svn-{{.version}}.msi",
+        "x86_64": "https://osdn.net/projects/tortoisesvn/storage/{{.version}}/Application/TortoiseSVN-{{.version}}.28176-x64-svn-{{.version}}.msi"
       },
-      "version": "1.9.7"
+      "version": "1.10.0"
     },
     "uplay": {
       "installer": {
