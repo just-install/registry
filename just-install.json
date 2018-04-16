@@ -477,10 +477,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-CPP"
         },
-        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3/eclipse-cpp-oxygen-3-win32.zip&r=1",
-        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3/eclipse-cpp-oxygen-3-win32-x86_64.zip&r=1"
+        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-cpp-oxygen-3a-win32.zip&r=1",
+        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-cpp-oxygen-3a-win32-x86_64.zip&r=1"
       },
-      "version": "4.7.3"
+      "version": "4.7.3a"
     },
     "eclipse-java": {
       "installer": {
