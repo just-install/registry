@@ -271,9 +271,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v{{.version}}/ConEmuSetup.180411.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v18.04.15/ConEmuSetup.180415.exe"
       },
-      "version": "18.04.11"
+      "version": "18.04.15"
     },
     "cpu-z": {
       "installer": {
@@ -341,10 +341,10 @@
     "dbeaver": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/dbeaver/dbeaver/releases/download/{{.version}}/dbeaver-ce-{{.version}}-x86-setup.exe",
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/{{.version}}/dbeaver-ce-{{.version}}-x86_64-setup.exe"
+        "x86": "https://github.com/dbeaver/dbeaver/releases/download/5.0.3/dbeaver-ce-5.0.3-x86-setup.exe",
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/5.0.3/dbeaver-ce-5.0.3-x86_64-setup.exe"
       },
-      "version": "5.0.2"
+      "version": "5.0.3"
     },
     "defraggler": {
       "installer": {
@@ -881,10 +881,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v{{.version}}/hugo_{{.version}}_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v{{.version}}/hugo_{{.version}}_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.39/hugo_0.39_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.39/hugo_0.39_Windows-64bit.zip"
       },
-      "version": "0.38.2"
+      "version": "0.39"
     },
     "imageglass": {
       "installer": {
@@ -2110,9 +2110,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/rg3/youtube-dl/releases/download/{{.version}}/youtube-dl.exe"
+        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.04.16/youtube-dl.exe"
       },
-      "version": "2018.04.09"
+      "version": "2018.04.16"
     }
   }
 }
