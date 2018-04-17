@@ -1269,9 +1269,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES_X86}}\\"
         },
-        "x86": "http://openhardwaremonitor.org/files/openhardwaremonitor-v{{.version}}.zip"
+        "x86": "http://openhardwaremonitor.org/files/openhardwaremonitor-v0.8.0-beta.zip"
       },
-      "version": "0.8.0-beta"
+      "version": "0.8.0"
     },
     "openssh": {
       "installer": {
