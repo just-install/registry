@@ -234,10 +234,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://cmake.org/files/v3.11/cmake-{{.version}}-win32-x86.msi",
-        "x86_64": "https://cmake.org/files/v3.11/cmake-{{.version}}-win64-x64.msi"
+        "x86": "https://cmake.org/files/v3.11/cmake-3.11.1-win32-x86.msi",
+        "x86_64": "https://cmake.org/files/v3.11/cmake-3.11.1-win64-x64.msi"
       },
-      "version": "3.11.0"
+      "version": "3.11.1"
     },
     "colemak": {
       "installer": {
@@ -271,9 +271,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v18.04.15/ConEmuSetup.180415.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v18.04.16/ConEmuSetup.180416.exe"
       },
-      "version": "18.04.15"
+      "version": "18.04.16"
     },
     "cpu-z": {
       "installer": {
@@ -920,10 +920,10 @@
             "/s"
           ]
         },
-        "x86": "http://download.oracle.com/otn-pub/java/jdk/8u161-b12/2f38c3b165be4555a1fa6e98c45e0808/jdk-8u161-windows-i586.exe",
-        "x86_64": "http://download.oracle.com/otn-pub/java/jdk/8u161-b12/2f38c3b165be4555a1fa6e98c45e0808/jdk-8u161-windows-x64.exe"
+        "x86": "http://download.oracle.com/otn-pub/java/jdk/8u171-b11/512cd62ec5174c3487ac17c61aaa89e8/jdk-8u171-windows-i586.exe",
+        "x86_64": "http://download.oracle.com/otn-pub/java/jdk/8u171-b11/512cd62ec5174c3487ac17c61aaa89e8/jdk-8u171-windows-x64.exe"
       },
-      "version": "8u161-b12"
+      "version": "8u171-b11"
     },
     "jetbrains-toolbox": {
       "installer": {
