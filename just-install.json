@@ -1104,9 +1104,9 @@
     "mono": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.mono-project.com/archive/5.10.0/windows-installer/mono-5.10.0.160-x64-0.msi"
+        "x86": "https://download.mono-project.com/archive/5.10.1/windows-installer/mono-5.10.1.47-x64-0.msi"
       },
-      "version": "5.10.0.160"
+      "version": "5.10.1.47"
     },
     "mountainduck": {
       "installer": {
