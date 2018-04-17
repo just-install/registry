@@ -1104,7 +1104,7 @@
     "mono": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.mono-project.com/archive/5.10.0/windows-installer/mono-{{.version}}-gtksharp-2.12.45-win32-0.msi"
+        "x86": "https://download.mono-project.com/archive/5.10.0/windows-installer/mono-5.10.0.160-x64-0.msi"
       },
       "version": "5.10.0.160"
     },
