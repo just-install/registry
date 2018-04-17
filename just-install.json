@@ -1119,9 +1119,9 @@
     "mp3tag": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.mp3tag.de/mp3tagv{{.version}}setup.exe"
+        "x86": "https://download.mp3tag.de/mp3tagv287asetup.exe"
       },
-      "version": "287a"
+      "version": "2.87a"
     },
     "mpc-hc": {
       "installer": {
