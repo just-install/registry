@@ -1617,9 +1617,9 @@
     "sourcetree": {
       "installer": {
         "kind": "advancedinstaller",
-        "x86": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-{{.version}}.exe"
+        "x86": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-2.5.4.exe"
       },
-      "version": "2.4.8.0"
+      "version": "2.5.4"
     },
     "steam": {
       "installer": {
