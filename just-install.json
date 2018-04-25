@@ -31,9 +31,9 @@
     "android-studio-ide": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.google.com/dl/android/studio/install/{{.version}}/android-studio-ide-173.4697961-windows.exe"
+        "x86": "https://dl.google.com/dl/android/studio/install/3.1.2.0/android-studio-ide-173.4720617-windows.exe"
       },
-      "version": "3.1.1.0"
+      "version": "3.1.2.0"
     },
     "anydesk": {
       "installer": {
@@ -123,9 +123,9 @@
     "bcuninstaller": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v{{.version}}/BCUninstaller_{{.version}}_setup.exe"
+        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v4.3.4/BCUninstaller_4.3.4_setup.exe"
       },
-      "version": "4.3.3"
+      "version": "4.3.4"
     },
     "bitpay": {
       "installer": {
@@ -177,9 +177,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.ccleaner.com/ccsetup541.exe"
+        "x86": "https://download.ccleaner.com/ccsetup542.exe"
       },
-      "version": "5.41"
+      "version": "5.42"
     },
     "cdburnerxp": {
       "installer": {
@@ -271,9 +271,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v18.04.18/ConEmuSetup.180418.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v18.04.22/ConEmuSetup.180422.exe"
       },
-      "version": "18.04.18"
+      "version": "18.04.22"
     },
     "cpu-z": {
       "installer": {
@@ -564,9 +564,9 @@
     "enpass": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.sinew.in/windows/setup/5-6-5-1/Enpass_{{.version}}_Setup.exe"
+        "x86": "http://dl.sinew.in/windows/setup/5-6-8/Enpass_5.6.8_Setup.exe"
       },
-      "version": "5.6.5"
+      "version": "5.6.8"
     },
     "erlang": {
       "installer": {
@@ -795,9 +795,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_{{.version}}.exe"
+        "x86": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_1.2.41.110.exe"
       },
-      "version": "1.2.40.57"
+      "version": "1.2.41.110"
     },
     "google-chrome": {
       "installer": {
@@ -881,10 +881,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.39/hugo_0.39_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.39/hugo_0.39_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.40.1/hugo_0.40.1_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.40.1/hugo_0.40.1_Windows-64bit.zip"
       },
-      "version": "0.39"
+      "version": "0.40.1"
     },
     "imageglass": {
       "installer": {
@@ -1177,10 +1177,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v{{.version}}/node-v{{.version}}-x64.msi"
+        "x86": "https://nodejs.org/dist/v10.0.0/node-v10.0.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v10.0.0/node-v10.0.0-x64.msi"
       },
-      "version": "9.11.1"
+      "version": "10.0.0"
     },
     "node-lts": {
       "installer": {
@@ -1343,10 +1343,10 @@
     "perl": {
       "installer": {
         "kind": "msi",
-        "x86": "http://strawberryperl.com/download/5.26.1.1/strawberry-perl-5.26.1.1-32bit.msi",
-        "x86_64": "http://strawberryperl.com/download/5.26.1.1/strawberry-perl-5.26.1.1-64bit.msi"
+        "x86": "http://strawberryperl.com/download/5.26.2.1/strawberry-perl-5.26.2.1-32bit.msi",
+        "x86_64": "http://strawberryperl.com/download/5.26.2.1/strawberry-perl-5.26.2.1-64bit.msi"
       },
-      "version": "5.26.1.1"
+      "version": "5.26.2.1"
     },
     "pia": {
       "installer": {
@@ -1557,9 +1557,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-{{.version}}.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.8.0.exe"
       },
-      "version": "1.7.1"
+      "version": "1.8.0"
     },
     "simplenote": {
       "installer": {
@@ -1609,17 +1609,17 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/smplayer/files/SMPlayer/{{.version}}/smplayer-{{.version}}-win32.exe/download",
-        "x86_64": "https://sourceforge.net/projects/smplayer/files/SMPlayer/{{.version}}/smplayer-{{.version}}-x64.exe/download"
+        "x86": "https://sourceforge.net/projects/smplayer/files/SMPlayer/18.4.0/smplayer-18.4.0-win32.exe/download",
+        "x86_64": "https://sourceforge.net/projects/smplayer/files/SMPlayer/18.4.0/smplayer-18.4.0-x64.exe/download"
       },
-      "version": "18.3.0"
+      "version": "18.4.0"
     },
     "sourcetree": {
       "installer": {
         "kind": "advancedinstaller",
-        "x86": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-2.5.4.exe"
+        "x86": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-2.5.5.exe"
       },
-      "version": "2.5.4"
+      "version": "2.5.5"
     },
     "steam": {
       "installer": {
@@ -1899,18 +1899,18 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.{{.version}}.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.{{.version}}.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.1.15.1147.36.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.1.15.1147.36.x64.exe"
       },
-      "version": "1.14.1077.60"
+      "version": "1.15.1147.36"
     },
     "vlc": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://get.videolan.org/vlc/{{.version}}/win32/vlc-{{.version}}-win32.exe",
-        "x86_64": "https://get.videolan.org/vlc/{{.version}}/win64/vlc-{{.version}}-win64.exe"
+        "x86": "https://get.videolan.org/vlc/3.0.2/win32/vlc-3.0.2-win32.exe",
+        "x86_64": "https://get.videolan.org/vlc/3.0.2/win64/vlc-3.0.2-win64.exe"
       },
-      "version": "3.0.1"
+      "version": "3.0.2"
     },
     "voicemeeter": {
       "installer": {
@@ -2011,10 +2011,10 @@
     "wireshark": {
       "installer": {
         "kind": "msi",
-        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-{{.version}}.msi",
-        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-{{.version}}.msi"
+        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-2.6.0.exe",
+        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-2.6.0.exe"
       },
-      "version": "2.4.6"
+      "version": "2.6.0"
     },
     "wix": {
       "installer": {
@@ -2110,9 +2110,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.04.16/youtube-dl.exe"
+        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.04.25/youtube-dl.exe"
       },
-      "version": "2018.04.16"
+      "version": "2018.04.25"
     }
   }
 }
