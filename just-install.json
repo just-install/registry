@@ -33,7 +33,7 @@
         "kind": "nsis",
         "x86": "https://dl.google.com/dl/android/studio/install/3.1.2.0/android-studio-ide-173.4720617-windows.exe"
       },
-      "version": "173.4720617"
+      "version": "3.1.2.0"
     },
     "anydesk": {
       "installer": {
