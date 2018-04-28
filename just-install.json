@@ -1938,6 +1938,7 @@
       "version": "latest"
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "vpnunlimited": {
       "installer": {
         "interactive": true,
@@ -1946,6 +1947,8 @@
       },
       "version": "4.20"
 =======
+=======
+>>>>>>> refs/remotes/origin/master
     "workflowy": {
       "installer": {
         "kind": "as-is",
@@ -1955,7 +1958,10 @@
         "x86": "https://github.com/workflowy/desktop/releases/download/{{.version}}/WorkFlowy.exe"
       },
       "version": "v1.0.12"
+<<<<<<< HEAD
 >>>>>>> refs/remotes/origin/patch-1
+=======
+>>>>>>> refs/remotes/origin/master
     },
     "webtorrent": {
       "installer": {
