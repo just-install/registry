@@ -15,10 +15,10 @@
     "7zip": {
       "installer": {
         "kind": "msi",
-        "x86": "http://www.7-zip.org/a/7z1801.msi",
-        "x86_64": "http://www.7-zip.org/a/7z1801-x64.msi"
+        "x86": "https://www.7-zip.org/a/7z1805.msi",
+        "x86_64": "https://www.7-zip.org/a/7z1805-x64.msi"
       },
-      "version": "18.01"
+      "version": "18.05"
     },
     "anaconda": {
       "installer": {
@@ -130,9 +130,9 @@
     "bitpay": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/bitpay/copay/releases/download/v{{.version}}/BitPay.exe"
+        "x86": "https://github.com/bitpay/copay/releases/download/v4.2.0/BitPay.exe"
       },
-      "version": "3.15.2"
+      "version": "4.2.0"
     },
     "bleachbit": {
       "installer": {
@@ -784,10 +784,10 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dl.google.com/go/go{{.version}}.windows-386.msi",
-        "x86_64": "https://dl.google.com/go/go{{.version}}.windows-amd64.msi"
+        "x86": "https://dl.google.com/go/go1.10.2.windows-386.msi",
+        "x86_64": "https://dl.google.com/go/go1.10.2.windows-amd64.msi"
       },
-      "version": "1.10.1"
+      "version": "1.10.2"
     },
     "gog-galaxy": {
       "installer": {
@@ -1111,10 +1111,9 @@
     "mountainduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-{{.version}}.msi",
-        "x86_64": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-{{.version}}.msi"
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-2.4.0.9334.msi"
       },
-      "version": "2.3.3.9245"
+      "version": "2.4.0.9334"
     },
     "mp3tag": {
       "installer": {
@@ -1250,10 +1249,10 @@
     "octave": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://ftp.gnu.org/gnu/octave/windows/octave-{{.version}}-w32-installer.exe",
-        "x86_64": "https://ftp.gnu.org/gnu/octave/windows/octave-{{.version}}-w64-installer.exe"
+        "x86": "https://ftp.gnu.org/gnu/octave/windows/octave-4.4.0-w32-installer.exe",
+        "x86_64": "https://ftp.gnu.org/gnu/octave/windows/octave-4.4.0-w64-installer.exe"
       },
-      "version": "4.2.2"
+      "version": "4.4.0"
     },
     "onlyoffice-desktopeditors": {
       "installer": {
@@ -1425,10 +1424,10 @@
             "{{.SYSTEMDRIVE}}\\Python27\\pythonw.exe"
           ]
         },
-        "x86": "https://www.python.org/ftp/python/{{.version}}/python-{{.version}}.msi",
-        "x86_64": "https://www.python.org/ftp/python/{{.version}}/python-{{.version}}.amd64.msi"
+        "x86": "https://www.python.org/ftp/python/2.7.15/python-2.7.15.msi",
+        "x86_64": "https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi"
       },
-      "version": "2.7.14"
+      "version": "2.7.15"
     },
     "python2-vc": {
       "installer": {
@@ -1557,9 +1556,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.8.0.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.9.0.exe"
       },
-      "version": "1.8.0"
+      "version": "1.9.0"
     },
     "simplenote": {
       "installer": {
@@ -1657,10 +1656,10 @@
             "{{.PROGRAMFILES}}\\Sublime Text 3\\subl.exe"
           ]
         },
-        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203165%20Setup.exe",
-        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203165%20x64%20Setup.exe"
+        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203166%20Setup.exe",
+        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203166%20x64%20Setup.exe"
       },
-      "version": "3165"
+      "version": "3166"
     },
     "subversion": {
       "installer": {
@@ -1690,10 +1689,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Syncthing"
         },
-        "x86": "https://github.com/syncthing/syncthing/releases/download/v{{.version}}/syncthing-windows-386-v{{.version}}.zip",
-        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v{{.version}}/syncthing-windows-amd64-v{{.version}}.zip"
+        "x86": "https://github.com/syncthing/syncthing/releases/download/v0.14.47/syncthing-windows-386-v0.14.47.zip",
+        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v0.14.47/syncthing-windows-amd64-v0.14.47.zip"
       },
-      "version": "0.14.46"
+      "version": "0.14.47"
     },
     "sysinternals": {
       "installer": {
@@ -2110,9 +2109,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.04.25/youtube-dl.exe"
+        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.05.01/youtube-dl.exe"
       },
-      "version": "2018.04.25"
+      "version": "2018.05.01"
     }
   }
 }
