@@ -271,9 +271,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v18.04.29/ConEmuSetup.180429.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v18.05.03/ConEmuSetup.180503.exe"
       },
-      "version": "18.04.29"
+      "version": "18.05.03"
     },
     "cpu-z": {
       "installer": {
@@ -1797,10 +1797,10 @@
     "vagrant": {
       "installer": {
         "kind": "msi",
-        "x86": "https://releases.hashicorp.com/vagrant/2.0.4/vagrant_2.0.4_i686.msi",
-        "x86_64": "https://releases.hashicorp.com/vagrant/2.0.4/vagrant_2.0.4_x86_64.msi"
+        "x86": "https://releases.hashicorp.com/vagrant/2.1.0/vagrant_2.1.0_i686.msi",
+        "x86_64": "https://releases.hashicorp.com/vagrant/2.1.0/vagrant_2.1.0_x86_64.msi"
       },
-      "version": "2.0.4"
+      "version": "2.1.0"
     },
     "veracrypt": {
       "installer": {
