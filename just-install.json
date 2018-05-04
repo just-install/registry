@@ -278,9 +278,9 @@
     "cpu-z": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://download.cpuid.com/cpu-z/cpu-z_{{.version}}-en.exe"
+        "x86": "http://download.cpuid.com/cpu-z/cpu-z_1.85-en.exe"
       },
-      "version": "1.84"
+      "version": "1.85"
     },
     "crashplan": {
       "installer": {
@@ -1113,7 +1113,7 @@
         "kind": "msi",
         "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-2.4.0.9334.msi"
       },
-      "version": "2.4.0.9334"
+      "version": "2.4.1.9346"
     },
     "mp3tag": {
       "installer": {
