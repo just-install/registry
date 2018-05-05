@@ -1656,10 +1656,10 @@
             "{{.PROGRAMFILES}}\\Sublime Text 3\\subl.exe"
           ]
         },
-        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203168%20Setup.exe",
-        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203168%20x64%20Setup.exe"
+        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203169%20Setup.exe",
+        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203169%20x64%20Setup.exe"
       },
-      "version": "3168"
+      "version": "3169"
     },
     "subversion": {
       "installer": {
