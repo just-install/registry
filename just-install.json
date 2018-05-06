@@ -2109,7 +2109,7 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.05.01/youtube-dl.exe"
+        "x86": "https://github.com/rg3/youtube-dl/releases/download/{{.version}}/youtube-dl.exe"
       },
       "version": "2018.05.01"
     }
