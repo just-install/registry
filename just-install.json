@@ -966,9 +966,9 @@
         "options": {
           "extension": ".msi"
         },
-        "x86": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/{{.version}}/KeePass-{{.version}}.msi/download"
+        "x86": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.39/KeePass-2.39.msi/download"
       },
-      "version": "2.38"
+      "version": "2.39"
     },
     "keepass-keepasshttp": {
       "installer": {
@@ -1470,10 +1470,10 @@
     "qbittorrent": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://app.oldfoss.com:81/download/qBittorrent/qbittorrent_{{.version}}_setup.exe",
-        "x86_64": "http://app.oldfoss.com:81/download/qBittorrent/qbittorrent_{{.version}}_x64_setup.exe"
+        "x86": "http://app.oldfoss.com:81/download/qBittorrent/qbittorrent_4.1.0_setup.exe",
+        "x86_64": "http://app.oldfoss.com:81/download/qBittorrent/qbittorrent_4.1.0_x64_setup.exe"
       },
-      "version": "4.0.4"
+      "version": "4.1.0"
     },
     "rambox": {
       "installer": {
