@@ -1511,6 +1511,14 @@
       },
       "version": "latest"
     },
+    "retroarch": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://buildbot.libretro.com/stable/{{.version}}/windows/x86/RetroArch-{{.version}}-x86-setup.exe",
+        "x86_64": "https://buildbot.libretro.com/stable/{{.version}}/windows/x86_64/RetroArch-{{.version}}-x64-setup.exe"
+      },
+      "version": "1.7.3"
+    },
     "ruby": {
       "installer": {
         "kind": "innosetup",
@@ -2109,7 +2117,7 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.05.01/youtube-dl.exe"
+        "x86": "https://github.com/rg3/youtube-dl/releases/download/{{.version}}/youtube-dl.exe"
       },
       "version": "2018.05.01"
     }
