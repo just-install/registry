@@ -130,9 +130,9 @@
     "bitpay": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/bitpay/copay/releases/download/v4.3.1/BitPay.exe"
+        "x86": "https://github.com/bitpay/copay/releases/download/v4.3.3/BitPay.exe"
       },
-      "version": "4.3.1"
+      "version": "4.3.3"
     },
     "bleachbit": {
       "installer": {
@@ -675,16 +675,16 @@
     "flash-player": {
       "installer": {
         "kind": "msi",
-        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_29_plugin.msi"
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/29.0.0.171/install_flash_player_29_plugin.msi"
       },
-      "version": "29.0.0.140"
+      "version": "29.0.0.171"
     },
     "flash-player-ie": {
       "installer": {
         "kind": "msi",
-        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/{{.version}}/install_flash_player_29_active_x.msi"
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/29.0.0.171/install_flash_player_29_active_x.msi"
       },
-      "version": "29.0.0.140"
+      "version": "29.0.0.171"
     },
     "flux": {
       "installer": {
@@ -881,17 +881,17 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.40.2/hugo_0.40.2_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.40.2/hugo_0.40.2_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.40.3/hugo_0.40.3_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.40.3/hugo_0.40.3_Windows-64bit.zip"
       },
-      "version": "0.40.2"
+      "version": "0.40.3"
     },
     "imageglass": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/d2phap/ImageGlass/releases/download/{{.version}}/ImageGlass_{{.version}}.exe"
+        "x86": "https://github.com/d2phap/ImageGlass/releases/download/5.0.5.7/ImageGlass_5.0.5.7.exe"
       },
-      "version": "4.5.11.27"
+      "version": "5.0.5.7"
     },
     "inkscape": {
       "installer": {
@@ -983,10 +983,10 @@
     "keepassxc": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/keepassxreboot/keepassxc/releases/download/{{.version}}/KeePassXC-{{.version}}-Win32.exe",
-        "x86_64": "https://github.com/keepassxreboot/keepassxc/releases/download/{{.version}}/KeePassXC-{{.version}}-Win64.exe"
+        "x86": "https://github.com/keepassxreboot/keepassxc/releases/download/2.3.3/KeePassXC-2.3.3-Win32.exe",
+        "x86_64": "https://github.com/keepassxreboot/keepassxc/releases/download/2.3.3/KeePassXC-2.3.3-Win64.exe"
       },
-      "version": "2.3.1"
+      "version": "2.3.3"
     },
     "keeweb": {
       "installer": {
@@ -1028,10 +1028,10 @@
     "libreoffice": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.documentfoundation.org/libreoffice/stable/{{.version}}/win/x86/LibreOffice_{{.version}}_Win_x86.msi",
-        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/{{.version}}/win/x86_64/LibreOffice_{{.version}}_Win_x64.msi"
+        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.0.4/win/x86/LibreOffice_6.0.4_Win_x86.msi",
+        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.0.4/win/x86_64/LibreOffice_6.0.4_Win_x64.msi"
       },
-      "version": "6.0.3"
+      "version": "6.0.4"
     },
     "lockhunter": {
       "installer": {
@@ -1104,9 +1104,9 @@
     "mono": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.mono-project.com/archive/5.10.1/windows-installer/mono-5.10.1.47-x64-0.msi"
+        "x86": "https://download.mono-project.com/archive/5.12.0/windows-installer/mono-5.12.0.223-x64-0.msi"
       },
-      "version": "5.10.1.47"
+      "version": "5.12.0.223"
     },
     "mountainduck": {
       "installer": {
@@ -1176,10 +1176,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v10.0.0/node-v10.0.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v10.0.0/node-v10.0.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v10.1.0/node-v10.1.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v10.1.0/node-v10.1.0-x64.msi"
       },
-      "version": "10.0.0"
+      "version": "10.1.0"
     },
     "node-lts": {
       "installer": {
@@ -1364,9 +1364,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/1.12.3.4973-215c28d86/Plex-Media-Server-1.12.3.4973-215c28d86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/1.13.0.5023-31d3c0c65/Plex-Media-Server-1.13.0.5023-31d3c0c65.exe"
       },
-      "version": "1.12.3.4973"
+      "version": "1.13.0.5023"
     },
     "postman": {
       "installer": {
@@ -1543,9 +1543,9 @@
     "seafile-client": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.seadrive.org/seafile-{{.version}}-en.msi"
+        "x86": "https://download.seadrive.org/seafile-6.1.8-en.msi"
       },
-      "version": "6.1.7"
+      "version": "6.1.8"
     },
     "sharex": {
       "installer": {
@@ -1564,9 +1564,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.9.0.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.10.0.exe"
       },
-      "version": "1.9.0"
+      "version": "1.10.0"
     },
     "simplenote": {
       "installer": {
@@ -1664,10 +1664,10 @@
             "{{.PROGRAMFILES}}\\Sublime Text 3\\subl.exe"
           ]
         },
-        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203169%20Setup.exe",
-        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203169%20x64%20Setup.exe"
+        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203174%20Setup.exe",
+        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203174%20x64%20Setup.exe"
       },
-      "version": "3169"
+      "version": "3174"
     },
     "subversion": {
       "installer": {
@@ -1715,10 +1715,10 @@
     "teamspeak": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://dl.4players.de/ts/releases/{{.version}}/TeamSpeak3-Client-win32-{{.version}}.exe",
-        "x86_64": "http://dl.4players.de/ts/releases/{{.version}}/TeamSpeak3-Client-win64-{{.version}}.exe"
+        "x86": "http://dl.4players.de/ts/releases/3.1.9/TeamSpeak3-Client-win32-3.1.9.exe",
+        "x86_64": "http://dl.4players.de/ts/releases/3.1.9/TeamSpeak3-Client-win64-3.1.9.exe"
       },
-      "version": "3.1.8"
+      "version": "3.1.9"
     },
     "teamviewer": {
       "installer": {
@@ -1805,10 +1805,10 @@
     "vagrant": {
       "installer": {
         "kind": "msi",
-        "x86": "https://releases.hashicorp.com/vagrant/2.1.0/vagrant_2.1.0_i686.msi",
-        "x86_64": "https://releases.hashicorp.com/vagrant/2.1.0/vagrant_2.1.0_x86_64.msi"
+        "x86": "https://releases.hashicorp.com/vagrant/2.1.1/vagrant_2.1.1_i686.msi",
+        "x86_64": "https://releases.hashicorp.com/vagrant/2.1.1/vagrant_2.1.1_x86_64.msi"
       },
-      "version": "2.1.0"
+      "version": "2.1.1"
     },
     "veracrypt": {
       "installer": {
@@ -1834,9 +1834,9 @@
             "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBoxManage.exe"
           ]
         },
-        "x86": "https://download.virtualbox.org/virtualbox/5.2.10/VirtualBox-5.2.10-122406-Win.exe"
+        "x86": "https://download.virtualbox.org/virtualbox/5.2.12/VirtualBox-5.2.12-122591-Win.exe"
       },
-      "version": "5.2.10"
+      "version": "5.2.12"
     },
     "virtualbox-extpack": {
       "installer": {
@@ -1851,9 +1851,9 @@
           ],
           "filename": "Oracle_VM_VirtualBox_Extension_Pack-5.0.16-105871.vbox-extpack"
         },
-        "x86": "https://download.virtualbox.org/virtualbox/5.2.10/Oracle_VM_VirtualBox_Extension_Pack-5.2.10.vbox-extpack"
+        "x86": "https://download.virtualbox.org/virtualbox/5.2.12/Oracle_VM_VirtualBox_Extension_Pack-5.2.12.vbox-extpack"
       },
-      "version": "5.2.10"
+      "version": "5.2.12"
     },
     "viscosity": {
       "installer": {
@@ -2011,9 +2011,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/{{.version}}/WinSCP-{{.version}}-Setup.exe/download"
+        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.13.2/WinSCP-5.13.2-Setup.exe/download"
       },
-      "version": "5.13.1"
+      "version": "5.13.2"
     },
     "wireshark": {
       "installer": {
@@ -2117,9 +2117,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/rg3/youtube-dl/releases/download/{{.version}}/youtube-dl.exe"
+        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.05.09/youtube-dl.exe"
       },
-      "version": "2018.05.01"
+      "version": "2018.05.09"
     }
   }
 }
