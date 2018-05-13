@@ -130,9 +130,9 @@
     "bitpay": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/bitpay/copay/releases/download/v4.3.4/BitPay.exe"
+        "x86": "https://github.com/bitpay/copay/releases/download/v4.3.5/BitPay.exe"
       },
-      "version": "4.3.4"
+      "version": "4.3.5"
     },
     "bleachbit": {
       "installer": {
@@ -1242,9 +1242,9 @@
     "obs-studio": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/obsproject/obs-studio/releases/download/{{.version}}/OBS-Studio-21.1-Full-Installer.exe"
+        "x86": "https://github.com/obsproject/obs-studio/releases/download/21.1.2/OBS-Studio-21.1.2-Full-Installer.exe"
       },
-      "version": "21.1.0"
+      "version": "21.1.2"
     },
     "octave": {
       "installer": {
