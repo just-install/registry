@@ -889,9 +889,9 @@
     "imageglass": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/d2phap/ImageGlass/releases/download/5.0.5.7/ImageGlass_5.0.5.7.exe"
+        "x86": "https://github.com/d2phap/ImageGlass/releases/download/5.1.5.20/ImageGlass_5.1.5.20.exe"
       },
-      "version": "5.0.5.7"
+      "version": "5.1.5.20"
     },
     "inkscape": {
       "installer": {
