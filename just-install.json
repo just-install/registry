@@ -564,9 +564,9 @@
     "enpass": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://dl.sinew.in/windows/setup/5-6-8/Enpass_5.6.8_Setup.exe"
+        "x86": "https://dl.sinew.in/windows/setup/5-6-9/Enpass_5.6.9_Setup.exe"
       },
-      "version": "5.6.8"
+      "version": "5.6.9"
     },
     "erlang": {
       "installer": {
@@ -717,16 +717,16 @@
             "-s"
           ]
         },
-        "x86": "https://us.download.nvidia.com/GFE/GFEClient/{{.version}}/GeForce_Experience_v{{.version}}.exe"
+        "x86": "https://us.download.nvidia.com/GFE/GFEClient/3.14.0.139/GeForce_Experience_v3.14.0.139.exe"
       },
-      "version": "3.13.1.30"
+      "version": "3.14.0.139"
     },
     "gimp": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.0-x64-setup.exe"
+        "x86": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.2-setup.exe"
       },
-      "version": "2.10.0"
+      "version": "2.10.2"
     },
     "git": {
       "installer": {
@@ -1082,10 +1082,10 @@
             "{{.PROGRAMFILES}}\\Mercurial\\hg.exe"
           ]
         },
-        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x86.msi",
-        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-{{.version}}-x64.msi"
+        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-4.6.0-x86.msi",
+        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-4.6.0-x64.msi"
       },
-      "version": "4.5.3"
+      "version": "4.6.0"
     },
     "microsoft-security-essentials": {
       "installer": {
