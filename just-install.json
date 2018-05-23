@@ -130,9 +130,9 @@
     "bitpay": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/bitpay/copay/releases/download/v4.3.5/BitPay.exe"
+        "x86": "https://github.com/bitpay/copay/releases/download/v4.3.6/BitPay.exe"
       },
-      "version": "4.3.5"
+      "version": "4.3.6"
     },
     "bleachbit": {
       "installer": {
@@ -177,9 +177,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.ccleaner.com/ccsetup542.exe"
+        "x86": "https://download.ccleaner.com/ccsetup543.exe"
       },
-      "version": "5.42"
+      "version": "5.43"
     },
     "cdburnerxp": {
       "installer": {
@@ -349,9 +349,9 @@
     "defraggler": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.ccleaner.com/dfsetup221.exe"
+        "x86": "https://download.ccleaner.com/dfsetup222.exe"
       },
-      "version": "2.21"
+      "version": "2.22"
     },
     "deluge": {
       "installer": {
@@ -749,9 +749,9 @@
             "{{.PROGRAMFILES}}\\Git LFS\\git-lfs.exe"
           ]
         },
-        "x86": "https://github.com/git-lfs/git-lfs/releases/download/v{{.version}}/git-lfs-windows-{{.version}}.exe"
+        "x86": "https://github.com/git-lfs/git-lfs/releases/download/v2.4.1/git-lfs-windows-2.4.1.exe"
       },
-      "version": "2.4.0"
+      "version": "2.4.1"
     },
     "gitextensions": {
       "installer": {
@@ -1616,10 +1616,10 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/smplayer/files/SMPlayer/18.4.0/smplayer-18.4.0-win32.exe/download",
-        "x86_64": "https://sourceforge.net/projects/smplayer/files/SMPlayer/18.4.0/smplayer-18.4.0-x64.exe/download"
+        "x86": "https://sourceforge.net/projects/smplayer/files/SMPlayer/18.5.0/smplayer-18.5.0-win32.exe/download",
+        "x86_64": "https://sourceforge.net/projects/smplayer/files/SMPlayer/18.5.0/smplayer-18.5.0-x64.exe/download"
       },
-      "version": "18.4.0"
+      "version": "18.5.0"
     },
     "sourcetree": {
       "installer": {
@@ -2018,10 +2018,10 @@
     "wireshark": {
       "installer": {
         "kind": "msi",
-        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-2.6.0.exe",
-        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-2.6.0.exe"
+        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-2.6.1.exe",
+        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-2.6.1.exe"
       },
-      "version": "2.6.0"
+      "version": "2.6.1"
     },
     "wix": {
       "installer": {
