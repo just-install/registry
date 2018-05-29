@@ -1350,9 +1350,9 @@
     "pia": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://installers.privateinternetaccess.com/download/pia-v{{.version}}-installer-win.exe"
+        "x86": "https://installers.privateinternetaccess.com/download/pia-v80-installer-win.exe"
       },
-      "version": "79"
+      "version": "80"
     },
     "plex-media-server": {
       "installer": {
