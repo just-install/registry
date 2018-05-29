@@ -271,9 +271,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v18.05.06/ConEmuSetup.180506.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v18.05.28/ConEmuSetup.180528.exe"
       },
-      "version": "18.05.06"
+      "version": "18.05.28"
     },
     "cpu-z": {
       "installer": {
@@ -341,10 +341,10 @@
     "dbeaver": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/dbeaver/dbeaver/releases/download/5.0.5/dbeaver-ce-5.0.5-x86-setup.exe",
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/5.0.5/dbeaver-ce-5.0.5-x86_64-setup.exe"
+        "x86": "https://github.com/dbeaver/dbeaver/releases/download/5.0.6/dbeaver-ce-5.0.6-x86-setup.exe",
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/5.0.6/dbeaver-ce-5.0.6-x86_64-setup.exe"
       },
-      "version": "5.0.5"
+      "version": "5.0.6"
     },
     "defraggler": {
       "installer": {
@@ -756,9 +756,9 @@
     "gitextensions": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/gitextensions/gitextensions/releases/download/v{{.version}}/GitExtensions-{{.version}}-Setup.msi"
+        "x86": "https://github.com/gitextensions/gitextensions/releases/download/v2.51.02/GitExtensions-2.51.02.msi"
       },
-      "version": "2.51.01"
+      "version": "2.51.02"
     },
     "github": {
       "installer": {
@@ -1470,10 +1470,10 @@
     "qbittorrent": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://app.oldfoss.com:81/download/qBittorrent/qbittorrent_4.1.0_setup.exe",
-        "x86_64": "http://app.oldfoss.com:81/download/qBittorrent/qbittorrent_4.1.0_x64_setup.exe"
+        "x86": "http://app.oldfoss.com:81/download/qBittorrent/qbittorrent_4.1.1_setup.exe",
+        "x86_64": "http://app.oldfoss.com:81/download/qBittorrent/qbittorrent_4.1.1_x64_setup.exe"
       },
-      "version": "4.1.0"
+      "version": "4.1.1"
     },
     "rambox": {
       "installer": {
