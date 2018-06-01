@@ -23,10 +23,10 @@
     "anaconda": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://repo.continuum.io/archive/Anaconda3-{{.version}}-Windows-x86.exe",
-        "x86_64": "https://repo.continuum.io/archive/Anaconda3-{{.version}}-Windows-x86_64.exe"
+        "x86": "https://repo.anaconda.com/archive/Anaconda3-5.2.0-Windows-x86.exe",
+        "x86_64": "https://repo.anaconda.com/archive/Anaconda3-5.2.0-Windows-x86_64.exe"
       },
-      "version": "5.1.0"
+      "version": "5.2.0"
     },
     "android-studio-ide": {
       "installer": {
@@ -234,10 +234,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://cmake.org/files/v3.11/cmake-3.11.2-win32-x86.msi",
-        "x86_64": "https://cmake.org/files/v3.11/cmake-3.11.2-win64-x64.msi"
+        "x86": "https://cmake.org/files/v3.11/cmake-3.11.3-win32-x86.msi",
+        "x86_64": "https://cmake.org/files/v3.11/cmake-3.11.3-win64-x64.msi"
       },
-      "version": "3.11.2"
+      "version": "3.11.3"
     },
     "colemak": {
       "installer": {
@@ -1111,16 +1111,16 @@
     "mountainduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-2.4.0.9334.msi"
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-2.5.0.9388.msi"
       },
-      "version": "2.4.1.9346"
+      "version": "2.5.0.9388"
     },
     "mp3tag": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.mp3tag.de/mp3tagv288setup.exe"
+        "x86": "https://download.mp3tag.de/mp3tagv288asetup.exe"
       },
-      "version": "2.88"
+      "version": "2.88a"
     },
     "mpc-hc": {
       "installer": {
@@ -1352,7 +1352,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v80-installer-win.exe"
       },
-      "version": "8"
+      "version": "80"
     },
     "plex-media-server": {
       "installer": {
@@ -1411,9 +1411,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2018.1.3.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2018.1.4.exe"
       },
-      "version": "2018.1.3"
+      "version": "2018.1.4"
     },
     "python2": {
       "installer": {
@@ -1564,9 +1564,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.11.0.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.12.0.exe"
       },
-      "version": "1.11.0"
+      "version": "1.12.0"
     },
     "simplenote": {
       "installer": {
