@@ -31,9 +31,9 @@
     "android-studio-ide": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.google.com/dl/android/studio/install/3.1.2.0/android-studio-ide-173.4720617-windows.exe"
+        "x86": "https://dl.google.com/dl/android/studio/install/3.1.3.0/android-studio-ide-173.4819257-windows.exe"
       },
-      "version": "3.1.2.0"
+      "version": "3.1.3.0"
     },
     "anydesk": {
       "installer": {
@@ -675,16 +675,16 @@
     "flash-player": {
       "installer": {
         "kind": "msi",
-        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/29.0.0.171/install_flash_player_29_plugin.msi"
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/30.0.0.113/install_flash_player_30_plugin.msi"
       },
-      "version": "29.0.0.171"
+      "version": "30.0.0.113"
     },
     "flash-player-ie": {
       "installer": {
         "kind": "msi",
-        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/29.0.0.171/install_flash_player_29_active_x.msi"
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/30.0.0.113/install_flash_player_30_active_x.msi"
       },
-      "version": "29.0.0.171"
+      "version": "30.0.0.113"
     },
     "flux": {
       "installer": {
