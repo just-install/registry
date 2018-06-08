@@ -784,10 +784,10 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dl.google.com/go/go1.10.2.windows-386.msi",
-        "x86_64": "https://dl.google.com/go/go1.10.2.windows-amd64.msi"
+        "x86": "https://dl.google.com/go/go1.10.3.windows-386.msi",
+        "x86_64": "https://dl.google.com/go/go1.10.3.windows-amd64.msi"
       },
-      "version": "1.10.2"
+      "version": "1.10.3"
     },
     "gog-galaxy": {
       "installer": {
@@ -1364,9 +1364,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/1.13.0.5023-31d3c0c65/Plex-Media-Server-1.13.0.5023-31d3c0c65.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/1.13.2.5142-3ba6662e9/Plex-Media-Server-1.13.2.5142-3ba6662e9.exe"
       },
-      "version": "1.13.0.5023"
+      "version": "1.13.2.5142"
     },
     "postman": {
       "installer": {
