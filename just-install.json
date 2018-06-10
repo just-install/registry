@@ -1352,7 +1352,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v80-installer-win.exe"
       },
-      "version": "80"
+      "version": "37"
     },
     "plex-media-server": {
       "installer": {
@@ -1364,9 +1364,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/1.13.2.5142-3ba6662e9/Plex-Media-Server-1.13.2.5142-3ba6662e9.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/1.13.2.5154-fd05be322/Plex-Media-Server-1.13.2.5154-fd05be322.exe"
       },
-      "version": "1.13.2.5142"
+      "version": "1.13.2.5154"
     },
     "postman": {
       "installer": {
