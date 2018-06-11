@@ -1352,7 +1352,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v80-installer-win.exe"
       },
-      "version": "37"
+      "version": "80"
     },
     "plex-media-server": {
       "installer": {
@@ -1715,10 +1715,10 @@
     "teamspeak": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://dl.4players.de/ts/releases/3.1.9/TeamSpeak3-Client-win32-3.1.9.exe",
-        "x86_64": "http://dl.4players.de/ts/releases/3.1.9/TeamSpeak3-Client-win64-3.1.9.exe"
+        "x86": "http://dl.4players.de/ts/releases/3.1.10/TeamSpeak3-Client-win32-3.1.10.exe",
+        "x86_64": "http://dl.4players.de/ts/releases/3.1.10/TeamSpeak3-Client-win64-3.1.10.exe"
       },
-      "version": "3.1.9"
+      "version": "3.1.10"
     },
     "teamviewer": {
       "installer": {
@@ -2117,9 +2117,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.06.04/youtube-dl.exe"
+        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.06.11/youtube-dl.exe"
       },
-      "version": "2018.06.04"
+      "version": "2018.06.11"
     }
   }
 }
