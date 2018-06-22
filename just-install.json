@@ -736,10 +736,10 @@
             "{{.PROGRAMFILES_X86}}\\Git\\bin\\git.exe"
           ]
         },
-        "x86": "https://github.com/git-for-windows/git/releases/download/v2.17.1.windows.1/Git-2.17.1-32-bit.exe",
-        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.17.1.windows.1/Git-2.17.1-64-bit.exe"
+        "x86": "https://github.com/git-for-windows/git/releases/download/v2.18.0.windows.1/Git-2.18.0-32-bit.exe",
+        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.18.0.windows.1/Git-2.18.0-64-bit.exe"
       },
-      "version": "2.17.1"
+      "version": "2.18.0"
     },
     "git-lfs": {
       "installer": {
@@ -1028,10 +1028,10 @@
     "libreoffice": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.0.4/win/x86/LibreOffice_6.0.4_Win_x86.msi",
-        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.0.4/win/x86_64/LibreOffice_6.0.4_Win_x64.msi"
+        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.0.5/win/x86/LibreOffice_6.0.5_Win_x86.msi",
+        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.0.5/win/x86_64/LibreOffice_6.0.5_Win_x64.msi"
       },
-      "version": "6.0.4"
+      "version": "6.0.5"
     },
     "lockhunter": {
       "installer": {
@@ -1352,7 +1352,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v81-installer-win.exe"
       },
-      "version": "3"
+      "version": "81"
     },
     "plex-media-server": {
       "installer": {
@@ -1564,16 +1564,16 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.12.1.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.13.0.exe"
       },
-      "version": "1.12.1"
+      "version": "1.13.0"
     },
     "simplenote": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v1.1.5/Simplenote-1.1.5-Setup.exe"
+        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v1.1.6/Simplenote-1.1.6-Setup.exe"
       },
-      "version": "1.1.5"
+      "version": "1.1.6"
     },
     "skype": {
       "installer": {
