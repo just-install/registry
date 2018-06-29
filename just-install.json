@@ -271,9 +271,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v18.06.17/ConEmuSetup.180617.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v18.06.26/ConEmuSetup.180626.exe"
       },
-      "version": "18.06.17"
+      "version": "18.06.26"
     },
     "cpu-z": {
       "installer": {
@@ -466,10 +466,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-Committers"
         },
-        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-committers-oxygen-3a-win32.zip&r=1",
-        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-committers-oxygen-3a-win32-x86_64.zip&r=1"
+        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-committers-photon-R-win32.zip&r=1",
+        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-committers-photon-R-win32-x86_64.zip&r=1"
       },
-      "version": "4.7.3a"
+      "version": "4.8.0"
     },
     "eclipse-cpp": {
       "installer": {
@@ -477,10 +477,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-CPP"
         },
-        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-cpp-oxygen-3a-win32.zip&r=1",
-        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-cpp-oxygen-3a-win32-x86_64.zip&r=1"
+        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-cpp-photon-R-win32.zip&r=1",
+        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-cpp-photon-R-win32-x86_64.zip&r=1"
       },
-      "version": "4.7.3a"
+      "version": "4.8.0"
     },
     "eclipse-java": {
       "installer": {
@@ -488,10 +488,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-Java"
         },
-        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-java-oxygen-3a-win32.zip&r=1",
-        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-java-oxygen-3a-win32-x86_64.zip&r=1"
+        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-java-photon-R-win32.zip&r=1",
+        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-java-photon-R-win32-x86_64.zip&r=1"
       },
-      "version": "4.7.3a"
+      "version": "4.8.0"
     },
     "eclipse-jee": {
       "installer": {
@@ -499,10 +499,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-JEE"
         },
-        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-jee-oxygen-3a-win32.zip&r=1",
-        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-jee-oxygen-3a-win32-x86_64.zip&r=1"
+        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-jee-photon-R-win32.zip&r=1",
+        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-jee-photon-R-win32-x86_64.zip&r=1"
       },
-      "version": "4.7.3a"
+      "version": "4.8.0"
     },
     "eclipse-php": {
       "installer": {
@@ -510,10 +510,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-PHP"
         },
-        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-php-oxygen-3a-win32.zip&r=1",
-        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-php-oxygen-3a-win32-x86_64.zip&r=1"
+        "x86": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-php-photon-R-win32.zip&r=1",
+        "x86_64": "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-php-photon-R-win32-x86_64.zip&r=1"
       },
-      "version": "4.7.3a"
+      "version": "4.8.0"
     },
     "eig": {
       "installer": {
@@ -763,9 +763,9 @@
     "gitextensions": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/gitextensions/gitextensions/releases/download/v2.51.02/GitExtensions-2.51.02.msi"
+        "x86": "https://github.com/gitextensions/gitextensions/releases/download/v2.51.03/GitExtensions-2.51.03.msi"
       },
-      "version": "2.51.02"
+      "version": "2.51.03"
     },
     "github": {
       "installer": {
@@ -888,10 +888,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.42.1/hugo_0.42.1_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.42.1/hugo_0.42.1_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.42.2/hugo_0.42.2_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.42.2/hugo_0.42.2_Windows-64bit.zip"
       },
-      "version": "0.42.1"
+      "version": "0.42.2"
     },
     "imageglass": {
       "installer": {
@@ -1469,10 +1469,10 @@
             "InstallAllUsers=1"
           ]
         },
-        "x86": "https://www.python.org/ftp/python/{{.version}}/python-{{.version}}.exe",
-        "x86_64": "https://www.python.org/ftp/python/{{.version}}/python-{{.version}}-amd64.exe"
+        "x86": "https://www.python.org/ftp/python/3.7.0/python-3.7.0.exe",
+        "x86_64": "https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe"
       },
-      "version": "3.6.5"
+      "version": "3.7.0"
     },
     "qbittorrent": {
       "installer": {
@@ -1564,9 +1564,9 @@
     "sharpkeys": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/randyrants/sharpkeys/releases/download/v{{.version}}/sharpkeys36.msi"
+        "x86": "https://github.com/randyrants/sharpkeys/releases/download/v3.7/sharpkeys37.msi"
       },
-      "version": "3.6"
+      "version": "3.7"
     },
     "signal": {
       "installer": {
@@ -1812,10 +1812,10 @@
     "vagrant": {
       "installer": {
         "kind": "msi",
-        "x86": "https://releases.hashicorp.com/vagrant/2.1.1/vagrant_2.1.1_i686.msi",
-        "x86_64": "https://releases.hashicorp.com/vagrant/2.1.1/vagrant_2.1.1_x86_64.msi"
+        "x86": "https://releases.hashicorp.com/vagrant/2.1.2/vagrant_2.1.2_i686.msi",
+        "x86_64": "https://releases.hashicorp.com/vagrant/2.1.2/vagrant_2.1.2_x86_64.msi"
       },
-      "version": "2.1.1"
+      "version": "2.1.2"
     },
     "veracrypt": {
       "installer": {
