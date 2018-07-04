@@ -81,6 +81,16 @@
       },
       "version": "latest"
     },
+    "autoruns": {
+      "installer": {
+        "kind": "zip",
+        "options": {
+          "destination": "{{.PROGRAMFILES}}\\Autoruns"
+        },
+        "x86": "https://download.sysinternals.com/files/Autoruns.zip"
+      },
+      "version": "latest"
+    },
     "aws-cli": {
       "installer": {
         "kind": "msi",
