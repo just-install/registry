@@ -1561,6 +1561,16 @@
       },
       "version": "2.5.1"
     },
+    "rufus": {
+      "installer": {
+        "kind": "copy",
+        "options": {
+          "destination": "{{.PROGRAMFILES_X86}}\\Rufus\\rufus.exe"
+        },
+        "x86": "https://rufus.akeo.ie/downloads/rufus-{{.version}}.exe"
+      },
+      "version": "3.1"
+    },
     "sdm": {
       "installer": {
         "kind": "msi",
