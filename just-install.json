@@ -1337,6 +1337,14 @@
       },
       "version": "latest"
     },
+    "parsec": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://s3.amazonaws.com/parsec-build/package/parsec-windows32.exe",
+        "x86_64": "https://s3.amazonaws.com/parsec-build/package/parsec-windows.exe"
+      },
+      "version": "latest"
+    },
     "pdf24": {
       "installer": {
         "kind": "custom",
