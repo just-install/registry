@@ -743,7 +743,7 @@
         "kind": "innosetup",
         "x86": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.2-setup.exe"
       },
-      "version": "2.10.2"
+      "version": "2.10.4"
     },
     "git": {
       "installer": {
@@ -1193,10 +1193,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v10.5.0/node-v10.5.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v10.5.0/node-v10.5.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v10.6.0/node-v10.6.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v10.6.0/node-v10.6.0-x64.msi"
       },
-      "version": "10.5.0"
+      "version": "10.6.0"
     },
     "node-lts": {
       "installer": {
@@ -1377,7 +1377,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v81-installer-win.exe"
       },
-      "version": "81"
+      "version": "9"
     },
     "plex-media-server": {
       "installer": {
