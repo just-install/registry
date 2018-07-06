@@ -1372,6 +1372,13 @@
       },
       "version": "5.26.2.1"
     },
+    "photofiltre": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "http://static.infomaniak.ch/photofiltre/utils/pf7/pf7-setup-en-{{.version}}.exe"
+      },
+      "version": "7.2.1"
+    },
     "pia": {
       "installer": {
         "kind": "innosetup",
@@ -1575,9 +1582,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES_X86}}\\Rufus\\rufus.exe"
         },
-        "x86": "https://rufus.akeo.ie/downloads/rufus-{{.version}}.exe"
+        "x86": "https://rufus.akeo.ie/downloads/rufus.exe"
       },
-      "version": "3.1"
+      "version": "latest"
     },
     "sdm": {
       "installer": {
