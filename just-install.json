@@ -741,7 +741,7 @@
     "gimp": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.2-setup.exe"
+        "x86": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-{{.version}}-setup.exe"
       },
       "version": "2.10.4"
     },
