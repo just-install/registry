@@ -1372,6 +1372,13 @@
       },
       "version": "5.26.2.1"
     },
+	"photofiltre": {
+	  "installer": {
+	    "kind": "nsis",
+		"x86": "http://static.infomaniak.ch/photofiltre/utils/pf7/pf7-setup-en-{{.version}}.exe"
+	  },
+	  "version": "7.2.1"
+	},
     "pia": {
       "installer": {
         "kind": "innosetup",
