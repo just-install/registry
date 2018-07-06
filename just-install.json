@@ -566,8 +566,8 @@
             "{{.PROGRAMFILES_X86}}\\Emacs\\bin\\runemacs.exe"
           ]
         },
-        "x86": "https://ftp.gnu.org/gnu/emacs/windows/emacs-26.1-i686.zip",
-        "x86_64": "https://ftp.gnu.org/gnu/emacs/windows/emacs-26.1-x86_64.zip"
+        "x86": "https://ftp.gnu.org/gnu/emacs/windows/emacs-26/emacs-26.1-i686.zip",
+        "x86_64": "https://ftp.gnu.org/gnu/emacs/windows/emacs-26/emacs-26.1-x86_64.zip"
       },
       "version": "26.1"
     },
