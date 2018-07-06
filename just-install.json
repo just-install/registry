@@ -784,20 +784,6 @@
       },
       "version": "latest"
     },
-    "github-desktop": {
-      "installer": {
-        "kind": "custom",
-        "options": {
-          "arguments": [
-            "{{.installer}}",
-            "/q"
-          ],
-          "extension": ".exe"
-        },
-        "x86_64": "https://central.github.com/deployments/desktop/desktop/latest/win32"
-      },
-      "version": "latest"
-    },
     "gitkraken": {
       "installer": {
         "kind": "custom",
