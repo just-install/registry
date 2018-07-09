@@ -898,10 +898,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.42.2/hugo_0.42.2_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.42.2/hugo_0.42.2_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.43/hugo_0.43_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.43/hugo_0.43_Windows-64bit.zip"
       },
-      "version": "0.42.2"
+      "version": "0.43"
     },
     "imageglass": {
       "installer": {
@@ -1367,10 +1367,10 @@
     "perl": {
       "installer": {
         "kind": "msi",
-        "x86": "http://strawberryperl.com/download/5.26.2.1/strawberry-perl-5.26.2.1-32bit.msi",
-        "x86_64": "http://strawberryperl.com/download/5.26.2.1/strawberry-perl-5.26.2.1-64bit.msi"
+        "x86": "http://strawberryperl.com/download/5.28.0.1/strawberry-perl-5.28.0.1-32bit.msi",
+        "x86_64": "http://strawberryperl.com/download/5.28.0.1/strawberry-perl-5.28.0.1-64bit.msi"
       },
-      "version": "5.26.2.1"
+      "version": "5.28.0.1"
     },
     "photofiltre": {
       "installer": {
