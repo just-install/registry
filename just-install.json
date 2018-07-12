@@ -812,9 +812,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_1.2.44.30.exe"
+        "x86": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_1.2.45.61.exe"
       },
-      "version": "1.2.44.30"
+      "version": "1.2.45.61"
     },
     "google-chrome": {
       "installer": {
@@ -1135,9 +1135,9 @@
     "mp3tag": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.mp3tag.de/mp3tagv289setup.exe"
+        "x86": "https://download.mp3tag.de/mp3tagv289asetup.exe"
       },
-      "version": "2.89"
+      "version": "2.89a"
     },
     "mpc-hc": {
       "installer": {
@@ -1384,7 +1384,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v81-installer-win.exe"
       },
-      "version": "81"
+      "version": "7"
     },
     "plex-media-server": {
       "installer": {
