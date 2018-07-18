@@ -244,10 +244,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://cmake.org/files/v3.12/cmake-3.12.0-rc2-win32-x86.msi",
-        "x86_64": "https://cmake.org/files/v3.12/cmake-3.12.0-rc2-win64-x64.msi"
+        "x86": "https://cmake.org/files/v3.12/cmake-3.12.0-win32-x86.msi",
+        "x86_64": "https://cmake.org/files/v3.12/cmake-3.12.0-win64-x64.msi"
       },
-      "version": "3.11.4"
+      "version": "3.12.0"
     },
     "colemak": {
       "installer": {
@@ -937,10 +937,10 @@
             "/s"
           ]
         },
-        "x86": "http://download.oracle.com/otn-pub/java/jdk/8u171-b11/512cd62ec5174c3487ac17c61aaa89e8/jdk-8u171-windows-i586.exe",
-        "x86_64": "http://download.oracle.com/otn-pub/java/jdk/8u171-b11/512cd62ec5174c3487ac17c61aaa89e8/jdk-8u171-windows-x64.exe"
+        "x86": "http://download.oracle.com/otn-pub/java/jdk/8u181-b13/96a7b8442fe848ef90c96a2fad6ed6d1/jdk-8u181-windows-i586.exe",
+        "x86_64": "http://download.oracle.com/otn-pub/java/jdk/8u181-b13/96a7b8442fe848ef90c96a2fad6ed6d1/jdk-8u181-windows-x64.exe"
       },
-      "version": "8u171-b11"
+      "version": "8u181-b13"
     },
     "jetbrains-toolbox": {
       "installer": {
@@ -972,10 +972,10 @@
           ],
           "extension": ".exe"
         },
-        "x86": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=233170_512cd62ec5174c3487ac17c61aaa89e8",
-        "x86_64": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=233172_512cd62ec5174c3487ac17c61aaa89e8"
+        "x86": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=234472_96a7b8442fe848ef90c96a2fad6ed6d1",
+        "x86_64": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=234474_96a7b8442fe848ef90c96a2fad6ed6d1"
       },
-      "version": "8.171"
+      "version": "8.181"
     },
     "keepass": {
       "installer": {
@@ -1396,9 +1396,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/1.13.2.5154-fd05be322/Plex-Media-Server-1.13.2.5154-fd05be322.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/1.13.4.5251-2e6e8f841/Plex-Media-Server-1.13.4.5251-2e6e8f841.exe"
       },
-      "version": "1.13.2.5154"
+      "version": "1.13.4.5251"
     },
     "postman": {
       "installer": {
@@ -1866,9 +1866,9 @@
             "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBoxManage.exe"
           ]
         },
-        "x86": "https://download.virtualbox.org/virtualbox/5.2.14/VirtualBox-5.2.14-123301-Win.exe"
+        "x86": "https://download.virtualbox.org/virtualbox/5.2.16/VirtualBox-5.2.16-123759-Win.exe"
       },
-      "version": "5.2.14"
+      "version": "5.2.16"
     },
     "virtualbox-extpack": {
       "installer": {
@@ -1883,9 +1883,9 @@
           ],
           "filename": "Oracle_VM_VirtualBox_Extension_Pack-5.0.16-105871.vbox-extpack"
         },
-        "x86": "https://download.virtualbox.org/virtualbox/5.2.14/Oracle_VM_VirtualBox_Extension_Pack-5.2.14.vbox-extpack"
+        "x86": "https://download.virtualbox.org/virtualbox/5.2.16/Oracle_VM_VirtualBox_Extension_Pack-5.2.16.vbox-extpack"
       },
-      "version": "5.2.14"
+      "version": "5.2.16"
     },
     "viscosity": {
       "installer": {
