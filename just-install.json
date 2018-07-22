@@ -898,10 +898,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.44/hugo_0.44_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.44/hugo_0.44_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.45/hugo_0.45_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.45/hugo_0.45_Windows-64bit.zip"
       },
-      "version": "0.44"
+      "version": "0.45"
     },
     "imageglass": {
       "installer": {
@@ -1617,9 +1617,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.14.3.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.14.4.exe"
       },
-      "version": "1.14.3"
+      "version": "1.14.4"
     },
     "simplenote": {
       "installer": {
@@ -1809,10 +1809,10 @@
         "options": {
           "extension": ".msi"
         },
-        "x86": "https://osdn.net/frs/redir.php?m=pumath&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.10.0%2FApplication%2FTortoiseSVN-1.10.0.28176-win32-svn-1.10.0.msi",
-        "x86_64": "https://osdn.net/frs/redir.php?m=pumath&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.10.0%2FApplication%2FTortoiseSVN-1.10.0.28176-x64-svn-1.10.0.msi"
+        "x86": "https://osdn.net/frs/redir.php?m=pumath&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.10.1%2FApplication%2FTortoiseSVN-1.10.1.28295-win32-svn-1.10.2.msi",
+        "x86_64": "https://osdn.net/frs/redir.php?m=pumath&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.10.1%2FApplication%2FTortoiseSVN-1.10.1.28295-x64-svn-1.10.2.msi"
       },
-      "version": "1.10.0"
+      "version": "1.10.1"
     },
     "uplay": {
       "installer": {
@@ -2156,9 +2156,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.07.10/youtube-dl.exe"
+        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.07.21/youtube-dl.exe"
       },
-      "version": "2018.07.10"
+      "version": "2018.07.21"
     }
   }
 }
