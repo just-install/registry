@@ -187,9 +187,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.ccleaner.com/ccsetup544.exe"
+        "x86": "https://download.ccleaner.com/ccsetup545.exe"
       },
-      "version": "5.44"
+      "version": "5.45"
     },
     "cdburnerxp": {
       "installer": {
@@ -734,9 +734,9 @@
             "-s"
           ]
         },
-        "x86": "https://us.download.nvidia.com/GFE/GFEClient/3.14.0.139/GeForce_Experience_v3.14.0.139.exe"
+        "x86": "https://us.download.nvidia.com/GFE/GFEClient/3.14.1.48/GeForce_Experience_v3.14.1.48.exe"
       },
-      "version": "3.14.0.139"
+      "version": "3.14.1.48"
     },
     "gimp": {
       "installer": {
@@ -1030,10 +1030,10 @@
     "kicad": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://downloads.kicad-pcb.org/windows/stable/kicad-4.0.7-i686.exe",
-        "x86_64": "http://downloads.kicad-pcb.org/windows/stable/kicad-4.0.7-x86_64.exe"
+        "x86": "http://downloads.kicad-pcb.org/windows/stable/kicad-5.0.0-i686.exe",
+        "x86_64": "http://downloads.kicad-pcb.org/windows/stable/kicad-5.0.0-x86_64.exe"
       },
-      "version": "4.0.7"
+      "version": "5.0.0"
     },
     "kodi": {
       "installer": {
@@ -1222,10 +1222,10 @@
     "notepad++": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://notepad-plus-plus.org/repository/7.x/7.5.7/npp.7.5.7.Installer.exe",
-        "x86_64": "https://notepad-plus-plus.org/repository/7.x/7.5.7/npp.7.5.7.Installer.x64.exe"
+        "x86": "https://notepad-plus-plus.org/repository/7.x/7.5.8/npp.7.5.8.Installer.exe",
+        "x86_64": "https://notepad-plus-plus.org/repository/7.x/7.5.8/npp.7.5.8.Installer.x64.exe"
       },
-      "version": "7.5.7"
+      "version": "7.5.8"
     },
     "notepad2-mod": {
       "installer": {
