@@ -424,9 +424,9 @@
           ],
           "extension": ".exe"
         },
-        "x86": "https://download.microsoft.com/download/8/E/2/8E2BDDE7-F06E-44CC-A145-56C6B9BBE5DD/NDP471-KB4033344-Web.exe"
+        "x86": "https://download.microsoft.com/download/0/5/C/05C1EC0E-D5EE-463B-BFE3-9311376A6809/NDP472-KB4054531-Web.exe"
       },
-      "version": "4.7.1"
+      "version": "4.7.2"
     },
     "doublecmd": {
       "installer": {
@@ -1172,6 +1172,13 @@
       },
       "version": "5.8.2"
     },
+    "nettime": {
+      "installer": {
+        "kind": "innosetup",
+        "x86": "http://www.timesynctool.com/NetTimeSetup-314.exe"
+      },
+      "version": "3.14"
+    },
     "nextcloud": {
       "installer": {
         "kind": "nsis",
@@ -1379,6 +1386,19 @@
       },
       "version": "7.2.1"
     },
+    "physx": {
+      "installer": {
+        "kind": "custom",
+        "x86": "http://us.download.nvidia.com/Windows/{{.version}}/PhysX-{{.version}}-SystemSoftware.exe",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "-s"
+          ]
+        }
+      },
+      "version": "9.16.0318"
+    },
     "pia": {
       "installer": {
         "kind": "innosetup",
@@ -1528,6 +1548,124 @@
         "x86": "http://www.rapidee.com/download/RapidEE_setup.exe"
       },
       "version": "latest"
+    },
+    "redist-2005": {
+      "installer": {
+        "kind": "custom",
+        "x86": "https://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x86.EXE",
+        "x86_64": "https://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x64.EXE",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/q"
+          ]
+        }
+      },
+      "version": "8.0.61000"
+    },
+    "redist-2008": {
+      "installer": {
+        "kind": "custom",
+        "x86": "https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x86.exe",
+        "x86_64": "https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x64.exe",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/qb"
+          ]
+        }
+      },
+      "version": "9.0.30729.6161"
+    },
+    "redist-2010": {
+      "installer": {
+        "kind": "custom",
+        "x86": "https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe",
+        "x86_64": "https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x64.exe",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/passive",
+            "/norestart"
+          ]
+        }
+      },
+      "version": "10.0.40219.325"
+    },
+    "redist-2012": {
+      "installer": {
+        "kind": "custom",
+        "x86": "https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x86.exe",
+        "x86_64": "https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/passive",
+            "/norestart"
+          ]
+        }
+      },
+      "version": "11.0.61030"
+    },
+    "redist-2013": {
+      "installer": {
+        "kind": "custom",
+        "x86": "https://aka.ms/highdpimfc2013x86enu",
+        "x86_64": "https://aka.ms/highdpimfc2013x64enu",
+        "options": {
+          "x86": {
+            "filename":"redist_2013_x86.exe",
+            "arguments": [
+              "{{.installer}}",
+              "/install",
+              "/passive",
+              "/norestart"
+            ]
+          },
+          "x86_64": {
+            "filename":"redist_2013_x86_64.exe",
+            "arguments": [
+              "{{.installer}}",
+              "/install",
+              "/passive",
+              "/norestart"
+            ]
+          }
+        }
+      },
+      "version": "12.0.40664.0"
+    },
+    "redist-2015": {
+      "installer": {
+        "kind": "custom",
+        "x86": "https://download.microsoft.com/download/6/A/A/6AA4EDFF-645B-48C5-81CC-ED5963AEAD48/vc_redist.x86.exe",
+        "x86_64": "https://download.microsoft.com/download/6/A/A/6AA4EDFF-645B-48C5-81CC-ED5963AEAD48/vc_redist.x64.exe",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/install",
+            "/passive",
+            "/norestart"
+          ]
+        }
+      },
+      "version": "14.0.24215.0"
+    },
+    "redist-2017": {
+      "installer": {
+        "kind": "custom",
+        "x86": "https://aka.ms/vs/15/release/vc_redist.x86.exe",
+        "x86_64": "https://aka.ms/vs/15/release/vc_redist.x64.exe",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/install",
+            "/passive",
+            "/norestart"
+          ]
+        }
+      },
+      "version": "14.14.26429.4"
     },
     "rclone": {
       "installer": {
