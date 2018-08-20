@@ -1050,6 +1050,13 @@
       },
       "version": "6.0.6"
     },
+	"lightshot": {
+      "installer": {
+        "kind": "innosetup",
+        "x86": "https://app.prntscr.com/build/setup-lightshot.exe"
+      },
+      "version": "latest"
+    },
     "lockhunter": {
       "installer": {
         "kind": "innosetup",
