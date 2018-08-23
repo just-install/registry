@@ -45,9 +45,9 @@
     "arduino": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://downloads.arduino.cc/arduino-1.8.5-windows.exe"
+        "x86": "https://downloads.arduino.cc/arduino-1.8.6-windows.exe"
       },
-      "version": "1.8.5"
+      "version": "1.8.6"
     },
     "atom": {
       "installer": {
@@ -734,9 +734,9 @@
             "-s"
           ]
         },
-        "x86": "https://us.download.nvidia.com/GFE/GFEClient/3.14.0.139/GeForce_Experience_v3.14.0.139.exe"
+        "x86": "https://us.download.nvidia.com/GFE/GFEClient/3.14.1.48/GeForce_Experience_v3.14.1.48.exe"
       },
-      "version": "3.14.0.139"
+      "version": "3.14.1.48"
     },
     "gimp": {
       "installer": {
@@ -1423,9 +1423,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/1.13.5.5291-6fa5e50a8/Plex-Media-Server-1.13.5.5291-6fa5e50a8.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/1.13.5.5332-21ab172de/Plex-Media-Server-1.13.5.5332-21ab172de.exe"
       },
-      "version": "1.13.5.5291"
+      "version": "1.13.5.5332"
     },
     "postman": {
       "installer": {
