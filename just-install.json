@@ -130,6 +130,20 @@
       },
       "version": "latest"
     },
+	"bcc": {
+      "installer": {
+        "kind": "zip",
+        "options": {
+          "destination": "{{.PROGRAMFILES}}\\bcc",
+          "shims": [
+            "{{.PROGRAMFILES}}\\bcc\\bcc.exe"
+          ]
+        },
+        "x86": "https://github.com/wormt/bcc/releases/download/{{.version}}/bcc-{{.version}}-32bit.zip",
+        "x86_64": "https://github.com/wormt/bcc/releases/download/{{.version}}/bcc-{{.version}}-64bit.zip"
+      },
+      "version": "0.8.0"
+    },
     "bcuninstaller": {
       "installer": {
         "kind": "innosetup",
