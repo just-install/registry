@@ -1425,7 +1425,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v81-installer-win.exe"
       },
-      "version": "81"
+      "version": "3"
     },
     "plex-media-server": {
       "installer": {
