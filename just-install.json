@@ -147,9 +147,9 @@
     "bcuninstaller": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v4.7/BCUninstaller_4.7_setup.exe"
+        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v4.8/BCUninstaller_4.8_setup.exe"
       },
-      "version": "4.7"
+      "version": "4.8"
     },
     "bitpay": {
       "installer": {
@@ -201,9 +201,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.ccleaner.com/ccsetup544.exe"
+        "x86": "https://download.ccleaner.com/ccsetup546.exe"
       },
-      "version": "5.44"
+      "version": "5.46"
     },
     "cdburnerxp": {
       "installer": {
@@ -365,10 +365,10 @@
     "dbeaver": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/dbeaver/dbeaver/releases/download/5.1.5/dbeaver-ce-5.1.5-x86-setup.exe",
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/5.1.5/dbeaver-ce-5.1.5-x86_64-setup.exe"
+        "x86": "https://github.com/dbeaver/dbeaver/releases/download/5.1.6/dbeaver-ce-5.1.6-x86-setup.exe",
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/5.1.6/dbeaver-ce-5.1.6-x86_64-setup.exe"
       },
-      "version": "5.1.5"
+      "version": "5.1.6"
     },
     "defraggler": {
       "installer": {
@@ -787,9 +787,9 @@
     "gitextensions": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/gitextensions/gitextensions/releases/download/v2.51.04/GitExtensions-2.51.04.msi"
+        "x86": "https://github.com/gitextensions/gitextensions/releases/download/v2.51.05/GitExtensions-2.51.05.msi"
       },
-      "version": "2.51.04"
+      "version": "2.51.05"
     },
     "github": {
       "installer": {
@@ -912,10 +912,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.47.1/hugo_0.47.1_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.47.1/hugo_0.47.1_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.48/hugo_0.48_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.48/hugo_0.48_Windows-64bit.zip"
       },
-      "version": "0.47.1"
+      "version": "0.48"
     },
     "imageglass": {
       "installer": {
@@ -1052,9 +1052,9 @@
     "kodi": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://mirrors.kodi.tv/releases/windows/win32/kodi-17.6-Krypton-x86.exe"
+        "x86": "http://mirrors.kodi.tv/releases/windows/win32/kodi-18.0-Leia_beta1-x86.exe"
       },
-      "version": "17.6"
+      "version": "18.0"
     },
     "libreoffice": {
       "installer": {
@@ -1287,9 +1287,9 @@
     "obs-studio": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-22.0.1-Full-Installer-x64.exe"
+        "x86": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-22.0.2-Full-Installer-x64.exe"
       },
-      "version": "22.0.1"
+      "version": "22.0.2"
     },
     "octave": {
       "installer": {
@@ -1330,9 +1330,9 @@
             "/S"
           ]
         },
-        "x86": "https://www.mls-software.com/files/setupssh-7.7p1-1.exe"
+        "x86": "https://www.mls-software.com/files/setupssh-7.8p1-1.exe"
       },
-      "version": "7.7"
+      "version": "7.8"
     },
     "openvpn": {
       "installer": {
@@ -1425,7 +1425,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v81-installer-win.exe"
       },
-      "version": "3"
+      "version": "81"
     },
     "plex-media-server": {
       "installer": {
@@ -1989,17 +1989,18 @@
         "options": {
           "destination": "{{.PROGRAMFILES_X86}}\\UPX"
         },
-        "x86": "https://github.com/upx/upx/releases/download/v3.94/upx394w.zip"
+        "x86": "https://github.com/upx/upx/releases/download/v3.95/upx-3.95-win32.zip",
+        "x86_64": "https://github.com/upx/upx/releases/download/v3.95/upx-3.95-win64.zip"
       },
-      "version": "3.94"
+      "version": "3.95"
     },
     "vagrant": {
       "installer": {
         "kind": "msi",
-        "x86": "https://releases.hashicorp.com/vagrant/2.1.2/vagrant_2.1.2_i686.msi",
-        "x86_64": "https://releases.hashicorp.com/vagrant/2.1.2/vagrant_2.1.2_x86_64.msi"
+        "x86": "https://releases.hashicorp.com/vagrant/2.1.4/vagrant_2.1.4_i686.msi",
+        "x86_64": "https://releases.hashicorp.com/vagrant/2.1.4/vagrant_2.1.4_x86_64.msi"
       },
-      "version": "2.1.2"
+      "version": "2.1.4"
     },
     "veracrypt": {
       "installer": {
@@ -2105,10 +2106,10 @@
     "vlc": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://get.videolan.org/vlc/3.0.3/win32/vlc-3.0.3-win32.exe",
-        "x86_64": "https://get.videolan.org/vlc/3.0.3/win64/vlc-3.0.3-win64.exe"
+        "x86": "https://get.videolan.org/vlc/3.0.4/win32/vlc-3.0.4-win32.exe",
+        "x86_64": "https://get.videolan.org/vlc/3.0.4/win64/vlc-3.0.4-win64.exe"
       },
-      "version": "3.0.3"
+      "version": "3.0.4"
     },
     "voicemeeter": {
       "installer": {
@@ -2209,17 +2210,17 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.13.3/WinSCP-5.13.3-Setup.exe/download"
+        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.13.4/WinSCP-5.13.4-Setup.exe/download"
       },
-      "version": "5.13.3"
+      "version": "5.13.4"
     },
     "wireshark": {
       "installer": {
         "kind": "msi",
-        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-2.6.2.exe",
-        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-2.6.2.exe"
+        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-2.6.3.exe",
+        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-2.6.3.exe"
       },
-      "version": "2.6.2"
+      "version": "2.6.3"
     },
     "wix": {
       "installer": {
@@ -2315,9 +2316,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.08.22/youtube-dl.exe"
+        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.09.01/youtube-dl.exe"
       },
-      "version": "2018.08.22"
+      "version": "2018.09.01"
     }
   }
 }
