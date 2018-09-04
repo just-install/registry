@@ -154,9 +154,9 @@
     "bitpay": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/bitpay/copay/releases/download/v4.6.1/BitPay.exe"
+        "x86": "https://github.com/bitpay/copay/releases/download/v4.6.2/BitPay.exe"
       },
-      "version": "4.6.1"
+      "version": "4.6.2"
     },
     "bleachbit": {
       "installer": {
@@ -1425,7 +1425,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v81-installer-win.exe"
       },
-      "version": "81"
+      "version": "3"
     },
     "plex-media-server": {
       "installer": {
