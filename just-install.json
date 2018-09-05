@@ -422,10 +422,10 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/ditto-cp/files/Ditto/3.21.223.0/DittoSetup_3_21_223_0.exe/download",
-        "x86_64": "https://sourceforge.net/projects/ditto-cp/files/Ditto/3.21.223.0/DittoSetup_64bit_3_21_223_0.exe/download"
+        "x86": "https://sourceforge.net/projects/ditto-cp/files/Ditto/3.21.258.0/DittoSetup_3_21_258_0.exe/download",
+        "x86_64": "https://sourceforge.net/projects/ditto-cp/files/Ditto/3.21.258.0/DittoSetup_64bit_3_21_258_0.exe/download"
       },
-      "version": "3.21.223.0"
+      "version": "3.21.258.0"
     },
     "dotnet": {
       "installer": {
@@ -1425,7 +1425,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v81-installer-win.exe"
       },
-      "version": "3"
+      "version": "81"
     },
     "plex-media-server": {
       "installer": {
