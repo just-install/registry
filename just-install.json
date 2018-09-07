@@ -258,10 +258,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://cmake.org/files/v3.12/cmake-3.12.1-win32-x86.msi",
-        "x86_64": "https://cmake.org/files/v3.12/cmake-3.12.1-win64-x64.msi"
+        "x86": "https://cmake.org/files/v3.12/cmake-3.12.2-win32-x86.msi",
+        "x86_64": "https://cmake.org/files/v3.12/cmake-3.12.2-win64-x64.msi"
       },
-      "version": "3.12.1"
+      "version": "3.12.2"
     },
     "colemak": {
       "installer": {
@@ -1221,10 +1221,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v10.9.0/node-v10.9.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v10.9.0/node-v10.9.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v10.10.0/node-v10.10.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v10.10.0/node-v10.10.0-x64.msi"
       },
-      "version": "10.9.0"
+      "version": "10.10.0"
     },
     "node-lts": {
       "installer": {
@@ -1425,7 +1425,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v81-installer-win.exe"
       },
-      "version": "81"
+      "version": "8"
     },
     "plex-media-server": {
       "installer": {
@@ -1484,9 +1484,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2018.2.2.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2018.2.3.exe"
       },
-      "version": "2018.2.2"
+      "version": "2018.2.3"
     },
     "python2": {
       "installer": {
@@ -1776,9 +1776,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.15.5.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.16.0.exe"
       },
-      "version": "1.15.5"
+      "version": "1.16.0"
     },
     "simplenote": {
       "installer": {
