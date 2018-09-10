@@ -735,9 +735,9 @@
     "freefilesync": {
       "installer": {
         "kind": "as-is",
-        "x86": "https://www.freefilesync.org/download/FreeFileSync_10.3_Windows_Setup.exe"
+        "x86": "https://www.freefilesync.org/download/FreeFileSync_10.4_Windows_Setup.exe"
       },
-      "version": "10.3"
+      "version": "10.4"
     },
     "geforce-experience": {
       "installer": {
@@ -997,9 +997,9 @@
         "options": {
           "extension": ".msi"
         },
-        "x86": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.39.1/KeePass-2.39.1.msi/download"
+        "x86": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.40/KeePass-2.40.msi/download"
       },
-      "version": "2.39.1"
+      "version": "2.40"
     },
     "keepass-keepasshttp": {
       "installer": {
@@ -2316,9 +2316,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.09.08/youtube-dl.exe"
+        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.09.10/youtube-dl.exe"
       },
-      "version": "2018.09.08"
+      "version": "2018.09.10"
     }
   }
 }
