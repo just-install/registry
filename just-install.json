@@ -45,9 +45,9 @@
     "arduino": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://downloads.arduino.cc/arduino-1.8.6-windows.exe"
+        "x86": "https://downloads.arduino.cc/arduino-1.8.7-windows.exe"
       },
-      "version": "1.8.6"
+      "version": "1.8.7"
     },
     "atom": {
       "installer": {
@@ -1997,10 +1997,10 @@
     "vagrant": {
       "installer": {
         "kind": "msi",
-        "x86": "https://releases.hashicorp.com/vagrant/2.1.4/vagrant_2.1.4_i686.msi",
-        "x86_64": "https://releases.hashicorp.com/vagrant/2.1.4/vagrant_2.1.4_x86_64.msi"
+        "x86": "https://releases.hashicorp.com/vagrant/2.1.5/vagrant_2.1.5_i686.msi",
+        "x86_64": "https://releases.hashicorp.com/vagrant/2.1.5/vagrant_2.1.5_x86_64.msi"
       },
-      "version": "2.1.4"
+      "version": "2.1.5"
     },
     "veracrypt": {
       "installer": {
