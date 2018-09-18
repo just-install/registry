@@ -1425,7 +1425,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v81-installer-win.exe"
       },
-      "version": "81"
+      "version": "2"
     },
     "plex-media-server": {
       "installer": {
@@ -2263,9 +2263,9 @@
     "workflowy": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/workflowy/desktop/releases/download/v1.1.1/WorkFlowy-Installer.exe"
+        "x86": "https://github.com/workflowy/desktop/releases/download/v1.1.2/WorkFlowy-Installer.exe"
       },
-      "version": "1.1.1"
+      "version": "1.1.2"
     },
     "wox": {
       "installer": {
