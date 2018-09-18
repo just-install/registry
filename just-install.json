@@ -780,9 +780,9 @@
             "{{.PROGRAMFILES}}\\Git LFS\\git-lfs.exe"
           ]
         },
-        "x86": "https://github.com/git-lfs/git-lfs/releases/download/v2.5.1/git-lfs-windows-v2.5.1.exe"
+        "x86": "https://github.com/git-lfs/git-lfs/releases/download/v2.5.2/git-lfs-windows-2.5.2.exe"
       },
-      "version": "2.5.1"
+      "version": "2.5.2"
     },
     "gitextensions": {
       "installer": {
@@ -1120,10 +1120,10 @@
             "{{.PROGRAMFILES}}\\Mercurial\\hg.exe"
           ]
         },
-        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-4.7.0-x86.msi",
-        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-4.7.0-x64.msi"
+        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-4.7.1-x86.msi",
+        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-4.7.1-x64.msi"
       },
-      "version": "4.7.0"
+      "version": "4.7.1"
     },
     "microsoft-security-essentials": {
       "installer": {
@@ -1776,9 +1776,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.16.0.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.16.1.exe"
       },
-      "version": "1.16.0"
+      "version": "1.16.1"
     },
     "simplenote": {
       "installer": {
@@ -1906,10 +1906,10 @@
     "teamspeak": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://dl.4players.de/ts/releases/3.2.1/TeamSpeak3-Client-win32-3.2.1.exe",
-        "x86_64": "http://dl.4players.de/ts/releases/3.2.1/TeamSpeak3-Client-win64-3.2.1.exe"
+        "x86": "http://dl.4players.de/ts/releases/3.2.2/TeamSpeak3-Client-win32-3.2.2.exe",
+        "x86_64": "http://dl.4players.de/ts/releases/3.2.2/TeamSpeak3-Client-win64-3.2.2.exe"
       },
-      "version": "3.2.1"
+      "version": "3.2.2"
     },
     "teamviewer": {
       "installer": {
@@ -2316,9 +2316,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.09.10/youtube-dl.exe"
+        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.09.18/youtube-dl.exe"
       },
-      "version": "2018.09.10"
+      "version": "2018.09.18"
     }
   }
 }
