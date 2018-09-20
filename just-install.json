@@ -201,9 +201,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.ccleaner.com/ccsetup546.exe"
+        "x86": "https://download.ccleaner.com/ccsetup547.exe"
       },
-      "version": "5.46"
+      "version": "5.47"
     },
     "cdburnerxp": {
       "installer": {
@@ -1221,10 +1221,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v10.10.0/node-v10.10.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v10.10.0/node-v10.10.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v10.11.0/node-v10.11.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v10.11.0/node-v10.11.0-x64.msi"
       },
-      "version": "10.10.0"
+      "version": "10.11.0"
     },
     "node-lts": {
       "installer": {
