@@ -147,9 +147,9 @@
     "bcuninstaller": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v4.8/BCUninstaller_4.8_setup.exe"
+        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v4.9/BCUninstaller_4.9_setup.exe"
       },
-      "version": "4.8"
+      "version": "4.9"
     },
     "bitpay": {
       "installer": {
@@ -1149,16 +1149,16 @@
     "mountainduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-2.6.2.9565.msi"
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-2.6.3.9605.msi"
       },
-      "version": "2.6.2.9565"
+      "version": "2.6.3.9605"
     },
     "mp3tag": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.mp3tag.de/mp3tagv289asetup.exe"
+        "x86": "https://download.mp3tag.de/mp3tagv290setup.exe"
       },
-      "version": "2.89a"
+      "version": "2.90"
     },
     "mpc-hc": {
       "installer": {
@@ -1484,9 +1484,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2018.2.3.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2018.2.4.exe"
       },
-      "version": "2018.2.3"
+      "version": "2018.2.4"
     },
     "python2": {
       "installer": {
@@ -1776,9 +1776,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.16.1.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.16.2.exe"
       },
-      "version": "1.16.1"
+      "version": "1.16.2"
     },
     "simplenote": {
       "installer": {
