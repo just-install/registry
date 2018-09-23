@@ -208,10 +208,10 @@
     "cdburnerxp": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.cdburnerxp.se/msi/cdbxp_setup_x64_4.5.8.6795.msi",
-        "x86_64": "https://download.cdburnerxp.se/msi/cdbxp_setup_x64_4.5.8.6795.msi"
+        "x86": "https://download.cdburnerxp.se/msi/cdbxp_setup_x64_4.5.8.7035.msi",
+        "x86_64": "https://download.cdburnerxp.se/msi/cdbxp_setup_x64_4.5.8.7035.msi"
       },
-      "version": "4.5.8.6795"
+      "version": "4.5.8.7035"
     },
     "chrome-remote-desktop-host": {
       "installer": {
@@ -1156,9 +1156,9 @@
     "mp3tag": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.mp3tag.de/mp3tagv290setup.exe"
+        "x86": "https://download.mp3tag.de/mp3tagv290asetup.exe"
       },
-      "version": "2.90"
+      "version": "2.90a"
     },
     "mpc-hc": {
       "installer": {
