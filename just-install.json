@@ -602,10 +602,10 @@
     "erlang": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://erlang.org/download/otp_win32_21.0.1.exe",
-        "x86_64": "http://erlang.org/download/otp_win64_21.0.1.exe"
+        "x86": "http://erlang.org/download/otp_win32_21.1.exe",
+        "x86_64": "http://erlang.org/download/otp_win64_21.1.exe"
       },
-      "version": "21.0"
+      "version": "21.1"
     },
     "etcher": {
       "installer": {
@@ -1437,9 +1437,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/1.13.5.5332-21ab172de/Plex-Media-Server-1.13.5.5332-21ab172de.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/1.13.8.5395-10d48da0d/Plex-Media-Server-1.13.8.5395-10d48da0d.exe"
       },
-      "version": "1.13.5.5332"
+      "version": "1.13.8.5395"
     },
     "postman": {
       "installer": {
