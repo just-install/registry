@@ -1059,10 +1059,10 @@
     "libreoffice": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.1.1/win/x86/LibreOffice_6.1.1_Win_x86.msi",
-        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.1.1/win/x86_64/LibreOffice_6.1.1_Win_x64.msi"
+        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.1.2/win/x86/LibreOffice_6.1.2_Win_x86.msi",
+        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.1.2/win/x86_64/LibreOffice_6.1.2_Win_x64.msi"
       },
-      "version": "6.1.1"
+      "version": "6.1.2"
     },
     "lightshot": {
       "installer": {
@@ -1425,7 +1425,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v81-installer-win.exe"
       },
-      "version": "1"
+      "version": "81"
     },
     "plex-media-server": {
       "installer": {
