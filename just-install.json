@@ -1425,7 +1425,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v81-installer-win.exe"
       },
-      "version": "81"
+      "version": "1"
     },
     "plex-media-server": {
       "installer": {
@@ -2199,10 +2199,10 @@
             "/S"
           ]
         },
-        "x86": "https://rarlab.com/rar/wrar560.exe",
-        "x86_64": "https://rarlab.com/rar/winrar-x64-560.exe"
+        "x86": "https://rarlab.com/rar/wrar561.exe",
+        "x86_64": "https://rarlab.com/rar/winrar-x64-561.exe"
       },
-      "version": "5.60"
+      "version": "5.61"
     },
     "winscp": {
       "installer": {
