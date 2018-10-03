@@ -154,9 +154,9 @@
     "bitpay": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/bitpay/copay/releases/download/v4.7.0/BitPay.exe"
+        "x86": "https://github.com/bitpay/copay/releases/download/v4.7.1/BitPay.exe"
       },
-      "version": "4.7.0"
+      "version": "4.7.1"
     },
     "bleachbit": {
       "installer": {
@@ -258,10 +258,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://cmake.org/files/v3.12/cmake-3.12.2-win32-x86.msi",
-        "x86_64": "https://cmake.org/files/v3.12/cmake-3.12.2-win64-x64.msi"
+        "x86": "https://cmake.org/files/v3.12/cmake-3.12.3-win32-x86.msi",
+        "x86_64": "https://cmake.org/files/v3.12/cmake-3.12.3-win64-x64.msi"
       },
-      "version": "3.12.2"
+      "version": "3.12.3"
     },
     "colemak": {
       "installer": {
@@ -1423,9 +1423,9 @@
     "pia": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://installers.privateinternetaccess.com/download/pia-v81-installer-win.exe"
+        "x86": "https://installers.privateinternetaccess.com/download/pia-v82-installer-win.exe"
       },
-      "version": "81"
+      "version": "2"
     },
     "plex-media-server": {
       "installer": {
