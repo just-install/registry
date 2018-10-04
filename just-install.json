@@ -1425,7 +1425,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v82-installer-win.exe"
       },
-      "version": "2"
+      "version": "82"
     },
     "plex-media-server": {
       "installer": {
