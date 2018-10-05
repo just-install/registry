@@ -767,10 +767,10 @@
             "{{.PROGRAMFILES_X86}}\\Git\\bin\\git.exe"
           ]
         },
-        "x86": "https://github.com/git-for-windows/git/releases/download/v2.19.0.windows.1/Git-2.19.0-32-bit.exe",
-        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.19.0.windows.1/Git-2.19.0-64-bit.exe"
+        "x86": "https://github.com/git-for-windows/git/releases/download/v2.19.1.windows.1/Git-2.19.1-32-bit.exe",
+        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.19.1.windows.1/Git-2.19.1-64-bit.exe"
       },
-      "version": "2.19.0"
+      "version": "2.19.1"
     },
     "git-lfs": {
       "installer": {
@@ -826,9 +826,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_1.2.45.61.exe"
+        "x86": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_1.2.46.172.exe"
       },
-      "version": "1.2.45.61"
+      "version": "1.2.46.172"
     },
     "google-chrome": {
       "installer": {
@@ -1425,7 +1425,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v82-installer-win.exe"
       },
-      "version": "82"
+      "version": "3"
     },
     "plex-media-server": {
       "installer": {
@@ -2316,9 +2316,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.09.26/youtube-dl.exe"
+        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.10.05/youtube-dl.exe"
       },
-      "version": "2018.09.26"
+      "version": "2018.10.05"
     }
   }
 }
