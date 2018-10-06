@@ -1505,6 +1505,14 @@
       },
       "version": "latest"
     },
+    "potplayer": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe",
+        "x86_64": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe"
+      },
+      "version": "latest"
+    },
     "processhacker": {
       "installer": {
         "kind": "innosetup",
