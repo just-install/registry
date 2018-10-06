@@ -158,6 +158,16 @@
       },
       "version": "4.7.1"
     },
+    "bitwarden": {
+      "installer": {
+        "kind": "nsis",
+        "options":{
+          "extension": ".exe"
+        },
+        "x86": "https://vault.bitwarden.com/download/?app=desktop&platform=windows&variant=exe"
+      },
+      "version": "latest"
+    },
     "bleachbit": {
       "installer": {
         "kind": "nsis",
