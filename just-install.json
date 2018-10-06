@@ -1548,7 +1548,7 @@
       },
       "version": "4.1.3"
     },
-    "rambox": {
+    "rambox-community": {
       "installer": {
         "kind": "custom",
         "options": {
