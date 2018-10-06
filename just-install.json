@@ -346,6 +346,13 @@
       },
       "version": "6.0.1"
     },
+    "cyberduck": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-{{.version}}.msi"
+      },
+      "version": "6.8.0.28825"
+    },
     "cygwin": {
       "installer": {
         "kind": "custom",
