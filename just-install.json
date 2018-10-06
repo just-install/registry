@@ -1946,6 +1946,14 @@
       },
       "version": "2.8.11"
     },
+    "tor-browser": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://www.torproject.org/dist/torbrowser/{{.version}}/torbrowser-install-{{.version}}_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/{{.version}}/torbrowser-install-win64-{{.version}}_en-US.exe"
+      },
+      "version": "8.0.2"
+    },
     "torguard": {
       "installer": {
         "kind": "nsis",
