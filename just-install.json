@@ -161,7 +161,7 @@
     "bitwarden": {
       "installer": {
         "kind": "nsis",
-        "options":{
+        "options": {
           "extension": ".exe"
         },
         "x86": "https://vault.bitwarden.com/download/?app=desktop&platform=windows&variant=exe"
@@ -814,7 +814,7 @@
             "{{.PROGRAMFILES}}\\Git LFS\\git-lfs.exe"
           ]
         },
-        "x86": "https://github.com/git-lfs/git-lfs/releases/download/v2.5.2/git-lfs-windows-2.5.2.exe"
+        "x86": "https://github.com/git-lfs/git-lfs/releases/download/v2.5.2/git-lfs-windows-v2.5.2.exe"
       },
       "version": "2.5.2"
     },
