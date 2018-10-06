@@ -1175,7 +1175,7 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://mullvad.net/en/download/latest/windows/"
+        "x86": "https://mullvad.net/download/latest-windows-app/"
       },
       "version": "latest"
     },
