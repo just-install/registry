@@ -910,6 +910,14 @@
       },
       "version": "9.5.0.5196"
     },
+    "hexchat": {
+      "installer": {
+        "kind": "innosetup",
+        "x86": "https://dl.hexchat.net/hexchat/HexChat%20{{.version}}%20x86.exe",
+        "x86_64": "https://dl.hexchat.net/hexchat/HexChat%20{{.version}}%20x64.exe"
+      },
+      "version": "2.14.2"
+    },
     "hugo": {
       "installer": {
         "kind": "zip",
