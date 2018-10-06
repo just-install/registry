@@ -763,6 +763,16 @@
       },
       "version": "10.4"
     },
+    "freeplane": {
+      "installer": {
+        "kind": "innosetup",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-{{.version}}.exe/download"
+      },
+      "version": "1.6.15"
+    },
     "geforce-experience": {
       "installer": {
         "kind": "custom",
