@@ -467,6 +467,13 @@
       },
       "version": "latest"
     },
+    "duck": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://dist.duck.sh/duck-{{.version}}.msi"
+      },
+      "version": "6.8.0.28825"
+    },
     "dynalist": {
       "installer": {
         "kind": "nsis",
