@@ -419,6 +419,16 @@
       },
       "version": "1.32"
     },
+    "displaycal": {
+      "installer": {
+        "kind": "innosetup",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://sourceforge.net/projects/dispcalgui/files/release/{{.version}}/DisplayCAL-{{.version}}-Setup.exe/download"
+      },
+      "version": "3.6.2.0"
+    },
     "discord": {
       "installer": {
         "kind": "custom",
