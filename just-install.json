@@ -764,7 +764,7 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://www.foxitsoftware.com/de/downloads/latest.php?product=Foxit-Enterprise-Reader&platform=Windows&package_type=msi"
+        "x86": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Enterprise-Reader&platform=Windows&package_type=msi"
       },
       "version": "latest"
     },
