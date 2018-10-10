@@ -419,16 +419,6 @@
       },
       "version": "1.32"
     },
-    "displaycal": {
-      "installer": {
-        "kind": "innosetup",
-        "options": {
-          "extension": ".exe"
-        },
-        "x86": "https://sourceforge.net/projects/dispcalgui/files/release/{{.version}}/DisplayCAL-{{.version}}-Setup.exe/download"
-      },
-      "version": "3.6.2.0"
-    },
     "discord": {
       "installer": {
         "kind": "custom",
@@ -442,6 +432,16 @@
         "x86": "https://discordapp.com/api/download?platform=win"
       },
       "version": "latest"
+    },
+    "displaycal": {
+      "installer": {
+        "kind": "innosetup",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://sourceforge.net/projects/dispcalgui/files/release/{{.version}}/DisplayCAL-{{.version}}-Setup.exe/download"
+      },
+      "version": "3.6.2.0"
     },
     "ditto": {
       "installer": {
@@ -1484,7 +1484,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v82-installer-win.exe"
       },
-      "version": "9"
+      "version": "82"
     },
     "plex-media-server": {
       "installer": {
