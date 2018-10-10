@@ -994,7 +994,7 @@
       },
       "version": "latest"
     },
-    "jdk": {
+    "jdk8": {
       "installer": {
         "kind": "custom",
         "options": {
@@ -1028,7 +1028,7 @@
       },
       "version": "latest"
     },
-    "jre": {
+    "jre8": {
       "installer": {
         "kind": "custom",
         "options": {
