@@ -6,14 +6,14 @@
 This repository contains the just-install "registry": the list of packages available for
 installation through just-install.
 
-## Submitting New Catalog Entries
+## Submitting new entries
 
 Fork this repository, make your changes to `just-install.json`, then submit a pull request.
 
 Guidelines to follow:
 
 * Read [this (rough) description of the registry file](docs/registry.md)
-* Registry entries are listed in alphabetical order, make sure yours fit with this scheme.
+* Registry entries are listed in alphabetical order, make sure yours fits with this scheme.
 * Prefer unversioned entries: if a software provides an URL to always get the latest installer try
   to use that.
 * When an installer combines both 32-bit and 64-bit versions of an application, only add the
@@ -25,9 +25,9 @@ Guidelines to follow:
 updater](https://github.com/just-install/just-install-updater) so that your entry can be automatically
 updated whenever a new version of your application is released.
 
-## How To Test Changes Locally
+## How to test changes locally
 
-* To test the latest features, you can install the Beta version that gets automatically rebuilt after each commit on the master branch by running `msiexec /i http://unstable.just-install.it`
+* To test the latest features, you can install the Beta version which is automatically rebuilt after each commit on the master branch by running `msiexec /i http://unstable.just-install.it`
 * Run `just-install update` to fetch the latest version of the registry file.
 * The registry is saved at `%TEMP%\just-install\just-install-v4.json`
 * Make your changes to said file:
