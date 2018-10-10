@@ -758,6 +758,16 @@
       },
       "version": "latest"
     },
+    "foxitreader": {
+      "installer": {
+        "kind": "msi",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://www.foxitsoftware.com/de/downloads/latest.php?product=Foxit-Enterprise-Reader&platform=Windows&package_type=msi"
+      },
+      "version": "latest"
+    },
     "freecad": {
       "installer": {
         "kind": "nsis",
