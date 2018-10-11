@@ -1118,6 +1118,14 @@
       },
       "version": "18.0"
     },
+    "krita": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://download.kde.org/stable/krita/{{.version}}/krita-x86-{{.version}}-setup.exe",
+        "x86_64": "https://download.kde.org/stable/krita/{{.version}}/krita-x64-{{.version}}-setup.exe"
+      },
+      "version": "4.1.5"
+    },
     "libreoffice": {
       "installer": {
         "kind": "msi",
