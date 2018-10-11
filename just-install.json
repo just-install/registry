@@ -2198,9 +2198,9 @@
     },
     "vlc": {
       "installer": {
-        "kind": "nsis",
-        "x86": "https://get.videolan.org/vlc/3.0.4/win32/vlc-3.0.4-win32.exe",
-        "x86_64": "https://get.videolan.org/vlc/3.0.4/win64/vlc-3.0.4-win64.exe"
+        "kind": "msi",
+        "x86": "https://get.videolan.org/vlc/3.0.4/win32/vlc-3.0.4-win32.msi",
+        "x86_64": "https://get.videolan.org/vlc/3.0.4/win64/vlc-3.0.4-win64.msi"
       },
       "version": "3.0.4"
     },
