@@ -1233,9 +1233,9 @@
     "mountainduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-2.6.3.9605.msi"
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-2.6.4.9632.msi"
       },
-      "version": "2.6.3.9605"
+      "version": "2.6.4.9632"
     },
     "mp3tag": {
       "installer": {
@@ -1509,7 +1509,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v82-installer-win.exe"
       },
-      "version": "82"
+      "version": "0"
     },
     "plex-media-server": {
       "installer": {
