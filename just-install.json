@@ -826,6 +826,13 @@
       },
       "version": "2.19.1"
     },
+    "git-credential-manager-for-windows": {
+      "installer": {
+        "kind": "innosetup",
+        "x86": "https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases/download/v{{.version}}/GCMW-{{.version}}.exe"
+      },
+      "version": "1.18.1"
+    },
     "git-lfs": {
       "installer": {
         "kind": "innosetup",
