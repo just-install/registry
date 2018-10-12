@@ -31,9 +31,9 @@
     "android-studio-ide": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.google.com/dl/android/studio/install/3.2.0.26/android-studio-ide-181.5014246-windows.exe"
+        "x86": "https://dl.google.com/dl/android/studio/install/3.2.1.0/android-studio-ide-181.5056338-windows.exe"
       },
-      "version": "3.2.0.26"
+      "version": "3.2.1.0"
     },
     "anydesk": {
       "installer": {
@@ -1509,7 +1509,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v82-installer-win.exe"
       },
-      "version": "0"
+      "version": "82"
     },
     "plex-media-server": {
       "installer": {
@@ -1963,10 +1963,10 @@
             "{{.PROGRAMFILES}}\\Sublime Text 3\\subl.exe"
           ]
         },
-        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203175%20Setup.exe",
-        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203175%20x64%20Setup.exe"
+        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203179%20Setup.exe",
+        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203179%20x64%20Setup.exe"
       },
-      "version": "3175"
+      "version": "3179"
     },
     "subversion": {
       "installer": {
@@ -2333,10 +2333,10 @@
     "wireshark": {
       "installer": {
         "kind": "msi",
-        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-2.6.3.exe",
-        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-2.6.3.exe"
+        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-2.6.4.exe",
+        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-2.6.4.exe"
       },
-      "version": "2.6.3"
+      "version": "2.6.4"
     },
     "wix": {
       "installer": {
