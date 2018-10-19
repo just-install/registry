@@ -1579,7 +1579,7 @@
         "x86": "https://downloads.rclone.org/v{{.version}}/rclone-v{{.version}}-windows-386.zip",
         "x86_64": "https://downloads.rclone.org/v{{.version}}/rclone-v{{.version}}-windows-amd64.zip"
       },
-      "version": "1.43.1"
+      "version": "1.44"
     },
     "recuva": {
       "installer": {
