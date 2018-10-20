@@ -147,9 +147,9 @@
     "bcuninstaller": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v4.10/BCUninstaller_4.10_setup.exe"
+        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v4.11/BCUninstaller_4.11_setup.exe"
       },
-      "version": "4.10"
+      "version": "4.11"
     },
     "bitpay": {
       "installer": {
@@ -1635,10 +1635,10 @@
             "InstallAllUsers=1"
           ]
         },
-        "x86": "https://www.python.org/ftp/python/3.7.0/python-3.7.0.exe",
-        "x86_64": "https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe"
+        "x86": "https://www.python.org/ftp/python/3.7.1/python-3.7.1.exe",
+        "x86_64": "https://www.python.org/ftp/python/3.7.1/python-3.7.1-amd64.exe"
       },
-      "version": "3.7.0"
+      "version": "3.7.1"
     },
     "qbittorrent": {
       "installer": {
@@ -1915,10 +1915,10 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/smplayer/files/SMPlayer/18.9.0/smplayer-18.9.0-win32.exe/download",
-        "x86_64": "https://sourceforge.net/projects/smplayer/files/SMPlayer/18.9.0/smplayer-18.9.0-x64.exe/download"
+        "x86": "https://sourceforge.net/projects/smplayer/files/SMPlayer/18.10.0/smplayer-18.10.0-win32.exe/download",
+        "x86_64": "https://sourceforge.net/projects/smplayer/files/SMPlayer/18.10.0/smplayer-18.10.0-x64.exe/download"
       },
-      "version": "18.9.0"
+      "version": "18.10.0"
     },
     "sourcetree": {
       "installer": {
