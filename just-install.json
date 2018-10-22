@@ -335,16 +335,16 @@
     "crystaldisk-info": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/70096/CrystalDiskInfo7_8_1.exe"
+        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/70096/CrystalDiskInfo7_8_2.exe"
       },
-      "version": "7.8.1"
+      "version": "7.8.2"
     },
     "crystaldisk-mark": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://osdn.dl.osdn.jp/crystaldiskmark/68624/CrystalDiskMark6_0_1.exe"
+        "x86": "https://osdn.net/frs/redir.php?m=gigenet&f=crystaldiskmark%2F68624%2FCrystalDiskMark6_0_2.exe"
       },
-      "version": "6.0.1"
+      "version": "6.0.2"
     },
     "cyberduck": {
       "installer": {
@@ -382,10 +382,10 @@
     "dbeaver": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/dbeaver/dbeaver/releases/download/5.2.2/dbeaver-ce-5.2.2-x86-setup.exe",
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/5.2.2/dbeaver-ce-5.2.2-x86_64-setup.exe"
+        "x86": "https://github.com/dbeaver/dbeaver/releases/download/5.2.3/dbeaver-ce-5.2.3-x86-setup.exe",
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/5.2.3/dbeaver-ce-5.2.3-x86_64-setup.exe"
       },
-      "version": "5.2.2"
+      "version": "5.2.3"
     },
     "defraggler": {
       "installer": {
@@ -1414,9 +1414,9 @@
             "/S"
           ]
         },
-        "x86": "https://www.mls-software.com/files/setupssh-7.8p1-1.exe"
+        "x86": "https://www.mls-software.com/files/setupssh-7.9p1-1.exe"
       },
-      "version": "7.8"
+      "version": "7.9"
     },
     "openvpn": {
       "installer": {
@@ -1838,10 +1838,10 @@
             "{{.SYSTEMDRIVE}}\\Ruby193\\bin\\rubyw.exe"
           ]
         },
-        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.5.1-2/rubyinstaller-2.5.1-2-x86.exe",
-        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.5.1-2/rubyinstaller-2.5.1-2-x64.exe"
+        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.4.5-1/rubyinstaller-2.4.5-1-x86.exe",
+        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.4.5-1/rubyinstaller-2.4.5-1-x64.exe"
       },
-      "version": "2.5.1"
+      "version": "2.4.5"
     },
     "rufus": {
       "installer": {
