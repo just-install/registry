@@ -31,9 +31,9 @@
     "android-studio-ide": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.google.com/dl/android/studio/install/3.2.0.26/android-studio-ide-181.5014246-windows.exe"
+        "x86": "https://dl.google.com/dl/android/studio/install/3.2.1.0/android-studio-ide-181.5056338-windows.exe"
       },
-      "version": "3.2.0.26"
+      "version": "3.2.1.0"
     },
     "anydesk": {
       "installer": {
@@ -147,16 +147,26 @@
     "bcuninstaller": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v4.10/BCUninstaller_4.10_setup.exe"
+        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v4.11/BCUninstaller_4.11_setup.exe"
       },
-      "version": "4.10"
+      "version": "4.11"
     },
     "bitpay": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/bitpay/copay/releases/download/v4.7.0/BitPay.exe"
+        "x86": "https://github.com/bitpay/copay/releases/download/v4.7.1/BitPay.exe"
       },
-      "version": "4.7.0"
+      "version": "4.7.1"
+    },
+    "bitwarden": {
+      "installer": {
+        "kind": "nsis",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://vault.bitwarden.com/download/?app=desktop&platform=windows&variant=exe"
+      },
+      "version": "latest"
     },
     "bleachbit": {
       "installer": {
@@ -258,10 +268,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://cmake.org/files/v3.12/cmake-3.12.2-win32-x86.msi",
-        "x86_64": "https://cmake.org/files/v3.12/cmake-3.12.2-win64-x64.msi"
+        "x86": "https://cmake.org/files/v3.12/cmake-3.12.3-win32-x86.msi",
+        "x86_64": "https://cmake.org/files/v3.12/cmake-3.12.3-win64-x64.msi"
       },
-      "version": "3.12.2"
+      "version": "3.12.3"
     },
     "colemak": {
       "installer": {
@@ -325,16 +335,23 @@
     "crystaldisk-info": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/70096/CrystalDiskInfo7_8_0.exe"
+        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/70096/CrystalDiskInfo7_8_2.exe"
       },
-      "version": "7.8.0"
+      "version": "7.8.2"
     },
     "crystaldisk-mark": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://osdn.dl.osdn.jp/crystaldiskmark/68624/CrystalDiskMark6_0_1.exe"
+        "x86": "https://osdn.net/frs/redir.php?m=gigenet&f=crystaldiskmark%2F68624%2FCrystalDiskMark6_0_2.exe"
       },
-      "version": "6.0.1"
+      "version": "6.0.2"
+    },
+    "cyberduck": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-6.8.2.28974.msi"
+      },
+      "version": "6.8.2.28974"
     },
     "cygwin": {
       "installer": {
@@ -365,10 +382,10 @@
     "dbeaver": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/dbeaver/dbeaver/releases/download/5.2.1/dbeaver-ce-5.2.1-x86-setup.exe",
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/5.2.1/dbeaver-ce-5.2.1-x86_64-setup.exe"
+        "x86": "https://github.com/dbeaver/dbeaver/releases/download/5.2.3/dbeaver-ce-5.2.3-x86-setup.exe",
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/5.2.3/dbeaver-ce-5.2.3-x86_64-setup.exe"
       },
-      "version": "5.2.1"
+      "version": "5.2.3"
     },
     "defraggler": {
       "installer": {
@@ -415,6 +432,16 @@
         "x86": "https://discordapp.com/api/download?platform=win"
       },
       "version": "latest"
+    },
+    "displaycal": {
+      "installer": {
+        "kind": "innosetup",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://sourceforge.net/projects/dispcalgui/files/release/{{.version}}/DisplayCAL-{{.version}}-Setup.exe/download"
+      },
+      "version": "3.6.2.0"
     },
     "ditto": {
       "installer": {
@@ -466,6 +493,13 @@
         "x86": "https://www.dropbox.com/download?type=full&plat=win"
       },
       "version": "latest"
+    },
+    "duck": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://dist.duck.sh/duck-6.8.2.28974.msi"
+      },
+      "version": "6.8.2.28974"
     },
     "dynalist": {
       "installer": {
@@ -610,10 +644,10 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/resin-io/etcher/releases/download/v1.4.4/Etcher-Setup-1.4.4-x86.exe",
-        "x86_64": "https://github.com/resin-io/etcher/releases/download/v1.4.4/Etcher-Setup-1.4.4-x64.exe"
+        "x86": "https://github.com/resin-io/etcher/releases/download/v1.4.5/Etcher-Setup-1.4.5-x86.exe",
+        "x86_64": "https://github.com/resin-io/etcher/releases/download/v1.4.5/Etcher-Setup-1.4.5-x64.exe"
       },
-      "version": "1.4.4"
+      "version": "1.4.5"
     },
     "everything-search": {
       "installer": {
@@ -706,21 +740,31 @@
     "flash-player": {
       "installer": {
         "kind": "msi",
-        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/31.0.0.108/install_flash_player_31_plugin.msi"
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/31.0.0.122/install_flash_player_31_plugin.msi"
       },
-      "version": "31.0.0.108"
+      "version": "31.0.0.122"
     },
     "flash-player-ie": {
       "installer": {
         "kind": "msi",
-        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/31.0.0.108/install_flash_player_31_active_x.msi"
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/31.0.0.122/install_flash_player_31_active_x.msi"
       },
-      "version": "31.0.0.108"
+      "version": "31.0.0.122"
     },
     "flux": {
       "installer": {
         "kind": "nsis",
         "x86": "https://justgetflux.com/flux-setup.exe"
+      },
+      "version": "latest"
+    },
+    "foxitreader": {
+      "installer": {
+        "kind": "msi",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Enterprise-Reader&platform=Windows&package_type=msi"
       },
       "version": "latest"
     },
@@ -735,9 +779,19 @@
     "freefilesync": {
       "installer": {
         "kind": "as-is",
-        "x86": "https://www.freefilesync.org/download/FreeFileSync_10.4_Windows_Setup.exe"
+        "x86": "https://www.freefilesync.org/download/FreeFileSync_10.5_Windows_Setup.exe"
       },
-      "version": "10.4"
+      "version": "10.5"
+    },
+    "freeplane": {
+      "installer": {
+        "kind": "innosetup",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-{{.version}}.exe/download"
+      },
+      "version": "1.6.15"
     },
     "geforce-experience": {
       "installer": {
@@ -748,9 +802,9 @@
             "-s"
           ]
         },
-        "x86": "https://us.download.nvidia.com/GFE/GFEClient/3.15.0.164/GeForce_Experience_v3.15.0.164.exe"
+        "x86": "https://us.download.nvidia.com/GFE/GFEClient/3.15.0.186/GeForce_Experience_v3.15.0.186.exe"
       },
-      "version": "3.15.0.164"
+      "version": "3.15.0.186"
     },
     "gimp": {
       "installer": {
@@ -767,10 +821,17 @@
             "{{.PROGRAMFILES_X86}}\\Git\\bin\\git.exe"
           ]
         },
-        "x86": "https://github.com/git-for-windows/git/releases/download/v2.19.0.windows.1/Git-2.19.0-32-bit.exe",
-        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.19.0.windows.1/Git-2.19.0-64-bit.exe"
+        "x86": "https://github.com/git-for-windows/git/releases/download/v2.19.1.windows.1/Git-2.19.1-32-bit.exe",
+        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.19.1.windows.1/Git-2.19.1-64-bit.exe"
       },
-      "version": "2.19.0"
+      "version": "2.19.1"
+    },
+    "git-credential-manager-for-windows": {
+      "installer": {
+        "kind": "innosetup",
+        "x86": "https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases/download/v1.18.2/GCMW-1.18.2.exe"
+      },
+      "version": "1.18.2"
     },
     "git-lfs": {
       "installer": {
@@ -780,7 +841,7 @@
             "{{.PROGRAMFILES}}\\Git LFS\\git-lfs.exe"
           ]
         },
-        "x86": "https://github.com/git-lfs/git-lfs/releases/download/v2.5.2/git-lfs-windows-2.5.2.exe"
+        "x86": "https://github.com/git-lfs/git-lfs/releases/download/v2.5.2/git-lfs-windows-v2.5.2.exe"
       },
       "version": "2.5.2"
     },
@@ -826,9 +887,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_1.2.45.61.exe"
+        "x86": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_1.2.46.172.exe"
       },
-      "version": "1.2.45.61"
+      "version": "1.2.46.172"
     },
     "google-chrome": {
       "installer": {
@@ -903,6 +964,14 @@
       },
       "version": "9.5.0.5196"
     },
+    "hexchat": {
+      "installer": {
+        "kind": "innosetup",
+        "x86": "https://dl.hexchat.net/hexchat/HexChat%20{{.version}}%20x86.exe",
+        "x86_64": "https://dl.hexchat.net/hexchat/HexChat%20{{.version}}%20x64.exe"
+      },
+      "version": "2.14.2"
+    },
     "hugo": {
       "installer": {
         "kind": "zip",
@@ -912,10 +981,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.49/hugo_0.49_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.49/hugo_0.49_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.49.2/hugo_0.49.2_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.49.2/hugo_0.49.2_Windows-64bit.zip"
       },
-      "version": "0.49"
+      "version": "0.49.2"
     },
     "imageglass": {
       "installer": {
@@ -986,10 +1055,10 @@
           ],
           "extension": ".exe"
         },
-        "x86": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=234472_96a7b8442fe848ef90c96a2fad6ed6d1",
-        "x86_64": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=234474_96a7b8442fe848ef90c96a2fad6ed6d1"
+        "x86": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=235725_2787e4a523244c269598db4e85c51e0c",
+        "x86_64": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=235727_2787e4a523244c269598db4e85c51e0c"
       },
-      "version": "8.181"
+      "version": "8.191"
     },
     "keepass": {
       "installer": {
@@ -1044,10 +1113,10 @@
     "kicad": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://downloads.kicad-pcb.org/windows/stable/kicad-5.0.0-i686.exe",
-        "x86_64": "http://downloads.kicad-pcb.org/windows/stable/kicad-5.0.0-x86_64.exe"
+        "x86": "http://downloads.kicad-pcb.org/windows/stable/kicad-5.0.1_3-i686.exe",
+        "x86_64": "http://downloads.kicad-pcb.org/windows/stable/kicad-5.0.1_3-x86_64.exe"
       },
-      "version": "5.0.0"
+      "version": "5.0.1"
     },
     "kodi": {
       "installer": {
@@ -1055,6 +1124,14 @@
         "x86": "http://mirrors.kodi.tv/releases/windows/win32/kodi-18.0-Leia_beta1-x86.exe"
       },
       "version": "18.0"
+    },
+    "krita": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://download.kde.org/stable/krita/{{.version}}/krita-x86-{{.version}}-setup.exe",
+        "x86_64": "https://download.kde.org/stable/krita/{{.version}}/krita-x64-{{.version}}-setup.exe"
+      },
+      "version": "4.1.5"
     },
     "libreoffice": {
       "installer": {
@@ -1112,6 +1189,13 @@
       },
       "version": "latest"
     },
+    "marktext": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://github.com/marktext/marktext/releases/download/v{{.version}}/marktext-setup-{{.version}}.exe"
+      },
+      "version": "0.12.25"
+    },
     "mercurial": {
       "installer": {
         "kind": "msi",
@@ -1120,10 +1204,10 @@
             "{{.PROGRAMFILES}}\\Mercurial\\hg.exe"
           ]
         },
-        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-4.7.1-x86.msi",
-        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-4.7.1-x64.msi"
+        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-4.7.2-x86.msi",
+        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-4.7.2-x64.msi"
       },
-      "version": "4.7.1"
+      "version": "4.7.2"
     },
     "microsoft-security-essentials": {
       "installer": {
@@ -1142,16 +1226,16 @@
     "mono": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.mono-project.com/archive/5.14.0/windows-installer/mono-5.14.0.177-x64-0.msi"
+        "x86": "https://download.mono-project.com/archive/5.16.0/windows-installer/mono-5.16.0.179-x64-0.msi"
       },
-      "version": "5.14.0.177"
+      "version": "5.16.0.179"
     },
     "mountainduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-2.6.3.9605.msi"
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-2.6.5.9650.msi"
       },
-      "version": "2.6.3.9605"
+      "version": "2.6.5.9650"
     },
     "mp3tag": {
       "installer": {
@@ -1175,7 +1259,7 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://mullvad.net/en/download/latest/windows/"
+        "x86": "https://mullvad.net/download/latest-windows-app/"
       },
       "version": "latest"
     },
@@ -1221,10 +1305,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v10.11.0/node-v10.11.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v10.11.0/node-v10.11.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v10.12.0/node-v10.12.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v10.12.0/node-v10.12.0-x64.msi"
       },
-      "version": "10.11.0"
+      "version": "10.12.0"
     },
     "node-lts": {
       "installer": {
@@ -1250,10 +1334,10 @@
     "notepad++": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://notepad-plus-plus.org/repository/7.x/7.5.8/npp.7.5.8.Installer.exe",
-        "x86_64": "https://notepad-plus-plus.org/repository/7.x/7.5.8/npp.7.5.8.Installer.x64.exe"
+        "x86": "https://notepad-plus-plus.org/repository/7.x/7.5.9/npp.7.5.9.Installer.exe",
+        "x86_64": "https://notepad-plus-plus.org/repository/7.x/7.5.9/npp.7.5.9.Installer.x64.exe"
       },
-      "version": "7.5.8"
+      "version": "7.5.9"
     },
     "notepad2-mod": {
       "installer": {
@@ -1330,9 +1414,9 @@
             "/S"
           ]
         },
-        "x86": "https://www.mls-software.com/files/setupssh-7.8p1-1.exe"
+        "x86": "https://www.mls-software.com/files/setupssh-7.9p1-1.exe"
       },
-      "version": "7.8"
+      "version": "7.9"
     },
     "openvpn": {
       "installer": {
@@ -1423,9 +1507,9 @@
     "pia": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://installers.privateinternetaccess.com/download/pia-v81-installer-win.exe"
+        "x86": "https://installers.privateinternetaccess.com/download/pia-v82-installer-win.exe"
       },
-      "version": "81"
+      "version": "82"
     },
     "plex-media-server": {
       "installer": {
@@ -1455,6 +1539,22 @@
         "x86_64": "https://dl.pstmn.io/download/latest/win64"
       },
       "version": "latest"
+    },
+    "potplayer": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe",
+        "x86_64": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe"
+      },
+      "version": "latest"
+    },
+    "powershell-core": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://github.com/PowerShell/PowerShell/releases/download/v{{.version}}/PowerShell-{{.version}}-win-x86.msi",
+        "x86_64": "https://github.com/PowerShell/PowerShell/releases/download/v{{.version}}/PowerShell-{{.version}}-win-x64.msi"
+      },
+      "version": "6.1.0"
     },
     "processhacker": {
       "installer": {
@@ -1535,10 +1635,10 @@
             "InstallAllUsers=1"
           ]
         },
-        "x86": "https://www.python.org/ftp/python/3.7.0/python-3.7.0.exe",
-        "x86_64": "https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe"
+        "x86": "https://www.python.org/ftp/python/3.7.1/python-3.7.1.exe",
+        "x86_64": "https://www.python.org/ftp/python/3.7.1/python-3.7.1-amd64.exe"
       },
-      "version": "3.7.0"
+      "version": "3.7.1"
     },
     "qbittorrent": {
       "installer": {
@@ -1548,7 +1648,15 @@
       },
       "version": "4.1.3"
     },
-    "rambox": {
+    "qtox": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://github.com/qTox/qTox/releases/download/v{{.version}}/setup-qtox-i686-release.exe",
+        "x86_64": "https://github.com/qTox/qTox/releases/download/v{{.version}}/setup-qtox-x86_64-release.exe"
+      },
+      "version": "1.16.3"
+    },
+    "rambox-community": {
       "installer": {
         "kind": "custom",
         "options": {
@@ -1730,10 +1838,10 @@
             "{{.SYSTEMDRIVE}}\\Ruby193\\bin\\rubyw.exe"
           ]
         },
-        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.5.1-2/rubyinstaller-2.5.1-2-x86.exe",
-        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.5.1-2/rubyinstaller-2.5.1-2-x64.exe"
+        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.4.5-1/rubyinstaller-2.4.5-1-x86.exe",
+        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.4.5-1/rubyinstaller-2.4.5-1-x64.exe"
       },
-      "version": "2.5.1"
+      "version": "2.4.5"
     },
     "rufus": {
       "installer": {
@@ -1776,9 +1884,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.16.2.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.16.3.exe"
       },
-      "version": "1.16.2"
+      "version": "1.16.3"
     },
     "simplenote": {
       "installer": {
@@ -1807,10 +1915,10 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/smplayer/files/SMPlayer/18.9.0/smplayer-18.9.0-win32.exe/download",
-        "x86_64": "https://sourceforge.net/projects/smplayer/files/SMPlayer/18.9.0/smplayer-18.9.0-x64.exe/download"
+        "x86": "https://sourceforge.net/projects/smplayer/files/SMPlayer/18.10.0/smplayer-18.10.0-win32.exe/download",
+        "x86_64": "https://sourceforge.net/projects/smplayer/files/SMPlayer/18.10.0/smplayer-18.10.0-x64.exe/download"
       },
-      "version": "18.9.0"
+      "version": "18.10.0"
     },
     "sourcetree": {
       "installer": {
@@ -1855,10 +1963,10 @@
             "{{.PROGRAMFILES}}\\Sublime Text 3\\subl.exe"
           ]
         },
-        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203175%20Setup.exe",
-        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203175%20x64%20Setup.exe"
+        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203180%20Setup.exe",
+        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203180%20x64%20Setup.exe"
       },
-      "version": "3175"
+      "version": "3180"
     },
     "subversion": {
       "installer": {
@@ -1946,6 +2054,14 @@
       },
       "version": "2.8.11"
     },
+    "tor-browser": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://www.torproject.org/dist/torbrowser/{{.version}}/torbrowser-install-{{.version}}_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/{{.version}}/torbrowser-install-win64-{{.version}}_en-US.exe"
+      },
+      "version": "8.0.2"
+    },
     "torguard": {
       "installer": {
         "kind": "nsis",
@@ -1968,10 +2084,10 @@
         "options": {
           "extension": ".msi"
         },
-        "x86": "https://osdn.net/frs/redir.php?m=pumath&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.10.1%2FApplication%2FTortoiseSVN-1.10.1.28295-win32-svn-1.10.2.msi",
-        "x86_64": "https://osdn.net/frs/redir.php?m=pumath&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.10.1%2FApplication%2FTortoiseSVN-1.10.1.28295-x64-svn-1.10.2.msi"
+        "x86": "https://osdn.net/frs/redir.php?m=pumath&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.10.2%2FApplication%2FTortoiseSVN-1.10.2.28392-win32-svn-1.10.3.msi",
+        "x86_64": "https://osdn.net/frs/redir.php?m=gigenet&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.10.2%2FApplication%2FTortoiseSVN-1.10.2.28392-x64-svn-1.10.3.msi"
       },
-      "version": "1.10.1"
+      "version": "1.10.2"
     },
     "uplay": {
       "installer": {
@@ -1997,10 +2113,10 @@
     "vagrant": {
       "installer": {
         "kind": "msi",
-        "x86": "https://releases.hashicorp.com/vagrant/2.1.5/vagrant_2.1.5_i686.msi",
-        "x86_64": "https://releases.hashicorp.com/vagrant/2.1.5/vagrant_2.1.5_x86_64.msi"
+        "x86": "https://releases.hashicorp.com/vagrant/2.2.0/vagrant_2.2.0_i686.msi",
+        "x86_64": "https://releases.hashicorp.com/vagrant/2.2.0/vagrant_2.2.0_x86_64.msi"
       },
-      "version": "2.1.5"
+      "version": "2.2.0"
     },
     "veracrypt": {
       "installer": {
@@ -2026,9 +2142,9 @@
             "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBoxManage.exe"
           ]
         },
-        "x86": "https://download.virtualbox.org/virtualbox/5.2.18/VirtualBox-5.2.18-124319-Win.exe"
+        "x86": "https://download.virtualbox.org/virtualbox/5.2.20/VirtualBox-5.2.20-125813-Win.exe"
       },
-      "version": "5.2.18"
+      "version": "5.2.20"
     },
     "virtualbox-extpack": {
       "installer": {
@@ -2043,9 +2159,9 @@
           ],
           "filename": "Oracle_VM_VirtualBox_Extension_Pack-5.0.16-105871.vbox-extpack"
         },
-        "x86": "https://download.virtualbox.org/virtualbox/5.2.18/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack"
+        "x86": "https://download.virtualbox.org/virtualbox/5.2.20/Oracle_VM_VirtualBox_Extension_Pack-5.2.20.vbox-extpack"
       },
-      "version": "5.2.18"
+      "version": "5.2.20"
     },
     "viscosity": {
       "installer": {
@@ -2098,16 +2214,16 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.0.1309.37.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.0.1309.37.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.0.1309.42.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.0.1309.42.x64.exe"
       },
-      "version": "2.0.1309.37"
+      "version": "2.0.1309.42"
     },
     "vlc": {
       "installer": {
-        "kind": "nsis",
-        "x86": "https://get.videolan.org/vlc/3.0.4/win32/vlc-3.0.4-win32.exe",
-        "x86_64": "https://get.videolan.org/vlc/3.0.4/win64/vlc-3.0.4-win64.exe"
+        "kind": "msi",
+        "x86": "https://get.videolan.org/vlc/3.0.4/win32/vlc-3.0.4-win32.msi",
+        "x86_64": "https://get.videolan.org/vlc/3.0.4/win64/vlc-3.0.4-win64.msi"
       },
       "version": "3.0.4"
     },
@@ -2129,9 +2245,9 @@
       "installer": {
         "interactive": true,
         "kind": "nsis",
-        "x86": "http://c7be0123d7efff32860a-a5a4fb8b39b86d00a1eb7d52603ae1d2.r6.cf1.rackcdn.com/VPN_Unlimited_v4.24.exe"
+        "x86": "http://geo.keepsolidcdn.com/soft/vpnunlimited/windows/VPN_Unlimited_v5.0.exe"
       },
-      "version": "4.24"
+      "version": "5.0"
     },
     "webtorrent": {
       "installer": {
@@ -2217,10 +2333,10 @@
     "wireshark": {
       "installer": {
         "kind": "msi",
-        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-2.6.3.exe",
-        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-2.6.3.exe"
+        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-2.6.4.exe",
+        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-2.6.4.exe"
       },
-      "version": "2.6.3"
+      "version": "2.6.4"
     },
     "wix": {
       "installer": {
@@ -2263,9 +2379,9 @@
     "workflowy": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/workflowy/desktop/releases/download/v1.1.2/WorkFlowy-Installer.exe"
+        "x86": "https://github.com/workflowy/desktop/releases/download/v1.1.5/WorkFlowy-Installer.exe"
       },
-      "version": "1.1.2"
+      "version": "1.1.5"
     },
     "wox": {
       "installer": {
@@ -2316,9 +2432,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.09.26/youtube-dl.exe"
+        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.10.05/youtube-dl.exe"
       },
-      "version": "2018.09.26"
+      "version": "2018.10.05"
     }
   }
 }
