@@ -316,14 +316,6 @@
       },
       "version": "1.86"
     },
-    "crashplan": {
-      "installer": {
-        "kind": "msi",
-        "x86": "https://download.code42.com/installs/win/install/CrashPlan/jre/CrashPlan_4.8.4_Win.msi",
-        "x86_64": "https://download.code42.com/installs/win/install/CrashPlan/jre/CrashPlan_4.8.4_Win64.msi"
-      },
-      "version": "4.8.4"
-    },
     "cryptomator": {
       "installer": {
         "kind": "innosetup",
