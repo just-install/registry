@@ -1261,6 +1261,13 @@
       },
       "version": "1.2.19"
     },
+    "mysql-workbench": {
+      "installer": {
+        "kind": "msi",
+        "x86_64": "https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.13-winx64.msi"
+      },
+      "version": "8.0.13"
+    },
     "naps2": {
       "installer": {
         "kind": "msi",
