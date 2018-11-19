@@ -101,8 +101,9 @@
                   "type": "string"
                 }
               },
-              "required": [
-                "kind"
+              "anyOf": [
+                {"required": ["kind", "x86"]},
+                {"required": ["kind", "x86_64"]}
               ],
               "type": "object"
             },
