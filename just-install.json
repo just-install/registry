@@ -326,9 +326,9 @@
     "crystaldisk-info": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/70096/CrystalDiskInfo7_8_2.exe"
+        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/70295/CrystalDiskInfo8_0_0.exe"
       },
-      "version": "7.8.2"
+      "version": "8.0.0"
     },
     "crystaldisk-mark": {
       "installer": {
@@ -793,9 +793,9 @@
             "-s"
           ]
         },
-        "x86": "https://us.download.nvidia.com/GFE/GFEClient/3.15.0.186/GeForce_Experience_v3.15.0.186.exe"
+        "x86": "https://us.download.nvidia.com/GFE/GFEClient/3.16.0.122/GeForce_Experience_v3.16.0.122.exe"
       },
-      "version": "3.15.0.186"
+      "version": "3.16.0.122"
     },
     "gimp": {
       "installer": {
@@ -1514,7 +1514,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v82-installer-win.exe"
       },
-      "version": "82"
+      "version": "0"
     },
     "plex-media-server": {
       "installer": {
