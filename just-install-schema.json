@@ -102,8 +102,7 @@
                 }
               },
               "required": [
-                "kind",
-                "x86"
+                "kind"
               ],
               "type": "object"
             },
