@@ -211,7 +211,7 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.ccleaner.com/ccsetup549.exe"
+        "x86": "https://download.ccleaner.com/slim/ccsetup549_slim.exe"
       },
       "version": "5.49"
     },
