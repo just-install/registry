@@ -319,6 +319,9 @@
     "cryptomator": {
       "installer": {
         "kind": "innosetup",
+        "options": {
+          "extension": ".exe"
+        },
         "x86_64": "https://bintray.com/cryptomator/cryptomator/download_file?file_path=Cryptomator-1.4.0-x64.exe"
       },
       "version": "1.4.0"
