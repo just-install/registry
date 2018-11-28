@@ -268,10 +268,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/Kitware/CMake/releases/download/v3.13.0/cmake-3.13.0-win32-x86.msi",
-        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.13.0/cmake-3.13.0-win64-x64.msi"
+        "x86": "https://github.com/Kitware/CMake/releases/download/v3.13.1/cmake-3.13.1-win32-x86.msi",
+        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.13.1/cmake-3.13.1-win64-x64.msi"
       },
-      "version": "3.13.0"
+      "version": "3.13.1"
     },
     "colemak": {
       "installer": {
@@ -975,10 +975,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.51/hugo_0.51_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.51/hugo_0.51_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.52/hugo_0.52_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.52/hugo_0.52_Windows-64bit.zip"
       },
-      "version": "0.51"
+      "version": "0.52"
     },
     "imageglass": {
       "installer": {
@@ -1306,18 +1306,18 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v11.2.0/node-v11.2.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v11.2.0/node-v11.2.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v11.3.0/node-v11.3.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v11.3.0/node-v11.3.0-x64.msi"
       },
-      "version": "11.2.0"
+      "version": "11.3.0"
     },
     "node-lts": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v10.13.0/node-v10.13.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v10.13.0/node-v10.13.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v10.14.0/node-v10.14.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v10.14.0/node-v10.14.0-x64.msi"
       },
-      "version": "10.13.0"
+      "version": "10.14.0"
     },
     "nordvpn": {
       "installer": {
@@ -1885,9 +1885,9 @@
     "simplenote": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v1.2.1/Simplenote-win-1.2.1.exe"
+        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v1.3.0/Simplenote-win-1.3.0.exe"
       },
-      "version": "1.2.1"
+      "version": "1.3.0"
     },
     "slack": {
       "installer": {
@@ -2107,10 +2107,10 @@
     "vagrant": {
       "installer": {
         "kind": "msi",
-        "x86": "https://releases.hashicorp.com/vagrant/2.2.1/vagrant_2.2.1_i686.msi",
-        "x86_64": "https://releases.hashicorp.com/vagrant/2.2.1/vagrant_2.2.1_x86_64.msi"
+        "x86": "https://releases.hashicorp.com/vagrant/2.2.2/vagrant_2.2.2_i686.msi",
+        "x86_64": "https://releases.hashicorp.com/vagrant/2.2.2/vagrant_2.2.2_x86_64.msi"
       },
-      "version": "2.2.1"
+      "version": "2.2.2"
     },
     "veracrypt": {
       "installer": {
