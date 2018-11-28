@@ -381,13 +381,6 @@
       },
       "version": "5.2.5"
     },
-    "defraggler": {
-      "installer": {
-        "kind": "nsis",
-        "x86": "https://download.ccleaner.com/dfsetup222.exe"
-      },
-      "version": "2.22"
-    },
     "deluge": {
       "installer": {
         "kind": "nsis",
@@ -1696,13 +1689,6 @@
         "x86_64": "https://downloads.rclone.org/v{{.version}}/rclone-v{{.version}}-windows-amd64.zip"
       },
       "version": "1.43.1"
-    },
-    "recuva": {
-      "installer": {
-        "kind": "nsis",
-        "x86": "https://download.ccleaner.com/rcsetup153.exe"
-      },
-      "version": "1.53"
     },
     "redist-2005": {
       "installer": {
