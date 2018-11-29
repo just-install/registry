@@ -211,9 +211,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.ccleaner.com/slim/ccsetup549_slim.exe"
+        "x86": "https://download.ccleaner.com/ccsetup550.exe"
       },
-      "version": "5.49"
+      "version": "5.50"
     },
     "cdburnerxp": {
       "installer": {
@@ -1314,10 +1314,10 @@
     "node-lts": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v10.14.0/node-v10.14.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v10.14.0/node-v10.14.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v10.14.1/node-v10.14.1-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v10.14.1/node-v10.14.1-x64.msi"
       },
-      "version": "10.14.0"
+      "version": "10.14.1"
     },
     "nordvpn": {
       "installer": {
@@ -1510,7 +1510,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v82-installer-win.exe"
       },
-      "version": "82"
+      "version": "99"
     },
     "plex-media-server": {
       "installer": {
@@ -1522,9 +1522,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/1.13.9.5456-ecd600442/Plex-Media-Server-1.13.9.5456-ecd600442.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/1.14.0.5470-9d51fdfaa/Plex-Media-Server-1.14.0.5470-9d51fdfaa.exe"
       },
-      "version": "1.13.9.5456"
+      "version": "1.14.0.5470"
     },
     "postman": {
       "installer": {
@@ -1957,10 +1957,10 @@
             "{{.PROGRAMFILES}}\\Sublime Text 3\\subl.exe"
           ]
         },
-        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203180%20Setup.exe",
-        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203180%20x64%20Setup.exe"
+        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203181%20Setup.exe",
+        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203181%20x64%20Setup.exe"
       },
-      "version": "3180"
+      "version": "3181"
     },
     "subversion": {
       "installer": {
@@ -2327,10 +2327,10 @@
     "wireshark": {
       "installer": {
         "kind": "msi",
-        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-2.6.4.exe",
-        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-2.6.4.exe"
+        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-2.6.5.exe",
+        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-2.6.5.exe"
       },
-      "version": "2.6.4"
+      "version": "2.6.5"
     },
     "wix": {
       "installer": {
