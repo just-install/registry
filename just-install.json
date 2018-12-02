@@ -874,9 +874,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_1.2.47.67.exe"
+        "x86": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_1.2.49.26.exe"
       },
-      "version": "1.2.47.67"
+      "version": "1.2.49.26"
     },
     "google-chrome": {
       "installer": {
@@ -1014,10 +1014,10 @@
             "/s"
           ]
         },
-        "x86": "http://download.oracle.com/otn-pub/java/jdk/8u181-b13/96a7b8442fe848ef90c96a2fad6ed6d1/jdk-8u181-windows-i586.exe",
-        "x86_64": "http://download.oracle.com/otn-pub/java/jdk/8u181-b13/96a7b8442fe848ef90c96a2fad6ed6d1/jdk-8u181-windows-x64.exe"
+        "x86": "http://download.oracle.com/otn-pub/java/jdk/8u191-b12/2787e4a523244c269598db4e85c51e0c/jdk-8u191-windows-i586.exe",
+        "x86_64": "http://download.oracle.com/otn-pub/java/jdk/8u191-b12/2787e4a523244c269598db4e85c51e0c/jdk-8u191-windows-x64.exe"
       },
-      "version": "8u181-b13"
+      "version": "8u191-b12"
     },
     "jetbrains-toolbox": {
       "installer": {
@@ -1234,9 +1234,9 @@
     "mp3tag": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.mp3tag.de/mp3tagv290asetup.exe"
+        "x86": "https://download.mp3tag.de/mp3tagv291setup.exe"
       },
-      "version": "2.90a"
+      "version": "2.91"
     },
     "mpc-hc": {
       "installer": {
@@ -1510,7 +1510,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v82-installer-win.exe"
       },
-      "version": "99"
+      "version": "82"
     },
     "plex-media-server": {
       "installer": {
@@ -1957,10 +1957,10 @@
             "{{.PROGRAMFILES}}\\Sublime Text 3\\subl.exe"
           ]
         },
-        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203181%20Setup.exe",
-        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203181%20x64%20Setup.exe"
+        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203183%20Setup.exe",
+        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203183%20x64%20Setup.exe"
       },
-      "version": "3181"
+      "version": "3183"
     },
     "subversion": {
       "installer": {
@@ -2373,9 +2373,9 @@
     "workflowy": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/workflowy/desktop/releases/download/v1.1.8/WorkFlowy-Installer.exe"
+        "x86": "https://github.com/workflowy/desktop/releases/download/v1.1.9/WorkFlowy-Installer.exe"
       },
-      "version": "1.1.8"
+      "version": "1.1.9"
     },
     "wox": {
       "installer": {
@@ -2426,9 +2426,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.11.23/youtube-dl.exe"
+        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.12.03/youtube-dl.exe"
       },
-      "version": "2018.11.23"
+      "version": "2018.12.03"
     }
   }
 }
