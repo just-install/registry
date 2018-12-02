@@ -1843,9 +1843,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES_X86}}\\Rufus\\rufus.exe"
         },
-        "x86": "https://rufus.akeo.ie/downloads/rufus.exe"
+        "x86": "https://github.com/pbatard/rufus/releases/download/v{{.version}}/rufus-{{.version}}.exe"
       },
-      "version": "latest"
+      "version": "3.3"
     },
     "sdm": {
       "installer": {
