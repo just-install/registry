@@ -1480,10 +1480,10 @@
     "perl": {
       "installer": {
         "kind": "msi",
-        "x86": "http://strawberryperl.com/download/5.28.0.1/strawberry-perl-5.28.0.1-32bit.msi",
-        "x86_64": "http://strawberryperl.com/download/5.28.0.1/strawberry-perl-5.28.0.1-64bit.msi"
+        "x86": "http://strawberryperl.com/download/5.28.1.1/strawberry-perl-5.28.1.1-32bit.msi",
+        "x86_64": "http://strawberryperl.com/download/5.28.1.1/strawberry-perl-5.28.1.1-64bit.msi"
       },
-      "version": "5.28.0.1"
+      "version": "5.28.1.1"
     },
     "photofiltre": {
       "installer": {
@@ -1510,7 +1510,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v82-installer-win.exe"
       },
-      "version": "82"
+      "version": "7"
     },
     "plex-media-server": {
       "installer": {
@@ -2239,9 +2239,9 @@
       "installer": {
         "interactive": true,
         "kind": "nsis",
-        "x86": "http://geo.keepsolidcdn.com/soft/vpnunlimited/windows/VPN_Unlimited_v5.0.exe"
+        "x86": "https://geo.keepsolidcdn.com/soft/vpnunlimited/windows/VPN_Unlimited_v5.1.exe"
       },
-      "version": "5.0"
+      "version": "5.1"
     },
     "webtorrent": {
       "installer": {
