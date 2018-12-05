@@ -1035,7 +1035,7 @@
             "{{.PROGRAMFILES_X86}}\\jom\\jom.exe"
           ]
         },
-        "x86": "http://download.qt.io/official_releases/jom/jom.zip"
+        "x86": "https://download.qt.io/official_releases/jom/jom.zip"
       },
       "version": "latest"
     },
