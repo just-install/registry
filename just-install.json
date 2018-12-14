@@ -853,10 +853,10 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dl.google.com/go/go1.11.2.windows-386.msi",
-        "x86_64": "https://dl.google.com/go/go1.11.2.windows-amd64.msi"
+        "x86": "https://dl.google.com/go/go1.11.3.windows-386.msi",
+        "x86_64": "https://dl.google.com/go/go1.11.3.windows-amd64.msi"
       },
-      "version": "1.11.2"
+      "version": "1.11.3"
     },
     "gog-galaxy": {
       "installer": {
@@ -1500,7 +1500,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v82-installer-win.exe"
       },
-      "version": "13"
+      "version": "82"
     },
     "plex-media-server": {
       "installer": {
