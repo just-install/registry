@@ -629,10 +629,10 @@
     "everything-search": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.voidtools.com/Everything-1.4.1.895.x86-Setup.exe",
-        "x86_64": "https://www.voidtools.com/Everything-1.4.1.895.x64-Setup.exe"
+        "x86": "https://www.voidtools.com/Everything-1.4.1.922.x86-Setup.exe",
+        "x86_64": "https://www.voidtools.com/Everything-1.4.1.922.x64-Setup.exe"
       },
-      "version": "1.4.1.895"
+      "version": "1.4.1.922"
     },
     "exeproxy": {
       "installer": {
@@ -798,10 +798,10 @@
             "{{.PROGRAMFILES_X86}}\\Git\\bin\\git.exe"
           ]
         },
-        "x86": "https://github.com/git-for-windows/git/releases/download/v2.20.0.windows.1/Git-2.20.0-32-bit.exe",
-        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.20.0.windows.1/Git-2.20.0-64-bit.exe"
+        "x86": "https://github.com/git-for-windows/git/releases/download/v2.20.1.windows.1/Git-2.20.1-32-bit.exe",
+        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.20.1.windows.1/Git-2.20.1-64-bit.exe"
       },
-      "version": "2.20.0"
+      "version": "2.20.1"
     },
     "git-credential-manager-for-windows": {
       "installer": {
@@ -853,10 +853,10 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dl.google.com/go/go1.11.3.windows-386.msi",
-        "x86_64": "https://dl.google.com/go/go1.11.3.windows-amd64.msi"
+        "x86": "https://dl.google.com/go/go1.11.4.windows-386.msi",
+        "x86_64": "https://dl.google.com/go/go1.11.4.windows-amd64.msi"
       },
-      "version": "1.11.3"
+      "version": "1.11.4"
     },
     "gog-galaxy": {
       "installer": {
