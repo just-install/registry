@@ -1482,6 +1482,21 @@
       },
       "version": "7.2.1"
     },
+    "php": {
+	    "installer": {
+	      "kind": "zip",
+		    "options": {
+		      "destination": "{{.SYSTEMDRIVE}}\\PHP",
+          "shims": [
+            "{{.SYSTEMDRIVE}}\\PHP\\php.exe",
+            "{{.SYSTEMDRIVE}}\\PHP\\php-win.exe"
+          ]
+		    },
+		    "x86": "https://windows.php.net/downloads/releases/php-{{.version}}-Win32-VC15-x86.zip",
+		    "x86_64": "https://windows.php.net/downloads/releases/php-{{.version}}-Win32-VC15-x64.zip"
+	    },
+	    "version": "7.3.0"
+	  },
     "physx": {
       "installer": {
         "kind": "custom",
