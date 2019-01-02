@@ -15,18 +15,18 @@
     "7zip": {
       "installer": {
         "kind": "msi",
-        "x86": "https://www.7-zip.org/a/7z1805.msi",
-        "x86_64": "https://www.7-zip.org/a/7z1805-x64.msi"
+        "x86": "https://www.7-zip.org/a/7z1806.msi",
+        "x86_64": "https://www.7-zip.org/a/7z1806-x64.msi"
       },
-      "version": "18.05"
+      "version": "18.06"
     },
     "anaconda": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://repo.anaconda.com/archive/Anaconda3-5.3.1-Windows-x86.exe",
-        "x86_64": "https://repo.anaconda.com/archive/Anaconda3-5.3.1-Windows-x86_64.exe"
+        "x86": "https://repo.continuum.io/archive/Anaconda3-2018.12-Windows-x86.exe",
+        "x86_64": "https://repo.continuum.io/archive/Anaconda3-2018.12-Windows-x86_64.exe"
       },
-      "version": "5.3.1"
+      "version": "2018.12"
     },
     "android-studio-ide": {
       "installer": {
@@ -366,10 +366,10 @@
     "dbeaver": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/dbeaver/dbeaver/releases/download/5.3.0/dbeaver-ce-5.3.0-x86-setup.exe",
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/5.3.0/dbeaver-ce-5.3.0-x86_64-setup.exe"
+        "x86": "https://github.com/dbeaver/dbeaver/releases/download/5.3.1/dbeaver-ce-5.3.1-x86-setup.exe",
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/5.3.1/dbeaver-ce-5.3.1-x86_64-setup.exe"
       },
-      "version": "5.3.0"
+      "version": "5.3.1"
     },
     "deluge": {
       "installer": {
@@ -426,10 +426,10 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/ditto-cp/files/Ditto/3.21.258.0/DittoSetup_3_21_258_0.exe/download",
-        "x86_64": "https://sourceforge.net/projects/ditto-cp/files/Ditto/3.21.258.0/DittoSetup_64bit_3_21_258_0.exe/download"
+        "x86": "https://sourceforge.net/projects/ditto-cp/files/Ditto/3.22.20.0/DittoSetup_3_22_20_0.exe/download",
+        "x86_64": "https://sourceforge.net/projects/ditto-cp/files/Ditto/3.22.20.0/DittoSetup_64bit_3_22_20_0.exe/download"
       },
-      "version": "3.21.258.0"
+      "version": "3.22.20.0"
     },
     "dotnet": {
       "installer": {
@@ -621,18 +621,18 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/balena-io/etcher/releases/download/v1.4.8/balenaEtcher-Setup-1.4.8-x86.exe",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.4.8/balenaEtcher-Setup-1.4.8-x64.exe"
+        "x86": "https://github.com/balena-io/etcher/releases/download/v1.4.9/balenaEtcher-Setup-1.4.9-x86.exe",
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.4.9/balenaEtcher-Setup-1.4.9-x64.exe"
       },
-      "version": "1.4.8"
+      "version": "1.4.9"
     },
     "everything-search": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.voidtools.com/Everything-1.4.1.922.x86-Setup.exe",
-        "x86_64": "https://www.voidtools.com/Everything-1.4.1.922.x64-Setup.exe"
+        "x86": "https://www.voidtools.com/Everything-1.4.1.924.x86-Setup.exe",
+        "x86_64": "https://www.voidtools.com/Everything-1.4.1.924.x64-Setup.exe"
       },
-      "version": "1.4.1.922"
+      "version": "1.4.1.924"
     },
     "exeproxy": {
       "installer": {
@@ -864,9 +864,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_1.2.49.26.exe"
+        "x86": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_1.2.51.30.exe"
       },
-      "version": "1.2.49.26"
+      "version": "1.2.51.30"
     },
     "google-chrome": {
       "installer": {
@@ -965,17 +965,17 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.52/hugo_0.52_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.52/hugo_0.52_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.53/hugo_0.53_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.53/hugo_0.53_Windows-64bit.zip"
       },
-      "version": "0.52"
+      "version": "0.53"
     },
     "imageglass": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/d2phap/ImageGlass/releases/download/5.5.7.26/ImageGlass_5.5.7.26.exe"
+        "x86": "https://github.com/d2phap/ImageGlass/releases/download/6.0.12.29/ImageGlass_6.0.12.29.exe"
       },
-      "version": "5.5.7.26"
+      "version": "6.0.12.29"
     },
     "inkscape": {
       "installer": {
@@ -1120,10 +1120,10 @@
     "libreoffice": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.1.3/win/x86/LibreOffice_6.1.3_Win_x86.msi",
-        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.1.3/win/x86_64/LibreOffice_6.1.3_Win_x64.msi"
+        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.1.4/win/x86/LibreOffice_6.1.4_Win_x86.msi",
+        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.1.4/win/x86_64/LibreOffice_6.1.4_Win_x64.msi"
       },
-      "version": "6.1.3"
+      "version": "6.1.4"
     },
     "lightshot": {
       "installer": {
@@ -1210,9 +1210,9 @@
     "mono": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.mono-project.com/archive/5.16.0/windows-installer/mono-5.16.0.220-x64-0.msi"
+        "x86": "https://download.mono-project.com/archive/5.18.0/windows-installer/mono-5.18.0.225-x64-0.msi"
       },
-      "version": "5.16.0.220"
+      "version": "5.18.0.225"
     },
     "mountainduck": {
       "installer": {
@@ -1296,18 +1296,18 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v11.4.0/node-v11.4.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v11.4.0/node-v11.4.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v11.6.0/node-v11.6.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v11.6.0/node-v11.6.0-x64.msi"
       },
-      "version": "11.4.0"
+      "version": "11.6.0"
     },
     "node-lts": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v10.14.2/node-v10.14.2-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v10.14.2/node-v10.14.2-x64.msi"
+        "x86": "https://nodejs.org/dist/v10.15.0/node-v10.15.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v10.15.0/node-v10.15.0-x64.msi"
       },
-      "version": "10.14.2"
+      "version": "10.15.0"
     },
     "nordvpn": {
       "installer": {
@@ -1325,10 +1325,10 @@
     "notepad++": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://notepad-plus-plus.org/repository/7.x/7.6.1/npp.7.6.1.Installer.exe",
-        "x86_64": "https://notepad-plus-plus.org/repository/7.x/7.6.1/npp.7.6.1.Installer.x64.exe"
+        "x86": "https://notepad-plus-plus.org/repository/7.x/7.6.2/npp.7.6.2.Installer.exe",
+        "x86_64": "https://notepad-plus-plus.org/repository/7.x/7.6.2/npp.7.6.2.Installer.x64.exe"
       },
-      "version": "7.6.1"
+      "version": "7.6.2"
     },
     "notepad2-mod": {
       "installer": {
@@ -1340,10 +1340,10 @@
     "npackd": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/tim-lebedkov/npackd-cpp/releases/download/version_1.23.2/Npackd32-1.23.2.msi",
-        "x86_64": "https://github.com/tim-lebedkov/npackd-cpp/releases/download/version_1.23.2/Npackd64-1.23.2.msi"
+        "x86": "https://github.com/tim-lebedkov/npackd-cpp/releases/download/version_1.24.8/Npackd32-1.24.8.msi",
+        "x86_64": "https://github.com/tim-lebedkov/npackd-cpp/releases/download/version_1.24.8/Npackd64-1.24.8.msi"
       },
-      "version": "1.23.2"
+      "version": "1.24.8"
     },
     "npackdcl": {
       "installer": {
@@ -1483,20 +1483,20 @@
       "version": "7.2.1"
     },
     "php": {
-	    "installer": {
-	      "kind": "zip",
-		    "options": {
-		      "destination": "{{.SYSTEMDRIVE}}\\PHP",
+      "installer": {
+        "kind": "zip",
+        "options": {
+          "destination": "{{.SYSTEMDRIVE}}\\PHP",
           "shims": [
             "{{.SYSTEMDRIVE}}\\PHP\\php.exe",
             "{{.SYSTEMDRIVE}}\\PHP\\php-win.exe"
           ]
-		    },
-		    "x86": "https://windows.php.net/downloads/releases/php-{{.version}}-Win32-VC15-x86.zip",
-		    "x86_64": "https://windows.php.net/downloads/releases/php-{{.version}}-Win32-VC15-x64.zip"
-	    },
-	    "version": "7.3.0"
-	  },
+        },
+        "x86": "https://windows.php.net/downloads/releases/php-{{.version}}-Win32-VC15-x86.zip",
+        "x86_64": "https://windows.php.net/downloads/releases/php-{{.version}}-Win32-VC15-x64.zip"
+      },
+      "version": "7.3.0"
+    },
     "physx": {
       "installer": {
         "kind": "custom",
@@ -1515,7 +1515,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v82-installer-win.exe"
       },
-      "version": "82"
+      "version": "7"
     },
     "plex-media-server": {
       "installer": {
@@ -1527,9 +1527,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server/1.14.0.5470-9d51fdfaa/Plex-Media-Server-1.14.0.5470-9d51fdfaa.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server/1.14.1.5488-cc260c476/Plex-Media-Server-1.14.1.5488-cc260c476.exe"
       },
-      "version": "1.14.0.5470"
+      "version": "1.14.1.5488"
     },
     "postman": {
       "installer": {
@@ -1590,9 +1590,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2018.3.1.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2018.3.2.exe"
       },
-      "version": "2018.3.1"
+      "version": "2018.3.2"
     },
     "python2": {
       "installer": {
@@ -1641,18 +1641,18 @@
             "InstallAllUsers=1"
           ]
         },
-        "x86": "https://www.python.org/ftp/python/3.7.1/python-3.7.1.exe",
-        "x86_64": "https://www.python.org/ftp/python/3.7.1/python-3.7.1-amd64.exe"
+        "x86": "https://www.python.org/ftp/python/3.7.2/python-3.7.2.exe",
+        "x86_64": "https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe"
       },
-      "version": "3.7.1"
+      "version": "3.7.2"
     },
     "qbittorrent": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.1.4_setup.exe\" data-file=\"qbittorrent_4.1.4_setup.exe",
-        "x86_64": "https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.1.4_x64_setup.exe\" data-file=\"qbittorrent_4.1.4_x64_setup.exe"
+        "x86": "https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.1.5_setup.exe\" data-file=\"qbittorrent_4.1.5_setup.exe",
+        "x86_64": "https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.1.5_x64_setup.exe\" data-file=\"qbittorrent_4.1.5_x64_setup.exe"
       },
-      "version": "4.1.4"
+      "version": "4.1.5"
     },
     "qtox": {
       "installer": {
@@ -1890,9 +1890,9 @@
     "simplenote": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v1.3.3/Simplenote-win-1.3.3.exe"
+        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v1.3.4/Simplenote-win-1.3.4.exe"
       },
-      "version": "1.3.3"
+      "version": "1.3.4"
     },
     "slack": {
       "installer": {
@@ -1995,10 +1995,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Syncthing"
         },
-        "x86": "https://github.com/syncthing/syncthing/releases/download/v0.14.54/syncthing-windows-386-v0.14.54.zip",
-        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v0.14.54/syncthing-windows-amd64-v0.14.54.zip"
+        "x86": "https://github.com/syncthing/syncthing/releases/download/v1.0.0/syncthing-windows-386-v1.0.0.zip",
+        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v1.0.0/syncthing-windows-amd64-v1.0.0.zip"
       },
-      "version": "0.14.54"
+      "version": "1.0.0"
     },
     "sysinternals": {
       "installer": {
@@ -2141,9 +2141,9 @@
             "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBoxManage.exe"
           ]
         },
-        "x86": "https://download.virtualbox.org/virtualbox/5.2.22/VirtualBox-5.2.22-126460-Win.exe"
+        "x86": "https://download.virtualbox.org/virtualbox/6.0.0/VirtualBox-6.0.0-127566-Win.exe"
       },
-      "version": "5.2.22"
+      "version": "6.0.0"
     },
     "virtualbox-extpack": {
       "installer": {
@@ -2158,9 +2158,9 @@
           ],
           "filename": "Oracle_VM_VirtualBox_Extension_Pack-5.0.16-105871.vbox-extpack"
         },
-        "x86": "https://download.virtualbox.org/virtualbox/5.2.22/Oracle_VM_VirtualBox_Extension_Pack-5.2.22.vbox-extpack"
+        "x86": "https://download.virtualbox.org/virtualbox/6.0.0/Oracle_VM_VirtualBox_Extension_Pack-6.0.0.vbox-extpack"
       },
-      "version": "5.2.22"
+      "version": "6.0.0"
     },
     "viscosity": {
       "installer": {
@@ -2213,10 +2213,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.2.1388.34.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.2.1388.34.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.2.1388.37.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.2.1388.37.x64.exe"
       },
-      "version": "2.2.1388.34"
+      "version": "2.2.1388.37"
     },
     "vlc": {
       "installer": {
@@ -2244,9 +2244,9 @@
       "installer": {
         "interactive": true,
         "kind": "nsis",
-        "x86": "https://geo.keepsolidcdn.com/soft/vpnunlimited/windows/VPN_Unlimited_v5.1.exe"
+        "x86": "http://c7be0123d7efff32860a-a5a4fb8b39b86d00a1eb7d52603ae1d2.r6.cf1.rackcdn.com/VPN_Unlimited_v5.2.exe"
       },
-      "version": "5.1"
+      "version": "5.2"
     },
     "webtorrent": {
       "installer": {
@@ -2431,9 +2431,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.12.09/youtube-dl.exe"
+        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.12.31/youtube-dl.exe"
       },
-      "version": "2018.12.09"
+      "version": "2018.12.31"
     }
   }
 }
