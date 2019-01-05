@@ -501,10 +501,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-Committers"
         },
-        "x86": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2018-09/R/eclipse-php-2018-09-win32.zip",
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2018-09/R/eclipse-php-2018-09-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2018-12/R/eclipse-php-2018-12-R-win32-x86_64.zip"
       },
-      "version": "2018-09"
+      "version": "2018-12-R"
     },
     "eclipse-cpp": {
       "installer": {
@@ -512,10 +511,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-CPP"
         },
-        "x86": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2018-09/R/eclipse-php-2018-09-win32.zip",
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2018-09/R/eclipse-php-2018-09-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2018-12/R/eclipse-php-2018-12-R-win32-x86_64.zip"
       },
-      "version": "2018-09"
+      "version": "2018-12-R"
     },
     "eclipse-java": {
       "installer": {
@@ -523,10 +521,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-Java"
         },
-        "x86": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2018-09/R/eclipse-php-2018-09-win32.zip",
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2018-09/R/eclipse-php-2018-09-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2018-12/R/eclipse-php-2018-12-R-win32-x86_64.zip"
       },
-      "version": "2018-09"
+      "version": "2018-12-R"
     },
     "eclipse-jee": {
       "installer": {
@@ -534,10 +531,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-JEE"
         },
-        "x86": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2018-09/R/eclipse-php-2018-09-win32.zip",
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2018-09/R/eclipse-php-2018-09-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2018-12/R/eclipse-php-2018-12-R-win32-x86_64.zip"
       },
-      "version": "2018-09"
+      "version": "2018-12-R"
     },
     "eclipse-php": {
       "installer": {
@@ -545,10 +541,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-PHP"
         },
-        "x86": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2018-09/R/eclipse-php-2018-09-win32.zip",
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2018-09/R/eclipse-php-2018-09-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2018-12/R/eclipse-php-2018-12-R-win32-x86_64.zip"
       },
-      "version": "2018-09"
+      "version": "2018-12-R"
     },
     "eig": {
       "installer": {
@@ -599,9 +594,9 @@
     "enpass": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.sinew.in/windows/setup/5-6-10/Enpass_5.6.10_Setup.exe"
+        "x86": "https://dl.enpass.io/stable/windows/setup/6.0.2.240/Enpass-setup.exe"
       },
-      "version": "5.6.10"
+      "version": "6.0.2.240"
     },
     "epic-games-launcher": {
       "installer": {
@@ -1348,9 +1343,10 @@
     "npackdcl": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/tim-lebedkov/npackd-cpp/releases/download/version_1.23.2/NpackdCL-1.23.2.msi"
+        "x86": "https://github.com/tim-lebedkov/npackd-cpp/releases/download/version_1.24.8/NpackdCL32-1.24.8.msi",
+        "x86_64": "https://github.com/tim-lebedkov/npackd-cpp/releases/download/version_1.24.8/NpackdCL64-1.24.8.msi"
       },
-      "version": "1.23.2"
+      "version": "1.24.8"
     },
     "nxlog": {
       "installer": {
@@ -1515,7 +1511,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v82-installer-win.exe"
       },
-      "version": "7"
+      "version": "82"
     },
     "plex-media-server": {
       "installer": {
@@ -1837,10 +1833,10 @@
             "{{.SYSTEMDRIVE}}\\Ruby193\\bin\\rubyw.exe"
           ]
         },
-        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.4.5-1/rubyinstaller-2.4.5-1-x86.exe",
-        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.4.5-1/rubyinstaller-2.4.5-1-x64.exe"
+        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.0-1/rubyinstaller-2.6.0-1-x86.exe",
+        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.0-1/rubyinstaller-2.6.0-1-x64.exe"
       },
-      "version": "2.4.5"
+      "version": "2.6.0"
     },
     "rufus": {
       "installer": {
@@ -2431,9 +2427,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/rg3/youtube-dl/releases/download/2018.12.31/youtube-dl.exe"
+        "x86": "https://github.com/rg3/youtube-dl/releases/download/2019.01.02/youtube-dl.exe"
       },
-      "version": "2018.12.31"
+      "version": "2019.01.02"
     }
   }
 }
