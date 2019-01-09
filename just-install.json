@@ -1045,9 +1045,9 @@
         "options": {
           "extension": ".msi"
         },
-        "x86": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.40/KeePass-2.40.msi/download"
+        "x86": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.41/KeePass-2.41.msi/download"
       },
-      "version": "2.40"
+      "version": "2.41"
     },
     "keepass-keepasshttp": {
       "installer": {
@@ -1872,9 +1872,9 @@
     "sharpkeys": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/randyrants/sharpkeys/releases/download/v3.8/sharpkeys38.msi"
+        "x86": "https://github.com/randyrants/sharpkeys/releases/download/v3.9/sharpkeys39.msi"
       },
-      "version": "3.8"
+      "version": "3.9"
     },
     "signal": {
       "installer": {
@@ -1918,9 +1918,9 @@
     "sourcetree": {
       "installer": {
         "kind": "advancedinstaller",
-        "x86": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.0.12.exe"
+        "x86": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.0.15.exe"
       },
-      "version": "3.0.12"
+      "version": "3.0.15"
     },
     "steam": {
       "installer": {
@@ -2328,10 +2328,10 @@
     "wireshark": {
       "installer": {
         "kind": "msi",
-        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-2.6.5.exe",
-        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-2.6.5.exe"
+        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-2.6.6.exe",
+        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-2.6.6.exe"
       },
-      "version": "2.6.5"
+      "version": "2.6.6"
     },
     "wix": {
       "installer": {
@@ -2374,9 +2374,9 @@
     "workflowy": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/workflowy/desktop/releases/download/v1.1.10/WorkFlowy-Installer.exe"
+        "x86": "https://github.com/workflowy/desktop/releases/download/v1.1.11/WorkFlowy-Installer.exe"
       },
-      "version": "1.1.10"
+      "version": "1.1.11"
     },
     "wox": {
       "installer": {
