@@ -295,9 +295,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v18.06.26/ConEmuSetup.180626.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v19.01.08/ConEmuSetup.190108.exe"
       },
-      "version": "18.06.26"
+      "version": "19.01.08"
     },
     "cpu-z": {
       "installer": {
@@ -1488,10 +1488,10 @@
             "{{.SYSTEMDRIVE}}\\PHP\\php-win.exe"
           ]
         },
-        "x86": "https://windows.php.net/downloads/releases/php-{{.version}}-Win32-VC15-x86.zip",
-        "x86_64": "https://windows.php.net/downloads/releases/php-{{.version}}-Win32-VC15-x64.zip"
+        "x86": "https://windows.php.net/downloads/releases/php-7.3.1-nts-Win32-VC15-x86.zip",
+        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.1-nts-Win32-VC15-x64.zip"
       },
-      "version": "7.3.0"
+      "version": "7.3.1"
     },
     "physx": {
       "installer": {
@@ -1586,9 +1586,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2018.3.2.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2018.3.3.exe"
       },
-      "version": "2018.3.2"
+      "version": "2018.3.3"
     },
     "python2": {
       "installer": {
@@ -2108,10 +2108,10 @@
     "vagrant": {
       "installer": {
         "kind": "msi",
-        "x86": "https://releases.hashicorp.com/vagrant/2.2.2/vagrant_2.2.2_i686.msi",
-        "x86_64": "https://releases.hashicorp.com/vagrant/2.2.2/vagrant_2.2.2_x86_64.msi"
+        "x86": "https://releases.hashicorp.com/vagrant/2.2.3/vagrant_2.2.3_i686.msi",
+        "x86_64": "https://releases.hashicorp.com/vagrant/2.2.3/vagrant_2.2.3_x86_64.msi"
       },
-      "version": "2.2.2"
+      "version": "2.2.3"
     },
     "veracrypt": {
       "installer": {
@@ -2217,10 +2217,10 @@
     "vlc": {
       "installer": {
         "kind": "msi",
-        "x86": "https://get.videolan.org/vlc/3.0.4/win32/vlc-3.0.4-win32.msi",
-        "x86_64": "https://get.videolan.org/vlc/3.0.4/win64/vlc-3.0.4-win64.msi"
+        "x86": "https://download.videolan.org/pub/videolan/vlc/last/win32/vlc-3.0.6-win32.msi",
+        "x86_64": "https://download.videolan.org/pub/videolan/vlc/last/win64/vlc-3.0.6-win64.msi"
       },
-      "version": "3.0.4"
+      "version": "3.0.6"
     },
     "voicemeeter": {
       "installer": {
@@ -2427,9 +2427,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/rg3/youtube-dl/releases/download/2019.01.02/youtube-dl.exe"
+        "x86": "https://github.com/rg3/youtube-dl/releases/download/2019.01.10/youtube-dl.exe"
       },
-      "version": "2019.01.02"
+      "version": "2019.01.10"
     }
   }
 }
