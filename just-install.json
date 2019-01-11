@@ -624,10 +624,10 @@
     "everything-search": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.voidtools.com/Everything-1.4.1.924.x86-Setup.exe",
-        "x86_64": "https://www.voidtools.com/Everything-1.4.1.924.x64-Setup.exe"
+        "x86": "https://www.voidtools.com/Everything-1.4.1.928.x86-Setup.exe",
+        "x86_64": "https://www.voidtools.com/Everything-1.4.1.928.x64-Setup.exe"
       },
-      "version": "1.4.1.924"
+      "version": "1.4.1.928"
     },
     "exeproxy": {
       "installer": {
@@ -2079,10 +2079,10 @@
         "options": {
           "extension": ".msi"
         },
-        "x86": "https://osdn.net/frs/redir.php?m=rwthaachen&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.11.0%2FApplication%2FTortoiseSVN-1.11.0.28416-win32-svn-1.11.0.msi",
-        "x86_64": "https://osdn.net/frs/redir.php?m=rwthaachen&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.11.0%2FApplication%2FTortoiseSVN-1.11.0.28416-x64-svn-1.11.0.msi"
+        "x86": "https://osdn.net/frs/redir.php?m=pumath&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.11.1%2FApplication%2FTortoiseSVN-1.11.1.28492-win32-svn-1.11.1.msi",
+        "x86_64": "https://osdn.net/frs/redir.php?m=constant&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.11.1%2FApplication%2FTortoiseSVN-1.11.1.28492-x64-svn-1.11.1.msi"
       },
-      "version": "1.11.0"
+      "version": "1.11.1"
     },
     "uplay": {
       "installer": {
