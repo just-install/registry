@@ -1070,10 +1070,10 @@
     "keeweb": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.7.2/KeeWeb-1.7.2.win.ia32.exe",
-        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.7.2/KeeWeb-1.7.2.win.x64.exe"
+        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.7.3/KeeWeb-1.7.3.win.ia32.exe",
+        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.7.3/KeeWeb-1.7.3.win.x64.exe"
       },
-      "version": "1.7.2"
+      "version": "1.7.3"
     },
     "keybase": {
       "installer": {
