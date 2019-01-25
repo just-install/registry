@@ -1219,9 +1219,9 @@
     "mp3tag": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.mp3tag.de/mp3tagv292setup.exe"
+        "x86": "https://download.mp3tag.de/mp3tagv292asetup.exe"
       },
-      "version": "2.92"
+      "version": "2.92a"
     },
     "mpc-hc": {
       "installer": {
@@ -1291,10 +1291,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v11.7.0/node-v11.7.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v11.7.0/node-v11.7.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v11.8.0/node-v11.8.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v11.8.0/node-v11.8.0-x64.msi"
       },
-      "version": "11.7.0"
+      "version": "11.8.0"
     },
     "node-lts": {
       "installer": {
