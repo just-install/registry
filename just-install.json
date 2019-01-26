@@ -624,10 +624,10 @@
     "everything-search": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.voidtools.com/Everything-1.4.1.928.x86-Setup.exe",
-        "x86_64": "https://www.voidtools.com/Everything-1.4.1.928.x64-Setup.exe"
+        "x86": "https://www.voidtools.com/Everything-1.4.1.932.x86-Setup.exe",
+        "x86_64": "https://www.voidtools.com/Everything-1.4.1.932.x64-Setup.exe"
       },
-      "version": "1.4.1.928"
+      "version": "1.4.1.932"
     },
     "exeproxy": {
       "installer": {
@@ -939,9 +939,9 @@
     "heidisql": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://www.heidisql.com/installers/HeidiSQL_10.0.0.5460_Setup.exe"
+        "x86": "https://www.heidisql.com/installers/HeidiSQL_10.1.0.5464_Setup.exe"
       },
-      "version": "10.0.0.5460"
+      "version": "10.1.0.5464"
     },
     "hexchat": {
       "installer": {
