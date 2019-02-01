@@ -137,9 +137,9 @@
     "bcuninstaller": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v4.12.2/BCUninstaller_4.12.2_setup.exe"
+        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v4.12.3/BCUninstaller_4.12.3_setup.exe"
       },
-      "version": "4.12.2"
+      "version": "4.12.3"
     },
     "bitpay": {
       "installer": {
@@ -594,9 +594,9 @@
     "enpass": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.enpass.io/stable/windows/setup/6.0.3.263/Enpass-setup.exe"
+        "x86": "https://dl.enpass.io/stable/windows/setup/6.0.4.281/Enpass-setup.exe"
       },
-      "version": "6.0.3.263"
+      "version": "6.0.4.281"
     },
     "epic-games-launcher": {
       "installer": {
@@ -960,10 +960,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.53/hugo_0.53_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.53/hugo_0.53_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_0.54.0_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_0.54.0_Windows-64bit.zip"
       },
-      "version": "0.53"
+      "version": "0.54.0"
     },
     "imageglass": {
       "installer": {
@@ -1212,9 +1212,9 @@
     "mountainduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-2.7.0.9820.msi"
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-2.7.1.9840.msi"
       },
-      "version": "2.7.0.9820"
+      "version": "2.7.1.9840"
     },
     "mp3tag": {
       "installer": {
@@ -1291,18 +1291,18 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v11.8.0/node-v11.8.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v11.8.0/node-v11.8.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v11.9.0/node-v11.9.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v11.9.0/node-v11.9.0-x64.msi"
       },
-      "version": "11.8.0"
+      "version": "11.9.0"
     },
     "node-lts": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v10.15.0/node-v10.15.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v10.15.0/node-v10.15.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v10.15.1/node-v10.15.1-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v10.15.1/node-v10.15.1-x64.msi"
       },
-      "version": "10.15.0"
+      "version": "10.15.1"
     },
     "nordvpn": {
       "installer": {
@@ -1586,9 +1586,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2018.3.3.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2018.3.4.exe"
       },
-      "version": "2018.3.3"
+      "version": "2018.3.4"
     },
     "python2": {
       "installer": {
@@ -1833,10 +1833,10 @@
             "{{.SYSTEMDRIVE}}\\Ruby193\\bin\\rubyw.exe"
           ]
         },
-        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.0-1/rubyinstaller-2.6.0-1-x86.exe",
-        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.0-1/rubyinstaller-2.6.0-1-x64.exe"
+        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.1-1/rubyinstaller-2.6.1-1-x86.exe",
+        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.1-1/rubyinstaller-2.6.1-1-x64.exe"
       },
-      "version": "2.6.0"
+      "version": "2.6.1"
     },
     "rufus": {
       "installer": {
@@ -1886,9 +1886,9 @@
     "simplenote": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v1.3.4/Simplenote-win-1.3.4.exe"
+        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v1.4.0/Simplenote-win-1.4.0.exe"
       },
-      "version": "1.3.4"
+      "version": "1.4.0"
     },
     "slack": {
       "installer": {
@@ -1910,10 +1910,10 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/smplayer/files/SMPlayer/18.10.0/smplayer-18.10.0-win32.exe/download",
-        "x86_64": "https://sourceforge.net/projects/smplayer/files/SMPlayer/18.10.0/smplayer-18.10.0-x64.exe/download"
+        "x86": "https://sourceforge.net/projects/smplayer/files/SMPlayer/19.1.0/smplayer-19.1.0-win32.exe/download",
+        "x86_64": "https://sourceforge.net/projects/smplayer/files/SMPlayer/19.1.0/smplayer-19.1.0-x64.exe/download"
       },
-      "version": "18.10.0"
+      "version": "19.1.0"
     },
     "sourcetree": {
       "installer": {
@@ -1958,10 +1958,10 @@
             "{{.PROGRAMFILES}}\\Sublime Text 3\\subl.exe"
           ]
         },
-        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203188%20Setup.exe",
-        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203188%20x64%20Setup.exe"
+        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203189%20Setup.exe",
+        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203189%20x64%20Setup.exe"
       },
-      "version": "3188"
+      "version": "3189"
     },
     "subversion": {
       "installer": {
@@ -2052,10 +2052,10 @@
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/8.0.4/torbrowser-install-8.0.4_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/8.0.4/torbrowser-install-win64-8.0.4_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/8.0.5/torbrowser-install-8.0.5_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/8.0.5/torbrowser-install-win64-8.0.5_en-US.exe"
       },
-      "version": "8.0.4"
+      "version": "8.0.5"
     },
     "torguard": {
       "installer": {
@@ -2374,9 +2374,9 @@
     "workflowy": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/workflowy/desktop/releases/download/v1.1.14/WorkFlowy-Installer.exe"
+        "x86": "https://github.com/workflowy/desktop/releases/download/v1.1.15/WorkFlowy-Installer.exe"
       },
-      "version": "1.1.14"
+      "version": "1.1.15"
     },
     "wox": {
       "installer": {
@@ -2427,9 +2427,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/rg3/youtube-dl/releases/download/2019.01.27/youtube-dl.exe"
+        "x86": "https://github.com/rg3/youtube-dl/releases/download/2019.01.30.1/youtube-dl.exe"
       },
-      "version": "2019.01.27"
+      "version": "2019.01.30.1"
     }
   }
 }
