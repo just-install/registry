@@ -761,9 +761,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.7.3.exe/download"
+        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.7.5.exe/download"
       },
-      "version": "1.7.3"
+      "version": "1.7.5"
     },
     "geforce-experience": {
       "installer": {
@@ -1511,7 +1511,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v82-installer-win.exe"
       },
-      "version": "82"
+      "version": "9"
     },
     "plex-media-server": {
       "installer": {
