@@ -1807,7 +1807,7 @@
         "x86": "https://aka.ms/vs/15/release/vc_redist.x86.exe",
         "x86_64": "https://aka.ms/vs/15/release/vc_redist.x64.exe"
       },
-      "version": "14.14.26429.4"
+      "version": "14.16.27024.1"
     },
     "resource-hacker": {
       "installer": {
