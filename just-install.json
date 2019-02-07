@@ -31,9 +31,9 @@
     "android-studio-ide": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.google.com/dl/android/studio/install/3.3.0.20/android-studio-ide-182.5199772-windows.exe"
+        "x86": "https://dl.google.com/dl/android/studio/install/3.3.1.0/android-studio-ide-182.5264788-windows.exe"
       },
-      "version": "3.3.0.20"
+      "version": "3.3.1.0"
     },
     "anydesk": {
       "installer": {
@@ -1115,10 +1115,10 @@
     "libreoffice": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.1.4/win/x86/LibreOffice_6.1.4_Win_x86.msi",
-        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.1.4/win/x86_64/LibreOffice_6.1.4_Win_x64.msi"
+        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.1.5/win/x86/LibreOffice_6.1.5_Win_x86.msi",
+        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.1.5/win/x86_64/LibreOffice_6.1.5_Win_x64.msi"
       },
-      "version": "6.1.4"
+      "version": "6.1.5"
     },
     "lightshot": {
       "installer": {
