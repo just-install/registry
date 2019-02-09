@@ -452,10 +452,10 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.8.4%20beta/doublecmd-0.8.4.i386-win32.msi/download",
-        "x86_64": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.8.4%20beta/doublecmd-0.8.4.x86_64-win64.msi/download"
+        "x86": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.0%20beta/doublecmd-0.9.0.i386-win32.msi/download",
+        "x86_64": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.0%20beta/doublecmd-0.9.0.x86_64-win64.msi/download"
       },
-      "version": "0.8.4"
+      "version": "0.9.0"
     },
     "dropbox": {
       "installer": {
@@ -1511,7 +1511,7 @@
         "kind": "innosetup",
         "x86": "https://installers.privateinternetaccess.com/download/pia-v82-installer-win.exe"
       },
-      "version": "82"
+      "version": "8"
     },
     "plex-media-server": {
       "installer": {
@@ -1879,16 +1879,16 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.21.0.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.21.1.exe"
       },
-      "version": "1.21.0"
+      "version": "1.21.1"
     },
     "simplenote": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v1.4.0/Simplenote-win-1.4.0.exe"
+        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v1.4.1/Simplenote-win-1.4.1.exe"
       },
-      "version": "1.4.0"
+      "version": "1.4.1"
     },
     "slack": {
       "installer": {
