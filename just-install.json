@@ -774,9 +774,9 @@
             "-s"
           ]
         },
-        "x86": "https://us.download.nvidia.com/GFE/GFEClient/3.16.0.140/GeForce_Experience_v3.16.0.140.exe"
+        "x86": "https://us.download.nvidia.com/GFE/GFEClient/3.17.0.126/GeForce_Experience_v3.17.0.126.exe"
       },
-      "version": "3.16.0.140"
+      "version": "3.17.0.126"
     },
     "gimp": {
       "installer": {
@@ -1100,9 +1100,9 @@
     "kodi": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://mirrors.kodi.tv/releases/windows/win32/kodi-18.0-Leia_beta1-x86.exe"
+        "x86": "http://mirrors.kodi.tv/releases/windows/win32/kodi-18.1-Leia_rc1-x86.exe"
       },
-      "version": "18.0"
+      "version": "18.1"
     },
     "krita": {
       "installer": {
