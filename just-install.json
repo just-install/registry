@@ -972,20 +972,6 @@
       },
       "version": "6.0.12.29"
     },
-    "irfanview": {
-      "installer": {
-        "kind": "custom",
-        "options": {
-          "arguments": [
-            "{{.installer}}",
-            "/silent"
-          ]
-        },
-        "x86": "http://download.betanews.com/download/967963863-1/iview{{.version}}_setup.exe",
-        "x86_64": "http://download.betanews.com/download/967963863-1/iview{{.version}}_x64_setup.exe"
-      },
-      "version": "452"
-    },
     "inkscape": {
       "installer": {
         "kind": "msi",
@@ -1003,6 +989,20 @@
         "x86": "http://www.jrsoftware.org/download.php/is-unicode.exe"
       },
       "version": "latest"
+    },
+    "irfanview": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/silent"
+          ]
+        },
+        "x86": "http://download.betanews.com/download/967963863-1/iview{{.version}}_setup.exe",
+        "x86_64": "http://download.betanews.com/download/967963863-1/iview{{.version}}_x64_setup.exe"
+      },
+      "version": "452"
     },
     "jdk": {
       "installer": {
@@ -1893,9 +1893,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.21.1.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.21.2.exe"
       },
-      "version": "1.21.1"
+      "version": "1.21.2"
     },
     "simplenote": {
       "installer": {
@@ -1932,9 +1932,9 @@
     "sourcetree": {
       "installer": {
         "kind": "advancedinstaller",
-        "x86": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.0.15.exe"
+        "x86": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.0.17.exe"
       },
-      "version": "3.0.15"
+      "version": "3.0.17"
     },
     "steam": {
       "installer": {
@@ -2066,10 +2066,10 @@
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/8.0.5/torbrowser-install-8.0.5_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/8.0.5/torbrowser-install-win64-8.0.5_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/8.0.6/torbrowser-install-8.0.6_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/8.0.6/torbrowser-install-win64-8.0.6_en-US.exe"
       },
-      "version": "8.0.5"
+      "version": "8.0.6"
     },
     "torguard": {
       "installer": {
@@ -2388,9 +2388,9 @@
     "workflowy": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/workflowy/desktop/releases/download/v1.1.16/WorkFlowy-Installer.exe"
+        "x86": "https://github.com/workflowy/desktop/releases/download/v1.2.0/WorkFlowy-Installer.exe"
       },
-      "version": "1.1.16"
+      "version": "1.2.0"
     },
     "wox": {
       "installer": {
