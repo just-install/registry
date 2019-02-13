@@ -1846,7 +1846,7 @@
         },
         "x86": "https://github.com/pbatard/rufus/releases/download/v{{.version}}/rufus-{{.version}}.exe"
       },
-      "version": "3.3"
+      "version": "3.4"
     },
     "sdm": {
       "installer": {
