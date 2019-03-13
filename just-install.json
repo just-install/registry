@@ -1936,6 +1936,14 @@
       },
       "version": "3.0.17"
     },
+    "sshfs-win": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://github.com/billziss-gh/sshfs-win/releases/download/v{{.version}}/sshfs-win-{{.version}}-x86.msi",
+        "x86_64": "https://github.com/billziss-gh/sshfs-win/releases/download/v{{.version}}/sshfs-win-{{.version}}-x64.msi"
+      },
+      "version": "3.2.18213"
+    },
     "steam": {
       "installer": {
         "kind": "nsis",
