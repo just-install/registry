@@ -1199,14 +1199,14 @@
     "mednafen": {
       "installer": {
         "kind": "zip",
-        "x86": "https://mednafen.github.io/releases/files/mednafen-{{.version}}-win32.zip",
-        "x86_64": "https://mednafen.github.io/releases/files/mednafen-{{.version}}-win64.zip",
         "options": {
           "destination": "{{.PROGRAMFILES}}\\mednafen",
           "shims": [
             "{{.PROGRAMFILES}}\\mednafen\\mednafen.exe"
           ]
-        }
+        },
+        "x86": "https://mednafen.github.io/releases/files/mednafen-{{.version}}-win32.zip",
+        "x86_64": "https://mednafen.github.io/releases/files/mednafen-{{.version}}-win64.zip"
       },
       "version": "1.22.1"
     },
