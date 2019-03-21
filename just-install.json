@@ -737,7 +737,6 @@
         "options": {
           "arguments": [
             "{{.installer}}",
-            "/S"
       },
       "version": "1.4.3"
     },
