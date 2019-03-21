@@ -736,7 +736,6 @@
         "x86": "https://www.foobar2000.org/files/2c3b9ba9af4ddfa2b720112a7c498c5a/foobar2000_v1.4.3.exe",
         "options": {
           "arguments": [
-            "{{.installer}}",
       },
       "version": "1.4.3"
     },
