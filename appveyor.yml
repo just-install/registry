@@ -4,5 +4,5 @@ build_script:
     - cmd: pip install jsonschema
 test_script:
     - cmd: jsonschema -i just-install.json just-install-schema.json
-    - cmd: msiexec /q /i https://unstable.just-install.it
+    - cmd: msiexec /q /i https://just-install.github.io/stable/just-install.msi
     - cmd: just-install audit
