@@ -1266,6 +1266,19 @@
       },
       "version": "1.7.13"
     },
+    "mpv": {
+      "version": "latest",
+      "installer": {
+        "x86": "https://downloads.sourceforge.net/project/mpv-player-windows/bootstrapper.zip",
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "powershell",
+            "expand-archive {{.installer}} -DestinationPath '{{.PROGRAMFILES}}\\mpv'; cd '{{.PROGRAMFILES}}\\mpv'; cmd /c start cmd /k updater.bat"
+          ]
+        }
+      }
+    },
     "mullvad": {
       "installer": {
         "interactive": true,
