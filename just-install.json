@@ -1914,9 +1914,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.22.0.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.23.0.exe"
       },
-      "version": "1.22.0"
+      "version": "1.23.0"
     },
     "simplenote": {
       "installer": {
