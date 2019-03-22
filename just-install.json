@@ -650,6 +650,32 @@
       },
       "version": "latest"
     },
+    "ffmpeg": {
+      "version": "latest",
+      "installer": {
+        "kind": "zip",
+        "x86": "https://ffmpeg.zeranoe.com/builds/win32/static/ffmpeg-latest-win32-static.zip",
+        "x86_64": "https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-latest-win64-static.zip",
+        "options": {
+          "x86": {
+            "destination": "{{.PROGRAMFILES}}",
+            "shims": [
+              "{{.PROGRAMFILES}}\\ffmpeg-latest-win32-static\\bin\\ffmpeg.exe",
+              "{{.PROGRAMFILES}}\\ffmpeg-latest-win32-static\\bin\\ffprobe.exe",
+              "{{.PROGRAMFILES}}\\ffmpeg-latest-win32-static\\bin\\ffplay.exe"
+            ]
+          },
+          "x86_64": {
+            "destination": "{{.PROGRAMFILES}}",
+            "shims": [
+              "{{.PROGRAMFILES}}\\ffmpeg-latest-win64-static\\bin\\ffmpeg.exe",
+              "{{.PROGRAMFILES}}\\ffmpeg-latest-win64-static\\bin\\ffprobe.exe",
+              "{{.PROGRAMFILES}}\\ffmpeg-latest-win64-static\\bin\\ffplay.exe"
+            ]
+          }
+        }
+      }
+    },
     "filezilla": {
       "installer": {
         "kind": "nsis",
