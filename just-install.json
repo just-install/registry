@@ -651,11 +651,8 @@
       "version": "latest"
     },
     "ffmpeg": {
-      "version": "latest",
       "installer": {
         "kind": "zip",
-        "x86": "https://ffmpeg.zeranoe.com/builds/win32/static/ffmpeg-latest-win32-static.zip",
-        "x86_64": "https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-latest-win64-static.zip",
         "options": {
           "x86": {
             "destination": "{{.PROGRAMFILES}}",
@@ -673,8 +670,11 @@
               "{{.PROGRAMFILES}}\\ffmpeg-latest-win64-static\\bin\\ffplay.exe"
             ]
           }
-        }
-      }
+        },
+        "x86": "https://ffmpeg.zeranoe.com/builds/win32/static/ffmpeg-latest-win32-static.zip",
+        "x86_64": "https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-latest-win64-static.zip"
+      },
+      "version": "latest"
     },
     "filezilla": {
       "installer": {
@@ -1940,9 +1940,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.23.0.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.23.1.exe"
       },
-      "version": "1.23.0"
+      "version": "1.23.1"
     },
     "simplenote": {
       "installer": {
