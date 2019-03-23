@@ -1274,7 +1274,7 @@
         "options": {
           "arguments": [
             "powershell",
-            "expand-archive {{.installer}} -DestinationPath '{{.PROGRAMFILES}}\\mpv'; cd '{{.PROGRAMFILES}}\\mpv'; cmd /c start cmd /k updater.bat"
+            "Add-Type -as System.IO.Compression.FileSystem; [System.IO.Compression.ZipFile]::ExtractToDirectory('{{.installer}}', '{{.PROGRAMFILES}}\\mpv'); cd '{{.PROGRAMFILES}}\\mpv'; cmd /c start cmd /k updater.bat"
           ]
         }
       }
