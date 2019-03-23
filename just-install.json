@@ -1241,7 +1241,7 @@
         "x86": "https://mednafen.github.io/releases/files/mednafen-{{.version}}-win32.zip",
         "x86_64": "https://mednafen.github.io/releases/files/mednafen-{{.version}}-win64.zip"
       },
-      "version": "1.22.1"
+      "version": "latest"
     },
     "mercurial": {
       "installer": {
