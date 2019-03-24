@@ -1044,6 +1044,20 @@
       },
       "version": "452"
     },
+    "itch": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "--silent"
+          ],
+          "extension": ".exe"
+        },
+        "x86": "http://nuts.itch.zone/download/windows"
+      },
+      "version": "latest"
+    },
     "jdk": {
       "installer": {
         "kind": "custom",
