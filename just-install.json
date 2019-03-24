@@ -1877,6 +1877,21 @@
       },
       "version": "14.16.27024.1"
     },
+    "resilio-sync": {
+      "installer": {
+        "kind": "custom",
+        "x86": "https://download-cdn.resilio.com/stable/windows/Resilio-Sync.exe",
+        "x86_64": "https://download-cdn.resilio.com/stable/windows64/Resilio-Sync_x64.exe",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/PERFORMINSTALL",
+            "/S"
+          ]
+        }
+      },
+      "version": "latest"
+    },
     "resource-hacker": {
       "installer": {
         "kind": "innosetup",
