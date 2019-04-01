@@ -1504,6 +1504,23 @@
       },
       "version": "latest"
     },
+    "paint.net": {
+      "version": "4.1.6",
+      "installer": {
+        "kind": "custom",
+        "x86": "https://www.dotpdn.com/files/paint.net.{{.version}}.install.zip",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/auto"
+          ],
+          "container": {
+            "kind": "zip",
+            "installer": "paint.net.4.1.6.install.exe"
+          }
+        }
+      }
+    },
     "parsec": {
       "installer": {
         "kind": "nsis",
