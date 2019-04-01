@@ -1270,7 +1270,7 @@
       },
       "version": "5.18.1.0"
     },
-    "moonlight": {
+    "moonlight-qt": {
       "version": "0.9.1",
       "installer": {
         "kind": "custom",
