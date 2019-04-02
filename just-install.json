@@ -1291,6 +1291,20 @@
       },
       "version": "5.18.1.0"
     },
+    "moonlight-qt": {
+      "version": "0.9.1",
+      "installer": {
+        "kind": "custom",
+        "x86": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v{{.version}}/MoonlightSetup-x86-{{.version}}.exe",
+        "x86_64": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v{{.version}}/MoonlightSetup-x64-{{.version}}.exe",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/passive"
+          ]
+        }
+      }
+    },
     "mountainduck": {
       "installer": {
         "kind": "msi",
