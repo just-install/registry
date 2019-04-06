@@ -23,10 +23,10 @@
     "anaconda": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://repo.anaconda.com/archive/Anaconda3-2018.12-Windows-x86.exe",
-        "x86_64": "https://repo.anaconda.com/archive/Anaconda3-2018.12-Windows-x86_64.exe"
+        "x86": "https://repo.anaconda.com/archive/Anaconda3-2019.03-Windows-x86.exe",
+        "x86_64": "https://repo.anaconda.com/archive/Anaconda3-2019.03-Windows-x86_64.exe"
       },
-      "version": "2018.12"
+      "version": "2019.03"
     },
     "android-studio-ide": {
       "installer": {
@@ -144,9 +144,9 @@
     "bcuninstaller": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v4.12.3/BCUninstaller_4.12.3_setup.exe"
+        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v4.13/BCUninstaller_4.13_setup.exe"
       },
-      "version": "4.12.3"
+      "version": "4.13"
     },
     "bitpay": {
       "installer": {
@@ -265,10 +265,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/Kitware/CMake/releases/download/v3.14.0/cmake-3.14.0-win32-x86.msi",
-        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.14.0/cmake-3.14.0-win64-x64.msi"
+        "x86": "https://github.com/Kitware/CMake/releases/download/v3.14.1/cmake-3.14.1-win32-x86.msi",
+        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.14.1/cmake-3.14.1-win64-x64.msi"
       },
-      "version": "3.14.0"
+      "version": "3.14.1"
     },
     "colemak": {
       "installer": {
@@ -302,16 +302,16 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v19.03.10/ConEmuSetup.190310.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v19.03.31/ConEmuSetup.190331.exe"
       },
-      "version": "19.03.10"
+      "version": "19.03.31"
     },
     "cpu-z": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://download.cpuid.com/cpu-z/cpu-z_1.87-en.exe"
+        "x86": "http://download.cpuid.com/cpu-z/cpu-z_1.88-en.exe"
       },
-      "version": "1.87"
+      "version": "1.88"
     },
     "cryptomator": {
       "installer": {
@@ -373,10 +373,9 @@
     "dbeaver": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/dbeaver/dbeaver/releases/download/6.0.0/dbeaver-ce-6.0.0-x86-setup.exe",
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/6.0.0/dbeaver-ce-6.0.0-x86_64-setup.exe"
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/6.0.1/dbeaver-ce-6.0.1-x86_64-setup.exe"
       },
-      "version": "6.0.0"
+      "version": "6.0.1"
     },
     "deluge": {
       "installer": {
@@ -459,10 +458,10 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.1%20beta/doublecmd-0.9.1.i386-win32.msi/download",
-        "x86_64": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.1%20beta/doublecmd-0.9.1.x86_64-win64.msi/download"
+        "x86": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.2%20beta/doublecmd-0.9.2.i386-win32.msi/download",
+        "x86_64": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.2%20beta/doublecmd-0.9.2.x86_64-win64.msi/download"
       },
-      "version": "0.9.1"
+      "version": "0.9.2"
     },
     "dropbox": {
       "installer": {
@@ -623,10 +622,10 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/balena-io/etcher/releases/download/v1.4.9/balenaEtcher-Setup-1.4.9-x86.exe",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.4.9/balenaEtcher-Setup-1.4.9-x64.exe"
+        "x86": "https://github.com/balena-io/etcher/releases/download/v1.5.19/balenaEtcher-Setup-1.5.19-x86.exe",
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.19/balenaEtcher-Setup-1.5.19-x64.exe"
       },
-      "version": "1.4.9"
+      "version": "1.5.19"
     },
     "everything-search": {
       "installer": {
@@ -888,10 +887,10 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dl.google.com/go/go1.12.1.windows-386.msi",
-        "x86_64": "https://dl.google.com/go/go1.12.1.windows-amd64.msi"
+        "x86": "https://dl.google.com/go/go1.12.2.windows-386.msi",
+        "x86_64": "https://dl.google.com/go/go1.12.2.windows-amd64.msi"
       },
-      "version": "1.12.1"
+      "version": "1.12.2"
     },
     "gog-galaxy": {
       "installer": {
@@ -1138,10 +1137,10 @@
     "keeweb": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.7.8/KeeWeb-1.7.8.win.ia32.exe",
-        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.7.8/KeeWeb-1.7.8.win.x64.exe"
+        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.8.1/KeeWeb-1.8.1.win.ia32.exe",
+        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.8.1/KeeWeb-1.8.1.win.x64.exe"
       },
-      "version": "1.7.8"
+      "version": "1.8.1"
     },
     "keybase": {
       "installer": {
@@ -1292,18 +1291,18 @@
       "version": "5.18.1.0"
     },
     "moonlight-qt": {
-      "version": "0.9.1",
       "installer": {
         "kind": "custom",
-        "x86": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v{{.version}}/MoonlightSetup-x86-{{.version}}.exe",
-        "x86_64": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v{{.version}}/MoonlightSetup-x64-{{.version}}.exe",
         "options": {
           "arguments": [
             "{{.installer}}",
             "/passive"
           ]
-        }
-      }
+        },
+        "x86": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v{{.version}}/MoonlightSetup-x86-{{.version}}.exe",
+        "x86_64": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v{{.version}}/MoonlightSetup-x64-{{.version}}.exe"
+      },
+      "version": "0.9.1"
     },
     "mountainduck": {
       "installer": {
@@ -1341,9 +1340,9 @@
     "mumble": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/mumble-voip/mumble/releases/download/1.2.19/mumble-1.2.19.msi"
+        "x86": "https://github.com/mumble-voip/mumble/releases/download/1.3.0-rc1/mumble-1.3.0-rc1.winx64.msi"
       },
-      "version": "1.2.19"
+      "version": "1.3.0"
     },
     "mysql-workbench": {
       "installer": {
@@ -1387,10 +1386,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v11.12.0/node-v11.12.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v11.12.0/node-v11.12.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v11.13.0/node-v11.13.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v11.13.0/node-v11.13.0-x64.msi"
       },
-      "version": "11.12.0"
+      "version": "11.13.0"
     },
     "node-lts": {
       "installer": {
@@ -1416,10 +1415,10 @@
     "notepad++": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://notepad-plus-plus.org/repository/7.x/7.6.4/npp.7.6.4.Installer.exe",
-        "x86_64": "https://notepad-plus-plus.org/repository/7.x/7.6.4/npp.7.6.4.Installer.x64.exe"
+        "x86": "https://notepad-plus-plus.org/repository/7.x/7.6.6/npp.7.6.6.Installer.exe",
+        "x86_64": "https://notepad-plus-plus.org/repository/7.x/7.6.6/npp.7.6.6.Installer.x64.exe"
       },
-      "version": "7.6.4"
+      "version": "7.6.6"
     },
     "notepad2-mod": {
       "installer": {
@@ -1454,9 +1453,9 @@
     "obs-studio": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-23.0.2-Full-Installer-x64.exe"
+        "x86": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-23.1-Full-Installer-x64.exe"
       },
-      "version": "23.0.2"
+      "version": "23.1"
     },
     "octave": {
       "installer": {
@@ -1533,21 +1532,21 @@
       "version": "latest"
     },
     "paint.net": {
-      "version": "4.1.6",
       "installer": {
         "kind": "custom",
-        "x86": "https://www.dotpdn.com/files/paint.net.{{.version}}.install.zip",
         "options": {
           "arguments": [
             "{{.installer}}",
             "/auto"
           ],
           "container": {
-            "kind": "zip",
-            "installer": "paint.net.4.1.6.install.exe"
+            "installer": "paint.net.4.1.6.install.exe",
+            "kind": "zip"
           }
-        }
-      }
+        },
+        "x86": "https://www.dotpdn.com/files/paint.net.{{.version}}.install.zip"
+      },
+      "version": "4.1.6"
     },
     "parsec": {
       "installer": {
@@ -1601,10 +1600,10 @@
             "{{.SYSTEMDRIVE}}\\PHP\\php-win.exe"
           ]
         },
-        "x86": "https://windows.php.net/downloads/releases/php-7.3.3-nts-Win32-VC15-x86.zip",
-        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.3-nts-Win32-VC15-x64.zip"
+        "x86": "https://windows.php.net/downloads/releases/php-7.3.4-nts-Win32-VC15-x86.zip",
+        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.4-nts-Win32-VC15-x64.zip"
       },
-      "version": "7.3.3"
+      "version": "7.3.4"
     },
     "physx": {
       "installer": {
@@ -1636,9 +1635,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.15.2.793-782228f99/windows/PlexMediaServer-1.15.2.793-782228f99-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.15.3.876-ad6e39743/windows/PlexMediaServer-1.15.3.876-ad6e39743-x86.exe"
       },
-      "version": "1.15.2.793"
+      "version": "1.15.3.876"
     },
     "postman": {
       "installer": {
@@ -1666,10 +1665,10 @@
     "powershell-core": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/PowerShell/PowerShell/releases/download/v6.1.3/PowerShell-6.1.3-win-x86.msi",
-        "x86_64": "https://github.com/PowerShell/PowerShell/releases/download/v6.1.3/PowerShell-6.1.3-win-x64.msi"
+        "x86": "https://github.com/PowerShell/PowerShell/releases/download/v6.2.0/PowerShell-6.2.0-win-x86.msi",
+        "x86_64": "https://github.com/PowerShell/PowerShell/releases/download/v6.2.0/PowerShell-6.2.0-win-x64.msi"
       },
-      "version": "6.1.3"
+      "version": "6.2.0"
     },
     "processhacker": {
       "installer": {
@@ -1699,9 +1698,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2018.3.5.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2019.1.1.exe"
       },
-      "version": "2018.3.5"
+      "version": "2019.1.1"
     },
     "python2": {
       "installer": {
@@ -1750,10 +1749,10 @@
             "InstallAllUsers=1"
           ]
         },
-        "x86": "https://www.python.org/ftp/python/3.7.2/python-3.7.2.exe",
-        "x86_64": "https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe"
+        "x86": "https://www.python.org/ftp/python/3.7.3/python-3.7.3.exe",
+        "x86_64": "https://www.python.org/ftp/python/3.7.3/python-3.7.3-amd64.exe"
       },
-      "version": "3.7.2"
+      "version": "3.7.3"
     },
     "qbittorrent": {
       "installer": {
@@ -2007,9 +2006,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.23.1.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.23.2.exe"
       },
-      "version": "1.23.1"
+      "version": "1.23.2"
     },
     "simplenote": {
       "installer": {
@@ -2081,10 +2080,10 @@
             "{{.PROGRAMFILES}}\\Sublime Text 3\\subl.exe"
           ]
         },
-        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203200%20Setup.exe",
-        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203200%20x64%20Setup.exe"
+        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203207%20Setup.exe",
+        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203207%20x64%20Setup.exe"
       },
-      "version": "3200"
+      "version": "3207"
     },
     "sublime-text-dev": {
       "installer": {
@@ -2094,10 +2093,10 @@
             "{{.PROGRAMFILES}}\\Sublime Text 3\\subl.exe"
           ]
         },
-        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203202%20Setup.exe",
-        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203202%20x64%20Setup.exe"
+        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203206%20Setup.exe",
+        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203206%20x64%20Setup.exe"
       },
-      "version": "3202"
+      "version": "3206"
     },
     "subversion": {
       "installer": {
@@ -2127,10 +2126,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Syncthing"
         },
-        "x86": "https://github.com/syncthing/syncthing/releases/download/v1.1.0/syncthing-windows-386-v1.1.0.zip",
-        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v1.1.0/syncthing-windows-amd64-v1.1.0.zip"
+        "x86": "https://github.com/syncthing/syncthing/releases/download/v1.1.1/syncthing-windows-386-v1.1.1.zip",
+        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v1.1.1/syncthing-windows-amd64-v1.1.1.zip"
       },
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
     "sysinternals": {
       "installer": {
@@ -2353,10 +2352,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.3.1440.61.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.3.1440.61.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.4.1488.36.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.4.1488.36.x64.exe"
       },
-      "version": "2.3.1440.61"
+      "version": "2.4.1488.36"
     },
     "vlc": {
       "installer": {
@@ -2384,9 +2383,9 @@
       "installer": {
         "interactive": true,
         "kind": "nsis",
-        "x86": "https://geo.keepsolidcdn.com/soft/vpn/Win/VPN_Unlimited_v5.3.exe"
+        "x86": "https://geo.keepsolidcdn.com/soft/vpn/Win/VPN_Unlimited_v5.4.exe"
       },
-      "version": "5.3"
+      "version": "5.4"
     },
     "webtorrent": {
       "installer": {
@@ -2465,9 +2464,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.13.9/WinSCP-5.13.9-Setup.exe/download"
+        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.15/WinSCP-5.15-Setup.exe/download"
       },
-      "version": "5.13.9"
+      "version": "5.15"
     },
     "wireshark": {
       "installer": {
@@ -2518,9 +2517,9 @@
     "workflowy": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/workflowy/desktop/releases/download/v1.2.6/WorkFlowy-Installer.exe"
+        "x86": "https://github.com/workflowy/desktop/releases/download/v1.2.8/WorkFlowy-Installer.exe"
       },
-      "version": "1.2.6"
+      "version": "1.2.8"
     },
     "wox": {
       "installer": {
@@ -2571,9 +2570,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2019.03.18/youtube-dl.exe"
+        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2019.04.01/youtube-dl.exe"
       },
-      "version": "2019.03.18"
+      "version": "2019.04.01"
     }
   }
 }
