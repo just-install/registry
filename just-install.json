@@ -1167,9 +1167,9 @@
     "kodi": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://mirrors.kodi.tv/releases/windows/win32/kodi-18.1-Leia-x86.exe"
+        "x86": "http://mirrors.kodi.tv/releases/windows/win32/kodi-18.2-Leia_rc1-x86.exe"
       },
-      "version": "18.1"
+      "version": "18.2"
     },
     "krita": {
       "installer": {
@@ -1264,10 +1264,10 @@
             "{{.PROGRAMFILES}}\\Mercurial\\hg.exe"
           ]
         },
-        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-4.9.0-x86.msi",
-        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-4.9.0-x64.msi"
+        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-4.9.1-x86.msi",
+        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-4.9.1-x64.msi"
       },
-      "version": "4.9.0"
+      "version": "4.9.1"
     },
     "microsoft-security-essentials": {
       "installer": {
@@ -2352,10 +2352,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.4.1488.38.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.4.1488.38.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.4.1488.40.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.4.1488.40.x64.exe"
       },
-      "version": "2.4.1488.38"
+      "version": "2.4.1488.40"
     },
     "vlc": {
       "installer": {
