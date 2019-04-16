@@ -1066,10 +1066,10 @@
             "/s"
           ]
         },
-        "x86": "http://download.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-windows-i586.exe",
-        "x86_64": "http://download.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-windows-x64.exe"
+        "x86": "http://download.oracle.com/otn-pub/java/jdk/8u211-b12/478a62b7d4e34b78b671c754eaaf38ab/jdk-8u211-windows-i586.exe",
+        "x86_64": "http://download.oracle.com/otn-pub/java/jdk/8u211-b12/478a62b7d4e34b78b671c754eaaf38ab/jdk-8u211-windows-x64.exe"
       },
-      "version": "8u201-b09"
+      "version": "8u211-b12"
     },
     "jetbrains-toolbox": {
       "installer": {
@@ -1101,10 +1101,10 @@
           ],
           "extension": ".exe"
         },
-        "x86": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=236886_42970487e3af4f5aa5bca3f542482c60",
-        "x86_64": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=236888_42970487e3af4f5aa5bca3f542482c60"
+        "x86": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=238727_478a62b7d4e34b78b671c754eaaf38ab",
+        "x86_64": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=238729_478a62b7d4e34b78b671c754eaaf38ab"
       },
-      "version": "8.201"
+      "version": "8.211"
     },
     "keepass": {
       "installer": {
@@ -1960,10 +1960,10 @@
             "{{.SYSTEMDRIVE}}\\Ruby193\\bin\\rubyw.exe"
           ]
         },
-        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.1-1/rubyinstaller-2.6.1-1-x86.exe",
-        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.1-1/rubyinstaller-2.6.1-1-x64.exe"
+        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.2-1/rubyinstaller-2.6.2-1-x86.exe",
+        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.2-1/rubyinstaller-2.6.2-1-x64.exe"
       },
-      "version": "2.6.1"
+      "version": "2.6.2"
     },
     "rufus": {
       "installer": {
@@ -2570,9 +2570,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2019.04.07/youtube-dl.exe"
+        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2019.04.17/youtube-dl.exe"
       },
-      "version": "2019.04.07"
+      "version": "2019.04.17"
     }
   }
 }
