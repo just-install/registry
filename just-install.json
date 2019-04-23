@@ -20,6 +20,41 @@
       },
       "version": "19.00"
     },
+    "aescrypt-cli": {
+      "version": "310",
+      "installer": {
+        "kind": "zip",
+        "x86": "https://www.aescrypt.com/download/v3/windows/AESCrypt_console_v{{.version}}_win32.zip",
+        "options": {
+          "destination": "{{.PROGRAMFILES}}",
+          "shims": [
+            "{{.PROGRAMFILES}}\\AESCrypt_console_v310_win32\\aescrypt.exe"
+          ]
+        }
+      }
+    },
+    "aescrypt-gui": {
+      "version": "310",
+      "installer": {
+        "kind": "msi",
+        "x86": "https://www.aescrypt.com/download/v3/windows/AESCrypt_v{{.version}}_win32.zip",
+        "x86_64": "https://www.aescrypt.com/download/v3/windows/AESCrypt_v{{.version}}_x64.zip",
+        "options": {
+          "x86_64": {
+            "container": {
+              "kind": "zip",
+              "installer": "AESCrypt_v310_x64\\AESCrypt.msi"
+            }
+          },
+          "x86": {
+            "container": {
+              "kind": "zip",
+              "installer": "AESCrypt_v310_win32\\AESCrypt.msi"
+            }
+          }
+        }
+      }
+    },
     "anaconda": {
       "installer": {
         "kind": "nsis",
