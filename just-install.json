@@ -458,7 +458,8 @@
             "c:\\directx_June2010_redist"
           ]
         }
-      }
+      },
+      "version": "latest"
     },
     "discord": {
       "installer": {
