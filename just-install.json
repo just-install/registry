@@ -21,39 +21,39 @@
       "version": "19.00"
     },
     "aescrypt-cli": {
-      "version": "310",
       "installer": {
         "kind": "zip",
-        "x86": "https://www.aescrypt.com/download/v3/windows/AESCrypt_console_v{{.version}}_win32.zip",
         "options": {
           "destination": "{{.PROGRAMFILES}}",
           "shims": [
             "{{.PROGRAMFILES}}\\AESCrypt_console_v310_win32\\aescrypt.exe"
           ]
-        }
-      }
+        },
+        "x86": "https://www.aescrypt.com/download/v3/windows/AESCrypt_console_v{{.version}}_win32.zip"
+      },
+      "version": "310"
     },
     "aescrypt-gui": {
-      "version": "310",
       "installer": {
         "kind": "msi",
-        "x86": "https://www.aescrypt.com/download/v3/windows/AESCrypt_v{{.version}}_win32.zip",
-        "x86_64": "https://www.aescrypt.com/download/v3/windows/AESCrypt_v{{.version}}_x64.zip",
         "options": {
-          "x86_64": {
-            "container": {
-              "kind": "zip",
-              "installer": "AESCrypt_v310_x64\\AESCrypt.msi"
-            }
-          },
           "x86": {
             "container": {
-              "kind": "zip",
-              "installer": "AESCrypt_v310_win32\\AESCrypt.msi"
+              "installer": "AESCrypt_v310_win32\\AESCrypt.msi",
+              "kind": "zip"
+            }
+          },
+          "x86_64": {
+            "container": {
+              "installer": "AESCrypt_v310_x64\\AESCrypt.msi",
+              "kind": "zip"
             }
           }
-        }
-      }
+        },
+        "x86": "https://www.aescrypt.com/download/v3/windows/AESCrypt_v{{.version}}_win32.zip",
+        "x86_64": "https://www.aescrypt.com/download/v3/windows/AESCrypt_v{{.version}}_x64.zip"
+      },
+      "version": "310"
     },
     "anaconda": {
       "installer": {
@@ -66,9 +66,9 @@
     "android-studio-ide": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.google.com/dl/android/studio/install/3.3.2.0/android-studio-ide-182.5314842-windows.exe"
+        "x86": "https://dl.google.com/dl/android/studio/install/3.4.0.18/android-studio-ide-183.5452501-windows.exe"
       },
-      "version": "3.3.2.0"
+      "version": "3.4.0.18"
     },
     "antimicro": {
       "installer": {
@@ -210,9 +210,9 @@
     "brackets": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/adobe/brackets/releases/download/release-1.13/Brackets.Release.1.13.msi"
+        "x86": "https://github.com/adobe/brackets/releases/download/release-1.14/Brackets.Release.1.14.msi"
       },
-      "version": "1.13"
+      "version": "1.14"
     },
     "brave": {
       "installer": {
@@ -300,10 +300,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/Kitware/CMake/releases/download/v3.14.2/cmake-3.14.2-win32-x86.msi",
-        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.14.2/cmake-3.14.2-win64-x64.msi"
+        "x86": "https://github.com/Kitware/CMake/releases/download/v3.14.3/cmake-3.14.3-win32-x86.msi",
+        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.14.3/cmake-3.14.3-win64-x64.msi"
       },
-      "version": "3.14.2"
+      "version": "3.14.3"
     },
     "colemak": {
       "installer": {
@@ -354,16 +354,16 @@
         "options": {
           "extension": ".exe"
         },
-        "x86_64": "https://dl.bintray.com/cryptomator/cryptomator/1.4.7/Cryptomator-1.4.7-x64.exe"
+        "x86_64": "https://dl.bintray.com/cryptomator/cryptomator/1.4.9/Cryptomator-1.4.9-x64.exe"
       },
-      "version": "1.4.7"
+      "version": "1.4.9"
     },
     "crystaldisk-info": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/70295/CrystalDiskInfo8_0_0.exe"
+        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/71020/CrystalDiskInfo8_1_0.exe"
       },
-      "version": "8.0.0"
+      "version": "8.1.0"
     },
     "crystaldisk-mark": {
       "installer": {
@@ -408,9 +408,9 @@
     "dbeaver": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/6.0.2/dbeaver-ce-6.0.2-x86_64-setup.exe"
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/6.0.4/dbeaver-ce-6.0.4-x86_64-setup.exe"
       },
-      "version": "6.0.2"
+      "version": "6.0.4"
     },
     "deluge": {
       "installer": {
@@ -440,8 +440,7 @@
     "directx-june2010": {
       "installer": {
         "kind": "custom",
-        "x86" : "https://download.microsoft.com/download/8/4/A/84A35BF1-DAFE-4AE8-82AF-AD2AE20B6B14/directx_Jun2010_redist.exe",
-        "options" : {
+        "options": {
           "arguments": [
             "cmd",
             "/K",
@@ -457,7 +456,8 @@
             "/Q",
             "c:\\directx_June2010_redist"
           ]
-        }
+        },
+        "x86": "https://download.microsoft.com/download/8/4/A/84A35BF1-DAFE-4AE8-82AF-AD2AE20B6B14/directx_Jun2010_redist.exe"
       },
       "version": "latest"
     },
@@ -651,10 +651,10 @@
             "{{.PROGRAMFILES_X86}}\\Emacs\\bin\\runemacs.exe"
           ]
         },
-        "x86": "https://ftp.gnu.org/gnu/emacs/windows/emacs-26/emacs-26.1-i686.zip",
-        "x86_64": "https://ftp.gnu.org/gnu/emacs/windows/emacs-26/emacs-26.1-x86_64.zip"
+        "x86": "https://ftp.gnu.org/gnu/emacs/windows/emacs-22/emacs-22.3-i686.zip",
+        "x86_64": "https://ftp.gnu.org/gnu/emacs/windows/emacs-22/emacs-22.3-x86_64.zip"
       },
-      "version": "26.1"
+      "version": "22.3"
     },
     "enpass": {
       "installer": {
@@ -681,10 +681,10 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/balena-io/etcher/releases/download/v1.5.24/balenaEtcher-Setup-1.5.24-x86.exe",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.24/balenaEtcher-Setup-1.5.24-x64.exe"
+        "x86": "https://github.com/balena-io/etcher/releases/download/v1.5.33/balenaEtcher-Setup-1.5.33-x86.exe",
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.33/balenaEtcher-Setup-1.5.33-x64.exe"
       },
-      "version": "1.5.24"
+      "version": "1.5.33"
     },
     "everything-search": {
       "installer": {
@@ -911,9 +911,9 @@
             "{{.PROGRAMFILES}}\\Git LFS\\git-lfs.exe"
           ]
         },
-        "x86": "https://github.com/git-lfs/git-lfs/releases/download/v2.7.1/git-lfs-windows-v2.7.1.exe"
+        "x86": "https://github.com/git-lfs/git-lfs/releases/download/v2.7.2/git-lfs-windows-v2.7.2.exe"
       },
-      "version": "2.7.1"
+      "version": "2.7.2"
     },
     "gitextensions": {
       "installer": {
@@ -957,9 +957,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_1.2.54.23.exe"
+        "x86": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_1.2.56.15.exe"
       },
-      "version": "1.2.54.23"
+      "version": "1.2.56.15"
     },
     "google-chrome": {
       "installer": {
@@ -1058,10 +1058,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.55.1/hugo_0.55.1_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.55.1/hugo_0.55.1_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.55.5/hugo_0.55.5_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.55.5/hugo_0.55.5_Windows-64bit.zip"
       },
-      "version": "0.55.1"
+      "version": "0.55.5"
     },
     "imageglass": {
       "installer": {
@@ -1171,9 +1171,9 @@
         "options": {
           "extension": ".msi"
         },
-        "x86": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.41/KeePass-2.41.msi/download"
+        "x86": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.42.1/KeePass-2.42.1.msi/download"
       },
-      "version": "2.41"
+      "version": "2.42.1"
     },
     "keepass-keepasshttp": {
       "installer": {
@@ -1196,10 +1196,10 @@
     "keeweb": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.8.1/KeeWeb-1.8.1.win.ia32.exe",
-        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.8.1/KeeWeb-1.8.1.win.x64.exe"
+        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.8.2/KeeWeb-1.8.2.win.ia32.exe",
+        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.8.2/KeeWeb-1.8.2.win.x64.exe"
       },
-      "version": "1.8.1"
+      "version": "1.8.2"
     },
     "keybase": {
       "installer": {
@@ -1218,10 +1218,10 @@
     "kicad": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.0_1-i686.exe",
-        "x86_64": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.0_1-x86_64.exe"
+        "x86": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.2_1-i686.exe",
+        "x86_64": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.2_1-x86_64.exe"
       },
-      "version": "5.1.0"
+      "version": "5.1.2"
     },
     "kodi": {
       "installer": {
@@ -1241,10 +1241,10 @@
     "libreoffice": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.2.2/win/x86/LibreOffice_6.2.2_Win_x86.msi",
-        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.2.2/win/x86_64/LibreOffice_6.2.2_Win_x64.msi"
+        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.2.3/win/x86/LibreOffice_6.2.3_Win_x86.msi",
+        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.2.3/win/x86_64/LibreOffice_6.2.3_Win_x64.msi"
       },
-      "version": "6.2.2"
+      "version": "6.2.3"
     },
     "lightshot": {
       "installer": {
@@ -1366,16 +1366,16 @@
     "mountainduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-2.7.2.9873.msi"
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-3.0.1.14013.msi"
       },
-      "version": "2.7.2.9873"
+      "version": "3.0.1.14013"
     },
     "mp3tag": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.mp3tag.de/mp3tagv294setup.exe"
+        "x86": "https://download.mp3tag.de/mp3tagv295setup.exe"
       },
-      "version": "2.94"
+      "version": "2.95"
     },
     "mpc-hc": {
       "installer": {
@@ -1445,10 +1445,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v11.14.0/node-v11.14.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v11.14.0/node-v11.14.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v12.1.0/node-v12.1.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v12.1.0/node-v12.1.0-x64.msi"
       },
-      "version": "11.14.0"
+      "version": "12.1.0"
     },
     "node-lts": {
       "installer": {
@@ -1555,9 +1555,9 @@
             "/S"
           ]
         },
-        "x86": "https://www.mls-software.com/files/setupssh-7.9p1-1.exe"
+        "x86": "https://www.mls-software.com/files/setupssh-8.0p1-2.exe"
       },
-      "version": "7.9"
+      "version": "8.0"
     },
     "openvpn": {
       "installer": {
@@ -1637,10 +1637,10 @@
     "perl": {
       "installer": {
         "kind": "msi",
-        "x86": "http://strawberryperl.com/download/5.28.1.1/strawberry-perl-5.28.1.1-32bit.msi",
-        "x86_64": "http://strawberryperl.com/download/5.28.1.1/strawberry-perl-5.28.1.1-64bit.msi"
+        "x86": "http://strawberryperl.com/download/5.28.2.1/strawberry-perl-5.28.2.1-32bit.msi",
+        "x86_64": "http://strawberryperl.com/download/5.28.2.1/strawberry-perl-5.28.2.1-64bit.msi"
       },
-      "version": "5.28.1.1"
+      "version": "5.28.2.1"
     },
     "photofiltre": {
       "installer": {
@@ -1659,10 +1659,10 @@
             "{{.SYSTEMDRIVE}}\\PHP\\php-win.exe"
           ]
         },
-        "x86": "https://windows.php.net/downloads/releases/php-7.3.4-nts-Win32-VC15-x86.zip",
-        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.4-nts-Win32-VC15-x64.zip"
+        "x86": "https://windows.php.net/downloads/releases/php-7.3.5-nts-Win32-VC15-x86.zip",
+        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.5-nts-Win32-VC15-x64.zip"
       },
-      "version": "7.3.4"
+      "version": "7.3.5"
     },
     "physx": {
       "installer": {
@@ -1694,9 +1694,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.15.3.876-ad6e39743/windows/PlexMediaServer-1.15.3.876-ad6e39743-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.15.4.993-bb4a2cb6c/windows/PlexMediaServer-1.15.4.993-bb4a2cb6c-x86.exe"
       },
-      "version": "1.15.3.876"
+      "version": "1.15.4.993"
     },
     "postman": {
       "installer": {
@@ -1816,10 +1816,10 @@
     "qbittorrent": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.1.5/qbittorrent_4.1.5_setup.exe/download",
-        "x86_64": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.1.5/qbittorrent_4.1.5_x64_setup.exe/download"
+        "x86": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.1.6/qbittorrent_4.1.6_setup.exe/download",
+        "x86_64": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.1.6/qbittorrent_4.1.6_x64_setup.exe/download"
       },
-      "version": "4.1.5"
+      "version": "4.1.6"
     },
     "qtox": {
       "installer": {
@@ -2005,10 +2005,10 @@
     "retroarch": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://buildbot.libretro.com/stable/1.7.6/windows/x86/RetroArch-1.7.6-x86-setup.exe",
-        "x86_64": "https://buildbot.libretro.com/stable/1.7.6/windows/x86_64/RetroArch-1.7.6-x64-setup.exe"
+        "x86": "https://buildbot.libretro.com/stable/1.7.7/windows/x86/RetroArch-1.7.7-x86-setup.exe",
+        "x86_64": "https://buildbot.libretro.com/stable/1.7.7/windows/x86_64/RetroArch-1.7.7-x64-setup.exe"
       },
-      "version": "1.7.6"
+      "version": "1.7.7"
     },
     "ruby": {
       "installer": {
@@ -2019,10 +2019,10 @@
             "{{.SYSTEMDRIVE}}\\Ruby193\\bin\\rubyw.exe"
           ]
         },
-        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.2-1/rubyinstaller-2.6.2-1-x86.exe",
-        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.2-1/rubyinstaller-2.6.2-1-x64.exe"
+        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.3-1/rubyinstaller-2.6.3-1-x86.exe",
+        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.3-1/rubyinstaller-2.6.3-1-x64.exe"
       },
-      "version": "2.6.2"
+      "version": "2.6.3"
     },
     "rufus": {
       "installer": {
@@ -2065,9 +2065,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.23.2.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.24.1.exe"
       },
-      "version": "1.23.2"
+      "version": "1.24.1"
     },
     "simplenote": {
       "installer": {
@@ -2152,10 +2152,10 @@
             "{{.PROGRAMFILES}}\\Sublime Text 3\\subl.exe"
           ]
         },
-        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203206%20Setup.exe",
-        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203206%20x64%20Setup.exe"
+        "x86": "https://download.sublimetext.com/Sublime%20Text%20Build%203208%20Setup.exe",
+        "x86_64": "https://download.sublimetext.com/Sublime%20Text%20Build%203208%20x64%20Setup.exe"
       },
-      "version": "3206"
+      "version": "3208"
     },
     "subversion": {
       "installer": {
@@ -2203,10 +2203,10 @@
     "teamspeak": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://files.teamspeak-services.com/releases/client/3.2.3/TeamSpeak3-Client-win32-3.2.3.exe",
-        "x86_64": "https://files.teamspeak-services.com/releases/client/3.2.3/TeamSpeak3-Client-win64-3.2.3.exe"
+        "x86": "https://files.teamspeak-services.com/releases/client/3.2.5/TeamSpeak3-Client-win32-3.2.5.exe",
+        "x86_64": "https://files.teamspeak-services.com/releases/client/3.2.5/TeamSpeak3-Client-win64-3.2.5.exe"
       },
-      "version": "3.2.3"
+      "version": "3.2.5"
     },
     "teamviewer": {
       "installer": {
@@ -2273,10 +2273,10 @@
         "options": {
           "extension": ".msi"
         },
-        "x86": "https://osdn.net/frs/redir.php?m=xtom_us&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.11.1%2FApplication%2FTortoiseSVN-1.11.1.28492-win32-svn-1.11.1.msi",
-        "x86_64": "https://osdn.net/frs/redir.php?m=constant&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.11.1%2FApplication%2FTortoiseSVN-1.11.1.28492-x64-svn-1.11.1.msi"
+        "x86": "https://osdn.net/frs/redir.php?m=gigenet&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.12.0%2FApplication%2FTortoiseSVN-1.12.0.28568-win32-svn-1.12.0.msi",
+        "x86_64": "https://osdn.net/frs/redir.php?m=pumath&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.12.0%2FApplication%2FTortoiseSVN-1.12.0.28568-x64-svn-1.12.0.msi"
       },
-      "version": "1.11.1"
+      "version": "1.12.0"
     },
     "transmission": {
       "installer": {
@@ -2339,9 +2339,9 @@
             "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBoxManage.exe"
           ]
         },
-        "x86": "https://download.virtualbox.org/virtualbox/6.0.4/VirtualBox-6.0.4-128413-Win.exe"
+        "x86": "https://download.virtualbox.org/virtualbox/6.0.6/VirtualBox-6.0.6-130049-Win.exe"
       },
-      "version": "6.0.4"
+      "version": "6.0.6"
     },
     "virtualbox-extpack": {
       "installer": {
@@ -2356,9 +2356,9 @@
           ],
           "filename": "Oracle_VM_VirtualBox_Extension_Pack-5.0.16-105871.vbox-extpack"
         },
-        "x86": "https://download.virtualbox.org/virtualbox/6.0.4/Oracle_VM_VirtualBox_Extension_Pack-6.0.4.vbox-extpack"
+        "x86": "https://download.virtualbox.org/virtualbox/6.0.6/Oracle_VM_VirtualBox_Extension_Pack-6.0.6.vbox-extpack"
       },
-      "version": "6.0.4"
+      "version": "6.0.6"
     },
     "viscosity": {
       "installer": {
@@ -2512,10 +2512,10 @@
             "/S"
           ]
         },
-        "x86": "https://rarlab.com/rar/wrar570.exe",
-        "x86_64": "https://rarlab.com/rar/winrar-x64-570.exe"
+        "x86": "https://rarlab.com/rar/wrar571.exe",
+        "x86_64": "https://rarlab.com/rar/winrar-x64-571.exe"
       },
-      "version": "5.70"
+      "version": "5.71"
     },
     "winscp": {
       "installer": {
@@ -2576,9 +2576,9 @@
     "workflowy": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/workflowy/desktop/releases/download/v1.2.9/WorkFlowy-Installer.exe"
+        "x86": "https://github.com/workflowy/desktop/releases/download/v1.2.12/WorkFlowy-Installer.exe"
       },
-      "version": "1.2.9"
+      "version": "1.2.12"
     },
     "wox": {
       "installer": {
@@ -2629,9 +2629,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2019.04.17/youtube-dl.exe"
+        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2019.04.30/youtube-dl.exe"
       },
-      "version": "2019.04.17"
+      "version": "2019.04.30"
     }
   }
 }
