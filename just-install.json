@@ -354,9 +354,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86_64": "https://dl.bintray.com/cryptomator/cryptomator/1.4.9/Cryptomator-1.4.9-x64.exe"
+        "x86_64": "https://dl.bintray.com/cryptomator/cryptomator/1.4.10/Cryptomator-1.4.10-x64.exe"
       },
-      "version": "1.4.9"
+      "version": "1.4.10"
     },
     "crystaldisk-info": {
       "installer": {
@@ -681,10 +681,10 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/balena-io/etcher/releases/download/v1.5.33/balenaEtcher-Setup-1.5.33-x86.exe",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.33/balenaEtcher-Setup-1.5.33-x64.exe"
+        "x86": "https://github.com/balena-io/etcher/releases/download/v1.5.35/balenaEtcher-Setup-1.5.35-x86.exe",
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.35/balenaEtcher-Setup-1.5.35-x64.exe"
       },
-      "version": "1.5.33"
+      "version": "1.5.35"
     },
     "everything-search": {
       "installer": {
@@ -946,10 +946,10 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dl.google.com/go/go1.12.4.windows-386.msi",
-        "x86_64": "https://dl.google.com/go/go1.12.4.windows-amd64.msi"
+        "x86": "https://dl.google.com/go/go1.12.5.windows-386.msi",
+        "x86_64": "https://dl.google.com/go/go1.12.5.windows-amd64.msi"
       },
-      "version": "1.12.4"
+      "version": "1.12.5"
     },
     "gog-galaxy": {
       "installer": {
@@ -1445,10 +1445,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v12.1.0/node-v12.1.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v12.1.0/node-v12.1.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v12.2.0/node-v12.2.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v12.2.0/node-v12.2.0-x64.msi"
       },
-      "version": "12.1.0"
+      "version": "12.2.0"
     },
     "node-lts": {
       "installer": {
@@ -1694,9 +1694,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.15.4.993-bb4a2cb6c/windows/PlexMediaServer-1.15.4.993-bb4a2cb6c-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.15.4.994-107756f7e/windows/PlexMediaServer-1.15.4.994-107756f7e-x86.exe"
       },
-      "version": "1.15.4.993"
+      "version": "1.15.4.994"
     },
     "postman": {
       "installer": {
@@ -1757,9 +1757,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2019.1.1.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2019.1.2.exe"
       },
-      "version": "2019.1.1"
+      "version": "2019.1.2"
     },
     "python2": {
       "installer": {
@@ -2185,10 +2185,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Syncthing"
         },
-        "x86": "https://github.com/syncthing/syncthing/releases/download/v1.1.1/syncthing-windows-386-v1.1.1.zip",
-        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v1.1.1/syncthing-windows-amd64-v1.1.1.zip"
+        "x86": "https://github.com/syncthing/syncthing/releases/download/v1.1.3/syncthing-windows-386-v1.1.3.zip",
+        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v1.1.3/syncthing-windows-amd64-v1.1.3.zip"
       },
-      "version": "1.1.1"
+      "version": "1.1.3"
     },
     "sysinternals": {
       "installer": {
@@ -2246,10 +2246,10 @@
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/8.0.8/torbrowser-install-8.0.8_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/8.0.8/torbrowser-install-win64-8.0.8_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/8.0.9/torbrowser-install-8.0.9_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/8.0.9/torbrowser-install-win64-8.0.9_en-US.exe"
       },
-      "version": "8.0.8"
+      "version": "8.0.9"
     },
     "torguard": {
       "installer": {
@@ -2411,10 +2411,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.4.1488.40.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.4.1488.40.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.5.1525.40.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.5.1525.40.x64.exe"
       },
-      "version": "2.4.1488.40"
+      "version": "2.5.1525.40"
     },
     "vlc": {
       "installer": {
@@ -2576,9 +2576,9 @@
     "workflowy": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/workflowy/desktop/releases/download/v1.2.12/WorkFlowy-Installer.exe"
+        "x86": "https://github.com/workflowy/desktop/releases/download/v1.2.13/WorkFlowy-Installer.exe"
       },
-      "version": "1.2.12"
+      "version": "1.2.13"
     },
     "wox": {
       "installer": {
