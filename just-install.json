@@ -681,10 +681,10 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/balena-io/etcher/releases/download/v1.5.35/balenaEtcher-Setup-1.5.35-x86.exe",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.35/balenaEtcher-Setup-1.5.35-x64.exe"
+        "x86": "https://github.com/balena-io/etcher/releases/download/v1.5.37/balenaEtcher-Setup-1.5.37-x86.exe",
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.37/balenaEtcher-Setup-1.5.37-x64.exe"
       },
-      "version": "1.5.35"
+      "version": "1.5.37"
     },
     "everything-search": {
       "installer": {
@@ -849,9 +849,9 @@
     "freefilesync": {
       "installer": {
         "kind": "as-is",
-        "x86": "https://www.freefilesync.org/download/FreeFileSync_10.11_Windows_Setup.exe"
+        "x86": "https://www.freefilesync.org/download/FreeFileSync_10.12_Windows_Setup.exe"
       },
-      "version": "10.11"
+      "version": "10.12"
     },
     "freeplane": {
       "installer": {
@@ -2629,9 +2629,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2019.04.30/youtube-dl.exe"
+        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2019.05.11/youtube-dl.exe"
       },
-      "version": "2019.04.30"
+      "version": "2019.05.11"
     }
   }
 }
