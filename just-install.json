@@ -517,8 +517,8 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.2%20beta/doublecmd-0.9.2.i386-win32.msi/download",
-        "x86_64": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.2%20beta/doublecmd-0.9.2.x86_64-win64.msi/download"
+        "x86": "https://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.2%20beta/doublecmd-0.9.2.i386-win32.msi/download",
+        "x86_64": "https://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.2%20beta/doublecmd-0.9.2.x86_64-win64.msi/download"
       },
       "version": "0.9.2"
     },
@@ -2339,7 +2339,7 @@
             "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBoxManage.exe"
           ]
         },
-        "x86": "https://download.virtualbox.org/virtualbox/6.0.6/VirtualBox-6.0.6-130049-Win.exe"
+        "x86": "https://download.virtualbox.org/virtualbox/6.0.8/VirtualBox-6.0.8-130520-Win.exe"
       },
       "version": "6.0.6"
     },
