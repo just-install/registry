@@ -207,6 +207,14 @@
       },
       "version": "2.2"
     },
+    "blender": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://ftp.halifax.rwth-aachen.de/blender/release/Blender2.79/blender-2.79b-windows32.msi",
+        "x86_64": "https://ftp.halifax.rwth-aachen.de/blender/release/Blender2.79/blender-2.79b-windows64.msi"
+      },
+      "version": "2.79b"
+    },
     "brackets": {
       "installer": {
         "kind": "msi",
