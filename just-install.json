@@ -1816,6 +1816,9 @@
     "qbittorrent": {
       "installer": {
         "kind": "nsis",
+        "options": {
+          "extension": ".exe"
+        },
         "x86": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.1.6/qbittorrent_4.1.6_setup.exe/download",
         "x86_64": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.1.6/qbittorrent_4.1.6_x64_setup.exe/download"
       },
