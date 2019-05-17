@@ -2532,7 +2532,7 @@
     },
     "wireshark": {
       "installer": {
-        "kind": "msi",
+        "kind": "nsis",
         "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-3.0.1.exe",
         "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.0.1.exe"
       },
