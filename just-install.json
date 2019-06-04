@@ -300,10 +300,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/Kitware/CMake/releases/download/v3.14.4/cmake-3.14.4-win32-x86.msi",
-        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.14.4/cmake-3.14.4-win64-x64.msi"
+        "x86": "https://github.com/Kitware/CMake/releases/download/v3.14.5/cmake-3.14.5-win32-x86.msi",
+        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.14.5/cmake-3.14.5-win64-x64.msi"
       },
-      "version": "3.14.4"
+      "version": "3.14.5"
     },
     "colemak": {
       "installer": {
@@ -659,9 +659,9 @@
     "enpass": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.enpass.io/stable/windows/setup/6.0.6.323/Enpass-setup.exe"
+        "x86": "https://dl.enpass.io/stable/windows/setup/6.1.0.407/Enpass-setup.exe"
       },
-      "version": "6.0.6.323"
+      "version": "6.1.0.407"
     },
     "epic-games-launcher": {
       "installer": {
@@ -872,9 +872,9 @@
             "-s"
           ]
         },
-        "x86": "https://us.download.nvidia.com/GFE/GFEClient/3.18.0.102/GeForce_Experience_v3.18.0.102.exe"
+        "x86": "https://us.download.nvidia.com/GFE/GFEClient/3.19.0.94/GeForce_Experience_v3.19.0.94.exe"
       },
-      "version": "3.18.0.102"
+      "version": "3.19.0.94"
     },
     "gimp": {
       "installer": {
@@ -918,9 +918,9 @@
     "gitextensions": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/gitextensions/gitextensions/releases/download/v3.1/GitExtensions-3.1.0.5877.msi"
+        "x86": "https://github.com/gitextensions/gitextensions/releases/download/v3.1.1/GitExtensions-3.1.1.6049.msi"
       },
-      "version": "3.1"
+      "version": "3.1.1"
     },
     "github": {
       "installer": {
@@ -1188,10 +1188,10 @@
     "keepassxc": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/keepassxreboot/keepassxc/releases/download/2.4.1/KeePassXC-2.4.1-Win32.msi",
-        "x86_64": "https://github.com/keepassxreboot/keepassxc/releases/download/2.4.1/KeePassXC-2.4.1-Win64.msi"
+        "x86": "https://github.com/keepassxreboot/keepassxc/releases/download/2.4.2/KeePassXC-2.4.2-Win32.msi",
+        "x86_64": "https://github.com/keepassxreboot/keepassxc/releases/download/2.4.2/KeePassXC-2.4.2-Win64.msi"
       },
-      "version": "2.4.1"
+      "version": "2.4.2"
     },
     "keeweb": {
       "installer": {
@@ -1233,10 +1233,10 @@
     "krita": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.kde.org/stable/krita/4.1.7/krita-x86-4.1.7-setup.exe",
-        "x86_64": "https://download.kde.org/stable/krita/4.1.7/krita-x64-4.1.7-setup.exe"
+        "x86": "https://download.kde.org/stable/krita/4.2.0/krita-x86-4.2.0-setup.exe",
+        "x86_64": "https://download.kde.org/stable/krita/4.2.0/krita-x64-4.2.0-setup.exe"
       },
-      "version": "4.1.7"
+      "version": "4.2.0"
     },
     "libreoffice": {
       "installer": {
@@ -1453,10 +1453,10 @@
     "node-lts": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v10.15.3/node-v10.15.3-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v10.15.3/node-v10.15.3-x64.msi"
+        "x86": "https://nodejs.org/dist/v10.16.0/node-v10.16.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v10.16.0/node-v10.16.0-x64.msi"
       },
-      "version": "10.15.3"
+      "version": "10.16.0"
     },
     "nordvpn": {
       "installer": {
@@ -1659,10 +1659,10 @@
             "{{.SYSTEMDRIVE}}\\PHP\\php-win.exe"
           ]
         },
-        "x86": "https://windows.php.net/downloads/releases/php-7.3.5-nts-Win32-VC15-x86.zip",
-        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.5-nts-Win32-VC15-x64.zip"
+        "x86": "https://windows.php.net/downloads/releases/php-7.3.6-nts-Win32-VC15-x86.zip",
+        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.6-nts-Win32-VC15-x64.zip"
       },
-      "version": "7.3.5"
+      "version": "7.3.6"
     },
     "physx": {
       "installer": {
@@ -1757,9 +1757,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2019.1.2.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2019.1.3.exe"
       },
-      "version": "2019.1.2"
+      "version": "2019.1.3"
     },
     "python2": {
       "installer": {
@@ -2068,9 +2068,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.24.1.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.25.1.exe"
       },
-      "version": "1.24.1"
+      "version": "1.25.1"
     },
     "simplenote": {
       "installer": {
@@ -2414,10 +2414,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.5.1525.46.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.5.1525.46.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.5.1525.48.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.5.1525.48.x64.exe"
       },
-      "version": "2.5.1525.46"
+      "version": "2.5.1525.48"
     },
     "vlc": {
       "installer": {
@@ -2526,9 +2526,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.15.1/WinSCP-5.15.1-Setup.exe/download"
+        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.15.2/WinSCP-5.15.2-Setup.exe/download"
       },
-      "version": "5.15.1"
+      "version": "5.15.2"
     },
     "wireshark": {
       "installer": {
@@ -2579,9 +2579,9 @@
     "workflowy": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/workflowy/desktop/releases/download/v1.2.16/WorkFlowy-Installer.exe"
+        "x86": "https://github.com/workflowy/desktop/releases/download/v1.2.17/WorkFlowy-Installer.exe"
       },
-      "version": "1.2.16"
+      "version": "1.2.17"
     },
     "wox": {
       "installer": {
