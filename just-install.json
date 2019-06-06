@@ -1133,7 +1133,10 @@
     "jetbrains-toolbox": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://data.services.jetbrains.com/products/download?code=TBA&platform=windows"
+        "x86": "https://data.services.jetbrains.com/products/download?code=TBA&platform=windows",
+        "options": {
+          "extension": "exe"
+        }
       },
       "version": "latest"
     },
