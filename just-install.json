@@ -651,10 +651,10 @@
             "{{.PROGRAMFILES}}\\Emacs\\bin\\runemacs.exe"
           ]
         },
-        "x86": "https://ftp.gnu.org/gnu/emacs/windows/emacs-22/emacs-22.3-i686.zip",
-        "x86_64": "https://ftp.gnu.org/gnu/emacs/windows/emacs-22/emacs-22.3-x86_64.zip"
+        "x86": "https://ftp.gnu.org/gnu/emacs/windows/emacs-26/emacs-26.2-i686.zip",
+        "x86_64": "https://ftp.gnu.org/gnu/emacs/windows/emacs-26/emacs-26.2-x86_64.zip"
       },
-      "version": "22.3"
+      "version": "26.2"
     },
     "enpass": {
       "installer": {
@@ -681,10 +681,9 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/balena-io/etcher/releases/download/v1.5.39/balenaEtcher-Setup-1.5.39-x86.exe",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.39/balenaEtcher-Setup-1.5.39-x64.exe"
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.45/balenaEtcher-Setup-1.5.45.exe"
       },
-      "version": "1.5.39"
+      "version": "1.5.45"
     },
     "everything-search": {
       "installer": {
