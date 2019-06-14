@@ -681,9 +681,9 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.47/balenaEtcher-Setup-1.5.47.exe"
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.50/balenaEtcher-Setup-1.5.50.exe"
       },
-      "version": "1.5.47"
+      "version": "1.5.50"
     },
     "everything-search": {
       "installer": {
@@ -848,9 +848,9 @@
     "freefilesync": {
       "installer": {
         "kind": "as-is",
-        "x86": "https://www.freefilesync.org/download/FreeFileSync_10.12_Windows_Setup.exe"
+        "x86": "https://www.freefilesync.org/download/FreeFileSync_10.13_Windows_Setup.exe"
       },
-      "version": "10.12"
+      "version": "10.13"
     },
     "freeplane": {
       "installer": {
