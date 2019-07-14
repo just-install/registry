@@ -66,9 +66,9 @@
     "android-studio-ide": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.google.com/dl/android/studio/install/3.4.1.0/android-studio-ide-183.5522156-windows.exe"
+        "x86": "https://dl.google.com/dl/android/studio/install/3.4.2.0/android-studio-ide-183.5692245-windows.exe"
       },
-      "version": "3.4.1.0"
+      "version": "3.4.2.0"
     },
     "antimicro": {
       "installer": {
@@ -251,9 +251,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.ccleaner.com/ccsetup558.exe"
+        "x86": "https://download.ccleaner.com/ccsetup559.exe"
       },
-      "version": "5.58"
+      "version": "5.59"
     },
     "cdburnerxp": {
       "installer": {
@@ -383,9 +383,9 @@
     "cyberduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-7.0.0.30869.msi"
+        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-7.0.1.30930.msi"
       },
-      "version": "7.0.0.30869"
+      "version": "7.0.1.30930"
     },
     "cygwin": {
       "installer": {
@@ -525,10 +525,10 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.3%20beta/doublecmd-0.9.3.i386-win32.msi/download",
-        "x86_64": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.3%20beta/doublecmd-0.9.3.x86_64-win64.msi/download"
+        "x86": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.5%20beta/doublecmd-0.9.5.i386-win32.msi/download",
+        "x86_64": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.5%20beta/doublecmd-0.9.5.x86_64-win64.msi/download"
       },
-      "version": "0.9.3"
+      "version": "0.9.5"
     },
     "dropbox": {
       "installer": {
@@ -547,9 +547,9 @@
     "duck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.duck.sh/duck-7.0.0.30869.msi"
+        "x86": "https://dist.duck.sh/duck-7.0.1.30930.msi"
       },
-      "version": "7.0.0.30869"
+      "version": "7.0.1.30930"
     },
     "dynalist": {
       "installer": {
@@ -659,10 +659,10 @@
             "{{.PROGRAMFILES}}\\Emacs\\bin\\runemacs.exe"
           ]
         },
-        "x86": "https://ftp.gnu.org/gnu/emacs/windows/emacs-26/emacs-26.2-i686.zip",
-        "x86_64": "https://ftp.gnu.org/gnu/emacs/windows/emacs-26/emacs-26.2-x86_64.zip"
+        "x86": "https://ftp.gnu.org/gnu/emacs/windows/emacs-22/emacs-22.3-i686.zip",
+        "x86_64": "https://ftp.gnu.org/gnu/emacs/windows/emacs-22/emacs-22.3-x86_64.zip"
       },
-      "version": "26.2"
+      "version": "22.3"
     },
     "enpass": {
       "installer": {
@@ -810,16 +810,16 @@
     "flash-player": {
       "installer": {
         "kind": "msi",
-        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.207/install_flash_player_32_plugin.msi"
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.223/install_flash_player_32_plugin.msi"
       },
-      "version": "32.0.0.207"
+      "version": "32.0.0.223"
     },
     "flash-player-ie": {
       "installer": {
         "kind": "msi",
-        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.207/install_flash_player_32_active_x.msi"
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.223/install_flash_player_32_active_x.msi"
       },
-      "version": "32.0.0.207"
+      "version": "32.0.0.223"
     },
     "flux": {
       "installer": {
@@ -866,9 +866,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.7.8.exe/download"
+        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.7.9.exe/download"
       },
-      "version": "1.7.8"
+      "version": "1.7.9"
     },
     "geforce-experience": {
       "installer": {
@@ -953,10 +953,10 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dl.google.com/go/go1.12.6.windows-386.msi",
-        "x86_64": "https://dl.google.com/go/go1.12.6.windows-amd64.msi"
+        "x86": "https://dl.google.com/go/go1.12.7.windows-386.msi",
+        "x86_64": "https://dl.google.com/go/go1.12.7.windows-amd64.msi"
       },
-      "version": "1.12.6"
+      "version": "1.12.7"
     },
     "gog-galaxy": {
       "installer": {
@@ -1044,9 +1044,9 @@
     "heidisql": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://www.heidisql.com/installers/HeidiSQL_10.1.0.5464_Setup.exe"
+        "x86": "https://www.heidisql.com/installers/HeidiSQL_10.2.0.5599_Setup.exe"
       },
-      "version": "10.1.0.5464"
+      "version": "10.2.0.5599"
     },
     "hexchat": {
       "installer": {
@@ -1236,25 +1236,25 @@
     "kodi": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://mirrors.kodi.tv/releases/windows/win32/kodi-18.2-Leia_rc1-x86.exe"
+        "x86": "http://mirrors.kodi.tv/releases/windows/win32/kodi-18.3-Leia-x86.exe"
       },
-      "version": "18.2"
+      "version": "18.3"
     },
     "krita": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.kde.org/stable/krita/4.2.1/krita-x86-4.2.1-setup.exe",
-        "x86_64": "https://download.kde.org/stable/krita/4.2.1/krita-x64-4.2.1-setup.exe"
+        "x86": "https://download.kde.org/stable/krita/4.2.2/krita-x86-4.2.2-setup.exe",
+        "x86_64": "https://download.kde.org/stable/krita/4.2.2/krita-x64-4.2.2-setup.exe"
       },
-      "version": "4.2.1"
+      "version": "4.2.2"
     },
     "libreoffice": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.2.4/win/x86/LibreOffice_6.2.4_Win_x86.msi",
-        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.2.4/win/x86_64/LibreOffice_6.2.4_Win_x64.msi"
+        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.2.5/win/x86/LibreOffice_6.2.5_Win_x86.msi",
+        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.2.5/win/x86_64/LibreOffice_6.2.5_Win_x64.msi"
       },
-      "version": "6.2.4"
+      "version": "6.2.5"
     },
     "lightshot": {
       "installer": {
@@ -1333,10 +1333,10 @@
             "{{.PROGRAMFILES}}\\Mercurial\\hg.exe"
           ]
         },
-        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-4.9.1-x86.msi",
-        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-4.9.1-x64.msi"
+        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-5.0.2-x86.msi",
+        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-5.0.2-x64.msi"
       },
-      "version": "4.9.1"
+      "version": "5.0.2"
     },
     "microsoft-security-essentials": {
       "installer": {
@@ -1376,16 +1376,16 @@
     "mountainduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-3.0.2.14273.msi"
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-3.1.0.14459.msi"
       },
-      "version": "3.0.2.14273"
+      "version": "3.1.0.14459"
     },
     "mp3tag": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.mp3tag.de/mp3tagv295setup.exe"
+        "x86": "https://download.mp3tag.de/mp3tagv297setup.exe"
       },
-      "version": "2.95"
+      "version": "2.97"
     },
     "mpc-hc": {
       "installer": {
@@ -1455,10 +1455,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v12.4.0/node-v12.4.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v12.4.0/node-v12.4.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v12.6.0/node-v12.6.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v12.6.0/node-v12.6.0-x64.msi"
       },
-      "version": "12.4.0"
+      "version": "12.6.0"
     },
     "node-lts": {
       "installer": {
@@ -1484,10 +1484,10 @@
     "notepad++": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://notepad-plus-plus.org/repository/7.x/7.7/npp.7.7.Installer.exe",
-        "x86_64": "https://notepad-plus-plus.org/repository/7.x/7.7/npp.7.7.Installer.x64.exe"
+        "x86": "https://notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.Installer.exe",
+        "x86_64": "https://notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.Installer.x64.exe"
       },
-      "version": "7.7"
+      "version": "7.7.1"
     },
     "notepad2-mod": {
       "installer": {
@@ -1522,9 +1522,9 @@
     "obs-studio": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-23.1-Full-Installer-x64.exe"
+        "x86": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-23.2.1-Full-Installer-x64.exe"
       },
-      "version": "23.1"
+      "version": "23.2.1"
     },
     "octave": {
       "installer": {
@@ -1669,10 +1669,10 @@
             "{{.SYSTEMDRIVE}}\\PHP\\php-win.exe"
           ]
         },
-        "x86": "https://windows.php.net/downloads/releases/php-7.3.6-nts-Win32-VC15-x86.zip",
-        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.6-nts-Win32-VC15-x64.zip"
+        "x86": "https://windows.php.net/downloads/releases/php-7.3.7-nts-Win32-VC15-x86.zip",
+        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.7-nts-Win32-VC15-x64.zip"
       },
-      "version": "7.3.6"
+      "version": "7.3.7"
     },
     "physx": {
       "installer": {
@@ -1690,9 +1690,9 @@
     "pia": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://installers.privateinternetaccess.com/download/pia-v83-installer-win.exe"
+        "x86": "https://installers.privateinternetaccess.com/download/pia-v82-installer-win.exe"
       },
-      "version": "83"
+      "version": "6"
     },
     "plex-media-server": {
       "installer": {
@@ -1818,10 +1818,10 @@
             "InstallAllUsers=1"
           ]
         },
-        "x86": "https://www.python.org/ftp/python/3.7.3/python-3.7.3.exe",
-        "x86_64": "https://www.python.org/ftp/python/3.7.3/python-3.7.3-amd64.exe"
+        "x86": "https://www.python.org/ftp/python/3.7.4/python-3.7.4.exe",
+        "x86_64": "https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe"
       },
-      "version": "3.7.3"
+      "version": "3.7.4"
     },
     "qbittorrent": {
       "installer": {
@@ -2057,9 +2057,9 @@
     "seafile-client": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.seadrive.org/seafile-7.0.0-en.msi"
+        "x86": "https://download.seadrive.org/seafile-7.0.1-en.msi"
       },
-      "version": "7.0.0"
+      "version": "7.0.1"
     },
     "sharex": {
       "installer": {
@@ -2078,9 +2078,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.25.1.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.25.3.exe"
       },
-      "version": "1.25.1"
+      "version": "1.25.3"
     },
     "simplenote": {
       "installer": {
@@ -2251,10 +2251,10 @@
     "tightvnc": {
       "installer": {
         "kind": "msi",
-        "x86": "https://www.tightvnc.com/download/2.8.11/tightvnc-2.8.11-gpl-setup-32bit.msi",
-        "x86_64": "https://www.tightvnc.com/download/2.8.11/tightvnc-2.8.11-gpl-setup-64bit.msi"
+        "x86": "https://www.tightvnc.com/download/2.8.23/tightvnc-2.8.23-gpl-setup-32bit.msi",
+        "x86_64": "https://www.tightvnc.com/download/2.8.23/tightvnc-2.8.23-gpl-setup-64bit.msi"
       },
-      "version": "2.8.11"
+      "version": "2.8.23"
     },
     "tor-browser": {
       "installer": {
@@ -2323,10 +2323,10 @@
     "vagrant": {
       "installer": {
         "kind": "msi",
-        "x86": "https://releases.hashicorp.com/vagrant/2.2.4/vagrant_2.2.4_i686.msi",
-        "x86_64": "https://releases.hashicorp.com/vagrant/2.2.4/vagrant_2.2.4_x86_64.msi"
+        "x86": "https://releases.hashicorp.com/vagrant/2.2.5/vagrant_2.2.5_i686.msi",
+        "x86_64": "https://releases.hashicorp.com/vagrant/2.2.5/vagrant_2.2.5_x86_64.msi"
       },
-      "version": "2.2.4"
+      "version": "2.2.5"
     },
     "veracrypt": {
       "installer": {
@@ -2424,18 +2424,18 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.5.1525.48.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.5.1525.48.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.6.1566.44.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.6.1566.44.x64.exe"
       },
-      "version": "2.5.1525.48"
+      "version": "2.6.1566.44"
     },
     "vlc": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.videolan.org/pub/videolan/vlc/last/win32/vlc-3.0.7-win32.msi",
-        "x86_64": "https://download.videolan.org/pub/videolan/vlc/last/win64/vlc-3.0.7-win64.msi"
+        "x86": "https://download.videolan.org/pub/videolan/vlc/last/win32/vlc-3.0.7.1-win32.msi",
+        "x86_64": "https://download.videolan.org/pub/videolan/vlc/last/win64/vlc-3.0.7.1-win64.msi"
       },
-      "version": "3.0.7"
+      "version": "3.0.7.1"
     },
     "voicemeeter": {
       "installer": {
@@ -2455,9 +2455,9 @@
       "installer": {
         "interactive": true,
         "kind": "nsis",
-        "x86": "https://geo.keepsolidcdn.com/soft/vpn/Win/VPN_Unlimited_v5.4.exe"
+        "x86": "https://geo.keepsolidcdn.com/soft/vpn/Win/VPN_Unlimited_v6.0.exe"
       },
-      "version": "5.4"
+      "version": "6.0"
     },
     "webtorrent": {
       "installer": {
@@ -2589,9 +2589,9 @@
     "workflowy": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/workflowy/desktop/releases/download/v1.3.1/WorkFlowy-Installer.exe"
+        "x86": "https://github.com/workflowy/desktop/releases/download/v1.3.2/WorkFlowy-Installer.exe"
       },
-      "version": "1.3.1"
+      "version": "1.3.2"
     },
     "wox": {
       "installer": {
