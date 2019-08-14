@@ -313,6 +313,26 @@
       },
       "version": "3.15.1"
     },
+    "codeblocks": {
+      "installer": {
+        "kind": "nsis",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://sourceforge.net/projects/codeblocks/files/Binaries/{{.version}}/Windows/codeblocks-{{.version}}-setup.exe/download"
+      },
+      "version": "17.12"
+    },
+    "codeblocks-mingw": {
+      "installer": {
+        "kind": "nsis",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://sourceforge.net/projects/codeblocks/files/Binaries/{{.version}}/Windows/codeblocks-{{.version}}mingw-setup.exe/download"
+      },
+      "version": "17.12"
+    },
     "colemak": {
       "installer": {
         "kind": "as-is",
