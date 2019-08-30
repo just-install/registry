@@ -973,10 +973,10 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dl.google.com/go/go1.12.7.windows-386.msi",
-        "x86_64": "https://dl.google.com/go/go1.12.7.windows-amd64.msi"
+        "x86": "https://dl.google.com/go/go1.12.9.windows-386.msi",
+        "x86_64": "https://dl.google.com/go/go1.12.9.windows-amd64.msi"
       },
-      "version": "1.12.7"
+      "version": "1.12.9"
     },
     "gog-galaxy": {
       "installer": {
