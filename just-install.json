@@ -973,10 +973,10 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dl.google.com/go/go1.12.9.windows-386.msi",
-        "x86_64": "https://dl.google.com/go/go1.12.9.windows-amd64.msi"
+        "x86": "https://dl.google.com/go/go1.13.windows-386.msi",
+        "x86_64": "https://dl.google.com/go/go1.13.windows-amd64.msi"
       },
-      "version": "1.12.9"
+      "version": "1.13"
     },
     "gog-galaxy": {
       "installer": {
@@ -2225,10 +2225,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Syncthing"
         },
-        "x86": "https://github.com/syncthing/syncthing/releases/download/v1.2.1/syncthing-windows-386-v1.2.1.zip",
-        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v1.2.1/syncthing-windows-amd64-v1.2.1.zip"
+        "x86": "https://github.com/syncthing/syncthing/releases/download/v1.2.2/syncthing-windows-386-v1.2.2.zip",
+        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v1.2.2/syncthing-windows-amd64-v1.2.2.zip"
       },
-      "version": "1.2.1"
+      "version": "1.2.2"
     },
     "sysinternals": {
       "installer": {
