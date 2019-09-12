@@ -308,10 +308,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/Kitware/CMake/releases/download/v3.15.2/cmake-3.15.2-win32-x86.msi",
-        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.15.2/cmake-3.15.2-win64-x64.msi"
+        "x86": "https://github.com/Kitware/CMake/releases/download/v3.15.3/cmake-3.15.3-win32-x86.msi",
+        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.15.3/cmake-3.15.3-win64-x64.msi"
       },
-      "version": "3.15.2"
+      "version": "3.15.3"
     },
     "codeblocks": {
       "installer": {
@@ -436,9 +436,9 @@
     "dbeaver": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/6.1.5/dbeaver-ce-6.1.5-x86_64-setup.exe"
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/6.2.0/dbeaver-ce-6.2.0-x86_64-setup.exe"
       },
-      "version": "6.1.5"
+      "version": "6.2.0"
     },
     "deluge": {
       "installer": {
@@ -830,16 +830,16 @@
     "flash-player": {
       "installer": {
         "kind": "msi",
-        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.238/install_flash_player_32_plugin.msi"
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.255/install_flash_player_32_plugin.msi"
       },
-      "version": "32.0.0.238"
+      "version": "32.0.0.255"
     },
     "flash-player-ie": {
       "installer": {
         "kind": "msi",
-        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.238/install_flash_player_32_active_x.msi"
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.255/install_flash_player_32_active_x.msi"
       },
-      "version": "32.0.0.238"
+      "version": "32.0.0.255"
     },
     "flux": {
       "installer": {
@@ -899,9 +899,9 @@
             "-s"
           ]
         },
-        "x86": "https://us.download.nvidia.com/GFE/GFEClient/3.20.0.105/GeForce_Experience_v3.20.0.105.exe"
+        "x86": "https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe"
       },
-      "version": "3.20.0.105"
+      "version": "3.20.0.118"
     },
     "gimp": {
       "installer": {
@@ -1085,10 +1085,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.57.2/hugo_0.57.2_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.57.2/hugo_0.57.2_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.58.1/hugo_0.58.1_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.58.1/hugo_0.58.1_Windows-64bit.zip"
       },
-      "version": "0.57.2"
+      "version": "0.58.1"
     },
     "imageglass": {
       "installer": {
@@ -1201,9 +1201,9 @@
         "options": {
           "extension": ".msi"
         },
-        "x86": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.42.1/KeePass-2.42.1.msi/download"
+        "x86": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.43/KeePass-2.43.msi/download"
       },
-      "version": "2.42.1"
+      "version": "2.43"
     },
     "keepass-keepasshttp": {
       "installer": {
@@ -1226,10 +1226,10 @@
     "keeweb": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.9.2/KeeWeb-1.9.2.win.ia32.exe",
-        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.9.2/KeeWeb-1.9.2.win.x64.exe"
+        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.10.0/KeeWeb-1.10.0.win.ia32.exe",
+        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.10.0/KeeWeb-1.10.0.win.x64.exe"
       },
-      "version": "1.9.2"
+      "version": "1.10.0"
     },
     "keybase": {
       "installer": {
@@ -1263,18 +1263,18 @@
     "krita": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.kde.org/stable/krita/4.2.5/krita-x86-4.2.5-setup.exe",
-        "x86_64": "https://download.kde.org/stable/krita/4.2.5/krita-x64-4.2.5-setup.exe"
+        "x86": "https://download.kde.org/stable/krita/4.2.6/krita-x86-4.2.6-setup.exe",
+        "x86_64": "https://download.kde.org/stable/krita/4.2.6/krita-x64-4.2.6-setup.exe"
       },
-      "version": "4.2.5"
+      "version": "4.2.6"
     },
     "libreoffice": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.3.0/win/x86/LibreOffice_6.3.0_Win_x86.msi",
-        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.3.0/win/x86_64/LibreOffice_6.3.0_Win_x64.msi"
+        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.3.1/win/x86/LibreOffice_6.3.1_Win_x86.msi",
+        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.3.1/win/x86_64/LibreOffice_6.3.1_Win_x64.msi"
       },
-      "version": "6.3.0"
+      "version": "6.3.1"
     },
     "lightshot": {
       "installer": {
@@ -1353,10 +1353,10 @@
             "{{.PROGRAMFILES}}\\Mercurial\\hg.exe"
           ]
         },
-        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-5.1-x86.msi",
-        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-5.1-x64.msi"
+        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-5.1.1-x86.msi",
+        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-5.1.1-x64.msi"
       },
-      "version": "5.1"
+      "version": "5.1.1"
     },
     "microsoft-security-essentials": {
       "installer": {
@@ -1482,10 +1482,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v12.9.1/node-v12.9.1-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v12.9.1/node-v12.9.1-x64.msi"
+        "x86": "https://nodejs.org/dist/v12.10.0/node-v12.10.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v12.10.0/node-v12.10.0-x64.msi"
       },
-      "version": "12.9.1"
+      "version": "12.10.0"
     },
     "node-lts": {
       "installer": {
@@ -1794,9 +1794,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2019.2.1.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2019.2.2.exe"
       },
-      "version": "2019.2.1"
+      "version": "2019.2.2"
     },
     "python2": {
       "installer": {
@@ -2059,10 +2059,10 @@
             "{{.SYSTEMDRIVE}}\\Ruby193\\bin\\rubyw.exe"
           ]
         },
-        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.3-1/rubyinstaller-2.6.3-1-x86.exe",
-        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.3-1/rubyinstaller-2.6.3-1-x64.exe"
+        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.4-1/rubyinstaller-2.6.4-1-x86.exe",
+        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.4-1/rubyinstaller-2.6.4-1-x64.exe"
       },
-      "version": "2.6.3"
+      "version": "2.6.4"
     },
     "rufus": {
       "installer": {
@@ -2105,9 +2105,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.26.2.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.27.2.exe"
       },
-      "version": "1.26.2"
+      "version": "1.27.2"
     },
     "simplenote": {
       "installer": {
@@ -2286,10 +2286,10 @@
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/8.5.4/torbrowser-install-8.5.4_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/8.5.4/torbrowser-install-win64-8.5.4_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/8.5.5/torbrowser-install-8.5.5_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/8.5.5/torbrowser-install-win64-8.5.5_en-US.exe"
       },
-      "version": "8.5.4"
+      "version": "8.5.5"
     },
     "torguard": {
       "installer": {
@@ -2379,9 +2379,9 @@
             "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBoxManage.exe"
           ]
         },
-        "x86": "https://download.virtualbox.org/virtualbox/6.0.10/VirtualBox-6.0.10-132072-Win.exe"
+        "x86": "https://download.virtualbox.org/virtualbox/6.0.12/VirtualBox-6.0.12-133076-Win.exe"
       },
-      "version": "6.0.10"
+      "version": "6.0.12"
     },
     "virtualbox-extpack": {
       "installer": {
@@ -2396,9 +2396,9 @@
           ],
           "filename": "Oracle_VM_VirtualBox_Extension_Pack-5.0.16-105871.vbox-extpack"
         },
-        "x86": "https://download.virtualbox.org/virtualbox/6.0.10/Oracle_VM_VirtualBox_Extension_Pack-6.0.10.vbox-extpack"
+        "x86": "https://download.virtualbox.org/virtualbox/6.0.12/Oracle_VM_VirtualBox_Extension_Pack-6.0.12.vbox-extpack"
       },
-      "version": "6.0.10"
+      "version": "6.0.12"
     },
     "viscosity": {
       "installer": {
@@ -2451,10 +2451,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.7.1628.30.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.7.1628.30.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.7.1628.33.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.7.1628.33.x64.exe"
       },
-      "version": "2.7.1628.30"
+      "version": "2.7.1628.33"
     },
     "vlc": {
       "installer": {
@@ -2570,10 +2570,10 @@
     "wireshark": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-3.0.3.exe",
-        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.0.3.exe"
+        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-3.0.4.exe",
+        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.0.4.exe"
       },
-      "version": "3.0.3"
+      "version": "3.0.4"
     },
     "wix": {
       "installer": {
@@ -2669,9 +2669,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2019.09.01/youtube-dl.exe"
+        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2019.09.12.1/youtube-dl.exe"
       },
-      "version": "2019.09.01"
+      "version": "2019.09.12.1"
     }
   }
 }
