@@ -210,10 +210,10 @@
     "blender": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.blender.org/release/Blender2.79/blender-2.79b-windows32.msi",
-        "x86_64": "https://download.blender.org/release/Blender2.79/blender-2.79b-windows64.msi"
+        "x86": "https://download.blender.org/release/Blender2.80/blender-2.80-windows32.msi",
+        "x86_64": "https://download.blender.org/release/Blender2.80/blender-2.80-windows64.msi"
       },
-      "version": "2.79b"
+      "version": "2.80"
     },
     "brackets": {
       "installer": {
