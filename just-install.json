@@ -1549,9 +1549,9 @@
     "obs-studio": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-23.2.1-Full-Installer-x64.exe"
+        "x86": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-24.0-Full-Installer-x64.exe"
       },
-      "version": "23.2.1"
+      "version": "24.0.0"
     },
     "octave": {
       "installer": {
