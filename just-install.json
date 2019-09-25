@@ -106,6 +106,13 @@
       },
       "version": "latest"
     },
+    "audacity": {
+      "installer": {
+        "kind": "eve",
+        "x86": "https://www.fosshub.com/Audacity.html/audacity-win-{{.version}}.exe"
+      },
+      "version": "2.3.1"
+    },
     "autohotkey": {
       "installer": {
         "kind": "nsis",
