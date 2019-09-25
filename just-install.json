@@ -2102,6 +2102,13 @@
       },
       "version": "3.9"
     },
+    "shotcut": {
+      "installer": {
+        "kind": "exe",
+        "x86": "https://github.com/mltframework/shotcut/releases/download/v19.09.14/shotcut-win64-190914.exe"
+      },
+      "version": "19.09.14"
+    },
     "signal": {
       "installer": {
         "kind": "nsis",
