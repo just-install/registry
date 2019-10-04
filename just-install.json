@@ -435,7 +435,14 @@
     },
     "dbeaver": {
       "installer": {
-        "kind": "nsis",
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/allusers",
+            "/S"
+          ]
+        },
         "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/6.2.1/dbeaver-ce-6.2.1-x86_64-setup.exe"
       },
       "version": "6.2.1"
