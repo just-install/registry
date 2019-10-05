@@ -51,7 +51,7 @@
     "packages": {
       "additionalProperties": false,
       "patternProperties": {
-        "^[a-zA-Z0-9\\-\\+]+$": {
+        "^[a-zA-Z0-9\\.\\-\\+]+$": {
           "additionalProperties": false,
           "properties": {
             "installer": {
