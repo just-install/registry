@@ -1,0 +1,11 @@
+{
+  "name": "just-install-registry",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "ajv-cli": "^3.0.0"
+  },
+  "scripts": {
+    "test": "ajv validate -s just-install-schema.json -d just-install.json"
+  }
+}

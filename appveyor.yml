@@ -1,8 +1,10 @@
 shallow_clone: true
 skip_branch_with_pr: true
+cache:
+  - node_modules -> package-lock.json
 build_script:
-  - cmd: pip install jsonschema==2.6.0
+  - cmd: npm install
 test_script:
-  - cmd: jsonschema -i just-install.json just-install-schema.json
+  - cmd: npm test
   - cmd: msiexec /q /i https://just-install.github.io/stable/just-install.msi
   - cmd: just-install audit
