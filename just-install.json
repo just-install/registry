@@ -443,9 +443,9 @@
             "/S"
           ]
         },
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/6.2.1/dbeaver-ce-6.2.1-x86_64-setup.exe"
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/6.2.2/dbeaver-ce-6.2.2-x86_64-setup.exe"
       },
-      "version": "6.2.1"
+      "version": "6.2.2"
     },
     "deluge": {
       "installer": {
@@ -1471,9 +1471,9 @@
     "nextcloud": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-2.5.3-setup.exe"
+        "x86": "https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-2.6.0-setup.exe"
       },
-      "version": "2.5.3"
+      "version": "2.6.0"
     },
     "nircmd": {
       "installer": {
@@ -2052,10 +2052,10 @@
     "retroarch": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://buildbot.libretro.com/stable/1.7.8/windows/x86/RetroArch-x86-setup.exe",
-        "x86_64": "https://buildbot.libretro.com/stable/1.7.8/windows/x86_64/RetroArch-x64-setup.exe"
+        "x86": "https://buildbot.libretro.com/stable/1.7.9/windows/x86/RetroArch-x86-setup.exe",
+        "x86_64": "https://buildbot.libretro.com/stable/1.7.9/windows/x86_64/RetroArch-x64-setup.exe"
       },
-      "version": "1.7.8"
+      "version": "1.7.9"
     },
     "ruby": {
       "installer": {
