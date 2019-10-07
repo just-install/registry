@@ -1118,7 +1118,7 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "http://www.jrsoftware.org/download.php/is-unicode.exe"
+        "x86": "http://www.jrsoftware.org/download.php/is.exe"
       },
       "version": "latest"
     },
