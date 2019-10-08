@@ -2464,6 +2464,51 @@
       },
       "version": "latest-2017"
     },
+    "visual-studio-community": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "--quiet",
+            "--norestart"
+          ],
+          "extension": ".exe"
+        },
+        "x86": "https://aka.ms/vs/16/release/vs_community.exe"
+      },
+      "version": "latest-2019"
+    },
+    "visual-studio-professional": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "--quiet",
+            "--norestart"
+          ],
+          "extension": ".exe"
+        },
+        "x86": "https://aka.ms/vs/16/release/vs_professional.exe"
+      },
+      "version": "latest-2019"
+    },
+    "visual-studio-enterprise": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "--quiet",
+            "--norestart"
+          ],
+          "extension": ".exe"
+        },
+        "x86": "https://aka.ms/vs/16/release/vs_enterprise.exe"
+      },
+      "version": "latest-2019"
+    },
     "vivaldi": {
       "installer": {
         "kind": "custom",
