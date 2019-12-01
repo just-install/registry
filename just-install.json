@@ -307,10 +307,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/Kitware/CMake/releases/download/v3.16.0-rc3/cmake-3.16.0-rc3-win32-x86.msi",
-        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.16.0-rc3/cmake-3.16.0-rc3-win64-x64.msi"
+        "x86": "https://github.com/Kitware/CMake/releases/download/v3.16.0/cmake-3.16.0-win32-x86.msi",
+        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.16.0/cmake-3.16.0-win64-x64.msi"
       },
-      "version": "3.15.5"
+      "version": "3.16.0"
     },
     "codeblocks": {
       "installer": {
@@ -402,9 +402,9 @@
     "cyberduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-7.1.2.31675.msi"
+        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-7.2.1.31913.msi"
       },
-      "version": "7.1.2.31675"
+      "version": "7.2.1.31913"
     },
     "cygwin": {
       "installer": {
@@ -442,9 +442,9 @@
             "/S"
           ]
         },
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/6.2.5/dbeaver-ce-6.2.5-x86_64-setup.exe"
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/6.3.0/dbeaver-ce-6.3.0-x86_64-setup.exe"
       },
-      "version": "6.2.5"
+      "version": "6.3.0"
     },
     "deluge": {
       "installer": {
@@ -573,9 +573,9 @@
     "duck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.duck.sh/duck-7.1.2.31675.msi"
+        "x86": "https://dist.duck.sh/duck-7.2.1.31913.msi"
       },
-      "version": "7.1.2.31675"
+      "version": "7.2.1.31913"
     },
     "dynalist": {
       "installer": {
@@ -693,9 +693,9 @@
     "enpass": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.enpass.io/stable/windows/setup/6.3.0.579/Enpass-setup.exe"
+        "x86": "https://dl.enpass.io/stable/windows/setup/6.3.1.583/Enpass-setup.exe"
       },
-      "version": "6.3.0.579"
+      "version": "6.3.1.583"
     },
     "epic-games-launcher": {
       "installer": {
@@ -715,9 +715,9 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.63/balenaEtcher-Setup-1.5.63.exe"
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.64/balenaEtcher-Setup-1.5.64.exe"
       },
-      "version": "1.5.63"
+      "version": "1.5.64"
     },
     "everything-search": {
       "installer": {
@@ -944,9 +944,9 @@
             "{{.PROGRAMFILES}}\\Git LFS\\git-lfs.exe"
           ]
         },
-        "x86": "https://github.com/git-lfs/git-lfs/releases/download/v2.9.0/git-lfs-windows-v2.9.0.exe"
+        "x86": "https://github.com/git-lfs/git-lfs/releases/download/v2.9.1/git-lfs-windows-v2.9.1.exe"
       },
-      "version": "2.9.0"
+      "version": "2.9.1"
     },
     "gitextensions": {
       "installer": {
@@ -1091,10 +1091,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.59.1/hugo_0.59.1_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.59.1/hugo_0.59.1_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.60.1/hugo_0.60.1_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.60.1/hugo_0.60.1_Windows-64bit.zip"
       },
-      "version": "0.59.1"
+      "version": "0.60.1"
     },
     "imageglass": {
       "installer": {
@@ -1254,10 +1254,10 @@
     "kicad": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.4_1-i686.exe",
-        "x86_64": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.4_1-x86_64.exe"
+        "x86": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.5_2-i686.exe",
+        "x86_64": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.5_2-x86_64.exe"
       },
-      "version": "5.1.4"
+      "version": "5.1.5"
     },
     "kodi": {
       "installer": {
@@ -1269,10 +1269,10 @@
     "krita": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.kde.org/stable/krita/4.2.7.1/krita-x86-4.2.7.1-setup.exe",
-        "x86_64": "https://download.kde.org/stable/krita/4.2.7.1/krita-x64-4.2.7.1-setup.exe"
+        "x86": "https://download.kde.org/stable/krita/4.2.8/krita-x86-4.2.8-setup.exe",
+        "x86_64": "https://download.kde.org/stable/krita/4.2.8/krita-x64-4.2.8-setup.exe"
       },
-      "version": "4.2.7.1"
+      "version": "4.2.8"
     },
     "libreoffice": {
       "installer": {
@@ -1292,9 +1292,9 @@
     "lockhunter": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://lockhunter.com/exe/lockhuntersetup_3-2-3.exe"
+        "x86": "http://lockhunter.com/exe/lockhuntersetup_3-3-4.exe"
       },
-      "version": "3.2.3"
+      "version": "3.3.4"
     },
     "mailspring": {
       "installer": {
@@ -1680,10 +1680,10 @@
     "perl": {
       "installer": {
         "kind": "msi",
-        "x86": "http://strawberryperl.com/download/5.30.0.1/strawberry-perl-5.30.0.1-32bit.msi",
-        "x86_64": "http://strawberryperl.com/download/5.30.0.1/strawberry-perl-5.30.0.1-64bit.msi"
+        "x86": "http://strawberryperl.com/download/5.30.1.1/strawberry-perl-5.30.1.1-32bit.msi",
+        "x86_64": "http://strawberryperl.com/download/5.30.1.1/strawberry-perl-5.30.1.1-64bit.msi"
       },
-      "version": "5.30.0.1"
+      "version": "5.30.1.1"
     },
     "photofiltre": {
       "installer": {
@@ -1705,7 +1705,7 @@
         "x86": "https://windows.php.net/downloads/releases/php-7.3.12-nts-Win32-VC15-x86.zip",
         "x86_64": "https://windows.php.net/downloads/releases/php-7.3.12-nts-Win32-VC15-x64.zip"
       },
-      "version": "7.3.12"
+      "version": "7.4.0"
     },
     "physx": {
       "installer": {
@@ -1737,9 +1737,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.18.2.2041-3d469cb32/windows/PlexMediaServer-1.18.2.2041-3d469cb32-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.18.2.2058-e67a4e892/windows/PlexMediaServer-1.18.2.2058-e67a4e892-x86.exe"
       },
-      "version": "1.18.2.2041"
+      "version": "1.18.2.2058"
     },
     "postman": {
       "installer": {
@@ -2586,9 +2586,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.15.5/WinSCP-5.15.5-Setup.exe/download"
+        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.15.7/WinSCP-5.15.7-Setup.exe/download"
       },
-      "version": "5.15.5"
+      "version": "5.15.7"
     },
     "wireshark": {
       "installer": {
@@ -2692,9 +2692,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2019.11.22/youtube-dl.exe"
+        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2019.11.28/youtube-dl.exe"
       },
-      "version": "2019.11.22"
+      "version": "2019.11.28"
     }
   }
 }
