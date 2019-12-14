@@ -1151,10 +1151,10 @@
             "/s"
           ]
         },
-        "x86": "http://download.oracle.com/otn-pub/java/jdk/8u231-b11/5b13a193868b4bf28bcb45c792fce896/jdk-8u231-windows-i586.exe",
-        "x86_64": "http://download.oracle.com/otn-pub/java/jdk/8u231-b11/5b13a193868b4bf28bcb45c792fce896/jdk-8u231-windows-x64.exe"
+        "x86": "https://github.com/portapps/untouched/releases/download/oracle-jdk-8u231/jdk-8u231-windows-i586.exe",
+        "x86_64": "https://github.com/portapps/untouched/releases/download/oracle-jdk-8u231/jdk-8u231-windows-x64.exe"
       },
-      "version": "8u231-b11"
+      "version": "8u231"
     },
     "jetbrains-toolbox": {
       "installer": {
