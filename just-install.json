@@ -1602,10 +1602,17 @@
       },
       "version": "8.1"
     },
-    "openvpn": {
+    "openvpn-win7": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://build.openvpn.net/downloads/releases/latest/openvpn-install-latest-stable.exe"
+        "x86": "https://build.openvpn.net/downloads/releases/latest/openvpn-install-latest-stable-win7.exe"
+      },
+      "version": "latest"
+    },
+    "openvpn-win10": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://build.openvpn.net/downloads/releases/latest/openvpn-install-latest-stable-win10.exe"
       },
       "version": "latest"
     },
