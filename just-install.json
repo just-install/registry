@@ -449,9 +449,9 @@
     "deluge": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://download.deluge-torrent.org/windows/deluge-2.0.3-win32-py2.7.exe"
+        "x86": "https://ftp.osuosl.org/pub/deluge/windows/deluge-{{.version}}-win32-py2.7.exe"
       },
-      "version": "2.0.3"
+      "version": "1.3.15"
     },
     "dependency-walker": {
       "installer": {
