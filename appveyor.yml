@@ -7,4 +7,4 @@ build_script:
 test_script:
   - cmd: npm test
   - cmd: msiexec /q /i https://just-install.github.io/stable/just-install.msi
-  - cmd: just-install audit
+  - cmd: just-install -r just-install.json audit
