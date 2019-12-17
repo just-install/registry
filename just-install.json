@@ -2149,10 +2149,10 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/smplayer/files/SMPlayer/19.10.2/smplayer-19.10.2-win32.exe/download",
-        "x86_64": "https://sourceforge.net/projects/smplayer/files/SMPlayer/19.10.2/smplayer-19.10.2-x64.exe/download"
+        "x86": "https://sourceforge.net/projects/smplayer/files/SMPlayer/19.10.0/smplayer-19.10.0-win32.exe/download",
+        "x86_64": "https://sourceforge.net/projects/smplayer/files/SMPlayer/19.10.0/smplayer-19.10.0-x64.exe/download"
       },
-      "version": "19.10.2"
+      "version": "19.10.0"
     },
     "sourcetree": {
       "installer": {
