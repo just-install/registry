@@ -854,13 +854,6 @@
       },
       "version": "latest"
     },
-    "foobar2000": {
-      "installer": {
-        "kind": "nsis",
-        "x86": "https://github.com/tlm-2501/ji/raw/master/foobar2000_v1.4.3.exe"
-      },
-      "version": "1.4.3"
-    },
     "foxitreader": {
       "installer": {
         "kind": "msi",
