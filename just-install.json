@@ -1285,7 +1285,7 @@
     "lockhunter": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://lockhunter.com/exe/lockhuntersetup_3-3-4.exe"
+        "x86": "https://lockhunter.com/assets/exe/lockhuntersetup_3-3-4.exe"
       },
       "version": "3.3.4"
     },
