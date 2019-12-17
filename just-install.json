@@ -2676,13 +2676,6 @@
       },
       "version": "latest"
     },
-    "ynab": {
-      "installer": {
-        "kind": "innosetup",
-        "x86": "https://downloadpull-youneedabudgetco.netdna-ssl.com/ynab4/liveCaptive/Win/YNAB%204_4.3.857_Setup.exe"
-      },
-      "version": "4.3.857"
-    },
     "youtube-dl": {
       "installer": {
         "kind": "copy",
