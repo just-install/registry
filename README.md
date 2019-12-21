@@ -1,6 +1,5 @@
 # Just Install Registry
 
-[![Build status](https://ci.appveyor.com/api/projects/status/asa2343a5ixlnmxn?svg=true)](https://ci.appveyor.com/project/lvillani/registry)
 [![License](https://img.shields.io/badge/license-GPL%203.0-blue.svg?style=flat)](https://choosealicense.com/licenses/gpl-3.0/)
 
 This repository contains the just-install "registry": the list of packages available for
