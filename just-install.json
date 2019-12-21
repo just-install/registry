@@ -1708,10 +1708,10 @@
             "{{.SYSTEMDRIVE}}\\PHP\\php-win.exe"
           ]
         },
-        "x86": "https://windows.php.net/downloads/releases/php-7.4.0-nts-Win32-vc15-x86.zip",
-        "x86_64": "https://windows.php.net/downloads/releases/php-7.4.0-nts-Win32-vc15-x64.zip"
+        "x86": "https://windows.php.net/downloads/releases/php-7.4.1-nts-Win32-vc15-x86.zip",
+        "x86_64": "https://windows.php.net/downloads/releases/php-7.4.1-nts-Win32-vc15-x64.zip"
       },
-      "version": "7.4.0"
+      "version": "7.4.1"
     },
     "physx": {
       "installer": {
