@@ -1806,9 +1806,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "as-is",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2019.3.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2019.3.1.exe"
       },
-      "version": "2019.3"
+      "version": "2019.3.1"
     },
     "python2": {
       "installer": {
