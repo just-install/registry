@@ -1247,7 +1247,8 @@
     "kodi": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://mirrors.kodi.tv/releases/windows/win32/kodi-18.5-Leia-x86.exe"
+        "x86": "https://mirrors.kodi.tv/releases/windows/win32/kodi-18.5-Leia-x86.exe",
+        "x86_64": "https://mirrors.kodi.tv/releases/windows/win64/kodi-18.5-Leia-x64.exe"
       },
       "version": "18.5"
     },
