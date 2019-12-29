@@ -1163,20 +1163,6 @@
       },
       "version": "latest"
     },
-    "jdk": {
-      "installer": {
-        "kind": "custom",
-        "options": {
-          "arguments": [
-            "{{.installer}}",
-            "/s"
-          ]
-        },
-        "x86": "http://download.oracle.com/otn-pub/java/jdk/8u231-b11/5b13a193868b4bf28bcb45c792fce896/jdk-8u231-windows-i586.exe",
-        "x86_64": "http://download.oracle.com/otn-pub/java/jdk/8u231-b11/5b13a193868b4bf28bcb45c792fce896/jdk-8u231-windows-x64.exe"
-      },
-      "version": "8u231-b11"
-    },
     "jetbrains-toolbox": {
       "installer": {
         "kind": "nsis",
@@ -1199,21 +1185,6 @@
         "x86": "https://download.qt.io/official_releases/jom/jom.zip"
       },
       "version": "latest"
-    },
-    "jre": {
-      "installer": {
-        "kind": "custom",
-        "options": {
-          "arguments": [
-            "{{.installer}}",
-            "/s"
-          ],
-          "extension": ".exe"
-        },
-        "x86": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=240726_5b13a193868b4bf28bcb45c792fce896",
-        "x86_64": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=240728_5b13a193868b4bf28bcb45c792fce896"
-      },
-      "version": "8.231"
     },
     "keepass": {
       "installer": {
