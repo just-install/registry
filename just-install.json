@@ -55,6 +55,21 @@
       },
       "version": "310"
     },
+    "amazon-corretto-8": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://corretto.aws/downloads/latest/amazon-corretto-8-x86-windows-jdk.msi",
+        "x86_64": "https://corretto.aws/downloads/latest/amazon-corretto-8-x64-windows-jdk.msi"
+      },
+      "version": "latest"
+    },
+    "amazon-corretto-11": {
+      "installer": {
+        "kind": "msi",
+        "x86_64": "https://corretto.aws/downloads/latest/amazon-corretto-11-x64-windows-jdk.msi"
+      },
+      "version": "latest"
+    },
     "anaconda": {
       "installer": {
         "kind": "nsis",
