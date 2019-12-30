@@ -2471,7 +2471,8 @@
           "arguments": [
             "{{.installer}}",
             "--quiet",
-            "--norestart"
+            "--norestart",
+            "--wait"
           ],
           "extension": ".exe"
         },
@@ -2486,7 +2487,8 @@
           "arguments": [
             "{{.installer}}",
             "--quiet",
-            "--norestart"
+            "--norestart",
+            "--wait"
           ],
           "extension": ".exe"
         },
@@ -2501,7 +2503,8 @@
           "arguments": [
             "{{.installer}}",
             "--quiet",
-            "--norestart"
+            "--norestart",
+            "--wait"
           ],
           "extension": ".exe"
         },
