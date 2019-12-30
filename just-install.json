@@ -2456,21 +2456,6 @@
           "arguments": [
             "{{.installer}}",
             "--quiet",
-            "--norestart"
-          ],
-          "extension": ".exe"
-        },
-        "x86": "https://aka.ms/vs/15/release/vs_community.exe"
-      },
-      "version": "latest-2017"
-    },
-    "visual-studio-community": {
-      "installer": {
-        "kind": "custom",
-        "options": {
-          "arguments": [
-            "{{.installer}}",
-            "--quiet",
             "--norestart",
             "--wait"
           ],
