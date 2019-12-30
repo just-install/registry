@@ -71,6 +71,7 @@
                     "innosetup",
                     "msi",
                     "nsis",
+                    "squirrel",
                     "zip"
                   ],
                   "type": "string"
