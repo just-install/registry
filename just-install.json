@@ -2314,9 +2314,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86_64": "https://vcvrack.com/downloads/Rack-1.1.4-win.exe"
+        "x86_64": "https://vcvrack.com/downloads/Rack-1.1.6-win.exe"
       },
-      "version": "1.1.4"
+      "version": "1.1.6"
     },
     "veracrypt": {
       "installer": {
