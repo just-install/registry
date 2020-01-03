@@ -703,6 +703,7 @@
         "kind": "as-is",
         "x86": "https://www.eithermouse.com/EitherMouse%20Setup.exe"
       },
+      "skipAudit": true,
       "version": "latest"
     },
     "em-client": {
@@ -939,6 +940,7 @@
         "kind": "innosetup",
         "x86": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.14-setup-3.exe"
       },
+      "skipAudit": true,
       "version": "2.10.14"
     },
     "git": {
