@@ -136,7 +136,7 @@
     "autohotkey": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://ahkscript.org/download/ahk-install.exe"
+        "x86": "https://autohotkey.com/download/ahk-install.exe"
       },
       "version": "latest"
     },
