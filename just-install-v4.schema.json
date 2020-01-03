@@ -108,6 +108,9 @@
               ],
               "type": "object"
             },
+            "skipAudit": {
+              "type": "boolean"
+            },
             "version": {
               "maxLength": 64,
               "minLength": 1,
