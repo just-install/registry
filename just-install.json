@@ -1203,10 +1203,10 @@
     "keepassxc": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/keepassxreboot/keepassxc/releases/download/2.5.1/KeePassXC-2.5.1-Win32.msi",
-        "x86_64": "https://github.com/keepassxreboot/keepassxc/releases/download/2.5.1/KeePassXC-2.5.1-Win64.msi"
+        "x86": "https://github.com/keepassxreboot/keepassxc/releases/download/2.5.2/KeePassXC-2.5.2-Win32.msi",
+        "x86_64": "https://github.com/keepassxreboot/keepassxc/releases/download/2.5.2/KeePassXC-2.5.2-Win64.msi"
       },
-      "version": "2.5.1"
+      "version": "2.5.2"
     },
     "keeweb": {
       "installer": {
