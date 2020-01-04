@@ -2544,16 +2544,6 @@
       },
       "version": "latest"
     },
-    "vpnunlimited": {
-      "installer": {
-        "kind": "innosetup",
-        "options": {
-          "extension": ".exe"
-        },
-        "x86": "https://www.vpnunlimitedapp.com/download/windows"
-      },
-      "version": "latest"
-    },
     "webtorrent": {
       "installer": {
         "kind": "squirrel",
