@@ -2457,14 +2457,6 @@
       },
       "version": "latest"
     },
-    "vpnunlimited": {
-      "installer": {
-        "interactive": true,
-        "kind": "nsis",
-        "x86": "https://www.vpnunlimitedapp.com/download/windows"
-      },
-      "version": "latest"
-    },
     "webtorrent": {
       "installer": {
         "kind": "squirrel",
