@@ -1820,6 +1820,22 @@
       },
       "version": "3.8.1"
     },
+    "python3-minimal": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/quiet",
+            "InstallAllUsers=1",
+            "Include_tcltk=0"
+          ]
+        },
+        "x86": "https://www.python.org/ftp/python/{{.version}}/python-{{.version}}.exe",
+        "x86_64": "https://www.python.org/ftp/python/{{.version}}/python-{{.version}}-amd64.exe"
+      },
+      "version": "3.8.1"
+    },
     "qbittorrent": {
       "installer": {
         "kind": "nsis",
