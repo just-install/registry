@@ -583,10 +583,10 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.6%20beta/doublecmd-0.9.6.i386-win32.msi/download",
-        "x86_64": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.6%20beta/doublecmd-0.9.6.x86_64-win64.msi/download"
+        "x86": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.7%20beta/doublecmd-0.9.7.i386-win32.msi/download",
+        "x86_64": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.7%20beta/doublecmd-0.9.7.x86_64-win64.msi/download"
       },
-      "version": "0.9.6"
+      "version": "0.9.7"
     },
     "dropbox": {
       "installer": {
@@ -2255,10 +2255,10 @@
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/9.0.2/torbrowser-install-9.0.2_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/9.0.2/torbrowser-install-win64-9.0.2_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/9.0.3/torbrowser-install-9.0.3_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/9.0.3/torbrowser-install-win64-9.0.3_en-US.exe"
       },
-      "version": "9.0.2"
+      "version": "9.0.3"
     },
     "torguard": {
       "installer": {
