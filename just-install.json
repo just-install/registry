@@ -1335,10 +1335,10 @@
             "{{.PROGRAMFILES}}\\Mercurial\\hg.exe"
           ]
         },
-        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-5.2.1-x86.msi",
-        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-5.2.1-x64.msi"
+        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-5.2.2-x86.msi",
+        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-5.2.2-x64.msi"
       },
-      "version": "5.2.1"
+      "version": "5.2.2"
     },
     "microsoft-security-essentials": {
       "installer": {
