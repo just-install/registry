@@ -991,10 +991,10 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dl.google.com/go/go1.13.5.windows-386.msi",
-        "x86_64": "https://dl.google.com/go/go1.13.5.windows-amd64.msi"
+        "x86": "https://dl.google.com/go/go1.13.6.windows-386.msi",
+        "x86_64": "https://dl.google.com/go/go1.13.6.windows-amd64.msi"
       },
-      "version": "1.13.5"
+      "version": "1.13.6"
     },
     "gog-galaxy": {
       "installer": {
@@ -2271,10 +2271,10 @@
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/9.0.3/torbrowser-install-9.0.3_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/9.0.3/torbrowser-install-win64-9.0.3_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/9.0.4/torbrowser-install-9.0.4_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/9.0.4/torbrowser-install-win64-9.0.4_en-US.exe"
       },
-      "version": "9.0.3"
+      "version": "9.0.4"
     },
     "torguard": {
       "installer": {
