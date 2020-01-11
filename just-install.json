@@ -2034,10 +2034,10 @@
     "retroarch": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://buildbot.libretro.com/stable/1.8.2/windows/x86/RetroArch-x86-setup.exe",
-        "x86_64": "https://buildbot.libretro.com/stable/1.8.2/windows/x86_64/RetroArch-x64-setup.exe"
+        "x86": "https://buildbot.libretro.com/stable/1.8.3/windows/x86/RetroArch-x86-setup.exe",
+        "x86_64": "https://buildbot.libretro.com/stable/1.8.3/windows/x86_64/RetroArch-x64-setup.exe"
       },
-      "version": "1.8.2"
+      "version": "1.8.3"
     },
     "ruby": {
       "installer": {
@@ -2443,7 +2443,7 @@
       },
       "version": "latest"
     },
-    "visual-studio-professional-2017": {
+    "visual-studio-community-2019": {
       "installer": {
         "kind": "custom",
         "options": {
@@ -2455,7 +2455,7 @@
           ],
           "extension": ".exe"
         },
-        "x86": "https://aka.ms/vs/15/release/vs_professional.exe"
+        "x86": "https://aka.ms/vs/16/release/vs_community.exe"
       },
       "version": "latest"
     },
@@ -2475,7 +2475,7 @@
       },
       "version": "latest"
     },
-    "visual-studio-community-2019": {
+    "visual-studio-enterprise-2019": {
       "installer": {
         "kind": "custom",
         "options": {
@@ -2487,7 +2487,23 @@
           ],
           "extension": ".exe"
         },
-        "x86": "https://aka.ms/vs/16/release/vs_community.exe"
+        "x86": "https://aka.ms/vs/16/release/vs_enterprise.exe"
+      },
+      "version": "latest"
+    },
+    "visual-studio-professional-2017": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "--quiet",
+            "--norestart",
+            "--wait"
+          ],
+          "extension": ".exe"
+        },
+        "x86": "https://aka.ms/vs/15/release/vs_professional.exe"
       },
       "version": "latest"
     },
@@ -2504,22 +2520,6 @@
           "extension": ".exe"
         },
         "x86": "https://aka.ms/vs/16/release/vs_professional.exe"
-      },
-      "version": "latest"
-    },
-    "visual-studio-enterprise-2019": {
-      "installer": {
-        "kind": "custom",
-        "options": {
-          "arguments": [
-            "{{.installer}}",
-            "--quiet",
-            "--norestart",
-            "--wait"
-          ],
-          "extension": ".exe"
-        },
-        "x86": "https://aka.ms/vs/16/release/vs_enterprise.exe"
       },
       "version": "latest"
     },
