@@ -2420,20 +2420,101 @@
       },
       "version": "latest"
     },
-    "visual-studio-community": {
+    "visual-studio-community-2017": {
       "installer": {
         "kind": "custom",
         "options": {
           "arguments": [
             "{{.installer}}",
             "--quiet",
-            "--norestart"
+            "--norestart",
+            "--wait"
           ],
           "extension": ".exe"
         },
         "x86": "https://aka.ms/vs/15/release/vs_community.exe"
       },
-      "version": "latest-2017"
+      "version": "latest"
+    },
+    "visual-studio-professional-2017": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "--quiet",
+            "--norestart",
+            "--wait"
+          ],
+          "extension": ".exe"
+        },
+        "x86": "https://aka.ms/vs/15/release/vs_professional.exe"
+      },
+      "version": "latest"
+    },
+    "visual-studio-enterprise-2017": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "--quiet",
+            "--norestart",
+            "--wait"
+          ],
+          "extension": ".exe"
+        },
+        "x86": "https://aka.ms/vs/15/release/vs_enterprise.exe"
+      },
+      "version": "latest"
+    },
+    "visual-studio-community-2019": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "--quiet",
+            "--norestart",
+            "--wait"
+          ],
+          "extension": ".exe"
+        },
+        "x86": "https://aka.ms/vs/16/release/vs_community.exe"
+      },
+      "version": "latest"
+    },
+    "visual-studio-professional-2019": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "--quiet",
+            "--norestart",
+            "--wait"
+          ],
+          "extension": ".exe"
+        },
+        "x86": "https://aka.ms/vs/16/release/vs_professional.exe"
+      },
+      "version": "latest"
+    },
+    "visual-studio-enterprise-2019": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "--quiet",
+            "--norestart",
+            "--wait"
+          ],
+          "extension": ".exe"
+        },
+        "x86": "https://aka.ms/vs/16/release/vs_enterprise.exe"
+      },
+      "version": "latest"
     },
     "vivaldi": {
       "installer": {
