@@ -2446,10 +2446,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.23.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.23.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.26.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.26.x64.exe"
       },
-      "version": "2.10.1745.23"
+      "version": "2.10.1745.26"
     },
     "vlc": {
       "installer": {
