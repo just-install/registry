@@ -2563,8 +2563,10 @@
     },
     "vpnunlimited": {
       "installer": {
-        "interactive": true,
-        "kind": "nsis",
+        "kind": "innosetup",
+        "options": {
+          "extension": ".exe"
+        },
         "x86": "https://www.vpnunlimitedapp.com/download/windows"
       },
       "version": "latest"
