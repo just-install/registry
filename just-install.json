@@ -2101,9 +2101,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.29.4.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.29.5.exe"
       },
-      "version": "1.29.4"
+      "version": "1.29.5"
     },
     "simplenote": {
       "installer": {
