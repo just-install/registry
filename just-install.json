@@ -2034,10 +2034,10 @@
     "retroarch": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://buildbot.libretro.com/stable/1.8.3/windows/x86/RetroArch-x86-setup.exe",
-        "x86_64": "https://buildbot.libretro.com/stable/1.8.3/windows/x86_64/RetroArch-x64-setup.exe"
+        "x86": "https://buildbot.libretro.com/stable/1.8.4/windows/x86/RetroArch-x86-setup.exe",
+        "x86_64": "https://buildbot.libretro.com/stable/1.8.4/windows/x86_64/RetroArch-x64-setup.exe"
       },
-      "version": "1.8.3"
+      "version": "1.8.4"
     },
     "ruby": {
       "installer": {
@@ -2101,9 +2101,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.29.5.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.29.6.exe"
       },
-      "version": "1.29.5"
+      "version": "1.29.6"
     },
     "simplenote": {
       "installer": {
@@ -2534,10 +2534,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.26.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.26.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.27.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.27.x64.exe"
       },
-      "version": "2.10.1745.26"
+      "version": "2.10.1745.27"
     },
     "vlc": {
       "installer": {
