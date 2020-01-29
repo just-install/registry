@@ -118,9 +118,9 @@
     "arduino": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://downloads.arduino.cc/arduino-1.8.10-windows.exe"
+        "x86": "https://downloads.arduino.cc/arduino-1.8.11-windows.exe"
       },
-      "version": "1.8.10"
+      "version": "1.8.11"
     },
     "atom": {
       "installer": {
@@ -219,9 +219,9 @@
     "bcuninstaller": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v4.15/BCUninstaller_4.15_setup.exe"
+        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v4.16/BCUninstaller_4.16_setup.exe"
       },
-      "version": "4.15"
+      "version": "4.16"
     },
     "bitpay": {
       "installer": {
@@ -343,17 +343,17 @@
     "clementine-player": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/clementine-player/Clementine/releases/download/1.4.0rc1/ClementineSetup-1.4.0rc1.exe"
+        "x86": "https://github.com/clementine-player/Clementine/releases/download/1.3.1/ClementineSetup-1.3.1.exe"
       },
-      "version": "1.4.0rc1"
+      "version": "1.3.1"
     },
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/Kitware/CMake/releases/download/v3.16.2/cmake-3.16.2-win32-x86.msi",
-        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.16.2/cmake-3.16.2-win64-x64.msi"
+        "x86": "https://github.com/Kitware/CMake/releases/download/v3.16.3/cmake-3.16.3-win32-x86.msi",
+        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.16.3/cmake-3.16.3-win64-x64.msi"
       },
-      "version": "3.16.2"
+      "version": "3.16.3"
     },
     "codeblocks": {
       "installer": {
@@ -485,9 +485,9 @@
             "/S"
           ]
         },
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/6.3.2/dbeaver-ce-6.3.2-x86_64-setup.exe"
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/6.3.3/dbeaver-ce-6.3.3-x86_64-setup.exe"
       },
-      "version": "6.3.2"
+      "version": "6.3.3"
     },
     "deluge": {
       "installer": {
@@ -754,9 +754,9 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.71/balenaEtcher-Setup-1.5.71.exe"
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.72/balenaEtcher-Setup-1.5.72.exe"
       },
-      "version": "1.5.71"
+      "version": "1.5.72"
     },
     "everything-search": {
       "installer": {
@@ -875,16 +875,16 @@
     "flash-player": {
       "installer": {
         "kind": "msi",
-        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.314/install_flash_player_32_plugin.msi"
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.321/install_flash_player_32_plugin.msi"
       },
-      "version": "32.0.0.314"
+      "version": "32.0.0.321"
     },
     "flash-player-ie": {
       "installer": {
         "kind": "msi",
-        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.314/install_flash_player_32_active_x.msi"
+        "x86": "https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.321/install_flash_player_32_active_x.msi"
       },
-      "version": "32.0.0.314"
+      "version": "32.0.0.321"
     },
     "flux": {
       "installer": {
@@ -917,9 +917,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.7.10.exe/download"
+        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.7.11.exe/download"
       },
-      "version": "1.7.10"
+      "version": "1.7.11"
     },
     "geforce-experience": {
       "installer": {
@@ -969,9 +969,9 @@
             "{{.PROGRAMFILES}}\\Git LFS\\git-lfs.exe"
           ]
         },
-        "x86": "https://github.com/git-lfs/git-lfs/releases/download/v2.9.2/git-lfs-windows-v2.9.2.exe"
+        "x86": "https://github.com/git-lfs/git-lfs/releases/download/v2.10.0/git-lfs-windows-v2.10.0.exe"
       },
-      "version": "2.9.2"
+      "version": "2.10.0"
     },
     "gitextensions": {
       "installer": {
@@ -998,10 +998,10 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dl.google.com/go/go1.13.6.windows-386.msi",
-        "x86_64": "https://dl.google.com/go/go1.13.6.windows-amd64.msi"
+        "x86": "https://dl.google.com/go/go1.13.7.windows-386.msi",
+        "x86_64": "https://dl.google.com/go/go1.13.7.windows-amd64.msi"
       },
-      "version": "1.13.6"
+      "version": "1.13.7"
     },
     "gog-galaxy": {
       "installer": {
@@ -1009,9 +1009,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_1.2.64.2.exe"
+        "x86": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_1.2.66.64.exe"
       },
-      "version": "1.2.64.2"
+      "version": "1.2.66.64"
     },
     "google-chrome": {
       "installer": {
@@ -1110,10 +1110,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.62.2/hugo_0.62.2_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.62.2/hugo_0.62.2_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.63.2/hugo_0.63.2_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.63.2/hugo_0.63.2_Windows-64bit.zip"
       },
-      "version": "0.62.2"
+      "version": "0.63.2"
     },
     "imageglass": {
       "installer": {
@@ -1194,9 +1194,9 @@
         "options": {
           "extension": ".msi"
         },
-        "x86": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.43/KeePass-2.43.msi/download"
+        "x86": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.44/KeePass-2.44.msi/download"
       },
-      "version": "2.43"
+      "version": "2.44"
     },
     "keepass-keepasshttp": {
       "installer": {
@@ -1211,10 +1211,10 @@
     "keepassxc": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/keepassxreboot/keepassxc/releases/download/2.5.2/KeePassXC-2.5.2-Win32.msi",
-        "x86_64": "https://github.com/keepassxreboot/keepassxc/releases/download/2.5.2/KeePassXC-2.5.2-Win64.msi"
+        "x86": "https://github.com/keepassxreboot/keepassxc/releases/download/2.5.3/KeePassXC-2.5.3-Win32.msi",
+        "x86_64": "https://github.com/keepassxreboot/keepassxc/releases/download/2.5.3/KeePassXC-2.5.3-Win64.msi"
       },
-      "version": "2.5.2"
+      "version": "2.5.3"
     },
     "keeweb": {
       "installer": {
@@ -1342,10 +1342,10 @@
             "{{.PROGRAMFILES}}\\Mercurial\\hg.exe"
           ]
         },
-        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-5.2.2-x86.msi",
-        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-5.2.2-x64.msi"
+        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-5.3rc1-x86.msi",
+        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-5.3rc1-x64.msi"
       },
-      "version": "5.2.2"
+      "version": "5.3rc1"
     },
     "microsoft-security-essentials": {
       "installer": {
@@ -1385,16 +1385,16 @@
     "mountainduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-3.3.3.15387.msi"
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-3.3.4.15443.msi"
       },
-      "version": "3.3.3.15387"
+      "version": "3.3.4.15443"
     },
     "mp3tag": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.mp3tag.de/mp3tagv299asetup.exe"
+        "x86": "https://download.mp3tag.de/mp3tagv300setup.exe"
       },
-      "version": "2.99a"
+      "version": "3.00"
     },
     "mpc-hc": {
       "installer": {
@@ -1471,10 +1471,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v13.6.0/node-v13.6.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v13.6.0/node-v13.6.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v13.7.0/node-v13.7.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v13.7.0/node-v13.7.0-x64.msi"
       },
-      "version": "13.6.0"
+      "version": "13.7.0"
     },
     "node-lts": {
       "installer": {
@@ -1692,10 +1692,10 @@
             "{{.SYSTEMDRIVE}}\\PHP\\php-win.exe"
           ]
         },
-        "x86": "https://windows.php.net/downloads/releases/php-7.3.13-nts-Win32-VC15-x86.zip",
-        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.13-nts-Win32-VC15-x64.zip"
+        "x86": "https://windows.php.net/downloads/releases/php-7.3.14-nts-Win32-VC15-x86.zip",
+        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.14-nts-Win32-VC15-x64.zip"
       },
-      "version": "7.4.1"
+      "version": "7.4.2"
     },
     "physx": {
       "installer": {
@@ -1753,10 +1753,10 @@
     "powershell-core": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/PowerShell/PowerShell/releases/download/v6.2.3/PowerShell-6.2.3-win-x86.msi",
-        "x86_64": "https://github.com/PowerShell/PowerShell/releases/download/v6.2.3/PowerShell-6.2.3-win-x64.msi"
+        "x86": "https://github.com/PowerShell/PowerShell/releases/download/v6.2.4/PowerShell-6.2.4-win-x86.msi",
+        "x86_64": "https://github.com/PowerShell/PowerShell/releases/download/v6.2.4/PowerShell-6.2.4-win-x64.msi"
       },
-      "version": "6.2.3"
+      "version": "6.2.4"
     },
     "processhacker": {
       "installer": {
@@ -1787,9 +1787,9 @@
       "installer": {
         "interactive": true,
         "kind": "as-is",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2019.3.1.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2019.3.2.exe"
       },
-      "version": "2019.3.1"
+      "version": "2019.3.2"
     },
     "python2": {
       "installer": {
@@ -1983,16 +1983,16 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.29.6.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.30.0.exe"
       },
-      "version": "1.29.6"
+      "version": "1.30.0"
     },
     "simplenote": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v1.12.0/Simplenote-win-1.12.0.exe"
+        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v1.14.0/Simplenote-win-1.14.0.exe"
       },
-      "version": "1.12.0"
+      "version": "1.14.0"
     },
     "slack": {
       "installer": {
@@ -2216,18 +2216,18 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\UPX"
         },
-        "x86": "https://github.com/upx/upx/releases/download/v3.95/upx-3.95-win32.zip",
-        "x86_64": "https://github.com/upx/upx/releases/download/v3.95/upx-3.95-win64.zip"
+        "x86": "https://github.com/upx/upx/releases/download/v3.96/upx-3.96-win32.zip",
+        "x86_64": "https://github.com/upx/upx/releases/download/v3.96/upx-3.96-win64.zip"
       },
-      "version": "3.95"
+      "version": "3.96"
     },
     "vagrant": {
       "installer": {
         "kind": "msi",
-        "x86": "https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_i686.msi",
-        "x86_64": "https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.msi"
+        "x86": "https://releases.hashicorp.com/vagrant/2.2.7/vagrant_2.2.7_i686.msi",
+        "x86_64": "https://releases.hashicorp.com/vagrant/2.2.7/vagrant_2.2.7_x86_64.msi"
       },
-      "version": "2.2.6"
+      "version": "2.2.7"
     },
     "vcredist-2005": {
       "installer": {
@@ -2364,9 +2364,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://launchpad.net/veracrypt/trunk/1.24-update2/+download/VeraCrypt%20Setup%201.24-Update2.exe"
+        "x86": "https://launchpad.net/veracrypt/trunk/1.24-update4/+download/VeraCrypt%20Setup%201.24-Update4.exe"
       },
-      "version": "1.24-Update2"
+      "version": "1.24-Update4"
     },
     "virtualbox": {
       "installer": {
@@ -2728,9 +2728,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2020.01.15/youtube-dl.exe"
+        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2020.01.24/youtube-dl.exe"
       },
-      "version": "2020.01.15"
+      "version": "2020.01.24"
     }
   }
 }
