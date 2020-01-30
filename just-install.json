@@ -754,9 +754,9 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.72/balenaEtcher-Setup-1.5.72.exe"
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.73/balenaEtcher-Setup-1.5.73.exe"
       },
-      "version": "1.5.72"
+      "version": "1.5.73"
     },
     "everything-search": {
       "installer": {
@@ -1264,10 +1264,10 @@
     "libreoffice": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.3.4/win/x86/LibreOffice_6.3.4_Win_x86.msi",
-        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.3.4/win/x86_64/LibreOffice_6.3.4_Win_x64.msi"
+        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.4.0/win/x86/LibreOffice_6.4.0_Win_x86.msi",
+        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.4.0/win/x86_64/LibreOffice_6.4.0_Win_x64.msi"
       },
-      "version": "6.3.4"
+      "version": "6.4.0"
     },
     "lightshot": {
       "installer": {
@@ -1727,9 +1727,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.18.4.2171-ac2afe5f8/windows/PlexMediaServer-1.18.4.2171-ac2afe5f8-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.18.5.2309-f5213a238/windows/PlexMediaServer-1.18.5.2309-f5213a238-x86.exe"
       },
-      "version": "1.18.4.2171"
+      "version": "1.18.5.2309"
     },
     "postman": {
       "installer": {
