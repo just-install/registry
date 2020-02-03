@@ -485,9 +485,9 @@
             "/S"
           ]
         },
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/6.3.3/dbeaver-ce-6.3.3-x86_64-setup.exe"
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/6.3.4/dbeaver-ce-6.3.4-x86_64-setup.exe"
       },
-      "version": "6.3.3"
+      "version": "6.3.4"
     },
     "deluge": {
       "installer": {
