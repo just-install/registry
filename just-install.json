@@ -754,9 +754,9 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.73/balenaEtcher-Setup-1.5.73.exe"
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.74/balenaEtcher-Setup-1.5.74.exe"
       },
-      "version": "1.5.73"
+      "version": "1.5.74"
     },
     "everything-search": {
       "installer": {
