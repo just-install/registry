@@ -1787,9 +1787,9 @@
       "installer": {
         "interactive": true,
         "kind": "as-is",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2019.3.2.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2019.3.3.exe"
       },
-      "version": "2019.3.2"
+      "version": "2019.3.3"
     },
     "python2": {
       "installer": {
@@ -2018,9 +2018,9 @@
     "sourcetree": {
       "installer": {
         "kind": "advancedinstaller",
-        "x86": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.3.6.exe"
+        "x86": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.3.8.exe"
       },
-      "version": "3.3.6"
+      "version": "3.3.8"
     },
     "sshfs-win": {
       "installer": {
