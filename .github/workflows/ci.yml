@@ -26,4 +26,4 @@ jobs:
       run: msiexec.exe /q /i https://just-install.github.io/stable/just-install.msi
 
     - name: Audit registry
-      run: just-install -r just-install.json audit
+      run: just-install -r just-install-v4.json audit
