@@ -917,9 +917,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.7.12.exe/download"
+        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.7.12u1.exe/download"
       },
-      "version": "1.7.12"
+      "version": "1.7.12u1"
     },
     "geforce-experience": {
       "installer": {
