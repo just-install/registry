@@ -1110,10 +1110,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.64.0/hugo_0.64.0_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.64.0/hugo_0.64.0_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.64.1/hugo_0.64.1_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.64.1/hugo_0.64.1_Windows-64bit.zip"
       },
-      "version": "0.64.0"
+      "version": "0.64.1"
     },
     "imageglass": {
       "installer": {
