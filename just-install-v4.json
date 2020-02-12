@@ -2160,10 +2160,10 @@
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/9.0.4/torbrowser-install-9.0.4_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/9.0.4/torbrowser-install-win64-9.0.4_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/9.0.5/torbrowser-install-9.0.5_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/9.0.5/torbrowser-install-win64-9.0.5_en-US.exe"
       },
-      "version": "9.0.4"
+      "version": "9.0.5"
     },
     "torguard": {
       "installer": {
@@ -2517,10 +2517,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.27.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.27.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.33.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.33.x64.exe"
       },
-      "version": "2.10.1745.27"
+      "version": "2.11.1811.33"
     },
     "vlc": {
       "installer": {
