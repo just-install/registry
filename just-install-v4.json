@@ -1479,10 +1479,10 @@
     "node-lts": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v12.15.0/node-v12.15.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v12.15.0/node-v12.15.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v12.16.0/node-v12.16.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v12.16.0/node-v12.16.0-x64.msi"
       },
-      "version": "12.15.0"
+      "version": "12.16.0"
     },
     "nordvpn": {
       "installer": {
