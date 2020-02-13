@@ -998,10 +998,10 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dl.google.com/go/go1.13.7.windows-386.msi",
-        "x86_64": "https://dl.google.com/go/go1.13.7.windows-amd64.msi"
+        "x86": "https://dl.google.com/go/go1.13.8.windows-386.msi",
+        "x86_64": "https://dl.google.com/go/go1.13.8.windows-amd64.msi"
       },
-      "version": "1.13.7"
+      "version": "1.13.8"
     },
     "gog-galaxy": {
       "installer": {
@@ -1385,9 +1385,9 @@
     "mountainduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-3.3.4.15443.msi"
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-3.3.5.15470.msi"
       },
-      "version": "3.3.4.15443"
+      "version": "3.3.5.15470"
     },
     "mp3tag": {
       "installer": {
