@@ -1955,9 +1955,9 @@
     "seafile-client": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.seadrive.org/seafile-7.0.5-en.msi"
+        "x86": "https://download.seadrive.org/seafile-7.0.6-en.msi"
       },
-      "version": "7.0.5"
+      "version": "7.0.6"
     },
     "sharex": {
       "installer": {
