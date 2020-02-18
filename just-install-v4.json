@@ -1487,10 +1487,10 @@
     "node-lts": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v12.16.0/node-v12.16.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v12.16.0/node-v12.16.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v12.16.1/node-v12.16.1-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v12.16.1/node-v12.16.1-x64.msi"
       },
-      "version": "12.16.0"
+      "version": "12.16.1"
     },
     "nordvpn": {
       "installer": {
@@ -2616,9 +2616,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.15.9/WinSCP-5.15.9-Setup.exe/download"
+        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.17/WinSCP-5.17-Setup.exe/download"
       },
-      "version": "5.15.9"
+      "version": "5.17"
     },
     "wireshark": {
       "installer": {
