@@ -754,9 +754,9 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.76/balenaEtcher-Setup-1.5.76.exe"
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.77/balenaEtcher-Setup-1.5.77.exe"
       },
-      "version": "1.5.76"
+      "version": "1.5.77"
     },
     "everything-search": {
       "installer": {
@@ -1453,9 +1453,9 @@
     "nextcloud": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-2.6.2-setup.exe"
+        "x86": "https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-2.6.3-setup.exe"
       },
-      "version": "2.6.2"
+      "version": "2.6.3"
     },
     "nircmd": {
       "installer": {
