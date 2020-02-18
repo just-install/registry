@@ -388,6 +388,14 @@
       },
       "version": "1.1"
     },
+    "conan": {
+      "installer": {
+        "kind": "innosetup",
+        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_22_2.exe",
+        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_22_2.exe"
+      },
+      "version": "1.22.2"
+    },
     "conemu": {
       "installer": {
         "kind": "custom",
