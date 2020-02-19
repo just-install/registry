@@ -1479,10 +1479,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v13.8.0/node-v13.8.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v13.8.0/node-v13.8.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v13.9.0/node-v13.9.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v13.9.0/node-v13.9.0-x64.msi"
       },
-      "version": "13.8.0"
+      "version": "13.9.0"
     },
     "node-lts": {
       "installer": {
@@ -1700,10 +1700,10 @@
             "{{.SYSTEMDRIVE}}\\PHP\\php-win.exe"
           ]
         },
-        "x86": "https://windows.php.net/downloads/releases/php-7.3.14-nts-Win32-VC15-x86.zip",
-        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.14-nts-Win32-VC15-x64.zip"
+        "x86": "https://windows.php.net/downloads/releases/php-7.3.15-nts-Win32-VC15-x86.zip",
+        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.15-nts-Win32-VC15-x64.zip"
       },
-      "version": "7.4.2"
+      "version": "7.4.3"
     },
     "physx": {
       "installer": {
