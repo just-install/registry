@@ -762,9 +762,9 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.77/balenaEtcher-Setup-1.5.77.exe"
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.78/balenaEtcher-Setup-1.5.78.exe"
       },
-      "version": "1.5.77"
+      "version": "1.5.78"
     },
     "everything-search": {
       "installer": {
@@ -957,10 +957,10 @@
             "{{.PROGRAMFILES}}\\Git\\bin\\git.exe"
           ]
         },
-        "x86": "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.1/Git-2.25.0-32-bit.exe",
-        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.1/Git-2.25.0-64-bit.exe"
+        "x86": "https://github.com/git-for-windows/git/releases/download/v2.25.1.windows.1/Git-2.25.1-32-bit.exe",
+        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.25.1.windows.1/Git-2.25.1-64-bit.exe"
       },
-      "version": "2.25.0"
+      "version": "2.25.1"
     },
     "git-credential-manager-for-windows": {
       "installer": {
@@ -2389,9 +2389,9 @@
             "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBoxManage.exe"
           ]
         },
-        "x86": "https://download.virtualbox.org/virtualbox/6.1.2/VirtualBox-6.1.2-135663-Win.exe"
+        "x86": "https://download.virtualbox.org/virtualbox/6.1.4/VirtualBox-6.1.4-136177-Win.exe"
       },
-      "version": "6.1.2"
+      "version": "6.1.4"
     },
     "viscosity": {
       "installer": {
