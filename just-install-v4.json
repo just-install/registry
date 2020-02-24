@@ -637,9 +637,9 @@
     "eac": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://www.exactaudiocopy.de/eac-1.4.exe"
+        "x86": "http://www.exactaudiocopy.de/eac-1.5.exe"
       },
-      "version": "1.4"
+      "version": "1.5"
     },
     "eclipse-committers": {
       "installer": {
