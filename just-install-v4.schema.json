@@ -39,6 +39,22 @@
         },
         "shims": {
           "type": "array"
+        },
+        "shortcuts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "target"],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "target": {
+                "type": "string"
+              }
+            }
+          }
         }
       },
       "type": "object"
