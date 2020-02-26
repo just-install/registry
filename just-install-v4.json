@@ -665,7 +665,11 @@
       "installer": {
         "kind": "zip",
         "options": {
-          "destination": "{{.PROGRAMFILES}}\\Eclipse-Java"
+          "destination": "{{.PROGRAMFILES}}\\Eclipse-Java",
+          "shortcuts": [{
+            "name": "Eclipse Java",
+            "target": "{{.PROGRAMFILES}}\\Eclipse-Java\\eclipse\\eclipse.exe"
+          }]
         },
         "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2019-12/R/eclipse-java-2019-12-R-win32-x86_64.zip"
       },
