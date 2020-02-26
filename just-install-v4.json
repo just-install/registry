@@ -97,9 +97,9 @@
     "android-studio-ide": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://dl.google.com/dl/android/studio/install/3.5.3.0/android-studio-ide-191.6010548-windows.exe"
+        "x86_64": "https://dl.google.com/dl/android/studio/install/3.6.0.21/android-studio-ide-192.6200805-windows.exe"
       },
-      "version": "3.5.3.0"
+      "version": "3.6.0.21"
     },
     "antimicro": {
       "installer": {
@@ -945,9 +945,9 @@
     "gimp": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.14-setup-3.exe"
+        "x86": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.18-setup.exe"
       },
-      "version": "2.10.14"
+      "version": "2.10.18"
     },
     "git": {
       "installer": {
@@ -1006,10 +1006,10 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dl.google.com/go/go1.13.8.windows-386.msi",
-        "x86_64": "https://dl.google.com/go/go1.13.8.windows-amd64.msi"
+        "x86": "https://dl.google.com/go/go1.14.windows-386.msi",
+        "x86_64": "https://dl.google.com/go/go1.14.windows-amd64.msi"
       },
-      "version": "1.13.8"
+      "version": "1.14"
     },
     "gog-galaxy": {
       "installer": {
@@ -1017,9 +1017,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_1.2.66.64.exe"
+        "x86": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_1.2.67.58.exe"
       },
-      "version": "1.2.66.64"
+      "version": "1.2.67.58"
     },
     "google-chrome": {
       "installer": {
@@ -1572,9 +1572,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES_X86}}\\"
         },
-        "x86": "https://openhardwaremonitor.org/files/openhardwaremonitor-v0.8.0-beta.zip"
+        "x86": "https://openhardwaremonitor.org/files/openhardwaremonitor-v0.9.1.zip"
       },
-      "version": "0.8.0"
+      "version": "0.9.1"
     },
     "openssh": {
       "installer": {
@@ -1735,9 +1735,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.18.7.2438-f342a5a43/windows/PlexMediaServer-1.18.7.2438-f342a5a43-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.18.7.2457-77cb9455c/windows/PlexMediaServer-1.18.7.2457-77cb9455c-x86.exe"
       },
-      "version": "1.18.7.2438"
+      "version": "1.18.7.2457"
     },
     "postman": {
       "installer": {
@@ -1830,10 +1830,10 @@
             "InstallAllUsers=1"
           ]
         },
-        "x86": "https://www.python.org/ftp/python/3.8.1/python-3.8.1.exe",
-        "x86_64": "https://www.python.org/ftp/python/3.8.1/python-3.8.1-amd64.exe"
+        "x86": "https://www.python.org/ftp/python/3.8.2/python-3.8.2.exe",
+        "x86_64": "https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe"
       },
-      "version": "3.8.1"
+      "version": "3.8.2"
     },
     "python3-minimal": {
       "installer": {
@@ -2525,10 +2525,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.41.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.41.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.44.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.44.x64.exe"
       },
-      "version": "2.11.1811.41"
+      "version": "2.11.1811.44"
     },
     "vlc": {
       "installer": {
