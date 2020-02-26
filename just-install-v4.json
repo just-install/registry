@@ -2359,6 +2359,22 @@
       },
       "version": "14.16.27024.1"
     },
+    "vcredist-2019": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/install",
+            "/quiet",
+            "/norestart"
+          ]
+        },
+        "x86": "https://aka.ms/vs/16/release/vc_redist.x86.exe",
+        "x86_64": "https://aka.ms/vs/16/release/vc_redist.x64.exe"
+      },
+      "version": "latest"
+    },
     "vcvrack": {
       "installer": {
         "kind": "nsis",
