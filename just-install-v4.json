@@ -1440,9 +1440,9 @@
     "mysql-workbench": {
       "installer": {
         "kind": "msi",
-        "x86_64": "https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.13-winx64.msi"
+        "x86_64": "https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.19-winx64.msi"
       },
-      "version": "8.0.13"
+      "version": "8.0.19"
     },
     "naps2": {
       "installer": {
@@ -2354,6 +2354,22 @@
         "x86_64": "https://aka.ms/vs/15/release/vc_redist.x64.exe"
       },
       "version": "14.16.27024.1"
+    },
+    "vcredist-2019": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/install",
+            "/quiet",
+            "/norestart"
+          ]
+        },
+        "x86": "https://aka.ms/vs/16/release/vc_redist.x86.exe",
+        "x86_64": "https://aka.ms/vs/16/release/vc_redist.x64.exe"
+      },
+      "version": "latest"
     },
     "vcvrack": {
       "installer": {
