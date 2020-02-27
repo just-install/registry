@@ -665,11 +665,7 @@
       "installer": {
         "kind": "zip",
         "options": {
-          "destination": "{{.PROGRAMFILES}}\\Eclipse-Java",
-          "shortcuts": [{
-            "name": "Eclipse Java",
-            "target": "{{.PROGRAMFILES}}\\Eclipse-Java\\eclipse\\eclipse.exe"
-          }]
+          "destination": "{{.PROGRAMFILES}}\\Eclipse-Java"
         },
         "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2019-12/R/eclipse-java-2019-12-R-win32-x86_64.zip"
       },
@@ -2627,10 +2623,10 @@
     "wireshark": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-3.2.1.exe",
-        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.2.1.exe"
+        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-3.2.2.exe",
+        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.2.2.exe"
       },
-      "version": "3.2.1"
+      "version": "3.2.2"
     },
     "wix": {
       "installer": {
