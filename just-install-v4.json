@@ -1272,10 +1272,10 @@
     "libreoffice": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.4.0/win/x86/LibreOffice_6.4.0_Win_x86.msi",
-        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.4.0/win/x86_64/LibreOffice_6.4.0_Win_x64.msi"
+        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.4.1/win/x86/LibreOffice_6.4.1_Win_x86.msi",
+        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.4.1/win/x86_64/LibreOffice_6.4.1_Win_x64.msi"
       },
-      "version": "6.4.0"
+      "version": "6.4.1"
     },
     "lightshot": {
       "installer": {
