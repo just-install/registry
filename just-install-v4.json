@@ -97,9 +97,9 @@
     "android-studio-ide": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://dl.google.com/dl/android/studio/install/3.6.0.21/android-studio-ide-192.6200805-windows.exe"
+        "x86_64": "https://dl.google.com/dl/android/studio/install/3.6.1.0/android-studio-ide-192.6241897-windows.exe"
       },
-      "version": "3.6.0.21"
+      "version": "3.6.1.0"
     },
     "antimicro": {
       "installer": {
@@ -925,9 +925,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.7.12u1.exe/download"
+        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.7.13.exe/download"
       },
-      "version": "1.7.12u1"
+      "version": "1.7.13"
     },
     "geforce-experience": {
       "installer": {
