@@ -2030,6 +2030,13 @@
       },
       "version": "3.3.8"
     },
+    "spice-guest-tools": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://www.spice-space.org/download/windows/spice-guest-tools/spice-guest-tools-latest.exe"
+      },
+      "version": "latest"
+    },
     "sshfs-win": {
       "installer": {
         "kind": "msi",
