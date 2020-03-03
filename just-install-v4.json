@@ -740,9 +740,9 @@
     "enpass": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.enpass.io/stable/windows/setup/6.3.3.597/Enpass-setup.exe"
+        "x86": "https://dl.enpass.io/stable/windows/setup/6.4.0.631/Enpass-setup.exe"
       },
-      "version": "6.3.3.597"
+      "version": "6.4.0.631"
     },
     "epic-games-launcher": {
       "installer": {
@@ -769,10 +769,10 @@
     "everything-search": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.voidtools.com/Everything-1.4.1.935.x86-Setup.exe",
-        "x86_64": "https://www.voidtools.com/Everything-1.4.1.935.x64-Setup.exe"
+        "x86": "https://www.voidtools.com/Everything-1.4.1.965.x86-Setup.exe",
+        "x86_64": "https://www.voidtools.com/Everything-1.4.1.965.x64-Setup.exe"
       },
-      "version": "1.4.1.935"
+      "version": "1.4.1.965"
     },
     "exeproxy": {
       "installer": {
