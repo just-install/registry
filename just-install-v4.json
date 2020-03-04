@@ -1461,9 +1461,9 @@
     "nextcloud": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-2.6.3-setup.exe"
+        "x86": "https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-2.6.4-setup.exe"
       },
-      "version": "2.6.3"
+      "version": "2.6.4"
     },
     "nircmd": {
       "installer": {
