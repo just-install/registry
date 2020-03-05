@@ -1479,10 +1479,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v13.10.0/node-v13.10.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v13.10.0/node-v13.10.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v13.10.1/node-v13.10.1-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v13.10.1/node-v13.10.1-x64.msi"
       },
-      "version": "13.10.0"
+      "version": "13.10.1"
     },
     "node-lts": {
       "installer": {
@@ -1991,9 +1991,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.31.0.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.32.0.exe"
       },
-      "version": "1.31.0"
+      "version": "1.32.0"
     },
     "simplenote": {
       "installer": {
@@ -2548,10 +2548,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.44.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.44.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.47.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.47.x64.exe"
       },
-      "version": "2.11.1811.44"
+      "version": "2.11.1811.47"
     },
     "vlc": {
       "installer": {
