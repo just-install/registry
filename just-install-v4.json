@@ -391,10 +391,10 @@
     "conan": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_22_2.exe",
-        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_22_2.exe"
+        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_22_3.exe",
+        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_22_3.exe"
       },
-      "version": "1.22.2"
+      "version": "1.22.3"
     },
     "conemu": {
       "installer": {
@@ -2732,9 +2732,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2020.03.01/youtube-dl.exe"
+        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2020.03.06/youtube-dl.exe"
       },
-      "version": "2020.03.01"
+      "version": "2020.03.06"
     }
   }
 }
