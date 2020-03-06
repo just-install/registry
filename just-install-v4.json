@@ -439,9 +439,9 @@
     "crystaldisk-info": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/71535/CrystalDiskInfo8_3_2.exe"
+        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/72256/CrystalDiskInfo8_4_1.exe"
       },
-      "version": "8.3.2"
+      "version": "8.4.1"
     },
     "crystaldisk-mark": {
       "installer": {
