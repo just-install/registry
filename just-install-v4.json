@@ -1508,10 +1508,10 @@
     "notepad++": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.4/npp.7.8.4.Installer.exe",
-        "x86_64": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.4/npp.7.8.4.Installer.x64.exe"
+        "x86": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.5/npp.7.8.5.Installer.exe",
+        "x86_64": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.5/npp.7.8.5.Installer.x64.exe"
       },
-      "version": "7.8.4"
+      "version": "7.8.5"
     },
     "notepad2-mod": {
       "installer": {
