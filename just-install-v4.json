@@ -257,9 +257,9 @@
     "bootnext": {
       "installer": {
         "kind": "msi",
-        "x86_64": "https://ci.appveyor.com/api/buildjobs/chs6d4ya99xnsdo4/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
+        "x86_64": "https://ci.appveyor.com/api/buildjobs/w8j34jckpe9orqjf/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
       },
-      "version": "1.0.20"
+      "version": "1.0.21"
     },
     "brackets": {
       "installer": {
@@ -925,9 +925,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.7.13.exe/download"
+        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.8.0.exe/download"
       },
-      "version": "1.7.13"
+      "version": "1.8.0"
     },
     "geforce-experience": {
       "installer": {
@@ -2732,9 +2732,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2020.03.06/youtube-dl.exe"
+        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2020.03.08/youtube-dl.exe"
       },
-      "version": "2020.03.06"
+      "version": "2020.03.08"
     }
   }
 }
