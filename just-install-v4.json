@@ -1970,9 +1970,9 @@
     "sharex": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/ShareX/ShareX/releases/download/v13.0.1/ShareX-13.0.1-setup.exe"
+        "x86": "https://github.com/ShareX/ShareX/releases/download/v13.1.0/ShareX-13.1.0-setup.exe"
       },
-      "version": "13.0.1"
+      "version": "13.1.0"
     },
     "sharpkeys": {
       "installer": {
