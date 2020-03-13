@@ -1479,10 +1479,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v13.10.1/node-v13.10.1-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v13.10.1/node-v13.10.1-x64.msi"
+        "x86": "https://nodejs.org/dist/v13.11.0/node-v13.11.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v13.11.0/node-v13.11.0-x64.msi"
       },
-      "version": "13.10.1"
+      "version": "13.11.0"
     },
     "node-lts": {
       "installer": {
@@ -2175,10 +2175,10 @@
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/9.0.5/torbrowser-install-9.0.5_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/9.0.5/torbrowser-install-win64-9.0.5_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/9.0.6/torbrowser-install-9.0.6_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/9.0.6/torbrowser-install-win64-9.0.6_en-US.exe"
       },
-      "version": "9.0.5"
+      "version": "9.0.6"
     },
     "torguard": {
       "installer": {
