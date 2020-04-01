@@ -620,9 +620,9 @@
     "duck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.duck.sh/duck-7.2.5.32097.msi"
+        "x86": "https://dist.duck.sh/duck-{{.version}}.msi"
       },
-      "version": "7.2.5.32097"
+      "version": "7.3.0.32621"
     },
     "dynalist": {
       "installer": {
@@ -925,9 +925,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.8.0.exe/download"
+        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-{{.version}}.exe/download"
       },
-      "version": "1.8.0"
+      "version": "1.8.1"
     },
     "geforce-experience": {
       "installer": {
@@ -2175,10 +2175,10 @@
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/9.0.6/torbrowser-install-9.0.6_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/9.0.6/torbrowser-install-win64-9.0.6_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/{{.version}}/torbrowser-install-{{.version}}_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/{{.version}}/torbrowser-install-win64-{{.version}}_en-US.exe"
       },
-      "version": "9.0.6"
+      "version": "9.0.7"
     },
     "torguard": {
       "installer": {
