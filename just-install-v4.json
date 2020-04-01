@@ -97,9 +97,9 @@
     "android-studio-ide": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://dl.google.com/dl/android/studio/install/3.6.1.0/android-studio-ide-192.6241897-windows.exe"
+        "x86_64": "https://redirector.gvt1.com/edgedl/android/studio/install/3.6.2.0/android-studio-ide-192.6308749-windows.exe"
       },
-      "version": "3.6.1.0"
+      "version": "3.6.2.0"
     },
     "antimicro": {
       "installer": {
@@ -257,9 +257,9 @@
     "bootnext": {
       "installer": {
         "kind": "msi",
-        "x86_64": "https://ci.appveyor.com/api/buildjobs/w8j34jckpe9orqjf/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
+        "x86_64": "https://ci.appveyor.com/api/buildjobs/vsdp8g1w5t6jn9g4/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
       },
-      "version": "1.0.21"
+      "version": "1.0.22"
     },
     "brackets": {
       "installer": {
@@ -293,9 +293,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.ccleaner.com/ccsetup564.exe"
+        "x86": "https://download.ccleaner.com/ccsetup565.exe"
       },
-      "version": "5.64"
+      "version": "5.65"
     },
     "cdburnerxp": {
       "installer": {
@@ -391,10 +391,10 @@
     "conan": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_23_0.exe",
-        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_23_0.exe"
+        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_24_0.exe",
+        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_24_0.exe"
       },
-      "version": "1.23.0"
+      "version": "1.24.0"
     },
     "conemu": {
       "installer": {
@@ -453,9 +453,9 @@
     "cyberduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-7.2.5.32097.msi"
+        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-7.3.0.32621.msi"
       },
-      "version": "7.2.5.32097"
+      "version": "7.3.0.32621"
     },
     "cygwin": {
       "installer": {
@@ -620,9 +620,9 @@
     "duck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.duck.sh/duck-7.2.5.32097.msi"
+        "x86": "https://dist.duck.sh/duck-7.3.0.32621.msi"
       },
-      "version": "7.2.5.32097"
+      "version": "7.3.0.32621"
     },
     "dynalist": {
       "installer": {
@@ -740,9 +740,9 @@
     "enpass": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.enpass.io/stable/windows/setup/6.4.0.631/Enpass-setup.exe"
+        "x86": "https://dl.enpass.io/stable/windows/setup/6.4.1.643/Enpass-setup.exe"
       },
-      "version": "6.4.0.631"
+      "version": "6.4.1.643"
     },
     "epic-games-launcher": {
       "installer": {
@@ -762,9 +762,9 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.79/balenaEtcher-Setup-1.5.79.exe"
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.80/balenaEtcher-Setup-1.5.80.exe"
       },
-      "version": "1.5.79"
+      "version": "1.5.80"
     },
     "everything-search": {
       "installer": {
@@ -925,9 +925,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.8.0.exe/download"
+        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.8.1.exe/download"
       },
-      "version": "1.8.0"
+      "version": "1.8.1"
     },
     "geforce-experience": {
       "installer": {
@@ -1118,10 +1118,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.68.2/hugo_0.68.2_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.68.2/hugo_0.68.2_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.68.3/hugo_0.68.3_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.68.3/hugo_0.68.3_Windows-64bit.zip"
       },
-      "version": "0.68.2"
+      "version": "0.68.3"
     },
     "imageglass": {
       "installer": {
@@ -1264,10 +1264,10 @@
     "krita": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.kde.org/stable/krita/4.2.8/krita-x86-4.2.8-setup.exe",
-        "x86_64": "https://download.kde.org/stable/krita/4.2.8/krita-x64-4.2.8-setup.exe"
+        "x86": "https://download.kde.org/stable/krita/4.2.9/krita-x86-4.2.9-setup.exe",
+        "x86_64": "https://download.kde.org/stable/krita/4.2.9/krita-x64-4.2.9-setup.exe"
       },
-      "version": "4.2.8"
+      "version": "4.2.9"
     },
     "libreoffice": {
       "installer": {
@@ -1350,10 +1350,10 @@
             "{{.PROGRAMFILES}}\\Mercurial\\hg.exe"
           ]
         },
-        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-5.3-x86.msi",
-        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-5.3-x64.msi"
+        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-5.3.1-x86.msi",
+        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-5.3.1-x64.msi"
       },
-      "version": "5.3"
+      "version": "5.3.1"
     },
     "microsoft-security-essentials": {
       "installer": {
@@ -1393,16 +1393,16 @@
     "mountainduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-3.3.5.15470.msi"
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-3.3.6.15539.msi"
       },
-      "version": "3.3.5.15470"
+      "version": "3.3.6.15539"
     },
     "mp3tag": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.mp3tag.de/mp3tagv300setup.exe"
+        "x86": "https://download.mp3tag.de/mp3tagv301setup.exe"
       },
-      "version": "3.00"
+      "version": "3.01"
     },
     "mpc-hc": {
       "installer": {
@@ -1479,10 +1479,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v13.11.0/node-v13.11.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v13.11.0/node-v13.11.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v13.12.0/node-v13.12.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v13.12.0/node-v13.12.0-x64.msi"
       },
-      "version": "13.11.0"
+      "version": "13.12.0"
     },
     "node-lts": {
       "installer": {
@@ -1735,9 +1735,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.18.8.2527-740d4c206/windows/PlexMediaServer-1.18.8.2527-740d4c206-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.18.9.2578-513b381af/windows/PlexMediaServer-1.18.9.2578-513b381af-x86.exe"
       },
-      "version": "1.18.8.2527"
+      "version": "1.18.9.2578"
     },
     "postman": {
       "installer": {
@@ -1991,9 +1991,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.32.1.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.32.3.exe"
       },
-      "version": "1.32.1"
+      "version": "1.32.3"
     },
     "simplenote": {
       "installer": {
@@ -2175,10 +2175,10 @@
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/9.0.6/torbrowser-install-9.0.6_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/9.0.6/torbrowser-install-win64-9.0.6_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/9.0.7/torbrowser-install-9.0.7_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/9.0.7/torbrowser-install-win64-9.0.7_en-US.exe"
       },
-      "version": "9.0.6"
+      "version": "9.0.7"
     },
     "torguard": {
       "installer": {
@@ -2191,10 +2191,10 @@
     "tortoisegit": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.tortoisegit.org/tgit/2.10.0.0/TortoiseGit-2.10.0.1-32bit.msi",
-        "x86_64": "https://download.tortoisegit.org/tgit/2.10.0.0/TortoiseGit-2.10.0.1-64bit.msi"
+        "x86": "https://download.tortoisegit.org/tgit/2.10.0.0/TortoiseGit-2.10.0.2-32bit.msi",
+        "x86_64": "https://download.tortoisegit.org/tgit/2.10.0.0/TortoiseGit-2.10.0.2-64bit.msi"
       },
-      "version": "2.10.0.1"
+      "version": "2.10.0.2"
     },
     "tortoisesvn": {
       "installer": {
@@ -2628,10 +2628,10 @@
             "/S"
           ]
         },
-        "x86": "https://rarlab.com/rar/wrar580.exe",
-        "x86_64": "https://rarlab.com/rar/winrar-x64-580.exe"
+        "x86": "https://rarlab.com/rar/wrar590.exe",
+        "x86_64": "https://rarlab.com/rar/winrar-x64-590.exe"
       },
-      "version": "5.80"
+      "version": "5.90"
     },
     "winscp": {
       "installer": {
@@ -2639,9 +2639,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.17.2/WinSCP-5.17.2-Setup.exe/download"
+        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.17.3/WinSCP-5.17.3-Setup.exe/download"
       },
-      "version": "5.17.2"
+      "version": "5.17.3"
     },
     "wireshark": {
       "installer": {
