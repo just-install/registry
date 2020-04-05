@@ -2175,10 +2175,10 @@
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/9.0.7/torbrowser-install-9.0.7_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/9.0.7/torbrowser-install-win64-9.0.7_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/9.0.8/torbrowser-install-9.0.8_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/9.0.8/torbrowser-install-win64-9.0.8_en-US.exe"
       },
-      "version": "9.0.7"
+      "version": "9.0.8"
     },
     "torguard": {
       "installer": {
