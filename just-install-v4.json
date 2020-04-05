@@ -1227,10 +1227,10 @@
     "keeweb": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.12.3/KeeWeb-1.12.3.win.ia32.exe",
-        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.12.3/KeeWeb-1.12.3.win.x64.exe"
+        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.13.1/KeeWeb-1.13.1.win.ia32.exe",
+        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.13.1/KeeWeb-1.13.1.win.x64.exe"
       },
-      "version": "1.12.3"
+      "version": "1.13.1"
     },
     "keybase": {
       "installer": {
@@ -1350,10 +1350,10 @@
             "{{.PROGRAMFILES}}\\Mercurial\\hg.exe"
           ]
         },
-        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-5.3.1-x86.msi",
-        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-5.3.1-x64.msi"
+        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-5.3.2-x86.msi",
+        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-5.3.2-x64.msi"
       },
-      "version": "5.3.1"
+      "version": "5.3.2"
     },
     "microsoft-security-essentials": {
       "installer": {
@@ -1857,10 +1857,10 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.2.1/qbittorrent_4.2.1_setup.exe/download",
-        "x86_64": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.2.1/qbittorrent_4.2.1_x64_setup.exe/download"
+        "x86": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.2.3/qbittorrent_4.2.3_setup.exe/download",
+        "x86_64": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.2.3/qbittorrent_4.2.3_x64_setup.exe/download"
       },
-      "version": "4.2.1"
+      "version": "4.2.3"
     },
     "qtox": {
       "installer": {
@@ -1938,10 +1938,10 @@
             "{{.SYSTEMDRIVE}}\\Ruby193\\bin\\rubyw.exe"
           ]
         },
-        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.0-1/rubyinstaller-2.7.0-1-x86.exe",
-        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.0-1/rubyinstaller-2.7.0-1-x64.exe"
+        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.1-1/rubyinstaller-2.7.1-1-x86.exe",
+        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.1-1/rubyinstaller-2.7.1-1-x64.exe"
       },
-      "version": "2.7.0"
+      "version": "2.7.1"
     },
     "rufus": {
       "installer": {
@@ -1963,9 +1963,9 @@
     "seafile-client": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.seadrive.org/seafile-7.0.6-en.msi"
+        "x86": "https://s3.eu-central-1.amazonaws.com/download.seadrive.org/seafile-7.0.7-en.msi"
       },
-      "version": "7.0.6"
+      "version": "7.0.7"
     },
     "sharex": {
       "installer": {
@@ -2132,10 +2132,10 @@
     "teamspeak": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://files.teamspeak-services.com/releases/client/3.5.1/TeamSpeak3-Client-win32-3.5.1.exe",
-        "x86_64": "https://files.teamspeak-services.com/releases/client/3.5.1/TeamSpeak3-Client-win64-3.5.1.exe"
+        "x86": "https://files.teamspeak-services.com/releases/client/3.5.2/TeamSpeak3-Client-win32-3.5.2.exe",
+        "x86_64": "https://files.teamspeak-services.com/releases/client/3.5.2/TeamSpeak3-Client-win64-3.5.2.exe"
       },
-      "version": "3.5.1"
+      "version": "3.5.2"
     },
     "teamviewer": {
       "installer": {
@@ -2548,10 +2548,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.49.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.49.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.52.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.52.x64.exe"
       },
-      "version": "2.11.1811.49"
+      "version": "2.11.1811.52"
     },
     "vlc": {
       "installer": {
