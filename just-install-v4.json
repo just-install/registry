@@ -361,9 +361,10 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/codeblocks/files/Binaries/{{.version}}/Windows/codeblocks-{{.version}}-setup.exe/download"
+        "x86": "https://sourceforge.net/projects/codeblocks/files/Binaries/{{.version}}/Windows/32bit/codeblocks-{{.version}}-32bit-setup.exe/download",
+        "x86_64": "https://sourceforge.net/projects/codeblocks/files/Binaries/{{.version}}/Windows/codeblocks-{{.version}}-setup.exe/download"
       },
-      "version": "17.12"
+      "version": "20.03"
     },
     "codeblocks-mingw": {
       "installer": {
@@ -371,9 +372,10 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/codeblocks/files/Binaries/{{.version}}/Windows/codeblocks-{{.version}}mingw-setup.exe/download"
+        "x86": "https://sourceforge.net/projects/codeblocks/files/Binaries/{{.version}}/Windows/32bit/codeblocks-{{.version}}mingw-32bit-setup.exe/download",
+        "x86_64": "https://sourceforge.net/projects/codeblocks/files/Binaries/{{.version}}/Windows/codeblocks-{{.version}}mingw-setup.exe/download"
       },
-      "version": "17.12"
+      "version": "20.03"
     },
     "colemak": {
       "installer": {
