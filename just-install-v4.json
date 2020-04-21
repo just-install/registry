@@ -1899,6 +1899,14 @@
       },
       "version": "latest"
     },
+    "rclone-browser": {
+      "installer": {
+        "kind": "innosetup",
+        "x86": "https://github.com/kapitainsky/RcloneBrowser/releases/download/{{.version}}/rclone-browser-{{.version}}-a0b66c6-windows-32-bit.exe",
+        "x86_64": "https://github.com/kapitainsky/RcloneBrowser/releases/download/{{.version}}/rclone-browser-{{.version}}-a0b66c6-windows-64-bit.exe"
+      },
+      "version": "1.8.0"
+    },
     "resilio-sync": {
       "installer": {
         "kind": "custom",
