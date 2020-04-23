@@ -243,9 +243,9 @@
     "bleachbit": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.bleachbit.org/BleachBit-3.2.0-setup.exe"
+        "x86": "https://download.bleachbit.org/BleachBit-4.0.0-setup.exe"
       },
-      "version": "3.2.0"
+      "version": "4.0.0"
     },
     "blender": {
       "installer": {
@@ -391,10 +391,10 @@
     "conan": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_24_0.exe",
-        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_24_0.exe"
+        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_24_1.exe",
+        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_24_1.exe"
       },
-      "version": "1.24.0"
+      "version": "1.24.1"
     },
     "conemu": {
       "installer": {
@@ -493,9 +493,9 @@
             "/S"
           ]
         },
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/7.0.2/dbeaver-ce-7.0.2-x86_64-setup.exe"
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/7.0.3/dbeaver-ce-7.0.3-x86_64-setup.exe"
       },
-      "version": "7.0.2"
+      "version": "7.0.3"
     },
     "deluge": {
       "installer": {
@@ -957,10 +957,10 @@
             "{{.PROGRAMFILES}}\\Git\\bin\\git.exe"
           ]
         },
-        "x86": "https://github.com/git-for-windows/git/releases/download/v2.26.1.windows.1/Git-2.26.1-32-bit.exe",
-        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.26.1.windows.1/Git-2.26.1-64-bit.exe"
+        "x86": "https://github.com/git-for-windows/git/releases/download/v2.26.2.windows.1/Git-2.26.2-32-bit.exe",
+        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.26.2.windows.1/Git-2.26.2-64-bit.exe"
       },
-      "version": "2.26.1"
+      "version": "2.26.2"
     },
     "git-credential-manager-for-windows": {
       "installer": {
@@ -1118,10 +1118,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.69.0/hugo_0.69.0_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.69.0/hugo_0.69.0_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.69.1/hugo_0.69.1_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.69.1/hugo_0.69.1_Windows-64bit.zip"
       },
-      "version": "0.69.0"
+      "version": "0.69.1"
     },
     "imageglass": {
       "installer": {
@@ -1227,10 +1227,10 @@
     "keeweb": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.13.4/KeeWeb-1.13.4.win.ia32.exe",
-        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.13.4/KeeWeb-1.13.4.win.x64.exe"
+        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.14.0/KeeWeb-1.14.0.win.ia32.exe",
+        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.14.0/KeeWeb-1.14.0.win.x64.exe"
       },
-      "version": "1.13.4"
+      "version": "1.14.0"
     },
     "keybase": {
       "installer": {
@@ -1479,10 +1479,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v13.13.0/node-v13.13.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v13.13.0/node-v13.13.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v14.0.0/node-v14.0.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v14.0.0/node-v14.0.0-x64.msi"
       },
-      "version": "13.13.0"
+      "version": "14.0.0"
     },
     "node-lts": {
       "installer": {
@@ -1508,10 +1508,10 @@
     "notepad++": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.5/npp.7.8.5.Installer.exe",
-        "x86_64": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.5/npp.7.8.5.Installer.x64.exe"
+        "x86": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.6/npp.7.8.6.Installer.exe",
+        "x86_64": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.6/npp.7.8.6.Installer.x64.exe"
       },
-      "version": "7.8.5"
+      "version": "7.8.6"
     },
     "notepad2-mod": {
       "installer": {
@@ -1735,9 +1735,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.19.1.2645-ccb6eb67e/windows/PlexMediaServer-1.19.1.2645-ccb6eb67e-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.19.1.2701-6327e27bf/windows/PlexMediaServer-1.19.1.2701-6327e27bf-x86.exe"
       },
-      "version": "1.19.1.2645"
+      "version": "1.19.1.2701"
     },
     "postman": {
       "installer": {
@@ -1808,10 +1808,10 @@
             "{{.SYSTEMDRIVE}}\\Python27\\pythonw.exe"
           ]
         },
-        "x86": "https://www.python.org/ftp/python/2.7.17/python-2.7.17.msi",
-        "x86_64": "https://www.python.org/ftp/python/2.7.17/python-2.7.17.amd64.msi"
+        "x86": "https://www.python.org/ftp/python/2.7.18/python-2.7.18.msi",
+        "x86_64": "https://www.python.org/ftp/python/2.7.18/python-2.7.18.amd64.msi"
       },
-      "version": "2.7.17"
+      "version": "2.7.18"
     },
     "python2-vc": {
       "installer": {
@@ -1857,10 +1857,10 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.2.3/qbittorrent_4.2.3_setup.exe/download",
-        "x86_64": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.2.3/qbittorrent_4.2.3_x64_setup.exe/download"
+        "x86": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.2.4/qbittorrent_4.2.4_setup.exe/download",
+        "x86_64": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.2.4/qbittorrent_4.2.4_x64_setup.exe/download"
       },
-      "version": "4.2.3"
+      "version": "4.2.4"
     },
     "qtox": {
       "installer": {
@@ -1999,9 +1999,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.33.1.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.33.2.exe"
       },
-      "version": "1.33.1"
+      "version": "1.33.2"
     },
     "simplenote": {
       "installer": {
@@ -2556,10 +2556,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.52.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.52.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.3.0.1874.23.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.3.0.1874.23.x64.exe"
       },
-      "version": "2.11.1811.52"
+      "version": "3.0.1874.23"
     },
     "vlc": {
       "installer": {
