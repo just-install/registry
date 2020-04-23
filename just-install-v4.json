@@ -2623,9 +2623,9 @@
     "winfsp": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/billziss-gh/winfsp/releases/download/v{{.version}}/winfsp-{{.version}}.msi"
+        "x86": "https://github.com/billziss-gh/winfsp/releases/download/v1.6/winfsp-{{.version}}.msi"
       },
-      "version": "1.4.19049"
+      "version": "1.6.20027"
     },
     "winrar": {
       "installer": {
