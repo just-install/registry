@@ -723,14 +723,6 @@
       },
       "version": "1.0.4.0"
     },
-    "eithermouse": {
-      "installer": {
-        "interactive": true,
-        "kind": "as-is",
-        "x86": "https://www.eithermouse.com/EitherMouse%20Setup.exe"
-      },
-      "version": "latest"
-    },
     "em-client": {
       "installer": {
         "kind": "msi",
@@ -1436,17 +1428,6 @@
         "x86": "https://github.com/mRemoteNG/mRemoteNG/releases/download/v1.76.20/mRemoteNG-Installer-1.76.20.24615.msi"
       },
       "version": "1.76.20"
-    },
-    "mullvad": {
-      "installer": {
-        "interactive": true,
-        "kind": "nsis",
-        "options": {
-          "extension": ".exe"
-        },
-        "x86": "https://mullvad.net/download/latest-windows-app/"
-      },
-      "version": "latest"
     },
     "mumble": {
       "installer": {
