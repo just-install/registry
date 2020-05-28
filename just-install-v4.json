@@ -113,9 +113,9 @@
     "android-studio-ide": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://redirector.gvt1.com/edgedl/android/studio/install/3.6.3.0/android-studio-ide-192.6392135-windows.exe"
+        "x86_64": "https://redirector.gvt1.com/edgedl/android/studio/install/4.0.0.16/android-studio-ide-193.6514223-windows.exe"
       },
-      "version": "3.6.3.0"
+      "version": "4.0.0.16"
     },
     "antimicro": {
       "installer": {
@@ -309,9 +309,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.ccleaner.com/ccsetup566.exe"
+        "x86": "https://download.ccleaner.com/ccsetup567.exe"
       },
-      "version": "5.66"
+      "version": "5.67"
     },
     "cdburnerxp": {
       "installer": {
@@ -366,10 +366,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/Kitware/CMake/releases/download/v3.17.2/cmake-3.17.2-win32-x86.msi",
-        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.17.2/cmake-3.17.2-win64-x64.msi"
+        "x86": "https://github.com/Kitware/CMake/releases/download/v3.17.3/cmake-3.17.3-win32-x86.msi",
+        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.17.3/cmake-3.17.3-win64-x64.msi"
       },
-      "version": "3.17.2"
+      "version": "3.17.3"
     },
     "codeblocks": {
       "installer": {
@@ -450,9 +450,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86_64": "https://dl.bintray.com/cryptomator/cryptomator/1.5.4/Cryptomator-1.5.4-x64.exe"
+        "x86_64": "https://dl.bintray.com/cryptomator/cryptomator/1.5.5/Cryptomator-1.5.5-x64.exe"
       },
-      "version": "1.5.4"
+      "version": "1.5.5"
     },
     "crystaldisk-info": {
       "installer": {
@@ -471,9 +471,9 @@
     "cyberduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-7.3.1.32784.msi"
+        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-7.4.0.32960.msi"
       },
-      "version": "7.3.1.32784"
+      "version": "7.4.0.32960"
     },
     "cygwin": {
       "installer": {
@@ -638,9 +638,9 @@
     "duck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.duck.sh/duck-7.3.1.32784.msi"
+        "x86": "https://dist.duck.sh/duck-7.4.0.32960.msi"
       },
-      "version": "7.3.1.32784"
+      "version": "7.4.0.32960"
     },
     "dynalist": {
       "installer": {
@@ -772,9 +772,9 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.90/balenaEtcher-Setup-1.5.90.exe"
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.94/balenaEtcher-Setup-1.5.94.exe"
       },
-      "version": "1.5.90"
+      "version": "1.5.94"
     },
     "everything-search": {
       "installer": {
@@ -1128,10 +1128,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.71.0/hugo_0.71.0_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.71.0/hugo_0.71.0_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.71.1/hugo_0.71.1_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.71.1/hugo_0.71.1_Windows-64bit.zip"
       },
-      "version": "0.71.0"
+      "version": "0.71.1"
     },
     "imageglass": {
       "installer": {
@@ -1282,10 +1282,10 @@
     "libreoffice": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.4.3/win/x86/LibreOffice_6.4.3_Win_x86.msi",
-        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.4.3/win/x86_64/LibreOffice_6.4.3_Win_x64.msi"
+        "x86": "https://download.documentfoundation.org/libreoffice/stable/6.4.4/win/x86/LibreOffice_6.4.4_Win_x86.msi",
+        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/6.4.4/win/x86_64/LibreOffice_6.4.4_Win_x64.msi"
       },
-      "version": "6.4.3"
+      "version": "6.4.4"
     },
     "lightshot": {
       "installer": {
@@ -1403,9 +1403,9 @@
     "mountainduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-3.3.7.15567.msi"
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-3.4.0.15624.msi"
       },
-      "version": "3.3.7.15567"
+      "version": "3.4.0.15624"
     },
     "mp3tag": {
       "installer": {
@@ -1486,10 +1486,10 @@
     "node-lts": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v12.16.3/node-v12.16.3-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v12.16.3/node-v12.16.3-x64.msi"
+        "x86": "https://nodejs.org/dist/v12.17.0/node-v12.17.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v12.17.0/node-v12.17.0-x64.msi"
       },
-      "version": "12.16.3"
+      "version": "12.17.0"
     },
     "nordvpn": {
       "installer": {
@@ -1571,9 +1571,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES_X86}}\\"
         },
-        "x86": "https://openhardwaremonitor.org/files/openhardwaremonitor-v0.9.3.zip"
+        "x86": "https://openhardwaremonitor.org/files/openhardwaremonitor-v0.9.5.zip"
       },
-      "version": "0.9.3"
+      "version": "0.9.5"
     },
     "openssh": {
       "installer": {
@@ -1734,9 +1734,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.19.3.2831-181d9145d/windows/PlexMediaServer-1.19.3.2831-181d9145d-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.19.3.2852-219a9974e/windows/PlexMediaServer-1.19.3.2852-219a9974e-x86.exe"
       },
-      "version": "1.19.3.2831"
+      "version": "1.19.3.2852"
     },
     "postman": {
       "installer": {
@@ -1931,10 +1931,10 @@
     "retroarch": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://buildbot.libretro.com/stable/1.8.7/windows/x86/RetroArch-x86-setup.exe",
-        "x86_64": "https://buildbot.libretro.com/stable/1.8.7/windows/x86_64/RetroArch-x64-setup.exe"
+        "x86": "https://buildbot.libretro.com/stable/1.8.8/windows/x86/RetroArch-x86-setup.exe",
+        "x86_64": "https://buildbot.libretro.com/stable/1.8.8/windows/x86_64/RetroArch-x64-setup.exe"
       },
-      "version": "1.8.7"
+      "version": "1.8.8"
     },
     "ruby": {
       "installer": {
@@ -2209,18 +2209,18 @@
         "options": {
           "extension": ".msi"
         },
-        "x86": "https://osdn.net/frs/redir.php?m=pumath&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.13.1%2FApplication%2FTortoiseSVN-1.13.1.28686-win32-svn-1.13.0.msi",
-        "x86_64": "https://osdn.net/frs/redir.php?m=gigenet&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.13.1%2FApplication%2FTortoiseSVN-1.13.1.28686-x64-svn-1.13.0.msi"
+        "x86": "https://osdn.net/frs/redir.php?m=constant&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.14.0%2FApplication%2FTortoiseSVN-1.14.0.28885-win32-svn-1.14.0.msi",
+        "x86_64": "https://osdn.net/frs/redir.php?m=xtom_us&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.14.0%2FApplication%2FTortoiseSVN-1.14.0.28885-x64-svn-1.14.0.msi"
       },
-      "version": "1.13.1"
+      "version": "1.14.0"
     },
     "transmission": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/transmission/transmission-releases/raw/master/transmission-2.94-x86.msi",
-        "x86_64": "https://github.com/transmission/transmission-releases/raw/master/transmission-2.94-x64.msi"
+        "x86": "https://github.com/transmission/transmission-releases/raw/master/transmission-3.00-x86.msi",
+        "x86_64": "https://github.com/transmission/transmission-releases/raw/master/transmission-3.00-x64.msi"
       },
-      "version": "2.94"
+      "version": "3.00"
     },
     "uplay": {
       "installer": {
@@ -2646,9 +2646,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.17.5/WinSCP-5.17.5-Setup.exe/download"
+        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.17.6/WinSCP-5.17.6-Setup.exe/download"
       },
-      "version": "5.17.5"
+      "version": "5.17.6"
     },
     "wireshark": {
       "installer": {
@@ -2739,9 +2739,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2020.05.08/youtube-dl.exe"
+        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2020.05.29/youtube-dl.exe"
       },
-      "version": "2020.05.08"
+      "version": "2020.05.29"
     }
   }
 }
