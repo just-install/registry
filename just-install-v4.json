@@ -273,9 +273,9 @@
     "bootnext": {
       "installer": {
         "kind": "msi",
-        "x86_64": "https://ci.appveyor.com/api/buildjobs/xptf9off8k2f8i9h/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
+        "x86_64": "https://ci.appveyor.com/api/buildjobs/esaex43k14n0i7h9/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
       },
-      "version": "1.0.24"
+      "version": "1.0.25"
     },
     "brackets": {
       "installer": {
