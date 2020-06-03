@@ -1519,6 +1519,14 @@
       },
       "version": "4.2.25.998"
     },
+    "notepad3": {
+      "installer": {
+        "kind": "innosetup",
+        "x86": "https://www.rizonesoft.com/software/notepad3/Notepad3_{{.version}}_x86_Setup.exe",
+        "x86_64": "https://www.rizonesoft.com/software/notepad3/Notepad3_{{.version}}_Setup.exe"
+      },
+      "version": "5.20.414.1"
+    },
     "npackd": {
       "installer": {
         "kind": "msi",
