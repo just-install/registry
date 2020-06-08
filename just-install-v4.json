@@ -772,9 +772,9 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.95/balenaEtcher-Setup-1.5.95.exe"
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.97/balenaEtcher-Setup-1.5.97.exe"
       },
-      "version": "1.5.95"
+      "version": "1.5.97"
     },
     "everything-search": {
       "installer": {
@@ -1237,10 +1237,10 @@
     "keeweb": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.14.3/KeeWeb-1.14.3.win.ia32.exe",
-        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.14.3/KeeWeb-1.14.3.win.x64.exe"
+        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.15.1/KeeWeb-1.15.1.win.ia32.exe",
+        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.15.1/KeeWeb-1.15.1.win.x64.exe"
       },
-      "version": "1.14.3"
+      "version": "1.15.1"
     },
     "keybase": {
       "installer": {
@@ -2047,10 +2047,10 @@
     "sshfs-win": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/billziss-gh/sshfs-win/releases/download/v{{.version}}/sshfs-win-{{.version}}-x86.msi",
-        "x86_64": "https://github.com/billziss-gh/sshfs-win/releases/download/v{{.version}}/sshfs-win-{{.version}}-x64.msi"
+        "x86": "https://github.com/billziss-gh/sshfs-win/releases/download/v3.5.20024/sshfs-win-3.5.20024-x86.msi",
+        "x86_64": "https://github.com/billziss-gh/sshfs-win/releases/download/v3.5.20024/sshfs-win-3.5.20024-x64.msi"
       },
-      "version": "3.2.18213"
+      "version": "3.5.20024"
     },
     "steam": {
       "installer": {
