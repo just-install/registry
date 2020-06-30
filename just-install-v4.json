@@ -1557,6 +1557,13 @@
       },
       "version": "5.2.0"
     },
+    "okular": {
+      "installer": {
+        "kind": "nsis",
+        "x86_64": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Okular_Release_win64/lastSuccessfulBuild/artifact/okular-{{.version}}-windows-msvc2019_64-cl.exe"
+      },
+      "version": "20.04.2-313"
+    },
     "onlyoffice-desktopeditors": {
       "installer": {
         "kind": "innosetup",
