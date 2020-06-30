@@ -409,10 +409,10 @@
     "conan": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_25_2.exe",
-        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_25_2.exe"
+        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_22_3.exe",
+        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_22_3.exe"
       },
-      "version": "1.25.2"
+      "version": "1.22.3"
     },
     "conemu": {
       "installer": {
@@ -2109,12 +2109,16 @@
     },
     "sumatrapdf": {
       "installer": {
-          "kind": "custom",
-          "options": {
-              "arguments": ["{{.installer}}", "/install", "/s"]
-          },
-          "x86": "https://www.sumatrapdfreader.org/dl2/SumatraPDF-{{.version}}-install.exe",
-          "x86_64": "https://www.sumatrapdfreader.org/dl2/SumatraPDF-{{.version}}-64-install.exe"
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/install",
+            "/s"
+          ]
+        },
+        "x86": "https://www.sumatrapdfreader.org/dl2/SumatraPDF-{{.version}}-install.exe",
+        "x86_64": "https://www.sumatrapdfreader.org/dl2/SumatraPDF-{{.version}}-64-install.exe"
       },
       "version": "3.2"
     },
