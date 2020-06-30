@@ -533,13 +533,6 @@
       },
       "version": "2.2"
     },
-    "deskpins": {
-      "installer": {
-        "kind": "nsis",
-        "x86": "https://bitbucket.org/efotinis/deskpins/downloads/DeskPins-1.32-setup.exe"
-      },
-      "version": "1.32"
-    },
     "directx-june2010": {
       "installer": {
         "kind": "custom",
