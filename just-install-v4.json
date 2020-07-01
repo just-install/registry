@@ -273,9 +273,9 @@
     "bootnext": {
       "installer": {
         "kind": "msi",
-        "x86_64": "https://ci.appveyor.com/api/buildjobs/t9e751oqcpu8pwa9/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
+        "x86_64": "https://ci.appveyor.com/api/buildjobs/d7oylsg7qecvm2d8/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
       },
-      "version": "1.0.30"
+      "version": "1.0.31"
     },
     "brackets": {
       "installer": {
@@ -1471,10 +1471,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v14.4.0/node-v14.4.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v14.4.0/node-v14.4.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v14.5.0/node-v14.5.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v14.5.0/node-v14.5.0-x64.msi"
       },
-      "version": "14.4.0"
+      "version": "14.5.0"
     },
     "node-lts": {
       "installer": {
