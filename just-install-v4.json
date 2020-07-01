@@ -409,10 +409,10 @@
     "conan": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_22_3.exe",
-        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_22_3.exe"
+        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_27_0.exe",
+        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_27_0.exe"
       },
-      "version": "1.22.3"
+      "version": "1.27.0"
     },
     "conemu": {
       "installer": {
@@ -1396,9 +1396,9 @@
     "mountainduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-4.0.0.16759.msi"
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-4.0.1.16800.msi"
       },
-      "version": "4.0.0.16759"
+      "version": "4.0.1.16800"
     },
     "mp3tag": {
       "installer": {
@@ -2189,10 +2189,10 @@
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/9.5/torbrowser-install-9.5_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/9.5/torbrowser-install-win64-9.5_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/9.5.1/torbrowser-install-9.5.1_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/9.5.1/torbrowser-install-win64-9.5.1_en-US.exe"
       },
-      "version": "9.5"
+      "version": "9.5.1"
     },
     "torguard": {
       "installer": {
