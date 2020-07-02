@@ -2660,10 +2660,10 @@
     "wireshark": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-3.2.4.exe",
-        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.2.4.exe"
+        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-3.2.5.exe",
+        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.2.5.exe"
       },
-      "version": "3.2.4"
+      "version": "3.2.5"
     },
     "wix": {
       "installer": {
