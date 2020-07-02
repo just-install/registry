@@ -1171,7 +1171,7 @@
         "x86": "http://download.betanews.com/download/967963863-1/iview454_setup.exe",
         "x86_64": "http://download.betanews.com/download/967963863-1/iview454_x64_setup.exe"
       },
-      "version": "454"
+      "version": "4.54"
     },
     "itch": {
       "installer": {
