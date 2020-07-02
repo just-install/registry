@@ -1650,9 +1650,9 @@
             "kind": "zip"
           }
         },
-        "x86": "https://www.dotpdn.com/files/paint.net.{{.version}}.install.zip"
+        "x86": "https://www.dotpdn.com/files/paint.net.4.2.12.install.zip"
       },
-      "version": "4.1.6"
+      "version": "4.2.12"
     },
     "parsec": {
       "installer": {
