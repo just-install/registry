@@ -1186,7 +1186,7 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "http://nuts.itch.zone/download/windows"
+        "x86": "https://nuts.itch.zone/download/windows"
       },
       "version": "latest"
     },
