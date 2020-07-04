@@ -265,7 +265,14 @@
     },
     "bleachbit": {
       "installer": {
-        "kind": "nsis",
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/allusers",
+            "/S"
+          ]
+        },
         "x86": "https://download.bleachbit.org/BleachBit-4.0.0-setup.exe"
       },
       "version": "4.0.0"
