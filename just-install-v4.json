@@ -754,6 +754,13 @@
       },
       "version": "26.3"
     },
+    "empoche": {
+      "installer": {
+        "kind": "nsis",
+        "x86_64": "https://empoche-desktop.s3.eu-central-1.amazonaws.com/Empoche+Setup+0.3.0.exe"
+      },
+      "version": "0.3.0"
+    },
     "enpass": {
       "installer": {
         "kind": "nsis",
