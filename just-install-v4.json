@@ -127,7 +127,7 @@
     "anydesk": {
       "installer": {
         "kind": "msi",
-        "x86": "http://download.anydesk.com/AnyDesk.msi"
+        "x86": "https://download.anydesk.com/AnyDesk.msi"
       },
       "version": "latest"
     },
