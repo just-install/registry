@@ -200,7 +200,7 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "http://aka.ms/downloadazcopy"
+        "x86": "https://aka.ms/downloadazcopy"
       },
       "version": "latest"
     },
