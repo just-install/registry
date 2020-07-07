@@ -1549,6 +1549,13 @@
       },
       "version": "1.25"
     },
+    "nsis": {
+      "installer": {
+        "kind": "nsis",
+        "x86": "https://sourceforge.net/projects/nsis/files/NSIS%203/3.05/nsis-3.05-setup.exe/download"
+      },
+      "version": "3.05"
+    },
     "nxlog": {
       "installer": {
         "kind": "msi",
