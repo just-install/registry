@@ -1813,8 +1813,7 @@
     },
     "pycharm-community": {
       "installer": {
-        "interactive": true,
-        "kind": "as-is",
+        "kind": "jetbrains-nsis",
         "x86": "https://download.jetbrains.com/python/pycharm-community-2020.1.2.exe"
       },
       "version": "2020.1.2"
