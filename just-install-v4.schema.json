@@ -79,12 +79,14 @@
                 "kind": {
                   "enum": [
                     "advancedinstaller",
+                    "appx",
                     "as-is",
                     "copy",
                     "custom",
                     "easy_install_26",
                     "easy_install_27",
                     "innosetup",
+                    "jetbrains-nsis",
                     "msi",
                     "nsis",
                     "squirrel",
