@@ -1484,8 +1484,8 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\NirCmd"
         },
-        "x86": "http://nirsoft.net/utils/nircmd.zip",
-        "x86_64": "http://nirsoft.net/utils/nircmd-x64.zip"
+        "x86": "https://nirsoft.net/utils/nircmd.zip",
+        "x86_64": "https://nirsoft.net/utils/nircmd-x64.zip"
       },
       "version": "latest"
     },
