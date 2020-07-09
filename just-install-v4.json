@@ -786,9 +786,9 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.100/balenaEtcher-Setup-1.5.100.exe"
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.101/balenaEtcher-Setup-1.5.101.exe"
       },
-      "version": "1.5.100"
+      "version": "1.5.101"
     },
     "everything-search": {
       "installer": {
@@ -1396,9 +1396,9 @@
     "mono": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.mono-project.com/archive/6.8.0/windows-installer/mono-6.8.0.123-x64-0.msi"
+        "x86": "https://download.mono-project.com/archive/6.10.0/windows-installer/mono-6.10.0.104-x64-0.msi"
       },
-      "version": "6.8.0.123"
+      "version": "6.10.0.104"
     },
     "moonlight-qt": {
       "installer": {
@@ -1474,9 +1474,9 @@
     "nextcloud": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-2.6.4-setup.exe"
+        "x86": "https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-2.6.5-setup.exe"
       },
-      "version": "2.6.4"
+      "version": "2.6.5"
     },
     "nircmd": {
       "installer": {
@@ -1723,7 +1723,7 @@
         "x86": "https://windows.php.net/downloads/releases/php-7.3.20-nts-Win32-VC15-x86.zip",
         "x86_64": "https://windows.php.net/downloads/releases/php-7.3.20-nts-Win32-VC15-x64.zip"
       },
-      "version": "7.3.20"
+      "version": "7.4.8"
     },
     "physx": {
       "installer": {
