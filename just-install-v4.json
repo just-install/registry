@@ -2572,6 +2572,25 @@
       },
       "version": "latest"
     },
+    "visual-studio-vctools-2019": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "--add",
+            "Microsoft.VisualStudio.Workload.VCTools",
+            "--includeRecommended",
+            "--quiet",
+            "--norestart",
+            "--wait"
+          ],
+          "extension": ".exe"
+        },
+        "x86": "https://aka.ms/vs/16/release/vs_BuildTools.exe"
+      },
+      "version": "latest"
+    },
     "vivaldi": {
       "installer": {
         "kind": "custom",
