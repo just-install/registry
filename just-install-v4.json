@@ -423,10 +423,10 @@
     "conan": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_27_0.exe",
-        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_27_0.exe"
+        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_27_1.exe",
+        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_27_1.exe"
       },
-      "version": "1.27.0"
+      "version": "1.27.1"
     },
     "conemu": {
       "installer": {
