@@ -447,9 +447,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v20.06.15/ConEmuSetup.200615.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v20.07.13/ConEmuSetup.200713.exe"
       },
-      "version": "20.06.15"
+      "version": "20.07.13"
     },
     "cpu-z": {
       "installer": {
@@ -1142,10 +1142,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.74.0/hugo_0.74.0_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.74.0/hugo_0.74.0_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.74.1/hugo_0.74.1_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.74.1/hugo_0.74.1_Windows-64bit.zip"
       },
-      "version": "0.74.0"
+      "version": "0.74.1"
     },
     "imageglass": {
       "installer": {
@@ -1856,10 +1856,10 @@
             "InstallAllUsers=1"
           ]
         },
-        "x86": "https://www.python.org/ftp/python/3.8.3/python-3.8.3.exe",
-        "x86_64": "https://www.python.org/ftp/python/3.8.3/python-3.8.3-amd64.exe"
+        "x86": "https://www.python.org/ftp/python/3.8.4/python-3.8.4.exe",
+        "x86_64": "https://www.python.org/ftp/python/3.8.4/python-3.8.4-amd64.exe"
       },
-      "version": "3.8.3"
+      "version": "3.8.4"
     },
     "python3-minimal": {
       "installer": {
@@ -1872,10 +1872,10 @@
             "Include_tcltk=0"
           ]
         },
-        "x86": "https://www.python.org/ftp/python/3.8.3/python-3.8.3.exe",
-        "x86_64": "https://www.python.org/ftp/python/3.8.3/python-3.8.3-amd64.exe"
+        "x86": "https://www.python.org/ftp/python/3.8.4/python-3.8.4.exe",
+        "x86_64": "https://www.python.org/ftp/python/3.8.4/python-3.8.4-amd64.exe"
       },
-      "version": "3.8.3"
+      "version": "3.8.4"
     },
     "qbittorrent": {
       "installer": {
