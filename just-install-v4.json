@@ -2026,9 +2026,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.34.3.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.34.4.exe"
       },
-      "version": "1.34.3"
+      "version": "1.34.4"
     },
     "simplenote": {
       "installer": {
