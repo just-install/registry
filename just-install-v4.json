@@ -2454,9 +2454,9 @@
             "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBoxManage.exe"
           ]
         },
-        "x86": "https://download.virtualbox.org/virtualbox/6.1.10/VirtualBox-6.1.10-138449-Win.exe"
+        "x86": "https://download.virtualbox.org/virtualbox/6.1.12/VirtualBox-6.1.12-139181-Win.exe"
       },
-      "version": "6.1.10"
+      "version": "6.1.12"
     },
     "viscosity": {
       "installer": {
