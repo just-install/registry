@@ -1030,10 +1030,10 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dl.google.com/go/go1.14.5.windows-386.msi",
-        "x86_64": "https://dl.google.com/go/go1.14.5.windows-amd64.msi"
+        "x86": "https://dl.google.com/go/go1.14.6.windows-386.msi",
+        "x86_64": "https://dl.google.com/go/go1.14.6.windows-amd64.msi"
       },
-      "version": "1.14.5"
+      "version": "1.14.6"
     },
     "gog-galaxy": {
       "installer": {
