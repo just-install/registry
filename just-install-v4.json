@@ -1788,10 +1788,10 @@
     "powershell-core": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.2/PowerShell-7.0.2-win-x86.msi",
-        "x86_64": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.2/PowerShell-7.0.2-win-x64.msi"
+        "x86": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.3/PowerShell-7.0.3-win-x86.msi",
+        "x86_64": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.3/PowerShell-7.0.3-win-x64.msi"
       },
-      "version": "7.0.2"
+      "version": "7.0.3"
     },
     "processhacker": {
       "installer": {
