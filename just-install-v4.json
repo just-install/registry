@@ -1014,8 +1014,11 @@
     },
     "github": {
       "installer": {
-        "kind": "nsis",
-        "x86": "https://github-windows.s3.amazonaws.com/GitHubSetup.exe"
+        "kind": "squirrel",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://central.github.com/deployments/desktop/desktop/latest/win32"
       },
       "version": "latest"
     },
