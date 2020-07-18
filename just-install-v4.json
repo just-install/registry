@@ -1142,10 +1142,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.74.1/hugo_0.74.1_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.74.1/hugo_0.74.1_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.74.2/hugo_0.74.2_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.74.2/hugo_0.74.2_Windows-64bit.zip"
       },
-      "version": "0.74.1"
+      "version": "0.74.2"
     },
     "imageglass": {
       "installer": {
@@ -2011,9 +2011,9 @@
     "sharpkeys": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/randyrants/sharpkeys/releases/download/v3.9/sharpkeys39.msi"
+        "x86": "https://github.com/randyrants/sharpkeys/releases/download/v3.9.2/sharpkeys392.msi"
       },
-      "version": "3.9"
+      "version": "3.9.2"
     },
     "shotcut": {
       "installer": {
