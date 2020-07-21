@@ -323,9 +323,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.ccleaner.com/ccsetup568.exe"
+        "x86": "https://download.ccleaner.com/ccsetup569.exe"
       },
-      "version": "5.68"
+      "version": "5.69"
     },
     "cdburnerxp": {
       "installer": {
