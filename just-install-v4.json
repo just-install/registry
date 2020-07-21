@@ -1856,10 +1856,10 @@
             "InstallAllUsers=1"
           ]
         },
-        "x86": "https://www.python.org/ftp/python/3.8.4/python-3.8.4.exe",
-        "x86_64": "https://www.python.org/ftp/python/3.8.4/python-3.8.4-amd64.exe"
+        "x86": "https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe",
+        "x86_64": "https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe"
       },
-      "version": "3.8.4"
+      "version": "3.8.5"
     },
     "python3-minimal": {
       "installer": {
@@ -1872,10 +1872,10 @@
             "Include_tcltk=0"
           ]
         },
-        "x86": "https://www.python.org/ftp/python/3.8.4/python-3.8.4.exe",
-        "x86_64": "https://www.python.org/ftp/python/3.8.4/python-3.8.4-amd64.exe"
+        "x86": "https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe",
+        "x86_64": "https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe"
       },
-      "version": "3.8.4"
+      "version": "3.8.5"
     },
     "qbittorrent": {
       "installer": {
