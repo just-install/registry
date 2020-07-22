@@ -1499,10 +1499,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v14.5.0/node-v14.5.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v14.5.0/node-v14.5.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v14.6.0/node-v14.6.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v14.6.0/node-v14.6.0-x64.msi"
       },
-      "version": "14.5.0"
+      "version": "14.6.0"
     },
     "node-lts": {
       "installer": {
