@@ -793,10 +793,10 @@
     "everything-search": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.voidtools.com/Everything-1.4.1.969.x86-Setup.exe",
-        "x86_64": "https://www.voidtools.com/Everything-1.4.1.969.x64-Setup.exe"
+        "x86": "https://www.voidtools.com/Everything-1.4.1.986.x86-Setup.exe",
+        "x86_64": "https://www.voidtools.com/Everything-1.4.1.986.x64-Setup.exe"
       },
-      "version": "1.4.1.969"
+      "version": "1.4.1.986"
     },
     "exeproxy": {
       "installer": {
@@ -1008,9 +1008,9 @@
     "gitextensions": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/gitextensions/gitextensions/releases/download/v3.4.2/GitExtensions-3.4.2.9737-082cfd97d.msi"
+        "x86": "https://github.com/gitextensions/gitextensions/releases/download/v3.4.3/GitExtensions-3.4.3.9999-d4b0f48bb.msi"
       },
-      "version": "3.4.2"
+      "version": "3.4.3"
     },
     "github": {
       "installer": {
