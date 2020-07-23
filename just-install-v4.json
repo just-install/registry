@@ -1176,9 +1176,9 @@
     "intellij-idea-community": {
       "installer": {
         "kind": "jetbrains-nsis",
-        "x86": "https://download.jetbrains.com/idea/ideaIC-2020.1.3.exe"
+        "x86": "https://download.jetbrains.com/idea/ideaIC-2020.1.4.exe"
       },
-      "version": "2020.1.3"
+      "version": "2020.1.4"
     },
     "irfanview": {
       "installer": {
@@ -1507,10 +1507,10 @@
     "node-lts": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v12.18.2/node-v12.18.2-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v12.18.2/node-v12.18.2-x64.msi"
+        "x86": "https://nodejs.org/dist/v12.18.3/node-v12.18.3-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v12.18.3/node-v12.18.3-x64.msi"
       },
-      "version": "12.18.2"
+      "version": "12.18.3"
     },
     "nordvpn": {
       "installer": {
@@ -1762,9 +1762,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.19.4.2935-79e214ead/windows/PlexMediaServer-1.19.4.2935-79e214ead-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.19.5.3112-b23ab3896/windows/PlexMediaServer-1.19.5.3112-b23ab3896-x86.exe"
       },
-      "version": "1.19.4.2935"
+      "version": "1.19.5.3112"
     },
     "postman": {
       "installer": {
@@ -1821,9 +1821,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "jetbrains-nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2020.1.3.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2020.1.4.exe"
       },
-      "version": "2020.1.3"
+      "version": "2020.1.4"
     },
     "python2": {
       "installer": {
