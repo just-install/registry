@@ -2688,9 +2688,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.17.6/WinSCP-5.17.6-Setup.exe/download"
+        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.17.7/WinSCP-5.17.7-Setup.exe/download"
       },
-      "version": "5.17.6"
+      "version": "5.17.7"
     },
     "wireshark": {
       "installer": {
