@@ -786,9 +786,9 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.101/balenaEtcher-Setup-1.5.101.exe"
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.102/balenaEtcher-Setup-1.5.102.exe"
       },
-      "version": "1.5.101"
+      "version": "1.5.102"
     },
     "everything-search": {
       "installer": {
@@ -2781,9 +2781,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2020.06.16.1/youtube-dl.exe"
+        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2020.07.28/youtube-dl.exe"
       },
-      "version": "2020.06.16.1"
+      "version": "2020.07.28"
     }
   }
 }
