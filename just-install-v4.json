@@ -1821,9 +1821,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "jetbrains-nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2020.1.4.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2020.2.exe"
       },
-      "version": "2020.1.4"
+      "version": "2020.2"
     },
     "python2": {
       "installer": {
@@ -2590,10 +2590,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.3.1.1929.45.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.3.1.1929.45.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.3.1.1929.48.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.3.1.1929.48.x64.exe"
       },
-      "version": "3.1.1929.45"
+      "version": "3.1.1929.48"
     },
     "vlc": {
       "installer": {
