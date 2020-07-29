@@ -1176,9 +1176,9 @@
     "intellij-idea-community": {
       "installer": {
         "kind": "jetbrains-nsis",
-        "x86": "https://download.jetbrains.com/idea/ideaIC-2020.1.4.exe"
+        "x86": "https://download.jetbrains.com/idea/ideaIC-2020.2.exe"
       },
-      "version": "2020.1.4"
+      "version": "2020.2"
     },
     "irfanview": {
       "installer": {
@@ -1288,9 +1288,9 @@
     "kodi": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://mirrors.kodi.tv/releases/windows/win32/kodi-18.7-Leia-x86.exe"
+        "x86": "https://mirrors.kodi.tv/releases/windows/win32/kodi-18.8-Leia-x86.exe"
       },
-      "version": "18.7"
+      "version": "18.8"
     },
     "krita": {
       "installer": {
@@ -2217,10 +2217,10 @@
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/9.5.1/torbrowser-install-9.5.1_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/9.5.1/torbrowser-install-win64-9.5.1_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/9.5.3/torbrowser-install-9.5.3_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/9.5.3/torbrowser-install-win64-9.5.3_en-US.exe"
       },
-      "version": "9.5.1"
+      "version": "9.5.3"
     },
     "torguard": {
       "installer": {
