@@ -793,10 +793,10 @@
     "everything-search": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.voidtools.com/Everything-1.4.1.986.x86-Setup.exe",
-        "x86_64": "https://www.voidtools.com/Everything-1.4.1.986.x64-Setup.exe"
+        "x86": "https://www.voidtools.com/Everything-1.4.1.987.x86-Setup.exe",
+        "x86_64": "https://www.voidtools.com/Everything-1.4.1.987.x64-Setup.exe"
       },
-      "version": "1.4.1.986"
+      "version": "1.4.1.987"
     },
     "exeproxy": {
       "installer": {
@@ -1997,9 +1997,9 @@
     "seafile-client": {
       "installer": {
         "kind": "msi",
-        "x86": "https://s3.eu-central-1.amazonaws.com/download.seadrive.org/seafile-7.0.8-en.msi"
+        "x86": "https://s3.eu-central-1.amazonaws.com/download.seadrive.org/seafile-7.0.9-en.msi"
       },
-      "version": "7.0.8"
+      "version": "7.0.9"
     },
     "sharex": {
       "installer": {
