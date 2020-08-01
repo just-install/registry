@@ -287,9 +287,9 @@
     "bootnext": {
       "installer": {
         "kind": "msi",
-        "x86_64": "https://ci.appveyor.com/api/buildjobs/td32gcnxxs5cfr2k/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
+        "x86_64": "https://ci.appveyor.com/api/buildjobs/mykvp9wlee03fb3e/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
       },
-      "version": "1.0.32"
+      "version": "1.0.33"
     },
     "brackets": {
       "installer": {
@@ -1559,9 +1559,9 @@
     "nsis": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://sourceforge.net/projects/nsis/files/NSIS%203/3.05/nsis-3.05-setup.exe/download"
+        "x86": "https://sourceforge.net/projects/nsis/files/NSIS%203/3.06/nsis-3.06-setup.exe/download"
       },
-      "version": "3.05"
+      "version": "3.06"
     },
     "nxlog": {
       "installer": {
