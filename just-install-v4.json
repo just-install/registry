@@ -623,8 +623,8 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.9%20beta/doublecmd-0.9.9.i386-win32.msi/download",
-        "x86_64": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.9%20beta/doublecmd-0.9.9.x86_64-win64.msi/download"
+        "x86": "https://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.9%20beta/doublecmd-0.9.9.i386-win32.msi/download",
+        "x86_64": "https://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.9%20beta/doublecmd-0.9.9.x86_64-win64.msi/download"
       },
       "version": "0.9.9"
     },
