@@ -1705,10 +1705,10 @@
     "perl": {
       "installer": {
         "kind": "msi",
-        "x86": "http://strawberryperl.com/download/5.30.2.1/strawberry-perl-5.30.2.1-32bit.msi",
-        "x86_64": "http://strawberryperl.com/download/5.30.2.1/strawberry-perl-5.30.2.1-64bit.msi"
+        "x86": "http://strawberryperl.com/download/5.30.3.1/strawberry-perl-5.30.3.1-32bit.msi",
+        "x86_64": "http://strawberryperl.com/download/5.30.3.1/strawberry-perl-5.30.3.1-64bit.msi"
       },
-      "version": "5.30.2.1"
+      "version": "5.30.3.1"
     },
     "photofiltre": {
       "installer": {
