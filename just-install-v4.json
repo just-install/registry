@@ -1562,9 +1562,9 @@
     "nsis": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://sourceforge.net/projects/nsis/files/NSIS%203/3.06/nsis-3.06-setup.exe/download"
+        "x86": "https://sourceforge.net/projects/nsis/files/NSIS%203/3.06.1/nsis-3.06.1-setup.exe/download"
       },
-      "version": "3.06"
+      "version": "3.06.1"
     },
     "nxlog": {
       "installer": {
