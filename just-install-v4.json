@@ -1362,6 +1362,13 @@
       },
       "version": "0.16.2"
     },
+    "mega-sync":{
+      "installer": {
+        "kind": "nsis",
+        "x86_64": "https://mega.nz/MEGAsyncSetup64.exe"
+      },
+      "version": "latest"
+    },
     "mednafen": {
       "installer": {
         "kind": "zip",
