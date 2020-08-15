@@ -2220,6 +2220,9 @@
     "timecamp": {
       "installer": {
         "kind": "nsis",
+        "options": {
+          "extension": ".exe"
+        },
         "x86": "https://app.timecamp.com/download/stable/windows/"
       },
       "version": "latest"
