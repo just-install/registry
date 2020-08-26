@@ -1410,6 +1410,14 @@
       },
       "version": "latest"
     },
+    "microsoft-teams": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x86&managedInstaller=true&download=true",
+        "x86_64": "https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true"
+      },
+      "version": "latest"
+    },
     "mono": {
       "installer": {
         "kind": "msi",
