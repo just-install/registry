@@ -1839,9 +1839,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "jetbrains-nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2020.2.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2020.2.1.exe"
       },
-      "version": "2020.2"
+      "version": "2020.2.1"
     },
     "python2": {
       "installer": {
