@@ -1203,7 +1203,7 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://nuts.itch.zone/download/windows"
+        "x86": "https://itch.io/app/download?platform=windows"
       },
       "version": "latest"
     },
