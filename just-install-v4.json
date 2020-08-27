@@ -1916,14 +1916,10 @@
     },
     "rambox-community": {
       "installer": {
-        "kind": "squirrel",
-        "options": {
-          "extension": ".exe"
-        },
-        "x86": "https://getrambox.herokuapp.com/download/win32_ia32",
-        "x86_64": "https://getrambox.herokuapp.com/download/win32_x64"
+        "kind": "nsis",
+        "x86": "https://github.com/ramboxapp/community-edition/releases/download/{{.version}}/Rambox-{{.version}}-win.exe"
       },
-      "version": "latest"
+      "version": "0.7.5"
     },
     "rapidee": {
       "installer": {
