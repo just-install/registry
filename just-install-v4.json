@@ -464,9 +464,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86_64": "https://dl.bintray.com/cryptomator/cryptomator/1.5.7/Cryptomator-1.5.7-x64.exe"
+        "x86_64": "https://dl.bintray.com/cryptomator/cryptomator/1.5.8/Cryptomator-1.5.8-x64.exe"
       },
-      "version": "1.5.7"
+      "version": "1.5.8"
     },
     "crystaldisk-info": {
       "installer": {
@@ -1499,9 +1499,9 @@
     "nextcloud": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-3.0.0-setup.exe"
+        "x86": "https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-3.0.1-setup.exe"
       },
-      "version": "3.0.0"
+      "version": "3.0.1"
     },
     "nircmd": {
       "installer": {
