@@ -1685,7 +1685,7 @@
             "/auto"
           ],
           "container": {
-            "installer": "paint.net.4.1.6.install.exe",
+            "installer": "paint.net.4.2.13.install.exe",
             "kind": "zip"
           }
         },
