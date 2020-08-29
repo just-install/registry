@@ -757,9 +757,9 @@
     "empoche": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://empoche-desktop.s3.eu-central-1.amazonaws.com/Empoche+Setup+0.3.0.exe"
+        "x86": "https://empoche-desktop.s3.eu-central-1.amazonaws.com/Empoche+Setup+0.4.5.exe"
       },
-      "version": "0.3.0"
+      "version": "0.4.5"
     },
     "enpass": {
       "installer": {
