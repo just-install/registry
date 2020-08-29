@@ -2219,6 +2219,7 @@
     },
     "timecamp": {
       "installer": {
+        "interactive": true,
         "kind": "nsis",
         "options": {
           "extension": ".exe"
