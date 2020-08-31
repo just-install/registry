@@ -525,9 +525,9 @@
             "/S"
           ]
         },
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/7.1.5/dbeaver-ce-7.1.5-x86_64-setup.exe"
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/7.2.0/dbeaver-ce-7.2.0-x86_64-setup.exe"
       },
-      "version": "7.1.5"
+      "version": "7.2.0"
     },
     "deluge": {
       "installer": {
@@ -1723,10 +1723,10 @@
     "perl": {
       "installer": {
         "kind": "msi",
-        "x86": "http://strawberryperl.com/download/5.30.3.1/strawberry-perl-5.30.3.1-32bit.msi",
-        "x86_64": "http://strawberryperl.com/download/5.30.3.1/strawberry-perl-5.30.3.1-64bit.msi"
+        "x86": "http://strawberryperl.com/download/5.32.0.1/strawberry-perl-5.32.0.1-32bit.msi",
+        "x86_64": "http://strawberryperl.com/download/5.32.0.1/strawberry-perl-5.32.0.1-64bit.msi"
       },
-      "version": "5.30.3.1"
+      "version": "5.32.0.1"
     },
     "photofiltre": {
       "installer": {
