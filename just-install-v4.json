@@ -471,9 +471,9 @@
     "crystaldisk-info": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/73507/CrystalDiskInfo8_8_1.exe"
+        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/73507/CrystalDiskInfo8_8_2.exe"
       },
-      "version": "8.8.1"
+      "version": "8.8.2"
     },
     "crystaldisk-mark": {
       "installer": {
@@ -949,9 +949,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.8.6.exe/download"
+        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.8.7.exe/download"
       },
-      "version": "1.8.6"
+      "version": "1.8.7"
     },
     "geforce-experience": {
       "installer": {
@@ -1001,9 +1001,9 @@
             "{{.PROGRAMFILES}}\\Git LFS\\git-lfs.exe"
           ]
         },
-        "x86": "https://github.com/git-lfs/git-lfs/releases/download/v2.11.0/git-lfs-windows-v2.11.0.exe"
+        "x86": "https://github.com/git-lfs/git-lfs/releases/download/v2.12.0/git-lfs-windows-v2.12.0.exe"
       },
-      "version": "2.11.0"
+      "version": "2.12.0"
     },
     "gitextensions": {
       "installer": {
@@ -1033,10 +1033,10 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dl.google.com/go/go1.15.windows-386.msi",
-        "x86_64": "https://dl.google.com/go/go1.15.windows-amd64.msi"
+        "x86": "https://dl.google.com/go/go1.15.1.windows-386.msi",
+        "x86_64": "https://dl.google.com/go/go1.15.1.windows-amd64.msi"
       },
-      "version": "1.15"
+      "version": "1.15.1"
     },
     "gog-galaxy": {
       "installer": {
@@ -1745,10 +1745,10 @@
             "{{.SYSTEMDRIVE}}\\PHP\\php-win.exe"
           ]
         },
-        "x86": "https://windows.php.net/downloads/releases/php-7.3.21-nts-Win32-VC15-x86.zip",
-        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.21-nts-Win32-VC15-x64.zip"
+        "x86": "https://windows.php.net/downloads/releases/php-7.3.22-nts-Win32-VC15-x86.zip",
+        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.22-nts-Win32-VC15-x64.zip"
       },
-      "version": "7.4.9"
+      "version": "7.4.10"
     },
     "physx": {
       "installer": {
