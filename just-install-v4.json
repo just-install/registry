@@ -1306,10 +1306,10 @@
     "libreoffice": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.documentfoundation.org/libreoffice/stable/7.0.0/win/x86/LibreOffice_7.0.0_Win_x86.msi",
-        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/7.0.0/win/x86_64/LibreOffice_7.0.0_Win_x64.msi"
+        "x86": "https://download.documentfoundation.org/libreoffice/stable/7.0.1/win/x86/LibreOffice_7.0.1_Win_x86.msi",
+        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/7.0.1/win/x86_64/LibreOffice_7.0.1_Win_x64.msi"
       },
-      "version": "7.0.0"
+      "version": "7.0.1"
     },
     "lightshot": {
       "installer": {
