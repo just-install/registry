@@ -786,9 +786,9 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.106/balenaEtcher-Setup-1.5.106.exe"
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.107/balenaEtcher-Setup-1.5.107.exe"
       },
-      "version": "1.5.106"
+      "version": "1.5.107"
     },
     "everything-search": {
       "installer": {
@@ -2623,10 +2623,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.3.2.1967.47.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.3.2.1967.47.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.3.3.2022.36.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.3.3.2022.36.x64.exe"
       },
-      "version": "3.2.1967.47"
+      "version": "3.3.2022.36"
     },
     "vlc": {
       "installer": {
