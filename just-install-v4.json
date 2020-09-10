@@ -485,9 +485,9 @@
     "cyberduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-7.5.1.33324.msi"
+        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-7.6.0.33437.msi"
       },
-      "version": "7.5.1.33324"
+      "version": "7.6.0.33437"
     },
     "cygwin": {
       "installer": {
@@ -645,9 +645,9 @@
     "duck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.duck.sh/duck-7.5.1.33324.msi"
+        "x86": "https://dist.duck.sh/duck-7.6.0.33437.msi"
       },
-      "version": "7.5.1.33324"
+      "version": "7.6.0.33437"
     },
     "dynalist": {
       "installer": {
@@ -1236,9 +1236,9 @@
         "options": {
           "extension": ".msi"
         },
-        "x86": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.45/KeePass-2.45.msi/download"
+        "x86": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.46/KeePass-2.46.msi/download"
       },
-      "version": "2.45"
+      "version": "2.46"
     },
     "keepass-keepasshttp": {
       "installer": {
@@ -1434,17 +1434,17 @@
             "/passive"
           ]
         },
-        "x86": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v2.1.0/MoonlightSetup-x86-2.1.0.exe",
-        "x86_64": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v2.1.0/MoonlightSetup-x64-2.1.0.exe"
+        "x86": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v2.2.0/MoonlightSetup-x86-2.2.0.exe",
+        "x86_64": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v2.2.0/MoonlightSetup-x64-2.2.0.exe"
       },
-      "version": "2.1.0"
+      "version": "2.2.0"
     },
     "mountainduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-4.1.2.16951.msi"
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-4.2.0.17056.msi"
       },
-      "version": "4.1.2.16951"
+      "version": "4.2.0.17056"
     },
     "mp3tag": {
       "installer": {
@@ -2623,10 +2623,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.3.3.2022.39.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.3.3.2022.39.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.3.3.2022.45.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.3.3.2022.45.x64.exe"
       },
-      "version": "3.3.2022.39"
+      "version": "3.3.2022.45"
     },
     "vlc": {
       "installer": {
