@@ -1033,10 +1033,10 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dl.google.com/go/go1.15.1.windows-386.msi",
-        "x86_64": "https://dl.google.com/go/go1.15.1.windows-amd64.msi"
+        "x86": "https://dl.google.com/go/go1.15.2.windows-386.msi",
+        "x86_64": "https://dl.google.com/go/go1.15.2.windows-amd64.msi"
       },
-      "version": "1.15.1"
+      "version": "1.15.2"
     },
     "gog-galaxy": {
       "installer": {
