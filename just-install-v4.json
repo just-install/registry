@@ -786,9 +786,9 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.107/balenaEtcher-Setup-1.5.107.exe"
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.108/balenaEtcher-Setup-1.5.108.exe"
       },
-      "version": "1.5.107"
+      "version": "1.5.108"
     },
     "everything-search": {
       "installer": {
@@ -1517,10 +1517,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v14.10.0/node-v14.10.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v14.10.0/node-v14.10.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v14.10.1/node-v14.10.1-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v14.10.1/node-v14.10.1-x64.msi"
       },
-      "version": "14.10.0"
+      "version": "14.10.1"
     },
     "node-lts": {
       "installer": {
