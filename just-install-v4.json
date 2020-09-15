@@ -2639,14 +2639,14 @@
     "voicemeeter": {
       "installer": {
         "kind": "as-is",
-        "x86": "http://vbaudio.jcedeveloppement.com/Download_CABLE/VoicemeeterSetup.exe"
+        "x86": "https://download.vb-audio.com/Download_CABLE/VoicemeeterSetup.exe"
       },
       "version": "latest"
     },
     "voicemeeter-banana": {
       "installer": {
         "kind": "as-is",
-        "x86": "http://vbaudio.jcedeveloppement.com/Download_CABLE/VoicemeeterProSetup.exe"
+        "x86": "https://download.vb-audio.com/Download_CABLE/VoicemeeterProSetup.exe"
       },
       "version": "latest"
     },
