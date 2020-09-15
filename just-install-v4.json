@@ -2228,6 +2228,17 @@
       },
       "version": "2.8.27"
     },
+    "timecamp": {
+      "installer": {
+        "interactive": true,
+        "kind": "nsis",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://app.timecamp.com/download/stable/windows/"
+      },
+      "version": "latest"
+    },
     "tor-browser": {
       "installer": {
         "kind": "nsis",
