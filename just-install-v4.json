@@ -1179,9 +1179,9 @@
     "intellij-idea-community": {
       "installer": {
         "kind": "jetbrains-nsis",
-        "x86": "https://download.jetbrains.com/idea/ideaIC-2020.2.1.exe"
+        "x86": "https://download.jetbrains.com/idea/ideaIC-2020.2.2.exe"
       },
-      "version": "2020.2.1"
+      "version": "2020.2.2"
     },
     "irfanview": {
       "installer": {
@@ -1442,9 +1442,9 @@
     "mountainduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-4.2.0.17056.msi"
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-4.2.1.17080.msi"
       },
-      "version": "4.2.0.17056"
+      "version": "4.2.1.17080"
     },
     "mp3tag": {
       "installer": {
@@ -1517,18 +1517,18 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v14.10.1/node-v14.10.1-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v14.10.1/node-v14.10.1-x64.msi"
+        "x86": "https://nodejs.org/dist/v14.11.0/node-v14.11.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v14.11.0/node-v14.11.0-x64.msi"
       },
-      "version": "14.10.1"
+      "version": "14.11.0"
     },
     "node-lts": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v12.18.3/node-v12.18.3-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v12.18.3/node-v12.18.3-x64.msi"
+        "x86": "https://nodejs.org/dist/v12.18.4/node-v12.18.4-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v12.18.4/node-v12.18.4-x64.msi"
       },
-      "version": "12.18.3"
+      "version": "12.18.4"
     },
     "nordvpn": {
       "installer": {
