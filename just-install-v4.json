@@ -672,9 +672,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-Committers"
         },
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-06/R/eclipse-committers-2020-06-R-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-09/R/eclipse-committers-2020-09-R-win32-x86_64.zip"
       },
-      "version": "2020-06-R"
+      "version": "2020-09-R"
     },
     "eclipse-cpp": {
       "installer": {
@@ -682,9 +682,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-CPP"
         },
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-06/R/eclipse-cpp-2020-06-R-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-09/R/eclipse-cpp-2020-09-R-win32-x86_64.zip"
       },
-      "version": "2020-06-R"
+      "version": "2020-09-R"
     },
     "eclipse-java": {
       "installer": {
@@ -692,9 +692,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-Java"
         },
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-06/R/eclipse-java-2020-06-R-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-09/R/eclipse-java-2020-09-R-win32-x86_64.zip"
       },
-      "version": "2020-06-R"
+      "version": "2020-09-R"
     },
     "eclipse-jee": {
       "installer": {
@@ -702,9 +702,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-JEE"
         },
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-06/R/eclipse-jee-2020-06-R-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-09/R/eclipse-jee-2020-09-R-win32-x86_64.zip"
       },
-      "version": "2020-06-R"
+      "version": "2020-09-R"
     },
     "eclipse-php": {
       "installer": {
@@ -712,9 +712,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-PHP"
         },
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-06/R/eclipse-php-2020-06-R-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-09/R/eclipse-php-2020-09-R-win32-x86_64.zip"
       },
-      "version": "2020-06-R"
+      "version": "2020-09-R"
     },
     "eig": {
       "installer": {
