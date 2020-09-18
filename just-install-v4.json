@@ -423,10 +423,10 @@
     "conan": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_29_0.exe",
-        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_29_0.exe"
+        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_29_1.exe",
+        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_29_1.exe"
       },
-      "version": "1.29.0"
+      "version": "1.29.1"
     },
     "conemu": {
       "installer": {
@@ -471,9 +471,9 @@
     "crystaldisk-info": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/73507/CrystalDiskInfo8_8_5.exe"
+        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/73507/CrystalDiskInfo8_8_7.exe"
       },
-      "version": "8.8.5"
+      "version": "8.8.7"
     },
     "crystaldisk-mark": {
       "installer": {
