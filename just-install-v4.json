@@ -485,9 +485,9 @@
     "cyberduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-7.6.0.33437.msi"
+        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-7.6.1.33485.msi"
       },
-      "version": "7.6.0.33437"
+      "version": "7.6.1.33485"
     },
     "cygwin": {
       "installer": {
@@ -645,9 +645,9 @@
     "duck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.duck.sh/duck-7.6.0.33437.msi"
+        "x86": "https://dist.duck.sh/duck-7.6.1.33485.msi"
       },
-      "version": "7.6.0.33437"
+      "version": "7.6.1.33485"
     },
     "dynalist": {
       "installer": {
@@ -793,10 +793,10 @@
     "everything-search": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.voidtools.com/Everything-1.4.1.988.x86-Setup.exe",
-        "x86_64": "https://www.voidtools.com/Everything-1.4.1.988.x64-Setup.exe"
+        "x86": "https://www.voidtools.com/Everything-1.4.1.992.x86-Setup.exe",
+        "x86_64": "https://www.voidtools.com/Everything-1.4.1.992.x64-Setup.exe"
       },
-      "version": "1.4.1.988"
+      "version": "1.4.1.992"
     },
     "exeproxy": {
       "installer": {
