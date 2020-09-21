@@ -525,9 +525,9 @@
             "/S"
           ]
         },
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/7.2.0/dbeaver-ce-7.2.0-x86_64-setup.exe"
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/7.2.1/dbeaver-ce-7.2.1-x86_64-setup.exe"
       },
-      "version": "7.2.0"
+      "version": "7.2.1"
     },
     "deluge": {
       "installer": {
