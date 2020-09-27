@@ -1283,10 +1283,10 @@
     "kicad": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.6_1-i686.exe",
-        "x86_64": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.6_1-x86_64.exe"
+        "x86": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.7_1-i686.exe",
+        "x86_64": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.7_1-x86_64.exe"
       },
-      "version": "5.1.6"
+      "version": "5.1.7"
     },
     "kodi": {
       "installer": {
