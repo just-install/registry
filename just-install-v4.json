@@ -1517,10 +1517,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v14.12.0/node-v14.12.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v14.12.0/node-v14.12.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v14.13.0/node-v14.13.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v14.13.0/node-v14.13.0-x64.msi"
       },
-      "version": "14.12.0"
+      "version": "14.13.0"
     },
     "node-lts": {
       "installer": {
@@ -1591,9 +1591,9 @@
     "obs-studio": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-25.0.8-Full-Installer-x64.exe"
+        "x86": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-26.0-Full-Installer-x64.exe"
       },
-      "version": "25.0.8"
+      "version": "26.0"
     },
     "octave": {
       "installer": {
@@ -1745,10 +1745,10 @@
             "{{.SYSTEMDRIVE}}\\PHP\\php-win.exe"
           ]
         },
-        "x86": "https://windows.php.net/downloads/releases/php-7.3.22-nts-Win32-VC15-x86.zip",
-        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.22-nts-Win32-VC15-x64.zip"
+        "x86": "https://windows.php.net/downloads/releases/php-7.3.23-nts-Win32-VC15-x86.zip",
+        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.23-nts-Win32-VC15-x64.zip"
       },
-      "version": "7.4.10"
+      "version": "7.4.11"
     },
     "physx": {
       "installer": {
