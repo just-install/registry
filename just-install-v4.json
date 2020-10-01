@@ -287,9 +287,9 @@
     "bootnext": {
       "installer": {
         "kind": "msi",
-        "x86_64": "https://ci.appveyor.com/api/buildjobs/lhhd55eo7cjqjnql/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
+        "x86_64": "https://ci.appveyor.com/api/buildjobs/esiknvb4j5r7mjbu/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
       },
-      "version": "1.0.34"
+      "version": "1.0.35"
     },
     "brackets": {
       "installer": {
@@ -1442,9 +1442,9 @@
     "mountainduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-4.2.2.17120.msi"
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-4.2.3.17159.msi"
       },
-      "version": "4.2.2.17120"
+      "version": "4.2.3.17159"
     },
     "mp3tag": {
       "installer": {
