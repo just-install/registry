@@ -1449,9 +1449,9 @@
     "mp3tag": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.mp3tag.de/mp3tagv302setup.exe"
+        "x86": "https://download.mp3tag.de/mp3tagv303setup.exe"
       },
-      "version": "3.02"
+      "version": "3.03"
     },
     "mpc-hc": {
       "installer": {
