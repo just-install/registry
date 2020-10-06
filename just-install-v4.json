@@ -423,10 +423,10 @@
     "conan": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_29_2.exe",
-        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_29_2.exe"
+        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_30_0.exe",
+        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_30_0.exe"
       },
-      "version": "1.29.2"
+      "version": "1.30.0"
     },
     "conemu": {
       "installer": {
@@ -764,9 +764,9 @@
     "enpass": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.enpass.io/stable/windows/setup/6.5.0.707/Enpass-setup.exe"
+        "x86": "https://dl.enpass.io/stable/windows/setup/6.5.1.723/Enpass-setup.exe"
       },
-      "version": "6.5.0.707"
+      "version": "6.5.1.723"
     },
     "epic-games-launcher": {
       "installer": {
@@ -1780,9 +1780,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.20.1.3252-a78fef9a9/windows/PlexMediaServer-1.20.1.3252-a78fef9a9-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.20.2.3402-0fec14d92/windows/PlexMediaServer-1.20.2.3402-0fec14d92-x86.exe"
       },
-      "version": "1.20.1.3252"
+      "version": "1.20.2.3402"
     },
     "postman": {
       "installer": {
@@ -1986,10 +1986,10 @@
             "{{.SYSTEMDRIVE}}\\Ruby193\\bin\\rubyw.exe"
           ]
         },
-        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.1-1/rubyinstaller-2.7.1-1-x86.exe",
-        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.1-1/rubyinstaller-2.7.1-1-x64.exe"
+        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.2-1/rubyinstaller-2.7.2-1-x86.exe",
+        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.2-1/rubyinstaller-2.7.2-1-x64.exe"
       },
-      "version": "2.7.1"
+      "version": "2.7.2"
     },
     "rufus": {
       "installer": {
@@ -2170,10 +2170,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Syncthing"
         },
-        "x86": "https://github.com/syncthing/syncthing/releases/download/v1.9.0/syncthing-windows-386-v1.9.0.zip",
-        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v1.9.0/syncthing-windows-amd64-v1.9.0.zip"
+        "x86": "https://github.com/syncthing/syncthing/releases/download/v1.10.0/syncthing-windows-386-v1.10.0.zip",
+        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v1.10.0/syncthing-windows-amd64-v1.10.0.zip"
       },
-      "version": "1.9.0"
+      "version": "1.10.0"
     },
     "sysinternals": {
       "installer": {
