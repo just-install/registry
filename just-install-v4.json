@@ -113,9 +113,9 @@
     "android-studio-ide": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://redirector.gvt1.com/edgedl/android/studio/install/4.0.1.0/android-studio-ide-193.6626763-windows.exe"
+        "x86_64": "https://redirector.gvt1.com/edgedl/android/studio/install/4.0.2.0/android-studio-ide-193.6821437-windows.exe"
       },
-      "version": "4.0.1.0"
+      "version": "4.0.2.0"
     },
     "antimicro": {
       "installer": {
@@ -380,10 +380,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/Kitware/CMake/releases/download/v3.18.3/cmake-3.18.3-win32-x86.msi",
-        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.18.3/cmake-3.18.3-win64-x64.msi"
+        "x86": "https://github.com/Kitware/CMake/releases/download/v3.18.4/cmake-3.18.4-win32-x86.msi",
+        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.18.4/cmake-3.18.4-win64-x64.msi"
       },
-      "version": "3.18.3"
+      "version": "3.18.4"
     },
     "codeblocks": {
       "installer": {
@@ -1145,10 +1145,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.75.1/hugo_0.75.1_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.75.1/hugo_0.75.1_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.76.0/hugo_0.76.0_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.76.0/hugo_0.76.0_Windows-64bit.zip"
       },
-      "version": "0.75.1"
+      "version": "0.76.0"
     },
     "imageglass": {
       "installer": {
@@ -1179,9 +1179,9 @@
     "intellij-idea-community": {
       "installer": {
         "kind": "jetbrains-nsis",
-        "x86": "https://download.jetbrains.com/idea/ideaIC-2020.2.2.exe"
+        "x86": "https://download.jetbrains.com/idea/ideaIC-2020.2.3.exe"
       },
-      "version": "2020.2.2"
+      "version": "2020.2.3"
     },
     "irfanview": {
       "installer": {
@@ -1525,10 +1525,10 @@
     "node-lts": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v12.18.4/node-v12.18.4-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v12.18.4/node-v12.18.4-x64.msi"
+        "x86": "https://nodejs.org/dist/v12.19.0/node-v12.19.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v12.19.0/node-v12.19.0-x64.msi"
       },
-      "version": "12.18.4"
+      "version": "12.19.0"
     },
     "nordvpn": {
       "installer": {
@@ -1591,9 +1591,9 @@
     "obs-studio": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-26.0-Full-Installer-x64.exe"
+        "x86": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-26.0.2-Full-Installer-x64.exe"
       },
-      "version": "26.0"
+      "version": "26.0.2"
     },
     "octave": {
       "installer": {
@@ -1986,10 +1986,10 @@
             "{{.SYSTEMDRIVE}}\\Ruby193\\bin\\rubyw.exe"
           ]
         },
-        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.2-1/rubyinstaller-2.7.2-1-x86.exe",
-        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.2-1/rubyinstaller-2.7.2-1-x64.exe"
+        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.5.8-2/rubyinstaller-2.5.8-2-x86.exe",
+        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.5.8-2/rubyinstaller-2.5.8-2-x64.exe"
       },
-      "version": "2.7.2"
+      "version": "2.5.8"
     },
     "rufus": {
       "installer": {
