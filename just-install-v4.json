@@ -969,9 +969,9 @@
     "gimp": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.20-setup-1.exe"
+        "x86": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.22-setup.exe"
       },
-      "version": "2.10.20"
+      "version": "2.10.22"
     },
     "git": {
       "installer": {
@@ -1306,10 +1306,10 @@
     "libreoffice": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.documentfoundation.org/libreoffice/stable/7.0.1/win/x86/LibreOffice_7.0.1_Win_x86.msi",
-        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/7.0.1/win/x86_64/LibreOffice_7.0.1_Win_x64.msi"
+        "x86": "https://download.documentfoundation.org/libreoffice/stable/7.0.2/win/x86/LibreOffice_7.0.2_Win_x86.msi",
+        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/7.0.2/win/x86_64/LibreOffice_7.0.2_Win_x64.msi"
       },
-      "version": "7.0.1"
+      "version": "7.0.2"
     },
     "lightshot": {
       "installer": {
@@ -1421,9 +1421,9 @@
     "mono": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.mono-project.com/archive/6.10.0/windows-installer/mono-6.10.0.104-x64-0.msi"
+        "x86": "https://download.mono-project.com/archive/6.12.0/windows-installer/mono-6.12.0.98-x64-0.msi"
       },
-      "version": "6.10.0.104"
+      "version": "6.12.0.90"
     },
     "moonlight-qt": {
       "installer": {
@@ -1517,10 +1517,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v14.13.0/node-v14.13.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v14.13.0/node-v14.13.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v14.13.1/node-v14.13.1-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v14.13.1/node-v14.13.1-x64.msi"
       },
-      "version": "14.13.0"
+      "version": "14.13.1"
     },
     "node-lts": {
       "installer": {
@@ -1839,9 +1839,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "jetbrains-nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2020.2.2.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2020.2.3.exe"
       },
-      "version": "2020.2.2"
+      "version": "2020.2.3"
     },
     "python2": {
       "installer": {
