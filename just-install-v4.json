@@ -2259,10 +2259,10 @@
     "tortoisegit": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.tortoisegit.org/tgit/2.10.0.0/TortoiseGit-2.10.0.2-32bit.msi",
-        "x86_64": "https://download.tortoisegit.org/tgit/2.10.0.0/TortoiseGit-2.10.0.2-64bit.msi"
+        "x86": "https://download.tortoisegit.org/tgit/2.11.0.0/TortoiseGit-2.11.0.0-32bit.msi",
+        "x86_64": "https://download.tortoisegit.org/tgit/2.11.0.0/TortoiseGit-2.11.0.0-64bit.msi"
       },
-      "version": "2.10.0.2"
+      "version": "2.11.0.0"
     },
     "tortoisesvn": {
       "installer": {
