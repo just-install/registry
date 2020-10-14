@@ -2243,10 +2243,10 @@
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/10.0/torbrowser-install-10.0_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/10.0/torbrowser-install-win64-10.0_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/10.0.1/torbrowser-install-10.0.1_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/10.0.1/torbrowser-install-win64-10.0.1_en-US.exe"
       },
-      "version": "10.0"
+      "version": "10.0.1"
     },
     "torguard": {
       "installer": {
