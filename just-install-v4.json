@@ -1033,10 +1033,10 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dl.google.com/go/go1.15.2.windows-386.msi",
-        "x86_64": "https://dl.google.com/go/go1.15.2.windows-amd64.msi"
+        "x86": "https://dl.google.com/go/go1.15.3.windows-386.msi",
+        "x86_64": "https://dl.google.com/go/go1.15.3.windows-amd64.msi"
       },
-      "version": "1.15.2"
+      "version": "1.15.3"
     },
     "gog-galaxy": {
       "installer": {
@@ -1145,10 +1145,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.76.4/hugo_0.76.4_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.76.4/hugo_0.76.4_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.76.5/hugo_0.76.5_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.76.5/hugo_0.76.5_Windows-64bit.zip"
       },
-      "version": "0.76.4"
+      "version": "0.76.5"
     },
     "imageglass": {
       "installer": {
@@ -1997,9 +1997,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES_X86}}\\Rufus\\rufus.exe"
         },
-        "x86": "https://github.com/pbatard/rufus/releases/download/v3.11/rufus-3.11.exe"
+        "x86": "https://github.com/pbatard/rufus/releases/download/v3.12/rufus-3.12.exe"
       },
-      "version": "3.11"
+      "version": "3.12"
     },
     "sdm": {
       "installer": {
