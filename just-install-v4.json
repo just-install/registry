@@ -2635,10 +2635,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.3.3.2022.47.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.3.3.2022.47.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.76.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.76.x64.exe"
       },
-      "version": "3.3.2022.47"
+      "version": "3.4.2066.76"
     },
     "vlc": {
       "installer": {
