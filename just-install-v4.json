@@ -423,10 +423,10 @@
     "conan": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_30_1.exe",
-        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_30_1.exe"
+        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_30_2.exe",
+        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_30_2.exe"
       },
-      "version": "1.30.1"
+      "version": "1.30.2"
     },
     "conemu": {
       "installer": {
@@ -1780,9 +1780,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.20.2.3402-0fec14d92/windows/PlexMediaServer-1.20.2.3402-0fec14d92-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.20.3.3437-f1f08d65b/windows/PlexMediaServer-1.20.3.3437-f1f08d65b-x86.exe"
       },
-      "version": "1.20.2.3402"
+      "version": "1.20.3.3437"
     },
     "postman": {
       "installer": {
@@ -2040,9 +2040,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.36.3.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.37.1.exe"
       },
-      "version": "1.36.3"
+      "version": "1.37.1"
     },
     "simplenote": {
       "installer": {
@@ -2733,9 +2733,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.17.7/WinSCP-5.17.7-Setup.exe/download"
+        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.17.8/WinSCP-5.17.8-Setup.exe/download"
       },
-      "version": "5.17.7"
+      "version": "5.17.8"
     },
     "wireshark": {
       "installer": {
