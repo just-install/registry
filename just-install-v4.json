@@ -1517,10 +1517,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v14.13.1/node-v14.13.1-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v14.13.1/node-v14.13.1-x64.msi"
+        "x86": "https://nodejs.org/dist/v14.14.0/node-v14.14.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v14.14.0/node-v14.14.0-x64.msi"
       },
-      "version": "14.13.1"
+      "version": "14.14.0"
     },
     "node-lts": {
       "installer": {
@@ -2011,9 +2011,9 @@
     "seafile-client": {
       "installer": {
         "kind": "msi",
-        "x86": "https://s3.eu-central-1.amazonaws.com/download.seadrive.org/seafile-7.0.9-en.msi"
+        "x86": "https://s3.eu-central-1.amazonaws.com/download.seadrive.org/seafile-7.0.10-en.msi"
       },
-      "version": "7.0.9"
+      "version": "7.0.10"
     },
     "sharex": {
       "installer": {
