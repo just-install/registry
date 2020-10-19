@@ -287,9 +287,9 @@
     "bootnext": {
       "installer": {
         "kind": "msi",
-        "x86_64": "https://ci.appveyor.com/api/buildjobs/esiknvb4j5r7mjbu/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
+        "x86_64": "https://ci.appveyor.com/api/buildjobs/t79tuwerjor3389w/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
       },
-      "version": "1.0.35"
+      "version": "1.0.36"
     },
     "brackets": {
       "installer": {
@@ -1478,9 +1478,9 @@
     "mysql-workbench": {
       "installer": {
         "kind": "msi",
-        "x86_64": "https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.21-winx64.msi"
+        "x86_64": "https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.22-winx64.msi"
       },
-      "version": "8.0.21"
+      "version": "8.0.22"
     },
     "naps2": {
       "installer": {
