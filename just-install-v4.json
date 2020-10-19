@@ -525,9 +525,9 @@
             "/S"
           ]
         },
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/7.2.2/dbeaver-ce-7.2.2-x86_64-setup.exe"
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/7.2.3/dbeaver-ce-7.2.3-x86_64-setup.exe"
       },
-      "version": "7.2.2"
+      "version": "7.2.3"
     },
     "deluge": {
       "installer": {
@@ -1901,10 +1901,10 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.2.5/qbittorrent_4.2.5_setup.exe/download",
-        "x86_64": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.2.5/qbittorrent_4.2.5_x64_setup.exe/download"
+        "x86": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.3.0/qbittorrent_4.3.0_setup.exe/download",
+        "x86_64": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.3.0/qbittorrent_4.3.0_x64_setup.exe/download"
       },
-      "version": "4.2.5"
+      "version": "4.3.0"
     },
     "qtox": {
       "installer": {
