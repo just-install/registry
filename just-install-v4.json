@@ -981,10 +981,10 @@
             "{{.PROGRAMFILES}}\\Git\\bin\\git.exe"
           ]
         },
-        "x86": "https://github.com/git-for-windows/git/releases/download/v2.28.0.windows.1/Git-2.28.0-32-bit.exe",
-        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.28.0.windows.1/Git-2.28.0-64-bit.exe"
+        "x86": "https://github.com/git-for-windows/git/releases/download/v2.29.0.windows.1/Git-2.29.0-32-bit.exe",
+        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.29.0.windows.1/Git-2.29.0-64-bit.exe"
       },
-      "version": "2.28.0"
+      "version": "2.29.0"
     },
     "git-credential-manager-for-windows": {
       "installer": {
@@ -2047,9 +2047,9 @@
     "simplenote": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v1.21.1/Simplenote-win-1.21.1.exe"
+        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v2.0.0/Simplenote-win-2.0.0.exe"
       },
-      "version": "1.21.1"
+      "version": "2.0.0"
     },
     "slack": {
       "installer": {
