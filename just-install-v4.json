@@ -1517,10 +1517,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v14.14.0/node-v14.14.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v14.14.0/node-v14.14.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v15.0.0/node-v15.0.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v15.0.0/node-v15.0.0-x64.msi"
       },
-      "version": "14.14.0"
+      "version": "15.0.0"
     },
     "node-lts": {
       "installer": {
@@ -2243,10 +2243,10 @@
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/10.0.1/torbrowser-install-10.0.1_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/10.0.1/torbrowser-install-win64-10.0.1_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/10.0.2/torbrowser-install-10.0.2_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/10.0.2/torbrowser-install-win64-10.0.2_en-US.exe"
       },
-      "version": "10.0.1"
+      "version": "10.0.2"
     },
     "torguard": {
       "installer": {
@@ -2480,9 +2480,9 @@
             "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBoxManage.exe"
           ]
         },
-        "x86": "https://download.virtualbox.org/virtualbox/6.1.14/VirtualBox-6.1.14-140239-Win.exe"
+        "x86": "https://download.virtualbox.org/virtualbox/6.1.16/VirtualBox-6.1.16-140961-Win.exe"
       },
-      "version": "6.1.14"
+      "version": "6.1.16"
     },
     "viscosity": {
       "installer": {
