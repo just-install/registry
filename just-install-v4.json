@@ -2040,9 +2040,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.37.1.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.37.2.exe"
       },
-      "version": "1.37.1"
+      "version": "1.37.2"
     },
     "simplenote": {
       "installer": {
