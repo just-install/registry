@@ -2826,9 +2826,9 @@
             "{{.PROGRAMFILES_X86}}\\youtube-dl\\youtube-dl.exe"
           ]
         },
-        "x86": "https://github.com/ytdl-org/youtube-dl/releases/download/2020.09.20/youtube-dl.exe"
+        "x86": "https://youtube-dl.org/downloads/latest/youtube-dl.exe"
       },
-      "version": "2020.09.20"
+      "version": "latest"
     }
   }
 }
