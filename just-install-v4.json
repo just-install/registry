@@ -23,34 +23,50 @@
     "adoptopenjdk-13-jdk": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/AdoptOpenJDK/openjdk13-binaries/releases/download/jdk-13.0.1%2B9/OpenJDK13U-jdk_x86-32_windows_hotspot_13.0.1_9.msi",
-        "x86_64": "https://github.com/AdoptOpenJDK/openjdk13-binaries/releases/download/jdk-13.0.1%2B9/OpenJDK13U-jdk_x64_windows_hotspot_13.0.1_9.msi"
+        "x86": "https://github.com/AdoptOpenJDK/openjdk13-binaries/releases/download/jdk-13.0.2%2B8/OpenJDK13U-jdk_x86-32_windows_hotspot_13.0.2_8.msi",
+        "x86_64": "https://github.com/AdoptOpenJDK/openjdk13-binaries/releases/download/jdk-13.0.2%2B8/OpenJDK13U-jdk_x64_windows_hotspot_13.0.2_8.msi"
       },
-      "version": "13.0.1+9"
+      "version": "13.0.2+8"
     },
     "adoptopenjdk-13-jre": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/AdoptOpenJDK/openjdk13-binaries/releases/download/jdk-13.0.1%2B9/OpenJDK13U-jre_x86-32_windows_hotspot_13.0.1_9.msi",
-        "x86_64": "https://github.com/AdoptOpenJDK/openjdk13-binaries/releases/download/jdk-13.0.1%2B9/OpenJDK13U-jre_x64_windows_hotspot_13.0.1_9.msi"
+        "x86": "https://github.com/AdoptOpenJDK/openjdk13-binaries/releases/download/jdk-13.0.2%2B8/OpenJDK13U-jre_x86-32_windows_hotspot_13.0.2_8.msi",
+        "x86_64": "https://github.com/AdoptOpenJDK/openjdk13-binaries/releases/download/jdk-13.0.2%2B8/OpenJDK13U-jre_x64_windows_hotspot_13.0.2_8.msi"
       },
-      "version": "13.0.1+9"
+      "version": "13.0.2+8"
     },
     "adoptopenjdk-14-jdk": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14.0.1%2B7.1/OpenJDK14U-jdk_x86-32_windows_hotspot_14.0.1_7.msi",
-        "x86_64": "https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14.0.1%2B7.1/OpenJDK14U-jdk_x64_windows_hotspot_14.0.1_7.msi"
+        "x86": "https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14.0.2%2B12/OpenJDK14U-jdk_x86-32_windows_hotspot_14.0.2_12.msi",
+        "x86_64": "https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14.0.2%2B12/OpenJDK14U-jdk_x64_windows_hotspot_14.0.2_12.msi"
       },
-      "version": "14.0.1+7.1"
+      "version": "14.0.2+12"
     },
     "adoptopenjdk-14-jre": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14.0.1%2B7.1/OpenJDK14U-jre_x86-32_windows_hotspot_14.0.1_7.msi",
-        "x86_64": "https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14.0.1%2B7.1/OpenJDK14U-jre_x64_windows_hotspot_14.0.1_7.msi"
+        "x86": "https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14.0.2%2B12/OpenJDK14U-jre_x86-32_windows_hotspot_14.0.2_12.msi",
+        "x86_64": "https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14.0.2%2B12/OpenJDK14U-jre_x64_windows_hotspot_14.0.2_12.msi"
       },
-      "version": "14.0.1+7.1"
+      "version": "14.0.2+12"
+    },
+    "adoptopenjdk-15-jdk": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://github.com/AdoptOpenJDK/openjdk15-binaries/releases/download/jdk-15.0.1%2B9/OpenJDK15U-jdk_x86-32_windows_hotspot_15.0.1_9.msi",
+        "x86_64": "https://github.com/AdoptOpenJDK/openjdk15-binaries/releases/download/jdk-15.0.1%2B9/OpenJDK15U-jdk_x64_windows_hotspot_15.0.1_9.msi"
+      },
+      "version": "15.0.1+9"
+    },
+    "adoptopenjdk-15-jre": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://github.com/AdoptOpenJDK/openjdk15-binaries/releases/download/jdk-15.0.1%2B9/OpenJDK15U-jre_x86-32_windows_hotspot_15.0.1_9.msi",
+        "x86_64": "https://github.com/AdoptOpenJDK/openjdk15-binaries/releases/download/jdk-15.0.1%2B9/OpenJDK15U-jre_x64_windows_hotspot_15.0.1_9.msi"
+      },
+      "version": "15.0.1+9"
     },
     "aescrypt-cli": {
       "installer": {
