@@ -396,10 +396,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/Kitware/CMake/releases/download/v3.19.0/cmake-3.19.0-win32-x86.msi",
-        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.19.0/cmake-3.19.0-win64-x64.msi"
+        "x86": "https://github.com/Kitware/CMake/releases/download/v3.19.1/cmake-3.19.1-win32-x86.msi",
+        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.19.1/cmake-3.19.1-win64-x64.msi"
       },
-      "version": "3.19.0"
+      "version": "3.19.1"
     },
     "codeblocks": {
       "installer": {
@@ -463,9 +463,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v20.11.23a/ConEmuSetup.201123a.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v20.11.24/ConEmuSetup.201124.exe"
       },
-      "version": "20.11.23a"
+      "version": "20.11.24"
     },
     "cpu-z": {
       "installer": {
@@ -1533,10 +1533,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v15.2.1/node-v15.2.1-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v15.2.1/node-v15.2.1-x64.msi"
+        "x86": "https://nodejs.org/dist/v15.3.0/node-v15.3.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v15.3.0/node-v15.3.0-x64.msi"
       },
-      "version": "15.2.1"
+      "version": "15.3.0"
     },
     "node-lts": {
       "installer": {
@@ -1761,10 +1761,10 @@
             "{{.SYSTEMDRIVE}}\\PHP\\php-win.exe"
           ]
         },
-        "x86": "https://windows.php.net/downloads/releases/php-7.3.24-nts-Win32-VC15-x86.zip",
-        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.24-nts-Win32-VC15-x64.zip"
+        "x86": "https://windows.php.net/downloads/releases/php-7.3.25-nts-Win32-VC15-x86.zip",
+        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.25-nts-Win32-VC15-x64.zip"
       },
-      "version": "7.4.12"
+      "version": "8.0.0"
     },
     "physx": {
       "installer": {
@@ -1932,10 +1932,10 @@
     "qtox": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/qTox/qTox/releases/download/v1.17.2/setup-qtox-i686-release.exe",
-        "x86_64": "https://github.com/qTox/qTox/releases/download/v1.17.2/setup-qtox-x86_64-release.exe"
+        "x86": "https://github.com/qTox/qTox/releases/download/v1.17.3/setup-qtox-i686-release.exe",
+        "x86_64": "https://github.com/qTox/qTox/releases/download/v1.17.3/setup-qtox-x86_64-release.exe"
       },
-      "version": "1.17.2"
+      "version": "1.17.3"
     },
     "rambox-community": {
       "installer": {
