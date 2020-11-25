@@ -1861,8 +1861,15 @@
     },
     "python2": {
       "installer": {
-        "kind": "msi",
+        "kind": "custom",
         "options": {
+          "arguments": [
+            "msiexec.exe",
+            "/q",
+            "/i",
+            "{{.installer}}",
+            "REBOOT=ReallySuppress"
+          ],
           "shims": [
             "{{.SYSTEMDRIVE}}\\Python27\\python.exe",
             "{{.SYSTEMDRIVE}}\\Python27\\pythonw.exe"
