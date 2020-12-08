@@ -30,6 +30,11 @@ Each entry is a JSON object that must contain at least the following two keys:
 * `version`: The software's version. If you are adding an unversioned link that always points to the
   latest stable version use `latest` here.
 
+The following key is optional:
+
+* `skipAudit`: A boolean value that indicates whether CI should skip audits for this package. Use
+  with care.
+
 
 ## Installer
 

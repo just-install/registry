@@ -70,6 +70,9 @@
         "^[a-zA-Z0-9\\.\\-\\+]+$": {
           "additionalProperties": false,
           "properties": {
+            "skipAudit": {
+              "type": "boolean"
+            },
             "installer": {
               "additionalProperties": false,
               "properties": {
