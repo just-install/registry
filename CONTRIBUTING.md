@@ -12,8 +12,8 @@ not dependent on our rules that may go against your needs.
 
 ## Guidelines
 
-- **Stable versions**: We only add stable versions that the developer deems stable. Exceptions are
-  apps that are only available in pre-release form and that are sufficiently popular.
+- **Stable versions**: We only add versions that the developer deems stable. Exceptions are apps
+  that are only available in pre-release form and that are sufficiently popular.
 - **Must have an installer**: Portable applications and stuff distributed via Zip, Tar, or 7zip
   archives will not be accepted. 7zip in particular is especially hard to support. We expect the
   installer to create a Start menu entry to launch the application.
