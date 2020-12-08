@@ -21,6 +21,12 @@ not dependent on our rules that may go against your needs.
   archives, weird one-of-a-kind setup tools) will not be accepted unless they are immensely popular,
   in which case we probably already support it. The Windows installer ecosystem is already very,
   very fragmented. Please refrain from adding even more options to the mix.
+- **Should install for all users on the system**: just-install runs as `Administrator` and we expect
+  installers to automatically install the software for all users on the system. If an installer
+  doesn't, we should pass the appropriate command line switches for a system-wide installation,
+  unless it's absolutely impossible to do so. Some software (e.g. Visual Studio Code) provides
+  "System" and "User" installers as separate downloads. You should always choose the "System"
+  installer.
 - **Popular**: Apps added to the registry should be reasonably popular. We won't accept entries that
   seem too obscure or unmaintained unless there's strong demand for it.
 
