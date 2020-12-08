@@ -30,7 +30,7 @@ Almost everything under the sun is allowed, with the following **exceptions**:
 
 - **Anything from Oracle**: It's a legal minefield. Sorry.
 - **Bundles**: Some applications bundle other software with their installer. For example, some
-  popular utility app bundles the Chrome browser. Such software will be rejected unless its
+  popular utility apps bundle the Chrome browser. Such software will be rejected unless its
   installer provides a way to exclude installation of bundled software, either automatically for
   silent installations, or via command line switches. An exception is made for software bundling
   necessary run-time libraries required to work properly (e.g. Visual C++ Runtime, .NET Framework,
