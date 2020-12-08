@@ -31,7 +31,7 @@ not dependent on our rules that may go against your needs.
   unless it's absolutely impossible to do so. Some software (e.g. Visual Studio Code) provides
   "System" and "User" installers as separate downloads. You should always choose the "System"
   installer.
-- **Should create a Start Menu entry**:  We expect installers to create a Start Menu entry to launch
+- **Should create a Start Menu entry**: We expect installers to create a Start Menu entry to launch
   the application.
 - **Popular**: Apps added to the registry should be reasonably popular. We won't accept entries that
   seem too obscure or unmaintained unless there's strong demand for it.
