@@ -1168,10 +1168,10 @@
     },
     "intellij-idea-community": {
       "installer": {
-        "kind": "jetbrains-nsis",
-        "x86": "https://download.jetbrains.com/idea/ideaIC-2020.2.4.exe"
+        "kind": "nsis",
+        "x86": "https://download.jetbrains.com/idea/ideaIC-2020.3.exe"
       },
-      "version": "2020.2.4"
+      "version": "2020.3"
     },
     "irfanview": {
       "installer": {
@@ -1828,10 +1828,10 @@
     },
     "pycharm-community": {
       "installer": {
-        "kind": "jetbrains-nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2020.2.4.exe"
+        "kind": "nsis",
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2020.3.exe"
       },
-      "version": "2020.2.4"
+      "version": "2020.3"
     },
     "python2": {
       "installer": {
