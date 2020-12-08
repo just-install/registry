@@ -2053,6 +2053,14 @@
       },
       "version": "latest"
     },
+    "spice-webdavd": {
+      "installer": {
+        "kind": "msi",
+        "x86": "https://www.spice-space.org/download/windows/spice-webdavd/spice-webdavd-x86-latest.msi",
+        "x86_64": "https://www.spice-space.org/download/windows/spice-webdavd/spice-webdavd-x64-latest.msi"
+      },
+      "version": "latest"
+    },
     "sshfs-win": {
       "installer": {
         "kind": "msi",
