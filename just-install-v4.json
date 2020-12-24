@@ -385,10 +385,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/Kitware/CMake/releases/download/v3.19.1/cmake-3.19.1-win32-x86.msi",
-        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.19.1/cmake-3.19.1-win64-x64.msi"
+        "x86": "https://github.com/Kitware/CMake/releases/download/v3.19.2/cmake-3.19.2-win32-x86.msi",
+        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.19.2/cmake-3.19.2-win64-x64.msi"
       },
-      "version": "3.19.1"
+      "version": "3.19.2"
     },
     "codeblocks": {
       "installer": {
@@ -428,10 +428,10 @@
     "conan": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_32_0.exe",
-        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_32_0.exe"
+        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_32_1.exe",
+        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_32_1.exe"
       },
-      "version": "1.32.0"
+      "version": "1.32.1"
     },
     "conemu": {
       "installer": {
@@ -469,9 +469,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86_64": "https://dl.bintray.com/cryptomator/cryptomator/1.5.10/Cryptomator-1.5.10-x64.exe"
+        "x86_64": "https://dl.bintray.com/cryptomator/cryptomator/1.5.11/Cryptomator-1.5.11-x64.exe"
       },
-      "version": "1.5.10"
+      "version": "1.5.11"
     },
     "crystaldisk-info": {
       "installer": {
@@ -530,9 +530,9 @@
             "/S"
           ]
         },
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/7.3.0/dbeaver-ce-7.3.0-x86_64-setup.exe"
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/7.3.1/dbeaver-ce-7.3.1-x86_64-setup.exe"
       },
-      "version": "7.3.0"
+      "version": "7.3.1"
     },
     "deluge": {
       "installer": {
@@ -677,9 +677,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-Committers"
         },
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-09/R/eclipse-committers-2020-09-R-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-12/R/eclipse-committers-2020-12-R-win32-x86_64.zip"
       },
-      "version": "2020-09-R"
+      "version": "2020-12-R"
     },
     "eclipse-cpp": {
       "installer": {
@@ -687,9 +687,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-CPP"
         },
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-09/R/eclipse-cpp-2020-09-R-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-12/R/eclipse-cpp-2020-12-R-win32-x86_64.zip"
       },
-      "version": "2020-09-R"
+      "version": "2020-12-R"
     },
     "eclipse-java": {
       "installer": {
@@ -697,9 +697,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-Java"
         },
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-09/R/eclipse-java-2020-09-R-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-12/R/eclipse-java-2020-12-R-win32-x86_64.zip"
       },
-      "version": "2020-09-R"
+      "version": "2020-12-R"
     },
     "eclipse-jee": {
       "installer": {
@@ -707,9 +707,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-JEE"
         },
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-09/R/eclipse-jee-2020-09-R-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-12/R/eclipse-jee-2020-12-R-win32-x86_64.zip"
       },
-      "version": "2020-09-R"
+      "version": "2020-12-R"
     },
     "eclipse-php": {
       "installer": {
@@ -717,9 +717,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-PHP"
         },
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-09/R/eclipse-php-2020-09-R-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2020-12/R/eclipse-php-2020-12-R-win32-x86_64.zip"
       },
-      "version": "2020-09-R"
+      "version": "2020-12-R"
     },
     "eig": {
       "installer": {
@@ -783,17 +783,17 @@
     "erlang": {
       "installer": {
         "kind": "nsis",
-        "x86": "http://erlang.org/download/otp_win32_23.1.exe",
-        "x86_64": "http://erlang.org/download/otp_win64_23.1.exe"
+        "x86": "http://erlang.org/download/otp_win32_23.2.exe",
+        "x86_64": "http://erlang.org/download/otp_win64_23.2.exe"
       },
-      "version": "23.1"
+      "version": "23.2"
     },
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.112/balenaEtcher-Setup-1.5.112.exe"
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.113/balenaEtcher-Setup-1.5.113.exe"
       },
-      "version": "1.5.112"
+      "version": "1.5.113"
     },
     "everything-search": {
       "installer": {
@@ -1113,18 +1113,18 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.79.0/hugo_0.79.0_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.79.0/hugo_0.79.0_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.79.1/hugo_0.79.1_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.79.1/hugo_0.79.1_Windows-64bit.zip"
       },
-      "version": "0.79.0"
+      "version": "0.79.1"
     },
     "imageglass": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/d2phap/ImageGlass/releases/download/7.6.4.30/ImageGlass_7.6.4.30_x86.msi",
-        "x86_64": "https://github.com/d2phap/ImageGlass/releases/download/7.6.4.30/ImageGlass_7.6.4.30_x64.msi"
+        "x86": "https://github.com/d2phap/ImageGlass/releases/download/8.0.12.8/ImageGlass_8.0.12.8_x86.msi",
+        "x86_64": "https://github.com/d2phap/ImageGlass/releases/download/8.0.12.8/ImageGlass_8.0.12.8_x64.msi"
       },
-      "version": "7.6.4.30"
+      "version": "8.0.12.8"
     },
     "inkscape": {
       "installer": {
@@ -1229,10 +1229,10 @@
     "keeweb": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.16.3/KeeWeb-1.16.3.win.ia32.exe",
-        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.16.3/KeeWeb-1.16.3.win.x64.exe"
+        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.16.5/KeeWeb-1.16.5.win.ia32.exe",
+        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.16.5/KeeWeb-1.16.5.win.x64.exe"
       },
-      "version": "1.16.3"
+      "version": "1.16.5"
     },
     "keybase": {
       "installer": {
@@ -1274,10 +1274,10 @@
     "libreoffice": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.documentfoundation.org/libreoffice/stable/7.0.3/win/x86/LibreOffice_7.0.3_Win_x86.msi",
-        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/7.0.3/win/x86_64/LibreOffice_7.0.3_Win_x64.msi"
+        "x86": "https://download.documentfoundation.org/libreoffice/stable/7.0.4/win/x86/LibreOffice_7.0.4_Win_x86.msi",
+        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/7.0.4/win/x86_64/LibreOffice_7.0.4_Win_x64.msi"
       },
-      "version": "7.0.3"
+      "version": "7.0.4"
     },
     "lightshot": {
       "installer": {
@@ -1410,9 +1410,9 @@
     "mountainduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-4.3.2.17389.msi"
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-4.3.3.17396.msi"
       },
-      "version": "4.3.2.17389"
+      "version": "4.3.3.17396"
     },
     "mp3tag": {
       "installer": {
@@ -1467,9 +1467,9 @@
     "nextcloud": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-3.1.0-setup.exe"
+        "x86": "https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-3.1.1-setup.exe"
       },
-      "version": "3.1.0"
+      "version": "3.1.1"
     },
     "nircmd": {
       "installer": {
@@ -1485,18 +1485,18 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v15.4.0/node-v15.4.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v15.4.0/node-v15.4.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v15.5.0/node-v15.5.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v15.5.0/node-v15.5.0-x64.msi"
       },
-      "version": "15.4.0"
+      "version": "15.5.0"
     },
     "node-lts": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v14.15.1/node-v14.15.1-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v14.15.1/node-v14.15.1-x64.msi"
+        "x86": "https://nodejs.org/dist/v14.15.3/node-v14.15.3-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v14.15.3/node-v14.15.3-x64.msi"
       },
-      "version": "14.15.1"
+      "version": "14.15.3"
     },
     "nordvpn": {
       "installer": {
@@ -1559,9 +1559,9 @@
     "obs-studio": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-26.0.2-Full-Installer-x64.exe"
+        "x86": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-26.1-Full-Installer-x64.exe"
       },
-      "version": "26.0.2"
+      "version": "26.1"
     },
     "octave": {
       "installer": {
@@ -1748,9 +1748,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.21.0.3711-b509cc236/windows/PlexMediaServer-1.21.0.3711-b509cc236-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.21.1.3830-6c22540d5/windows/PlexMediaServer-1.21.1.3830-6c22540d5-x86.exe"
       },
-      "version": "1.21.0.3711"
+      "version": "1.21.1.3830"
     },
     "postman": {
       "installer": {
@@ -1807,9 +1807,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2020.3.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2020.3.1.exe"
       },
-      "version": "2020.3"
+      "version": "2020.3.1"
     },
     "python2": {
       "installer": {
@@ -2007,16 +2007,16 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.39.2.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.39.4.exe"
       },
-      "version": "1.39.2"
+      "version": "1.39.4"
     },
     "simplenote": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v2.2.0/Simplenote-win-2.2.0.exe"
+        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v2.3.0/Simplenote-win-2.3.0.exe"
       },
-      "version": "2.2.0"
+      "version": "2.3.0"
     },
     "slack": {
       "installer": {
@@ -2064,10 +2064,10 @@
     "sshfs-win": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/billziss-gh/sshfs-win/releases/download/v3.5.20024/sshfs-win-3.5.20024-x86.msi",
-        "x86_64": "https://github.com/billziss-gh/sshfs-win/releases/download/v3.5.20024/sshfs-win-3.5.20024-x64.msi"
+        "x86": "https://github.com/billziss-gh/sshfs-win/releases/download/v3.5.20357/sshfs-win-3.5.20357-x86.msi",
+        "x86_64": "https://github.com/billziss-gh/sshfs-win/releases/download/v3.5.20357/sshfs-win-3.5.20357-x64.msi"
       },
-      "version": "3.5.20024"
+      "version": "3.5.20357"
     },
     "steam": {
       "installer": {
@@ -2199,18 +2199,18 @@
     "tightvnc": {
       "installer": {
         "kind": "msi",
-        "x86": "https://www.tightvnc.com/download/2.8.55/tightvnc-2.8.55-gpl-setup-32bit.msi",
-        "x86_64": "https://www.tightvnc.com/download/2.8.55/tightvnc-2.8.55-gpl-setup-64bit.msi"
+        "x86": "https://www.tightvnc.com/download/2.8.59/tightvnc-2.8.59-gpl-setup-32bit.msi",
+        "x86_64": "https://www.tightvnc.com/download/2.8.59/tightvnc-2.8.59-gpl-setup-64bit.msi"
       },
-      "version": "2.8.55"
+      "version": "2.8.59"
     },
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/10.0.6/torbrowser-install-10.0.6_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/10.0.6/torbrowser-install-win64-10.0.6_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/10.0.7/torbrowser-install-10.0.7_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/10.0.7/torbrowser-install-win64-10.0.7_en-US.exe"
       },
-      "version": "10.0.6"
+      "version": "10.0.7"
     },
     "torguard": {
       "installer": {
@@ -2693,10 +2693,10 @@
     "wireshark": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-3.4.1.exe",
-        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.1.exe"
+        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-3.4.2.exe",
+        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.2.exe"
       },
-      "version": "3.4.1"
+      "version": "3.4.2"
     },
     "wix": {
       "installer": {
