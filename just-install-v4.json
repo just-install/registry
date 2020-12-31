@@ -949,10 +949,10 @@
             "{{.PROGRAMFILES}}\\Git\\bin\\git.exe"
           ]
         },
-        "x86": "https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.2/Git-2.29.2.2-32-bit.exe",
-        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.2/Git-2.29.2.2-64-bit.exe"
+        "x86": "https://github.com/git-for-windows/git/releases/download/v2.30.0.windows.1/Git-2.30.0-32-bit.exe",
+        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.30.0.windows.1/Git-2.30.0-64-bit.exe"
       },
-      "version": "2.29.2"
+      "version": "2.30.0"
     },
     "git-credential-manager-for-windows": {
       "installer": {
@@ -1147,9 +1147,9 @@
     "intellij-idea-community": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.jetbrains.com/idea/ideaIC-2020.3.exe"
+        "x86": "https://download.jetbrains.com/idea/ideaIC-2020.3.1.exe"
       },
-      "version": "2020.3"
+      "version": "2020.3.1"
     },
     "irfanview": {
       "installer": {
@@ -1229,10 +1229,10 @@
     "keeweb": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.16.5/KeeWeb-1.16.5.win.ia32.exe",
-        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.16.5/KeeWeb-1.16.5.win.x64.exe"
+        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.16.6/KeeWeb-1.16.6.win.ia32.exe",
+        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.16.6/KeeWeb-1.16.6.win.x64.exe"
       },
-      "version": "1.16.5"
+      "version": "1.16.6"
     },
     "keybase": {
       "installer": {
@@ -1251,10 +1251,10 @@
     "kicad": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.8_1-i686.exe",
-        "x86_64": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.8_1-x86_64.exe"
+        "x86": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.9_1-i686.exe",
+        "x86_64": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.9_1-x86_64.exe"
       },
-      "version": "5.1.8"
+      "version": "5.1.9"
     },
     "kodi": {
       "installer": {
@@ -1326,9 +1326,9 @@
     "marktext": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/marktext/marktext/releases/download/v0.16.2/marktext-setup.exe"
+        "x86": "https://github.com/marktext/marktext/releases/download/v0.16.3/marktext-setup.exe"
       },
-      "version": "0.16.2"
+      "version": "0.16.3"
     },
     "mednafen": {
       "installer": {
@@ -1585,9 +1585,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES_X86}}\\"
         },
-        "x86": "https://openhardwaremonitor.org/files/openhardwaremonitor-v0.9.5.zip"
+        "x86": "https://openhardwaremonitor.org/files/openhardwaremonitor-v0.9.6.zip"
       },
-      "version": "0.9.5"
+      "version": "0.9.6"
     },
     "openssh": {
       "installer": {
@@ -1807,9 +1807,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2020.3.1.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2020.3.2.exe"
       },
-      "version": "2020.3.1"
+      "version": "2020.3.2"
     },
     "python2": {
       "installer": {
@@ -1869,10 +1869,10 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.3.1/qbittorrent_4.3.1_setup.exe/download",
-        "x86_64": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.3.1/qbittorrent_4.3.1_x64_setup.exe/download"
+        "x86": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.3.2/qbittorrent_4.3.2_setup.exe/download",
+        "x86_64": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.3.2/qbittorrent_4.3.2_x64_setup.exe/download"
       },
-      "version": "4.3.1"
+      "version": "4.3.2"
     },
     "qtox": {
       "installer": {
@@ -1954,10 +1954,10 @@
             "{{.SYSTEMDRIVE}}\\Ruby193\\bin\\rubyw.exe"
           ]
         },
-        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.5.8-2/rubyinstaller-2.5.8-2-x86.exe",
-        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.5.8-2/rubyinstaller-2.5.8-2-x64.exe"
+        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.0-1/rubyinstaller-3.0.0-1-x86.exe",
+        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.0-1/rubyinstaller-3.0.0-1-x64.exe"
       },
-      "version": "2.5.8"
+      "version": "3.0.0"
     },
     "rufus": {
       "installer": {
@@ -1986,9 +1986,9 @@
     "sharex": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/ShareX/ShareX/releases/download/v13.3.0/ShareX-13.3.0-setup.exe"
+        "x86": "https://github.com/ShareX/ShareX/releases/download/v13.4.0/ShareX-13.4.0-setup.exe"
       },
-      "version": "13.3.0"
+      "version": "13.4.0"
     },
     "sharpkeys": {
       "installer": {
