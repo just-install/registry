@@ -278,9 +278,9 @@
             "/S"
           ]
         },
-        "x86": "https://download.bleachbit.org/BleachBit-4.0.0-setup.exe"
+        "x86": "https://download.bleachbit.org/BleachBit-4.2.0-setup.exe"
       },
-      "version": "4.0.0"
+      "version": "4.2.0"
     },
     "blender": {
       "installer": {
@@ -292,9 +292,9 @@
     "bootnext": {
       "installer": {
         "kind": "msi",
-        "x86_64": "https://ci.appveyor.com/api/buildjobs/ma79xa30rul5mre1/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
+        "x86_64": "https://ci.appveyor.com/api/buildjobs/kkei64b99r5hmsu2/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
       },
-      "version": "1.0.38"
+      "version": "1.0.39"
     },
     "brackets": {
       "installer": {
@@ -530,9 +530,9 @@
             "/S"
           ]
         },
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/7.3.1/dbeaver-ce-7.3.1-x86_64-setup.exe"
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/7.3.2/dbeaver-ce-7.3.2-x86_64-setup.exe"
       },
-      "version": "7.3.1"
+      "version": "7.3.2"
     },
     "deluge": {
       "installer": {
@@ -917,9 +917,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/archive/{{.version}}/Freeplane-Setup-{{.version}}.exe/download"
+        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.8.11.exe/download"
       },
-      "version": "1.8.10"
+      "version": "1.8.11"
     },
     "geforce-experience": {
       "installer": {
@@ -1113,10 +1113,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.79.1/hugo_0.79.1_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.79.1/hugo_0.79.1_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.80.0/hugo_0.80.0_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.80.0/hugo_0.80.0_Windows-64bit.zip"
       },
-      "version": "0.79.1"
+      "version": "0.80.0"
     },
     "imageglass": {
       "installer": {
@@ -1229,10 +1229,10 @@
     "keeweb": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.16.6/KeeWeb-1.16.6.win.ia32.exe",
-        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.16.6/KeeWeb-1.16.6.win.x64.exe"
+        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.16.7/KeeWeb-1.16.7.win.ia32.exe",
+        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.16.7/KeeWeb-1.16.7.win.x64.exe"
       },
-      "version": "1.16.6"
+      "version": "1.16.7"
     },
     "keybase": {
       "installer": {
@@ -1485,18 +1485,18 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v15.5.0/node-v15.5.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v15.5.0/node-v15.5.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v15.5.1/node-v15.5.1-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v15.5.1/node-v15.5.1-x64.msi"
       },
-      "version": "15.5.0"
+      "version": "15.5.1"
     },
     "node-lts": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v14.15.3/node-v14.15.3-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v14.15.3/node-v14.15.3-x64.msi"
+        "x86": "https://nodejs.org/dist/v14.15.4/node-v14.15.4-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v14.15.4/node-v14.15.4-x64.msi"
       },
-      "version": "14.15.3"
+      "version": "14.15.4"
     },
     "nordvpn": {
       "installer": {
@@ -1514,10 +1514,10 @@
     "notepad++": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.1/npp.7.9.1.Installer.exe",
-        "x86_64": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.1/npp.7.9.1.Installer.x64.exe"
+        "x86": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.2/npp.7.9.2.Installer.exe",
+        "x86_64": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.2/npp.7.9.2.Installer.x64.exe"
       },
-      "version": "7.9.1"
+      "version": "7.9.2"
     },
     "notepad2-mod": {
       "installer": {
@@ -1559,9 +1559,9 @@
     "obs-studio": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-26.1-Full-Installer-x64.exe"
+        "x86": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-26.1.1-Full-Installer-x64.exe"
       },
-      "version": "26.1"
+      "version": "26.1.1"
     },
     "octave": {
       "installer": {
@@ -1713,10 +1713,10 @@
             "{{.SYSTEMDRIVE}}\\PHP\\php-win.exe"
           ]
         },
-        "x86": "https://windows.php.net/downloads/releases/php-7.3.25-nts-Win32-VC15-x86.zip",
-        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.25-nts-Win32-VC15-x64.zip"
+        "x86": "https://windows.php.net/downloads/releases/php-7.3.26-nts-Win32-VC15-x86.zip",
+        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.26-nts-Win32-VC15-x64.zip"
       },
-      "version": "8.0.0"
+      "version": "8.0.1"
     },
     "physx": {
       "installer": {
@@ -1748,9 +1748,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.21.1.3830-6c22540d5/windows/PlexMediaServer-1.21.1.3830-6c22540d5-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.21.1.3876-3c3adfcb4/windows/PlexMediaServer-1.21.1.3876-3c3adfcb4-x86.exe"
       },
-      "version": "1.21.1.3830"
+      "version": "1.21.1.3876"
     },
     "postman": {
       "installer": {
@@ -2042,9 +2042,9 @@
     "sourcetree": {
       "installer": {
         "kind": "advancedinstaller",
-        "x86": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.3.9.exe"
+        "x86": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.1.exe"
       },
-      "version": "3.3.9"
+      "version": "3.4.1"
     },
     "spice-guest-tools": {
       "installer": {
@@ -2145,10 +2145,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Syncthing"
         },
-        "x86": "https://github.com/syncthing/syncthing/releases/download/v1.12.0/syncthing-windows-386-v1.12.0.zip",
-        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v1.12.0/syncthing-windows-amd64-v1.12.0.zip"
+        "x86": "https://github.com/syncthing/syncthing/releases/download/v1.12.1/syncthing-windows-386-v1.12.1.zip",
+        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v1.12.1/syncthing-windows-amd64-v1.12.1.zip"
       },
-      "version": "1.12.0"
+      "version": "1.12.1"
     },
     "sysinternals": {
       "installer": {
@@ -2588,10 +2588,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.3.5.2115.81.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.3.5.2115.81.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.3.5.2115.87.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.3.5.2115.87.x64.exe"
       },
-      "version": "3.5.2115.81"
+      "version": "3.5.2115.87"
     },
     "vlc": {
       "installer": {
