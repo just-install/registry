@@ -452,9 +452,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v20.11.24/ConEmuSetup.201124.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v21.01.12/ConEmuSetup.210112.exe"
       },
-      "version": "20.11.24"
+      "version": "21.01.12"
     },
     "cpu-z": {
       "installer": {
@@ -483,16 +483,16 @@
     "crystaldisk-mark": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://osdn.net/frs/redir.php?m=constant&f=crystaldiskmark%2F71859%2FCrystalDiskMark7_0_0.exe"
+        "x86": "https://osdn.net/frs/redir.php?m=constant&f=crystaldiskmark%2F73958%2FCrystalDiskMark8_0_1.exe"
       },
-      "version": "7.0.0"
+      "version": "8.0.1"
     },
     "cyberduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-7.7.2.33862.msi"
+        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-7.8.0.34081.msi"
       },
-      "version": "7.7.2.33862"
+      "version": "7.8.0.34081"
     },
     "cygwin": {
       "installer": {
@@ -628,10 +628,10 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.9%20beta/doublecmd-0.9.9.i386-win32.exe/download",
-        "x86_64": "https://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.9%20beta/doublecmd-0.9.9.x86_64-win64.exe/download"
+        "x86": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.10%20beta/doublecmd-0.9.10.i386-win32.exe/download",
+        "x86_64": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.10%20beta/doublecmd-0.9.10.x86_64-win64.exe/download"
       },
-      "version": "0.9.9"
+      "version": "0.9.10"
     },
     "dropbox": {
       "installer": {
@@ -650,9 +650,9 @@
     "duck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.duck.sh/duck-7.7.2.33862.msi"
+        "x86": "https://dist.duck.sh/duck-7.8.0.34081.msi"
       },
-      "version": "7.7.2.33862"
+      "version": "7.8.0.34081"
     },
     "dynalist": {
       "installer": {
@@ -798,10 +798,10 @@
     "everything-search": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.voidtools.com/Everything-1.4.1.1002.x86-Setup.exe",
-        "x86_64": "https://www.voidtools.com/Everything-1.4.1.1002.x64-Setup.exe"
+        "x86": "https://www.voidtools.com/Everything-1.4.1.1003.x86-Setup.exe",
+        "x86_64": "https://www.voidtools.com/Everything-1.4.1.1003.x64-Setup.exe"
       },
-      "version": "1.4.1.1002"
+      "version": "1.4.1.1003"
     },
     "exeproxy": {
       "installer": {
@@ -1204,9 +1204,9 @@
         "options": {
           "extension": ".msi"
         },
-        "x86": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.46/KeePass-2.46.msi/download"
+        "x86": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.47/KeePass-2.47.msi/download"
       },
-      "version": "2.46"
+      "version": "2.47"
     },
     "keepass-keepasshttp": {
       "installer": {
@@ -1410,9 +1410,9 @@
     "mountainduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-4.3.3.17396.msi"
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-4.4.0.17555.msi"
       },
-      "version": "4.3.3.17396"
+      "version": "4.4.0.17555"
     },
     "mp3tag": {
       "installer": {
@@ -2014,9 +2014,9 @@
     "simplenote": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v2.3.0/Simplenote-win-2.3.0.exe"
+        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v2.4.0/Simplenote-win-2.4.0.exe"
       },
-      "version": "2.3.0"
+      "version": "2.4.0"
     },
     "slack": {
       "installer": {
@@ -2034,10 +2034,10 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/smplayer/files/SMPlayer/20.6.0/smplayer-20.6.0-win32.exe/download",
-        "x86_64": "https://sourceforge.net/projects/smplayer/files/SMPlayer/20.6.0/smplayer-20.6.0-x64.exe/download"
+        "x86": "https://sourceforge.net/projects/smplayer/files/SMPlayer/21.1.0/smplayer-21.1.0-win32.exe/download",
+        "x86_64": "https://sourceforge.net/projects/smplayer/files/SMPlayer/21.1.0/smplayer-21.1.0-x64.exe/download"
       },
-      "version": "20.6.0"
+      "version": "21.1.0"
     },
     "sourcetree": {
       "installer": {
