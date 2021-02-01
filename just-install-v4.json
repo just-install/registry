@@ -1179,7 +1179,7 @@
       "installer": {
         "kind": "nsis",
         "options": {
-          "extension": "exe"
+          "extension": ".exe"
         },
         "x86": "https://data.services.jetbrains.com/products/download?code=TBA&platform=windows"
       },
