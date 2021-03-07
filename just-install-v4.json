@@ -2623,21 +2623,6 @@
       },
       "version": "1.5.10411.0"
     },
-    "windows-usb-dvd-tool": {
-      "installer": {
-        "kind": "custom",
-        "options": {
-          "arguments": [
-            "{{.installer}}",
-            "/Q",
-            "/C:msiexec /q /i Wudt.msi"
-          ],
-          "extension": ".exe"
-        },
-        "x86": "https://download.microsoft.com/download/C/4/8/C48F6E20-FE20-41C6-8C1C-408FE7B49A3A/Windows7-USB-DVD-Download-Tool-Installer-en-US.exe"
-      },
-      "version": "1.0"
-    },
     "winfsp": {
       "installer": {
         "kind": "msi",
