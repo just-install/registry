@@ -1400,14 +1400,6 @@
       },
       "version": "3.05"
     },
-    "mpc-hc": {
-      "installer": {
-        "kind": "innosetup",
-        "x86": "https://binaries.mpc-hc.org/MPC%20HomeCinema%20-%20Win32/MPC-HC_v1.7.13_x86/MPC-HC.1.7.13.x86.exe",
-        "x86_64": "https://binaries.mpc-hc.org/MPC%20HomeCinema%20-%20x64/MPC-HC_v1.7.13_x64/MPC-HC.1.7.13.x64.exe"
-      },
-      "version": "1.7.13"
-    },
     "mremoteng": {
       "installer": {
         "kind": "msi",
