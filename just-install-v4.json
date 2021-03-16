@@ -378,10 +378,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/Kitware/CMake/releases/download/v3.19.6/cmake-3.19.6-win32-x86.msi",
-        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.19.6/cmake-3.19.6-win64-x64.msi"
+        "x86": "https://github.com/Kitware/CMake/releases/download/v3.19.7/cmake-3.19.7-win32-x86.msi",
+        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.19.7/cmake-3.19.7-win64-x64.msi"
       },
-      "version": "3.19.6"
+      "version": "3.19.7"
     },
     "codeblocks": {
       "installer": {
@@ -445,9 +445,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v21.03.12/ConEmuSetup.210312.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v21.03.14/ConEmuSetup.210314.exe"
       },
-      "version": "21.03.12"
+      "version": "21.03.14"
     },
     "cpu-z": {
       "installer": {
@@ -928,10 +928,10 @@
             "{{.PROGRAMFILES}}\\Git\\bin\\git.exe"
           ]
         },
-        "x86": "https://github.com/git-for-windows/git/releases/download/v2.30.2.windows.1/Git-2.30.2-32-bit.exe",
-        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.30.2.windows.1/Git-2.30.2-64-bit.exe"
+        "x86": "https://github.com/git-for-windows/git/releases/download/v2.31.0.windows.1/Git-2.31.0-32-bit.exe",
+        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.31.0.windows.1/Git-2.31.0-64-bit.exe"
       },
-      "version": "2.30.2"
+      "version": "2.31.0"
     },
     "git-credential-manager-for-windows": {
       "installer": {
@@ -1208,10 +1208,10 @@
     "keeweb": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.17.2/KeeWeb-1.17.2.win.ia32.exe",
-        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.17.2/KeeWeb-1.17.2.win.x64.exe"
+        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.17.3/KeeWeb-1.17.3.win.ia32.exe",
+        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.17.3/KeeWeb-1.17.3.win.x64.exe"
       },
-      "version": "1.17.2"
+      "version": "1.17.3"
     },
     "keybase": {
       "installer": {
@@ -1381,9 +1381,10 @@
             "/passive"
           ]
         },
-        "x86": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v3.0.0/MoonlightSetup-3.0.0.exe"
+        "x86": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v3.1.0/MoonlightSetup-x86-3.1.0.exe",
+        "x86_64": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v3.1.0/MoonlightSetup-x64-3.1.0.exe"
       },
-      "version": "3.0.0"
+      "version": "3.1.0"
     },
     "mountainduck": {
       "installer": {
@@ -1484,10 +1485,10 @@
     "notepad++": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.3/npp.7.9.3.Installer.exe",
-        "x86_64": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.3/npp.7.9.3.Installer.x64.exe"
+        "x86": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.4/npp.7.9.4.Installer.exe",
+        "x86_64": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.4/npp.7.9.4.Installer.x64.exe"
       },
-      "version": "7.9.3"
+      "version": "7.9.4"
     },
     "notepad2-mod": {
       "installer": {
