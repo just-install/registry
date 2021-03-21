@@ -2692,6 +2692,16 @@
       },
       "version": "1.3.5"
     },
+    "wpd": {
+      "installer": {
+        "kind": "zip",
+        "options": {
+          "destination": "{{.PROGRAMFILES_X86}}\\WPD"
+        },
+        "x86": "https://wpd.app/get/latest.zip"
+      },
+      "version": "latest"
+    },
     "wox": {
       "installer": {
         "kind": "squirrel",
