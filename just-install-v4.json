@@ -2698,6 +2698,16 @@
       },
       "version": "1.3.524"
     },
+    "wpd": {
+      "installer": {
+        "kind": "zip",
+        "options": {
+          "destination": "{{.PROGRAMFILES_X86}}\\WPD"
+        },
+        "x86": "https://wpd.app/get/latest.zip"
+      },
+      "version": "latest"
+    },
     "yarn": {
       "installer": {
         "kind": "msi",
