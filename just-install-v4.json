@@ -2210,13 +2210,13 @@
       },
       "version": "3.00"
     },
-    "uplay": {
+    "ubisoft-connect": {
       "installer": {
         "kind": "nsis",
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe"
+        "x86": "https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UbisoftConnectInstaller.exe"
       },
       "version": "latest"
     },
