@@ -285,9 +285,9 @@
     "bootnext": {
       "installer": {
         "kind": "msi",
-        "x86_64": "https://ci.appveyor.com/api/buildjobs/gxxt7vyb06w4fa4q/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
+        "x86_64": "https://ci.appveyor.com/api/buildjobs/vg6pbld7abwi2p3s/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
       },
-      "version": "1.0.41"
+      "version": "1.0.42"
     },
     "brackets": {
       "installer": {
@@ -378,10 +378,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/Kitware/CMake/releases/download/v3.19.7/cmake-3.19.7-win32-x86.msi",
-        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.19.7/cmake-3.19.7-win64-x64.msi"
+        "x86": "https://github.com/Kitware/CMake/releases/download/v3.19.8/cmake-3.19.8-win32-x86.msi",
+        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.19.8/cmake-3.19.8-win64-x64.msi"
       },
-      "version": "3.20.0"
+      "version": "3.20.1"
     },
     "codeblocks": {
       "installer": {
@@ -452,9 +452,9 @@
     "cpu-z": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://download.cpuid.com/cpu-z/cpu-z_1.95-en.exe"
+        "x86": "https://download.cpuid.com/cpu-z/cpu-z_1.96-en.exe"
       },
-      "version": "1.95"
+      "version": "1.96"
     },
     "cryptomator": {
       "installer": {
@@ -462,9 +462,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86_64": "https://dl.bintray.com/cryptomator/cryptomator/1.5.14/Cryptomator-1.5.14-x64.exe"
+        "x86_64": "https://dl.bintray.com/cryptomator/cryptomator/1.5.15/Cryptomator-1.5.15-x64.exe"
       },
-      "version": "1.5.14"
+      "version": "1.5.15"
     },
     "crystaldisk-info": {
       "installer": {
@@ -483,9 +483,9 @@
     "cyberduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-7.8.5.34411.msi"
+        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-7.8.5.34493.msi"
       },
-      "version": "7.8.5.34411"
+      "version": "7.8.5.34493"
     },
     "cygwin": {
       "installer": {
@@ -523,9 +523,9 @@
             "/S"
           ]
         },
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/21.0.1/dbeaver-ce-21.0.1-x86_64-setup.exe"
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/21.0.3/dbeaver-ce-21.0.3-x86_64-setup.exe"
       },
-      "version": "21.0.1"
+      "version": "21.0.3"
     },
     "deluge": {
       "installer": {
@@ -784,9 +784,9 @@
     "etcher": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.116/balenaEtcher-Setup-1.5.116.exe"
+        "x86_64": "https://github.com/balena-io/etcher/releases/download/v1.5.117/balenaEtcher-Setup-1.5.117.exe"
       },
-      "version": "1.5.116"
+      "version": "1.5.117"
     },
     "everything-search": {
       "installer": {
@@ -908,9 +908,9 @@
             "-s"
           ]
         },
-        "x86": "https://us.download.nvidia.com/GFE/GFEClient/3.21.0.36/GeForce_Experience_v3.21.0.36.exe"
+        "x86": "https://us.download.nvidia.com/GFE/GFEClient/3.22.0.32/GeForce_Experience_v3.22.0.32.exe"
       },
-      "version": "3.21.0.36"
+      "version": "3.22.0.32"
     },
     "gimp": {
       "installer": {
@@ -979,10 +979,10 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dl.google.com/go/go1.16.2.windows-386.msi",
-        "x86_64": "https://dl.google.com/go/go1.16.2.windows-amd64.msi"
+        "x86": "https://dl.google.com/go/go1.16.3.windows-386.msi",
+        "x86_64": "https://dl.google.com/go/go1.16.3.windows-amd64.msi"
       },
-      "version": "1.16.2"
+      "version": "1.16.3"
     },
     "gog-galaxy": {
       "installer": {
@@ -1091,18 +1091,18 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.82.0/hugo_0.82.0_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.82.0/hugo_0.82.0_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.82.1/hugo_0.82.1_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.82.1/hugo_0.82.1_Windows-64bit.zip"
       },
-      "version": "0.82.0"
+      "version": "0.82.1"
     },
     "imageglass": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/d2phap/ImageGlass/releases/download/8.0.12.8/ImageGlass_8.0.12.8_x86.msi",
-        "x86_64": "https://github.com/d2phap/ImageGlass/releases/download/8.0.12.8/ImageGlass_8.0.12.8_x64.msi"
+        "x86": "https://github.com/d2phap/ImageGlass/releases/download/8.1.4.18/ImageGlass_8.1.4.18_x86.msi",
+        "x86_64": "https://github.com/d2phap/ImageGlass/releases/download/8.1.4.18/ImageGlass_8.1.4.18_x64.msi"
       },
-      "version": "8.0.12.8"
+      "version": "8.1.4.18"
     },
     "inkscape": {
       "installer": {
@@ -1125,9 +1125,9 @@
     "intellij-idea-community": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.jetbrains.com/idea/ideaIC-2020.3.3.exe"
+        "x86": "https://download.jetbrains.com/idea/ideaIC-2021.1.exe"
       },
-      "version": "2020.3.3"
+      "version": "2021.1"
     },
     "irfanview": {
       "installer": {
@@ -1207,10 +1207,10 @@
     "keeweb": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.17.5/KeeWeb-1.17.5.win.ia32.exe",
-        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.17.5/KeeWeb-1.17.5.win.x64.exe"
+        "x86": "https://github.com/keeweb/keeweb/releases/download/v1.17.6/KeeWeb-1.17.6.win.ia32.exe",
+        "x86_64": "https://github.com/keeweb/keeweb/releases/download/v1.17.6/KeeWeb-1.17.6.win.x64.exe"
       },
-      "version": "1.17.5"
+      "version": "1.17.6"
     },
     "keybase": {
       "installer": {
@@ -1252,10 +1252,10 @@
     "libreoffice": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.documentfoundation.org/libreoffice/stable/7.1.1/win/x86/LibreOffice_7.1.1_Win_x86.msi",
-        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/7.1.1/win/x86_64/LibreOffice_7.1.1_Win_x64.msi"
+        "x86": "https://download.documentfoundation.org/libreoffice/stable/7.1.2/win/x86/LibreOffice_7.1.2_Win_x86.msi",
+        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/7.1.2/win/x86_64/LibreOffice_7.1.2_Win_x64.msi"
       },
-      "version": "7.1.1"
+      "version": "7.1.2"
     },
     "lightshot": {
       "installer": {
@@ -1380,10 +1380,10 @@
             "/passive"
           ]
         },
-        "x86": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v3.1.0/MoonlightSetup-x86-3.1.0.exe",
-        "x86_64": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v3.1.0/MoonlightSetup-x64-3.1.0.exe"
+        "x86": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v3.1.1/MoonlightSetup-3.1.1.exe",
+        "x86_64": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v3.1.1/MoonlightSetup-3.1.1.exe"
       },
-      "version": "3.1.0"
+      "version": "3.1.1"
     },
     "mountainduck": {
       "installer": {
@@ -1416,9 +1416,9 @@
     "mysql-workbench": {
       "installer": {
         "kind": "msi",
-        "x86_64": "https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.23-winx64.msi"
+        "x86_64": "https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.24-winx64.msi"
       },
-      "version": "8.0.23"
+      "version": "8.0.24"
     },
     "naps2": {
       "installer": {
@@ -1455,18 +1455,18 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v15.13.0/node-v15.13.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v15.13.0/node-v15.13.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v16.0.0/node-v16.0.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v16.0.0/node-v16.0.0-x64.msi"
       },
-      "version": "15.13.0"
+      "version": "16.0.0"
     },
     "node-lts": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v14.16.0/node-v14.16.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v14.16.0/node-v14.16.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v14.16.1/node-v14.16.1-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v14.16.1/node-v14.16.1-x64.msi"
       },
-      "version": "14.16.0"
+      "version": "14.16.1"
     },
     "nordvpn": {
       "installer": {
@@ -1499,18 +1499,18 @@
     "npackd": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/tim-lebedkov/npackd-cpp/releases/download/version_1.25/Npackd32-1.25.0.msi",
-        "x86_64": "https://github.com/tim-lebedkov/npackd-cpp/releases/download/version_1.25/Npackd64-1.25.0.msi"
+        "x86": "https://github.com/npackd/npackd-cpp/releases/download/version_1.26.9/Npackd32-1.26.9.msi",
+        "x86_64": "https://github.com/npackd/npackd-cpp/releases/download/version_1.26.9/Npackd64-1.26.9.msi"
       },
-      "version": "1.25"
+      "version": "1.26.9"
     },
     "npackdcl": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/tim-lebedkov/npackd-cpp/releases/download/version_1.25/NpackdCL32-1.25.0.msi",
-        "x86_64": "https://github.com/tim-lebedkov/npackd-cpp/releases/download/version_1.25/NpackdCL64-1.25.0.msi"
+        "x86": "https://github.com/npackd/npackd-cpp/releases/download/version_1.26.9/NpackdCL32-1.26.9.msi",
+        "x86_64": "https://github.com/npackd/npackd-cpp/releases/download/version_1.26.9/NpackdCL64-1.26.9.msi"
       },
-      "version": "1.25"
+      "version": "1.26.9"
     },
     "nsis": {
       "installer": {
@@ -1711,9 +1711,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.22.1.4228-724c56e62/windows/PlexMediaServer-1.22.1.4228-724c56e62-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.22.2.4282-a97b03fad/windows/PlexMediaServer-1.22.2.4282-a97b03fad-x86.exe"
       },
-      "version": "1.22.1.4228"
+      "version": "1.22.2.4282"
     },
     "postman": {
       "installer": {
@@ -1770,9 +1770,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2020.3.5.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2021.1.exe"
       },
-      "version": "2020.3.5"
+      "version": "2021.1"
     },
     "python2": {
       "installer": {
@@ -1805,10 +1805,10 @@
             "InstallAllUsers=1"
           ]
         },
-        "x86": "https://www.python.org/ftp/python/3.9.2/python-3.9.2.exe",
-        "x86_64": "https://www.python.org/ftp/python/3.9.2/python-3.9.2-amd64.exe"
+        "x86": "https://www.python.org/ftp/python/3.9.4/python-3.9.4.exe",
+        "x86_64": "https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe"
       },
-      "version": "3.9.2"
+      "version": "3.9.4"
     },
     "python3-minimal": {
       "installer": {
@@ -1821,10 +1821,10 @@
             "Include_tcltk=0"
           ]
         },
-        "x86": "https://www.python.org/ftp/python/3.9.2/python-3.9.2.exe",
-        "x86_64": "https://www.python.org/ftp/python/3.9.2/python-3.9.2-amd64.exe"
+        "x86": "https://www.python.org/ftp/python/3.9.4/python-3.9.4.exe",
+        "x86_64": "https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe"
       },
-      "version": "3.9.2"
+      "version": "3.9.4"
     },
     "qbittorrent": {
       "installer": {
@@ -1917,10 +1917,10 @@
             "{{.SYSTEMDRIVE}}\\Ruby193\\bin\\rubyw.exe"
           ]
         },
-        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.0-1/rubyinstaller-3.0.0-1-x86.exe",
-        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.0-1/rubyinstaller-3.0.0-1-x64.exe"
+        "x86": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.5.9-1/rubyinstaller-2.5.9-1-x86.exe",
+        "x86_64": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.5.9-1/rubyinstaller-2.5.9-1-x64.exe"
       },
-      "version": "3.0.0"
+      "version": "2.5.9"
     },
     "rufus": {
       "installer": {
@@ -1970,16 +1970,16 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-1.40.1.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-5.0.0.exe"
       },
-      "version": "1.40.1"
+      "version": "5.0.0"
     },
     "simplenote": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v2.8.0/Simplenote-win-2.8.0.exe"
+        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v2.9.0/Simplenote-win-2.9.0.exe"
       },
-      "version": "2.8.0"
+      "version": "2.9.0"
     },
     "slack": {
       "installer": {
@@ -2108,10 +2108,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Syncthing"
         },
-        "x86": "https://github.com/syncthing/syncthing/releases/download/v1.14.0/syncthing-windows-386-v1.14.0.zip",
-        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v1.14.0/syncthing-windows-amd64-v1.14.0.zip"
+        "x86": "https://github.com/syncthing/syncthing/releases/download/v1.15.1/syncthing-windows-386-v1.15.1.zip",
+        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v1.15.1/syncthing-windows-amd64-v1.15.1.zip"
       },
-      "version": "1.14.0"
+      "version": "1.15.1"
     },
     "sysinternals": {
       "installer": {
@@ -2170,10 +2170,10 @@
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/10.0.15/torbrowser-install-10.0.15_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/10.0.15/torbrowser-install-win64-10.0.15_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/10.0.16/torbrowser-install-10.0.16_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/10.0.16/torbrowser-install-win64-10.0.16_en-US.exe"
       },
-      "version": "10.0.15"
+      "version": "10.0.16"
     },
     "torguard": {
       "installer": {
@@ -2396,9 +2396,9 @@
             "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBoxManage.exe"
           ]
         },
-        "x86": "https://download.virtualbox.org/virtualbox/6.1.18/VirtualBox-6.1.18-142142-Win.exe"
+        "x86": "https://download.virtualbox.org/virtualbox/6.1.20/VirtualBox-6.1.20-143896-Win.exe"
       },
-      "version": "6.1.18"
+      "version": "6.1.20"
     },
     "viscosity": {
       "installer": {
@@ -2551,10 +2551,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.52.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.52.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.55.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.55.x64.exe"
       },
-      "version": "3.7.2218.52"
+      "version": "3.7.2218.55"
     },
     "vlc": {
       "installer": {
@@ -2603,16 +2603,16 @@
     "windows-terminal": {
       "installer": {
         "kind": "appx",
-        "x86": "https://github.com/microsoft/terminal/releases/download/v1.6.10571.0/Microsoft.WindowsTerminal_1.6.10571.0_8wekyb3d8bbwe.msixbundle"
+        "x86": "https://github.com/microsoft/terminal/releases/download/v1.7.1091.0/Microsoft.WindowsTerminal_1.7.1091.0_8wekyb3d8bbwe.msixbundle"
       },
-      "version": "1.6.10571.0"
+      "version": "1.7.1091.0"
     },
     "winfsp": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/billziss-gh/winfsp/releases/download/v1.8/winfsp-1.8.20304.msi"
+        "x86": "https://github.com/billziss-gh/winfsp/releases/download/v1.9/winfsp-1.9.21096.msi"
       },
-      "version": "1.8"
+      "version": "1.9"
     },
     "winrar": {
       "installer": {
@@ -2623,10 +2623,10 @@
             "/S"
           ]
         },
-        "x86": "https://rarlab.com/rar/wrar600.exe",
-        "x86_64": "https://rarlab.com/rar/winrar-x64-600.exe"
+        "x86": "https://rarlab.com/rar/wrar64.exe",
+        "x86_64": "https://rarlab.com/rar/winrar-x64-64.exe"
       },
-      "version": "6.00"
+      "version": "64"
     },
     "winscp": {
       "installer": {
