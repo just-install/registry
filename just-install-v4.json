@@ -298,12 +298,12 @@
     },
     "brave": {
       "installer": {
-        "kind": "squirrel",
+        "kind": "as-is",
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://laptop-updates.brave.com/latest/winia32",
-        "x86_64": "https://laptop-updates.brave.com/latest/winx64"
+        "x86": "https://referrals.brave.com/latest/BraveBrowserSilentSetup32.exe",
+        "x86_64": "https://referrals.brave.com/latest/BraveBrowserSilentSetup.exe"
       },
       "version": "latest"
     },
