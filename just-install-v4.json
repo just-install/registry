@@ -1559,6 +1559,20 @@
       },
       "version": "0.9.6"
     },
+	"open-shell-menu": {
+      "installer": {
+        "kind": "custom",
+		"options": {
+          "arguments": [
+            "{{.installer}}",
+            "/qn",
+            "ADDLOCAL=StartMenu,ClassicExplorer,ClassicIE,Update"
+          ]
+        },
+        "x86": "https://github.com/Open-Shell/Open-Shell-Menu/releases/download/v4.4.160/OpenShellSetup_4_4_160.exe"
+      },
+      "version": "4.4.160"
+    },
     "openssh": {
       "installer": {
         "kind": "custom",
