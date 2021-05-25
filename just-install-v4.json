@@ -165,12 +165,12 @@
       },
       "version": "latest"
     },
-    "audacity": {
+  "audacity": {
       "installer": {
         "kind": "innosetup",
         "x86": "https://fossies.org/windows/misc/audacity-win-{{.version}}.exe"
       },
-      "version": "2.4.2"
+      "version": "3.0.2"
     },
     "autohotkey": {
       "installer": {
