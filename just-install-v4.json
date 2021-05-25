@@ -1946,6 +1946,20 @@
       },
       "version": "3.14"
     },
+	"scratch": {
+		"installer": {
+		"kind": "custom",
+		"options": {
+		  "arguments": [
+			"{{.installer}}",
+			"/allusers=1",
+			"/S"
+		  ]
+		},
+		"x86": "https://downloads.scratch.mit.edu/desktop/Scratch%20Setup.exe"
+	  },
+	  "version": "3.22.0"
+	},
     "sdm": {
       "installer": {
         "kind": "msi",
