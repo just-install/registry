@@ -165,7 +165,7 @@
       },
       "version": "latest"
     },
-  "audacity": {
+	"audacity": {
       "installer": {
         "kind": "innosetup",
         "x86": "https://fossies.org/windows/misc/audacity-win-{{.version}}.exe"
