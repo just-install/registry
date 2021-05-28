@@ -806,21 +806,6 @@
       },
       "version": "0.5"
     },
-    "filezilla": {
-      "installer": {
-        "kind": "nsis",
-        "x86": "https://download.filezilla-project.org/client/FileZilla_latest_win32-setup.exe",
-        "x86_64": "https://download.filezilla-project.org/client/FileZilla_latest_win64-setup.exe"
-      },
-      "version": "latest"
-    },
-    "filezilla-server": {
-      "installer": {
-        "kind": "nsis",
-        "x86": "https://download.filezilla-project.org/server/FileZilla_Server-0_9_60_2.exe"
-      },
-      "version": "0.9.60.2"
-    },
     "firefox": {
       "installer": {
         "kind": "nsis",
