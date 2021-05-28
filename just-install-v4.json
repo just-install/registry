@@ -2573,10 +2573,10 @@
     "vlc": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.videolan.org/pub/videolan/vlc/last/win32/vlc-3.0.12-win32.msi",
-        "x86_64": "https://download.videolan.org/pub/videolan/vlc/last/win64/vlc-3.0.12-win64.msi"
+        "x86": "https://download.videolan.org/pub/videolan/vlc/last/win32/vlc-3.0.14-win32.msi",
+        "x86_64": "https://download.videolan.org/pub/videolan/vlc/last/win64/vlc-3.0.14-win64.msi"
       },
-      "version": "3.0.12"
+      "version": "3.0.14"
     },
     "voicemeeter": {
       "installer": {
