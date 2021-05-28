@@ -2637,10 +2637,10 @@
             "/S"
           ]
         },
-        "x86": "https://rarlab.com/rar/wrar64.exe",
-        "x86_64": "https://rarlab.com/rar/winrar-x64-64.exe"
+        "x86": "https://rarlab.com/rar/wrar601.exe",
+        "x86_64": "https://rarlab.com/rar/winrar-x64-601.exe"
       },
-      "version": "64"
+      "version": "6.01"
     },
     "winscp": {
       "installer": {
