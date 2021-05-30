@@ -168,9 +168,9 @@
     "audacity": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://fossies.org/windows/misc/audacity-win-{{.version}}.exe"
+        "x86": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.2/audacity-win-3.0.2.exe"
       },
-      "version": "2.4.2"
+      "version": "3.0.2"
     },
     "autohotkey": {
       "installer": {
