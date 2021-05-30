@@ -321,9 +321,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.ccleaner.com/ccsetup579.exe"
+        "x86": "https://download.ccleaner.com/ccsetup580.exe"
       },
-      "version": "5.79"
+      "version": "5.80"
     },
     "cdburnerxp": {
       "installer": {
@@ -381,7 +381,7 @@
         "x86": "https://github.com/Kitware/CMake/releases/download/v3.19.8/cmake-3.19.8-win32-x86.msi",
         "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.19.8/cmake-3.19.8-win64-x64.msi"
       },
-      "version": "3.20.2"
+      "version": "3.20.3"
     },
     "codeblocks": {
       "installer": {
@@ -421,10 +421,10 @@
     "conan": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://dl.bintray.com/conan/installers/conan-win-32_1_35_0.exe",
-        "x86_64": "https://dl.bintray.com/conan/installers/conan-win-64_1_35_0.exe"
+        "x86": "https://github.com/conan-io/conan/releases/download/1.36.0/conan-win-32.exe",
+        "x86_64": "https://github.com/conan-io/conan/releases/download/1.36.0/conan-win-64.exe"
       },
-      "version": "1.35.0"
+      "version": "1.36.0"
     },
     "conemu": {
       "installer": {
@@ -469,9 +469,9 @@
     "crystaldisk-info": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/74602/CrystalDiskInfo8_11_2.exe"
+        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/74801/CrystalDiskInfo8_12_0.exe"
       },
-      "version": "8.11.2"
+      "version": "8.12.0"
     },
     "crystaldisk-mark": {
       "installer": {
@@ -483,9 +483,9 @@
     "cyberduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-7.9.0.34899.msi"
+        "x86": "https://update.cyberduck.io/windows/Cyberduck-Installer-7.9.1.34974.msi"
       },
-      "version": "7.9.0.34899"
+      "version": "7.9.1.34974"
     },
     "cygwin": {
       "installer": {
@@ -643,9 +643,9 @@
     "duck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.duck.sh/duck-7.9.0.34899.msi"
+        "x86": "https://dist.duck.sh/duck-7.9.1.34974.msi"
       },
-      "version": "7.9.0.34899"
+      "version": "7.9.1.34974"
     },
     "dynalist": {
       "installer": {
@@ -762,9 +762,9 @@
     "enpass": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://dl.enpass.io/stable/windows/setup/6.6.1.809/Enpass-setup.exe"
+        "x86": "https://dl.enpass.io/stable/windows/setup/6.6.2.827/Enpass-setup.exe"
       },
-      "version": "6.6.1.809"
+      "version": "6.6.2.827"
     },
     "epic-games-launcher": {
       "installer": {
@@ -1055,9 +1055,9 @@
     "heidisql": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://www.heidisql.com/installers/HeidiSQL_11.2.0.6213_Setup.exe"
+        "x86": "https://www.heidisql.com/installers/HeidiSQL_11.3.0.6295_Setup.exe"
       },
-      "version": "11.2.0.6213"
+      "version": "11.3.0.6295"
     },
     "hexchat": {
       "installer": {
@@ -1092,10 +1092,10 @@
     "inkscape": {
       "installer": {
         "kind": "msi",
-        "x86": "https://inkscape.org/gallery/item/23846/inkscape-1.0.2_2021-01-15_e86c870879-x86.msi",
-        "x86_64": "https://inkscape.org/gallery/item/23845/inkscape-1.0.2_2021-01-15_e86c870879-x64.msi"
+        "x86": "https://inkscape.org/gallery/item/26938/inkscape-1.1-x86.msi",
+        "x86_64": "https://inkscape.org/gallery/item/26939/inkscape-1.1-x64.msi"
       },
-      "version": "1.0.2"
+      "version": "1.1"
     },
     "innosetup": {
       "installer": {
@@ -1123,10 +1123,10 @@
             "/silent"
           ]
         },
-        "x86": "http://download.betanews.com/download/967963863-1/iview457_setup.exe",
-        "x86_64": "http://download.betanews.com/download/967963863-1/iview457_x64_setup.exe"
+        "x86": "http://download.betanews.com/download/967963863-1/iview458_setup.exe",
+        "x86_64": "http://download.betanews.com/download/967963863-1/iview458_x64_setup.exe"
       },
-      "version": "4.57"
+      "version": "4.58"
     },
     "itch": {
       "installer": {
@@ -1710,9 +1710,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.22.3.4523-d0ce30438/windows/PlexMediaServer-1.22.3.4523-d0ce30438-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.23.1.4602-280ab6053/windows/PlexMediaServer-1.23.1.4602-280ab6053-x86.exe"
       },
-      "version": "1.22.3.4523"
+      "version": "1.23.1.4602"
     },
     "postman": {
       "installer": {
@@ -1895,10 +1895,10 @@
     "retroarch": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://buildbot.libretro.com/stable/1.9.3/windows/x86/RetroArch-Win32-setup.exe",
-        "x86_64": "https://buildbot.libretro.com/stable/1.9.3/windows/x86_64/RetroArch-Win64-setup.exe"
+        "x86": "https://buildbot.libretro.com/stable/1.9.4/windows/x86/RetroArch-Win32-setup.exe",
+        "x86_64": "https://buildbot.libretro.com/stable/1.9.4/windows/x86_64/RetroArch-Win64-setup.exe"
       },
-      "version": "1.9.3"
+      "version": "1.9.4"
     },
     "ruby": {
       "installer": {
@@ -1941,9 +1941,9 @@
     "sharex": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/ShareX/ShareX/releases/download/v13.4.0/ShareX-13.4.0-setup.exe"
+        "x86": "https://github.com/ShareX/ShareX/releases/download/v13.5.0/ShareX-13.5.0-setup.exe"
       },
-      "version": "13.4.0"
+      "version": "13.5.0"
     },
     "sharpkeys": {
       "installer": {
@@ -1962,9 +1962,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-5.2.1.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-5.3.0.exe"
       },
-      "version": "5.2.1"
+      "version": "5.3.0"
     },
     "simplenote": {
       "installer": {
@@ -2595,9 +2595,9 @@
     "windows-terminal": {
       "installer": {
         "kind": "appx",
-        "x86": "https://github.com/microsoft/terminal/releases/download/v1.7.1091.0/Microsoft.WindowsTerminal_1.7.1091.0_8wekyb3d8bbwe.msixbundle"
+        "x86": "https://github.com/microsoft/terminal/releases/download/v1.8.1444.0/Microsoft.WindowsTerminal_1.8.1444.0_8wekyb3d8bbwe.msixbundle"
       },
-      "version": "1.7.1091.0"
+      "version": "1.8.1444.0"
     },
     "winfsp": {
       "installer": {
