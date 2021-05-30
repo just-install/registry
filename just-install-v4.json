@@ -1214,8 +1214,8 @@
     "kicad": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://osdn.net/projects/kicad/storage/kicad-5.1.10_1-i686.exe",
-        "x86_64": "https://osdn.net/projects/kicad/storage/kicad-5.1.10_1-x86_64.exe"
+        "x86": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.10_1-i686.exe",
+        "x86_64": "https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.10_1-x86_64.exe"
       },
       "version": "5.1.10"
     },
