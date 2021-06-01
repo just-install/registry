@@ -285,9 +285,9 @@
     "bootnext": {
       "installer": {
         "kind": "msi",
-        "x86_64": "https://ci.appveyor.com/api/buildjobs/akpujd8sg81yjngd/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
+        "x86_64": "https://ci.appveyor.com/api/buildjobs/dyx7w83sjsnk10hl/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
       },
-      "version": "1.0.43"
+      "version": "1.0.44"
     },
     "brackets": {
       "installer": {
@@ -421,10 +421,10 @@
     "conan": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/conan-io/conan/releases/download/1.36.0/conan-win-32.exe",
-        "x86_64": "https://github.com/conan-io/conan/releases/download/1.36.0/conan-win-64.exe"
+        "x86": "https://github.com/conan-io/conan/releases/download/1.37.0/conan-win-32.exe",
+        "x86_64": "https://github.com/conan-io/conan/releases/download/1.37.0/conan-win-64.exe"
       },
-      "version": "1.36.0"
+      "version": "1.37.0"
     },
     "conemu": {
       "installer": {
@@ -476,9 +476,9 @@
     "crystaldisk-mark": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://osdn.net/frs/redir.php?m=constant&f=crystaldiskmark%2F73958%2FCrystalDiskMark8_0_1.exe"
+        "x86": "https://osdn.net/frs/redir.php?m=bfsu&f=crystaldiskmark%2F75252%2FCrystalDiskMark8_0_2.exe"
       },
-      "version": "8.0.1"
+      "version": "8.0.2"
     },
     "cyberduck": {
       "installer": {
@@ -1969,9 +1969,9 @@
     "simplenote": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v2.11.0/Simplenote-win-2.11.0.exe"
+        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v2.12.0/Simplenote-win-2.12.0.exe"
       },
-      "version": "2.11.0"
+      "version": "2.12.0"
     },
     "slack": {
       "installer": {
