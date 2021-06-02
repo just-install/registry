@@ -1710,9 +1710,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.23.1.4602-280ab6053/windows/PlexMediaServer-1.23.1.4602-280ab6053-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.23.2.4625-a83d2d0f9/windows/PlexMediaServer-1.23.2.4625-a83d2d0f9-x86.exe"
       },
-      "version": "1.23.1.4602"
+      "version": "1.23.2.4625"
     },
     "postman": {
       "installer": {
