@@ -2089,8 +2089,8 @@
             "/s"
           ]
         },
-        "x86": "https://www.sumatrapdfreader.org/dl2/SumatraPDF-{{.version}}-install.exe",
-        "x86_64": "https://www.sumatrapdfreader.org/dl2/SumatraPDF-{{.version}}-64-install.exe"
+        "x86": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/rel/SumatraPDF-3.2-install.exe",
+        "x86_64": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/rel/SumatraPDF-3.2-64-install.exe"
       },
       "version": "3.2"
     },
