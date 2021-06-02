@@ -469,9 +469,9 @@
     "crystaldisk-info": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/74801/CrystalDiskInfo8_12_0.exe"
+        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/75251/CrystalDiskInfo8_12_1.exe"
       },
-      "version": "8.12.0"
+      "version": "8.12.1"
     },
     "crystaldisk-mark": {
       "installer": {
@@ -1110,9 +1110,9 @@
     "intellij-idea-community": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.jetbrains.com/idea/ideaIC-2021.1.1.exe"
+        "x86": "https://download.jetbrains.com/idea/ideaIC-2021.1.2.exe"
       },
-      "version": "2021.1.1"
+      "version": "2021.1.2"
     },
     "irfanview": {
       "installer": {
@@ -1514,9 +1514,9 @@
     "obs-studio": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-26.1.1-Full-Installer-x64.exe"
+        "x86": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-27.0-Full-Installer-x64.exe"
       },
-      "version": "26.1.1"
+      "version": "27.0.0"
     },
     "octave": {
       "installer": {
@@ -1678,7 +1678,7 @@
         "x86": "https://windows.php.net/downloads/releases/php-7.3.28-nts-Win32-VC15-x86.zip",
         "x86_64": "https://windows.php.net/downloads/releases/php-7.3.28-nts-Win32-VC15-x64.zip"
       },
-      "version": "8.0.6"
+      "version": "8.0.7"
     },
     "physx": {
       "installer": {
@@ -2100,10 +2100,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Syncthing"
         },
-        "x86": "https://github.com/syncthing/syncthing/releases/download/v1.16.1/syncthing-windows-386-v1.16.1.zip",
-        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v1.16.1/syncthing-windows-amd64-v1.16.1.zip"
+        "x86": "https://github.com/syncthing/syncthing/releases/download/v1.17.0/syncthing-windows-386-v1.17.0.zip",
+        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v1.17.0/syncthing-windows-amd64-v1.17.0.zip"
       },
-      "version": "1.16.1"
+      "version": "1.17.0"
     },
     "sysinternals": {
       "installer": {
