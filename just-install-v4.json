@@ -278,9 +278,9 @@
     "blender": {
       "installer": {
         "kind": "msi",
-        "x86_64": "https://download.blender.org/release/Blender2.92/blender-2.92.0-windows64.msi"
+        "x86_64": "https://download.blender.org/release/Blender2.93/blender-2.93.0-windows-x64.msi"
       },
-      "version": "2.92.0"
+      "version": "2.93.0"
     },
     "bootnext": {
       "installer": {
@@ -791,10 +791,10 @@
     "everything-search": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.voidtools.com/Everything-1.4.1.1005.x86-Setup.exe",
-        "x86_64": "https://www.voidtools.com/Everything-1.4.1.1005.x64-Setup.exe"
+        "x86": "https://www.voidtools.com/Everything-1.4.1.1009.x86-Setup.exe",
+        "x86_64": "https://www.voidtools.com/Everything-1.4.1.1009.x64-Setup.exe"
       },
-      "version": "1.4.1.1005"
+      "version": "1.4.1.1009"
     },
     "exeproxy": {
       "installer": {
@@ -880,9 +880,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.9.1.exe/download"
+        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.9.3.exe/download"
       },
-      "version": "1.9.1"
+      "version": "1.9.3"
     },
     "geforce-experience": {
       "installer": {
@@ -912,10 +912,10 @@
             "{{.PROGRAMFILES}}\\Git\\bin\\git.exe"
           ]
         },
-        "x86": "https://github.com/git-for-windows/git/releases/download/v2.31.1.windows.1/Git-2.31.1-32-bit.exe",
-        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.31.1.windows.1/Git-2.31.1-64-bit.exe"
+        "x86": "https://github.com/git-for-windows/git/releases/download/v2.32.0.windows.1/Git-2.32.0-32-bit.exe",
+        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.32.0.windows.1/Git-2.32.0-64-bit.exe"
       },
-      "version": "2.31.1"
+      "version": "2.32.0"
     },
     "git-credential-manager-for-windows": {
       "installer": {
@@ -964,10 +964,10 @@
     "go": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dl.google.com/go/go1.16.4.windows-386.msi",
-        "x86_64": "https://dl.google.com/go/go1.16.4.windows-amd64.msi"
+        "x86": "https://dl.google.com/go/go1.16.5.windows-386.msi",
+        "x86_64": "https://dl.google.com/go/go1.16.5.windows-amd64.msi"
       },
-      "version": "1.16.4"
+      "version": "1.16.5"
     },
     "gog-galaxy": {
       "installer": {
@@ -1373,9 +1373,9 @@
     "mountainduck": {
       "installer": {
         "kind": "msi",
-        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-4.6.1.18201.msi"
+        "x86": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-4.6.2.18221.msi"
       },
-      "version": "4.6.1.18201"
+      "version": "4.6.2.18221"
     },
     "mp3tag": {
       "installer": {
@@ -1440,10 +1440,10 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v16.2.0/node-v16.2.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v16.2.0/node-v16.2.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v16.3.0/node-v16.3.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v16.3.0/node-v16.3.0-x64.msi"
       },
-      "version": "16.2.0"
+      "version": "16.3.0"
     },
     "node-lts": {
       "installer": {
@@ -1469,10 +1469,10 @@
     "notepad++": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.5/npp.7.9.5.Installer.exe",
-        "x86_64": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.5/npp.7.9.5.Installer.x64.exe"
+        "x86": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8/npp.8.0.Installer.exe",
+        "x86_64": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8/npp.8.0.Installer.x64.exe"
       },
-      "version": "7.9.5"
+      "version": "8"
     },
     "notepad2-mod": {
       "installer": {
@@ -1710,9 +1710,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.23.2.4625-a83d2d0f9/windows/PlexMediaServer-1.23.2.4625-a83d2d0f9-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.23.2.4656-85f0adf5b/windows/PlexMediaServer-1.23.2.4656-85f0adf5b-x86.exe"
       },
-      "version": "1.23.2.4625"
+      "version": "1.23.2.4656"
     },
     "postman": {
       "installer": {
@@ -1769,9 +1769,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2021.1.1.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2021.1.2.exe"
       },
-      "version": "2021.1.1"
+      "version": "2021.1.2"
     },
     "python2": {
       "installer": {
@@ -1962,9 +1962,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-5.3.0.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-5.4.0.exe"
       },
-      "version": "5.3.0"
+      "version": "5.4.0"
     },
     "simplenote": {
       "installer": {
@@ -2162,10 +2162,10 @@
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/10.0.16/torbrowser-install-10.0.16_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/10.0.16/torbrowser-install-win64-10.0.16_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/10.0.17/torbrowser-install-10.0.17_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/10.0.17/torbrowser-install-win64-10.0.17_en-US.exe"
       },
-      "version": "10.0.16"
+      "version": "10.0.17"
     },
     "torguard": {
       "installer": {
@@ -2633,10 +2633,10 @@
     "wireshark": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-3.4.5.exe",
-        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.5.exe"
+        "x86": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-3.4.6.exe",
+        "x86_64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.6.exe"
       },
-      "version": "3.4.5"
+      "version": "3.4.6"
     },
     "wix": {
       "installer": {
