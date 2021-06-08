@@ -321,9 +321,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.ccleaner.com/ccsetup580.exe"
+        "x86": "https://download.ccleaner.com/ccsetup581.exe"
       },
-      "version": "5.80"
+      "version": "5.81"
     },
     "cdburnerxp": {
       "installer": {
@@ -421,10 +421,10 @@
     "conan": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/conan-io/conan/releases/download/1.37.0/conan-win-32.exe",
-        "x86_64": "https://github.com/conan-io/conan/releases/download/1.37.0/conan-win-64.exe"
+        "x86": "https://github.com/conan-io/conan/releases/download/1.37.1/conan-win-32.exe",
+        "x86_64": "https://github.com/conan-io/conan/releases/download/1.37.1/conan-win-64.exe"
       },
-      "version": "1.37.0"
+      "version": "1.37.1"
     },
     "conemu": {
       "installer": {
