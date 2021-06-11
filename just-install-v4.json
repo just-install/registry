@@ -2543,10 +2543,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.24.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.24.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.25.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.25.x64.exe"
       },
-      "version": "4.0.2312.24"
+      "version": "4.0.2312.25"
     },
     "vlc": {
       "installer": {
