@@ -1911,10 +1911,10 @@
     "retroarch": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://buildbot.libretro.com/stable/1.9.4/windows/x86/RetroArch-Win32-setup.exe",
-        "x86_64": "https://buildbot.libretro.com/stable/1.9.4/windows/x86_64/RetroArch-Win64-setup.exe"
+        "x86": "https://buildbot.libretro.com/stable/1.9.5/windows/x86/RetroArch-Win32-setup.exe",
+        "x86_64": "https://buildbot.libretro.com/stable/1.9.5/windows/x86_64/RetroArch-Win64-setup.exe"
       },
-      "version": "1.9.4"
+      "version": "1.9.5"
     },
     "ruby": {
       "installer": {
@@ -2631,10 +2631,10 @@
             "/S"
           ]
         },
-        "x86": "https://rarlab.com/rar/wrar601.exe",
-        "x86_64": "https://rarlab.com/rar/winrar-x64-601.exe"
+        "x86": "https://rarlab.com/rar/wrar602.exe",
+        "x86_64": "https://rarlab.com/rar/winrar-x64-602.exe"
       },
-      "version": "6.01"
+      "version": "6.02"
     },
     "winscp": {
       "installer": {
