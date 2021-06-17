@@ -686,9 +686,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-Committers"
         },
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2021-03/R/eclipse-committers-2021-03-R-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2021-06/R/eclipse-committers-2021-06-R-win32-x86_64.zip"
       },
-      "version": "2021-03-R"
+      "version": "2021-06-R"
     },
     "eclipse-cpp": {
       "installer": {
@@ -696,9 +696,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-CPP"
         },
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2021-03/R/eclipse-cpp-2021-03-R-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2021-06/R/eclipse-cpp-2021-06-R-win32-x86_64.zip"
       },
-      "version": "2021-03-R"
+      "version": "2021-06-R"
     },
     "eclipse-java": {
       "installer": {
@@ -706,9 +706,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-Java"
         },
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2021-03/R/eclipse-java-2021-03-R-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2021-06/R/eclipse-java-2021-06-R-win32-x86_64.zip"
       },
-      "version": "2021-03-R"
+      "version": "2021-06-R"
     },
     "eclipse-jee": {
       "installer": {
@@ -716,9 +716,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-JEE"
         },
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2021-03/R/eclipse-jee-2021-03-R-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2021-06/R/eclipse-jee-2021-06-R-win32-x86_64.zip"
       },
-      "version": "2021-03-R"
+      "version": "2021-06-R"
     },
     "eclipse-php": {
       "installer": {
@@ -726,9 +726,9 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Eclipse-PHP"
         },
-        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2021-03/R/eclipse-php-2021-03-R-win32-x86_64.zip"
+        "x86_64": "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/2021-06/R/eclipse-php-2021-06-R-win32-x86_64.zip"
       },
-      "version": "2021-03-R"
+      "version": "2021-06-R"
     },
     "eig": {
       "installer": {
@@ -1978,9 +1978,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-5.4.1.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-5.5.0.exe"
       },
-      "version": "5.4.1"
+      "version": "5.5.0"
     },
     "simplenote": {
       "installer": {
