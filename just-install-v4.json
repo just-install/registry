@@ -896,9 +896,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.9.3.exe/download"
+        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.9.4.exe/download"
       },
-      "version": "1.9.3"
+      "version": "1.9.4"
     },
     "geforce-experience": {
       "installer": {
