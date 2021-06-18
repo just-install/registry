@@ -337,9 +337,9 @@
     "ccleaner": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.ccleaner.com/ccsetup581.exe"
+        "x86": "https://download.ccleaner.com/ccsetup582.exe"
       },
-      "version": "5.81"
+      "version": "5.82"
     },
     "cdburnerxp": {
       "installer": {
@@ -2642,9 +2642,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.17.10/WinSCP-5.17.10-Setup.exe/download"
+        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.19/WinSCP-5.19-Setup.exe/download"
       },
-      "version": "5.17.10"
+      "version": "5.19"
     },
     "wireshark": {
       "installer": {
