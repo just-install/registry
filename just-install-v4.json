@@ -1092,10 +1092,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.83.1/hugo_0.83.1_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.83.1/hugo_0.83.1_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.84.0/hugo_0.84.0_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.84.0/hugo_0.84.0_Windows-64bit.zip"
       },
-      "version": "0.83.1"
+      "version": "0.84.0"
     },
     "imageglass": {
       "installer": {
@@ -2559,10 +2559,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.27.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.27.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.33.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.33.x64.exe"
       },
-      "version": "4.0.2312.27"
+      "version": "4.0.2312.33"
     },
     "vlc": {
       "installer": {
