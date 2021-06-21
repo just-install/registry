@@ -461,9 +461,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v21.04.22/ConEmuSetup.210422.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v21.06.20/ConEmuSetup.210620.exe"
       },
-      "version": "21.04.22"
+      "version": "21.06.20"
     },
     "cpu-z": {
       "installer": {
@@ -539,9 +539,9 @@
             "/S"
           ]
         },
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/21.1.0/dbeaver-ce-21.1.0-x86_64-setup.exe"
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/21.1.1/dbeaver-ce-21.1.1-x86_64-setup.exe"
       },
-      "version": "21.1.0"
+      "version": "21.1.1"
     },
     "deluge": {
       "installer": {
