@@ -397,7 +397,7 @@
         "x86": "https://github.com/Kitware/CMake/releases/download/v3.19.8/cmake-3.19.8-win32-x86.msi",
         "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.19.8/cmake-3.19.8-win64-x64.msi"
       },
-      "version": "3.20.4"
+      "version": "3.20.5"
     },
     "codeblocks": {
       "installer": {
@@ -1726,9 +1726,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.23.2.4656-85f0adf5b/windows/PlexMediaServer-1.23.2.4656-85f0adf5b-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.23.3.4707-ebb5fe9f3/windows/PlexMediaServer-1.23.3.4707-ebb5fe9f3-x86.exe"
       },
-      "version": "1.23.2.4656"
+      "version": "1.23.3.4707"
     },
     "postman": {
       "installer": {
@@ -1978,9 +1978,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-5.5.0.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-5.6.0.exe"
       },
-      "version": "5.5.0"
+      "version": "5.6.0"
     },
     "simplenote": {
       "installer": {
@@ -2178,10 +2178,10 @@
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/10.0.17/torbrowser-install-10.0.17_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/10.0.17/torbrowser-install-win64-10.0.17_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/10.0.18/torbrowser-install-10.0.18_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/10.0.18/torbrowser-install-win64-10.0.18_en-US.exe"
       },
-      "version": "10.0.17"
+      "version": "10.0.18"
     },
     "torguard": {
       "installer": {
