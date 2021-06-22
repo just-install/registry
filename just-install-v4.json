@@ -909,9 +909,9 @@
             "-s"
           ]
         },
-        "x86": "https://us.download.nvidia.com/GFE/GFEClient/3.22.0.32/GeForce_Experience_v3.22.0.32.exe"
+        "x86": "https://us.download.nvidia.com/GFE/GFEClient/3.23.0.74/GeForce_Experience_v3.23.0.74.exe"
       },
-      "version": "3.22.0.32"
+      "version": "3.23.0.74"
     },
     "gimp": {
       "installer": {
