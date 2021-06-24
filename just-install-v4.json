@@ -294,9 +294,9 @@
     "blender": {
       "installer": {
         "kind": "msi",
-        "x86_64": "https://download.blender.org/release/Blender2.93/blender-2.93.0-windows-x64.msi"
+        "x86_64": "https://download.blender.org/release/Blender2.93/blender-2.93.1-windows-x64.msi"
       },
-      "version": "2.93.0"
+      "version": "2.93.1"
     },
     "bootnext": {
       "installer": {
