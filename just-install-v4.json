@@ -461,9 +461,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v21.06.20/ConEmuSetup.210620.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v21.06.24/ConEmuSetup.210624.exe"
       },
-      "version": "21.06.20"
+      "version": "21.06.24"
     },
     "cpu-z": {
       "installer": {
@@ -1092,10 +1092,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.84.0/hugo_0.84.0_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.84.0/hugo_0.84.0_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.84.1/hugo_0.84.1_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.84.1/hugo_0.84.1_Windows-64bit.zip"
       },
-      "version": "0.84.0"
+      "version": "0.84.1"
     },
     "imageglass": {
       "installer": {
@@ -1978,9 +1978,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-5.6.1.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-5.6.2.exe"
       },
-      "version": "5.6.1"
+      "version": "5.6.2"
     },
     "simplenote": {
       "installer": {
