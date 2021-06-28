@@ -287,9 +287,9 @@
             "/S"
           ]
         },
-        "x86": "https://download.bleachbit.org/BleachBit-4.2.0-setup.exe"
+        "x86": "https://download.bleachbit.org/BleachBit-4.4.0-setup.exe"
       },
-      "version": "4.2.0"
+      "version": "4.4.0"
     },
     "blender": {
       "installer": {
@@ -461,9 +461,9 @@
             ]
           }
         },
-        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v21.06.24/ConEmuSetup.210624.exe"
+        "x86": "https://github.com/Maximus5/ConEmu/releases/download/v21.06.27/ConEmuSetup.210627.exe"
       },
-      "version": "21.06.24"
+      "version": "21.06.27"
     },
     "cpu-z": {
       "installer": {
