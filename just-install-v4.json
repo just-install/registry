@@ -1092,10 +1092,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.84.3/hugo_0.84.3_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.84.3/hugo_0.84.3_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.84.4/hugo_0.84.4_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.84.4/hugo_0.84.4_Windows-64bit.zip"
       },
-      "version": "0.84.3"
+      "version": "0.84.4"
     },
     "imageglass": {
       "installer": {
@@ -1456,18 +1456,18 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v16.4.0/node-v16.4.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v16.4.0/node-v16.4.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v16.4.1/node-v16.4.1-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v16.4.1/node-v16.4.1-x64.msi"
       },
-      "version": "16.4.0"
+      "version": "16.4.1"
     },
     "node-lts": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v14.17.1/node-v14.17.1-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v14.17.1/node-v14.17.1-x64.msi"
+        "x86": "https://nodejs.org/dist/v14.17.2/node-v14.17.2-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v14.17.2/node-v14.17.2-x64.msi"
       },
-      "version": "14.17.1"
+      "version": "14.17.2"
     },
     "nordvpn": {
       "installer": {
@@ -2559,10 +2559,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.33.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.33.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.36.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.36.x64.exe"
       },
-      "version": "4.0.2312.33"
+      "version": "4.0.2312.36"
     },
     "vlc": {
       "installer": {
