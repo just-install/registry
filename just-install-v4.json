@@ -492,9 +492,9 @@
     "crystaldisk-mark": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://osdn.net/frs/redir.php?m=bfsu&f=crystaldiskmark%2F75252%2FCrystalDiskMark8_0_2.exe"
+        "x86": "https://osdn.net/frs/redir.php?m=xtom_us&f=crystaldiskmark%2F75466%2FCrystalDiskMark8_0_3.exe"
       },
-      "version": "8.0.2"
+      "version": "8.0.3"
     },
     "cyberduck": {
       "installer": {
