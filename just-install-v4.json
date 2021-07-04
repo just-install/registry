@@ -955,9 +955,9 @@
     "gitextensions": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/gitextensions/gitextensions/releases/download/v3.5/GitExtensions-3.5.0.11713-0a5ef9ca6.msi"
+        "x86": "https://github.com/gitextensions/gitextensions/releases/download/v3.5.1/GitExtensions-3.5.1.12196-9099a1e76.msi"
       },
-      "version": "3.5"
+      "version": "3.5.1"
     },
     "github": {
       "installer": {
