@@ -539,9 +539,9 @@
             "/S"
           ]
         },
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/21.1.1/dbeaver-ce-21.1.1-x86_64-setup.exe"
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/21.1.2/dbeaver-ce-21.1.2-x86_64-setup.exe"
       },
-      "version": "21.1.1"
+      "version": "21.1.2"
     },
     "deluge": {
       "installer": {
@@ -1485,10 +1485,10 @@
     "notepad++": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1/npp.8.1.Installer.exe",
-        "x86_64": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1/npp.8.1.Installer.x64.exe"
+        "x86": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.1/npp.8.1.1.Installer.exe",
+        "x86_64": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.1/npp.8.1.1.Installer.x64.exe"
       },
-      "version": "8.1"
+      "version": "8.1.1"
     },
     "notepad2-mod": {
       "installer": {
@@ -1911,10 +1911,10 @@
     "retroarch": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://buildbot.libretro.com/stable/1.9.5/windows/x86/RetroArch-Win32-setup.exe",
-        "x86_64": "https://buildbot.libretro.com/stable/1.9.5/windows/x86_64/RetroArch-Win64-setup.exe"
+        "x86": "https://buildbot.libretro.com/stable/1.9.6/windows/x86/RetroArch-Win32-setup.exe",
+        "x86_64": "https://buildbot.libretro.com/stable/1.9.6/windows/x86_64/RetroArch-Win64-setup.exe"
       },
-      "version": "1.9.5"
+      "version": "1.9.6"
     },
     "ruby": {
       "installer": {
