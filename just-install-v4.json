@@ -1456,18 +1456,18 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v16.4.1/node-v16.4.1-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v16.4.1/node-v16.4.1-x64.msi"
+        "x86": "https://nodejs.org/dist/v16.4.2/node-v16.4.2-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v16.4.2/node-v16.4.2-x64.msi"
       },
-      "version": "16.4.1"
+      "version": "16.4.2"
     },
     "node-lts": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v14.17.2/node-v14.17.2-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v14.17.2/node-v14.17.2-x64.msi"
+        "x86": "https://nodejs.org/dist/v14.17.3/node-v14.17.3-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v14.17.3/node-v14.17.3-x64.msi"
       },
-      "version": "14.17.2"
+      "version": "14.17.3"
     },
     "nordvpn": {
       "installer": {
@@ -2559,10 +2559,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.36.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.36.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.38.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.38.x64.exe"
       },
-      "version": "4.0.2312.36"
+      "version": "4.0.2312.38"
     },
     "vlc": {
       "installer": {
