@@ -1523,9 +1523,9 @@
     "nxlog": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nxlog.co/system/files/products/files/348/nxlog-ce-2.10.2150.msi"
+        "x86": "https://nxlog.co/system/files/products/files/348/nxlog-ce-2.11.2190.msi"
       },
-      "version": "2.10.2150"
+      "version": "2.11.2190"
     },
     "obs-studio": {
       "installer": {
@@ -2105,10 +2105,10 @@
             "/s"
           ]
         },
-        "x86": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/rel/SumatraPDF-3.2-install.exe",
-        "x86_64": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/rel/SumatraPDF-3.2-64-install.exe"
+        "x86": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/rel/SumatraPDF-3.3-install.exe",
+        "x86_64": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/rel/SumatraPDF-3.3-64-install.exe"
       },
-      "version": "3.2"
+      "version": "3.3"
     },
     "syncthing": {
       "installer": {
@@ -2116,10 +2116,10 @@
         "options": {
           "destination": "{{.PROGRAMFILES}}\\Syncthing"
         },
-        "x86": "https://github.com/syncthing/syncthing/releases/download/v1.17.0/syncthing-windows-386-v1.17.0.zip",
-        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v1.17.0/syncthing-windows-amd64-v1.17.0.zip"
+        "x86": "https://github.com/syncthing/syncthing/releases/download/v1.18.0/syncthing-windows-386-v1.18.0.zip",
+        "x86_64": "https://github.com/syncthing/syncthing/releases/download/v1.18.0/syncthing-windows-amd64-v1.18.0.zip"
       },
-      "version": "1.17.0"
+      "version": "1.18.0"
     },
     "sysinternals": {
       "installer": {
@@ -2178,10 +2178,10 @@
     "tor-browser": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://www.torproject.org/dist/torbrowser/10.0.18/torbrowser-install-10.0.18_en-US.exe",
-        "x86_64": "https://www.torproject.org/dist/torbrowser/10.0.18/torbrowser-install-win64-10.0.18_en-US.exe"
+        "x86": "https://www.torproject.org/dist/torbrowser/10.5/torbrowser-install-10.5_en-US.exe",
+        "x86_64": "https://www.torproject.org/dist/torbrowser/10.5/torbrowser-install-win64-10.5_en-US.exe"
       },
-      "version": "10.0.18"
+      "version": "10.5"
     },
     "torguard": {
       "installer": {
