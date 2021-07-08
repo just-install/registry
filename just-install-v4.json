@@ -1978,9 +1978,9 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-5.7.1.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-5.8.0.exe"
       },
-      "version": "5.7.1"
+      "version": "5.8.0"
     },
     "simplenote": {
       "installer": {
