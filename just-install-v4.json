@@ -485,16 +485,16 @@
     "crystaldisk-info": {
       "installer": {
         "kind": "innosetup",
-        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/75303/CrystalDiskInfo8_12_2.exe"
+        "x86": "http://osdn.dl.osdn.jp/crystaldiskinfo/75539/CrystalDiskInfo8_12_4.exe"
       },
-      "version": "8.12.2"
+      "version": "8.12.4"
     },
     "crystaldisk-mark": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://osdn.net/frs/redir.php?m=xtom_us&f=crystaldiskmark%2F75466%2FCrystalDiskMark8_0_3.exe"
+        "x86": "https://osdn.net/frs/redir.php?m=xtom_us&f=crystaldiskmark%2F75540%2FCrystalDiskMark8_0_4.exe"
       },
-      "version": "8.0.3"
+      "version": "8.0.4"
     },
     "cyberduck": {
       "installer": {
