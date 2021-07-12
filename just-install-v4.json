@@ -263,9 +263,9 @@
     "bcuninstaller": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v5.0/BCUninstaller_5.0_setup.exe"
+        "x86": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v5.1/BCUninstaller_5.1_setup.exe"
       },
-      "version": "5.0"
+      "version": "5.1"
     },
     "bitwarden": {
       "installer": {
