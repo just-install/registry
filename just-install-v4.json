@@ -145,9 +145,9 @@
     "android-studio-ide": {
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://redirector.gvt1.com/edgedl/android/studio/install/4.2.2.0/android-studio-ide-202.7486908-windows.exe"
+        "x86_64": "https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.22/android-studio-2020.3.1.22-windows.exe"
       },
-      "version": "4.2.2.0"
+      "version": "2020.3.1.22"
     },
     "antimicro": {
       "installer": {
@@ -184,9 +184,10 @@
     "audacity": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.2/audacity-win-3.0.2.exe"
+        "x86": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.3/audacity-win-3.0.3-32bit.exe",
+        "x86_64": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.3/audacity-win-3.0.3-64bit.exe"
       },
-      "version": "3.0.2"
+      "version": "3.0.3"
     },
     "autohotkey": {
       "installer": {
@@ -301,9 +302,9 @@
     "bootnext": {
       "installer": {
         "kind": "msi",
-        "x86_64": "https://ci.appveyor.com/api/buildjobs/dqo0a42teud97qf4/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
+        "x86_64": "https://ci.appveyor.com/api/buildjobs/72427k9i2e3owv2c/artifacts/installer%2Fbin%2Fx64%2FRelease%2Fbootnext.msi"
       },
-      "version": "1.0.45"
+      "version": "1.0.46"
     },
     "brackets": {
       "installer": {
@@ -394,10 +395,10 @@
     "cmake": {
       "installer": {
         "kind": "msi",
-        "x86": "https://github.com/Kitware/CMake/releases/download/v3.19.8/cmake-3.19.8-win32-x86.msi",
-        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.19.8/cmake-3.19.8-win64-x64.msi"
+        "x86": "https://github.com/Kitware/CMake/releases/download/v3.21.1/cmake-3.21.1-windows-i386.msi",
+        "x86_64": "https://github.com/Kitware/CMake/releases/download/v3.21.1/cmake-3.21.1-windows-x86_64.msi"
       },
-      "version": "3.20.5"
+      "version": "3.21.1"
     },
     "codeblocks": {
       "installer": {
@@ -437,10 +438,10 @@
     "conan": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/conan-io/conan/releases/download/1.38.0/conan-win-32.exe",
-        "x86_64": "https://github.com/conan-io/conan/releases/download/1.38.0/conan-win-64.exe"
+        "x86": "https://github.com/conan-io/conan/releases/download/1.39.0/conan-win-32.exe",
+        "x86_64": "https://github.com/conan-io/conan/releases/download/1.39.0/conan-win-64.exe"
       },
-      "version": "1.38.0"
+      "version": "1.39.0"
     },
     "conemu": {
       "installer": {
@@ -539,9 +540,9 @@
             "/S"
           ]
         },
-        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/21.1.3/dbeaver-ce-21.1.3-x86_64-setup.exe"
+        "x86_64": "https://github.com/dbeaver/dbeaver/releases/download/21.1.4/dbeaver-ce-21.1.4-x86_64-setup.exe"
       },
-      "version": "21.1.3"
+      "version": "21.1.4"
     },
     "deluge": {
       "installer": {
@@ -896,9 +897,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.9.5.exe/download"
+        "x86": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.9.7.exe/download"
       },
-      "version": "1.9.5"
+      "version": "1.9.7"
     },
     "geforce-experience": {
       "installer": {
@@ -1092,10 +1093,10 @@
             "{{.PROGRAMFILES}}\\hugo\\hugo.exe"
           ]
         },
-        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.85.0/hugo_0.85.0_Windows-32bit.zip",
-        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.85.0/hugo_0.85.0_Windows-64bit.zip"
+        "x86": "https://github.com/gohugoio/hugo/releases/download/v0.86.1/hugo_0.86.1_Windows-32bit.zip",
+        "x86_64": "https://github.com/gohugoio/hugo/releases/download/v0.86.1/hugo_0.86.1_Windows-64bit.zip"
       },
-      "version": "0.85.0"
+      "version": "0.86.1"
     },
     "imageglass": {
       "installer": {
@@ -1126,9 +1127,9 @@
     "intellij-idea-community": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.jetbrains.com/idea/ideaIC-2021.1.3.exe"
+        "x86": "https://download.jetbrains.com/idea/ideaIC-2021.2.exe"
       },
-      "version": "2021.1.3"
+      "version": "2021.2"
     },
     "irfanview": {
       "installer": {
@@ -1253,10 +1254,10 @@
     "libreoffice": {
       "installer": {
         "kind": "msi",
-        "x86": "https://download.documentfoundation.org/libreoffice/stable/7.1.4/win/x86/LibreOffice_7.1.4_Win_x86.msi",
-        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/7.1.4/win/x86_64/LibreOffice_7.1.4_Win_x64.msi"
+        "x86": "https://download.documentfoundation.org/libreoffice/stable/7.1.5/win/x86/LibreOffice_7.1.5_Win_x86.msi",
+        "x86_64": "https://download.documentfoundation.org/libreoffice/stable/7.1.5/win/x86_64/LibreOffice_7.1.5_Win_x64.msi"
       },
-      "version": "7.1.4"
+      "version": "7.1.5"
     },
     "lightshot": {
       "installer": {
@@ -1338,10 +1339,10 @@
             "{{.PROGRAMFILES}}\\Mercurial\\hg.exe"
           ]
         },
-        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-5.8-x86.msi",
-        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-5.8-x64.msi"
+        "x86": "https://www.mercurial-scm.org/release/windows/mercurial-5.8.1-x86.msi",
+        "x86_64": "https://www.mercurial-scm.org/release/windows/mercurial-5.8.1-x64.msi"
       },
-      "version": "5.8"
+      "version": "5.8.1"
     },
     "microsoft-security-essentials": {
       "installer": {
@@ -1396,9 +1397,9 @@
     "mp3tag": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.mp3tag.de/mp3tagv307setup.exe"
+        "x86": "https://download.mp3tag.de/mp3tagv308setup.exe"
       },
-      "version": "3.07"
+      "version": "3.08"
     },
     "mremoteng": {
       "installer": {
@@ -1417,9 +1418,9 @@
     "mysql-workbench": {
       "installer": {
         "kind": "msi",
-        "x86_64": "https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.25-winx64.msi"
+        "x86_64": "https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.26-winx64.msi"
       },
-      "version": "8.0.25"
+      "version": "8.0.26"
     },
     "naps2": {
       "installer": {
@@ -1456,18 +1457,18 @@
     "node": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v16.5.0/node-v16.5.0-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v16.5.0/node-v16.5.0-x64.msi"
+        "x86": "https://nodejs.org/dist/v16.6.0/node-v16.6.0-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v16.6.0/node-v16.6.0-x64.msi"
       },
-      "version": "16.5.0"
+      "version": "16.6.0"
     },
     "node-lts": {
       "installer": {
         "kind": "msi",
-        "x86": "https://nodejs.org/dist/v14.17.3/node-v14.17.3-x86.msi",
-        "x86_64": "https://nodejs.org/dist/v14.17.3/node-v14.17.3-x64.msi"
+        "x86": "https://nodejs.org/dist/v14.17.4/node-v14.17.4-x86.msi",
+        "x86_64": "https://nodejs.org/dist/v14.17.4/node-v14.17.4-x64.msi"
       },
-      "version": "14.17.3"
+      "version": "14.17.4"
     },
     "nordvpn": {
       "installer": {
@@ -1516,9 +1517,9 @@
     "nsis": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://sourceforge.net/projects/nsis/files/NSIS%203/3.06.1/nsis-3.06.1-setup.exe/download"
+        "x86": "https://sourceforge.net/projects/nsis/files/NSIS%203/3.07/nsis-3.07-setup.exe/download"
       },
-      "version": "3.06.1"
+      "version": "3.07"
     },
     "nxlog": {
       "installer": {
@@ -1691,10 +1692,10 @@
             "{{.SYSTEMDRIVE}}\\PHP\\php-win.exe"
           ]
         },
-        "x86": "https://windows.php.net/downloads/releases/php-7.3.29-nts-Win32-VC15-x86.zip",
-        "x86_64": "https://windows.php.net/downloads/releases/php-7.3.29-nts-Win32-VC15-x64.zip"
+        "x86": "https://windows.php.net/downloads/releases/php-8.0.9-nts-Win32-vs16-x86.zip",
+        "x86_64": "https://windows.php.net/downloads/releases/php-8.0.9-nts-Win32-vs16-x64.zip"
       },
-      "version": "8.0.8"
+      "version": "8.0.9"
     },
     "physx": {
       "installer": {
@@ -1726,9 +1727,9 @@
             "/norestart"
           ]
         },
-        "x86": "https://downloads.plex.tv/plex-media-server-new/1.23.4.4805-186bae04e/windows/PlexMediaServer-1.23.4.4805-186bae04e-x86.exe"
+        "x86": "https://downloads.plex.tv/plex-media-server-new/1.23.6.4881-e2e58f321/windows/PlexMediaServer-1.23.6.4881-e2e58f321-x86.exe"
       },
-      "version": "1.23.4.4805"
+      "version": "1.23.6.4881"
     },
     "postman": {
       "installer": {
@@ -1785,9 +1786,9 @@
     "pycharm-community": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://download.jetbrains.com/python/pycharm-community-2021.1.3.exe"
+        "x86": "https://download.jetbrains.com/python/pycharm-community-2021.2.exe"
       },
-      "version": "2021.1.3"
+      "version": "2021.2"
     },
     "python2": {
       "installer": {
@@ -1911,10 +1912,10 @@
     "retroarch": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://buildbot.libretro.com/stable/1.9.6/windows/x86/RetroArch-Win32-setup.exe",
-        "x86_64": "https://buildbot.libretro.com/stable/1.9.6/windows/x86_64/RetroArch-Win64-setup.exe"
+        "x86": "https://buildbot.libretro.com/stable/1.9.7/windows/x86/RetroArch-Win32-setup.exe",
+        "x86_64": "https://buildbot.libretro.com/stable/1.9.7/windows/x86_64/RetroArch-Win64-setup.exe"
       },
-      "version": "1.9.6"
+      "version": "1.9.7"
     },
     "ruby": {
       "installer": {
@@ -1978,16 +1979,16 @@
     "signal": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://updates.signal.org/desktop/signal-desktop-win-5.9.0.exe"
+        "x86": "https://updates.signal.org/desktop/signal-desktop-win-5.11.0.exe"
       },
-      "version": "5.9.0"
+      "version": "5.11.0"
     },
     "simplenote": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v2.14.0/Simplenote-win-2.14.0.exe"
+        "x86": "https://github.com/Automattic/simplenote-electron/releases/download/v2.15.0/Simplenote-win-2.15.0.exe"
       },
-      "version": "2.14.0"
+      "version": "2.15.0"
     },
     "slack": {
       "installer": {
@@ -2105,10 +2106,10 @@
             "/s"
           ]
         },
-        "x86": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/rel/SumatraPDF-3.3.1-install.exe",
-        "x86_64": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/rel/SumatraPDF-3.3.1-64-install.exe"
+        "x86": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/rel/SumatraPDF-3.3.3-install.exe",
+        "x86_64": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/rel/SumatraPDF-3.3.3-64-install.exe"
       },
-      "version": "3.3.1"
+      "version": "3.3.3"
     },
     "syncthing": {
       "installer": {
@@ -2242,10 +2243,10 @@
     "vagrant": {
       "installer": {
         "kind": "msi",
-        "x86": "https://releases.hashicorp.com/vagrant/2.2.17/vagrant_2.2.17_i686.msi",
-        "x86_64": "https://releases.hashicorp.com/vagrant/2.2.17/vagrant_2.2.17_x86_64.msi"
+        "x86": "https://releases.hashicorp.com/vagrant/2.2.18/vagrant_2.2.18_i686.msi",
+        "x86_64": "https://releases.hashicorp.com/vagrant/2.2.18/vagrant_2.2.18_x86_64.msi"
       },
-      "version": "2.2.17"
+      "version": "2.2.18"
     },
     "vcredist-2005": {
       "installer": {
@@ -2404,9 +2405,9 @@
             "{{.PROGRAMFILES}}\\Oracle\\VirtualBox\\VBoxManage.exe"
           ]
         },
-        "x86": "https://download.virtualbox.org/virtualbox/6.1.22/VirtualBox-6.1.22-144080-Win.exe"
+        "x86": "https://download.virtualbox.org/virtualbox/6.1.26/VirtualBox-6.1.26-145957-Win.exe"
       },
-      "version": "6.1.22"
+      "version": "6.1.26"
     },
     "viscosity": {
       "installer": {
@@ -2559,10 +2560,10 @@
             "--vivaldi-update"
           ]
         },
-        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.41.exe",
-        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.41.x64.exe"
+        "x86": "https://downloads.vivaldi.com/stable/Vivaldi.4.1.2369.11.exe",
+        "x86_64": "https://downloads.vivaldi.com/stable/Vivaldi.4.1.2369.11.x64.exe"
       },
-      "version": "4.0.2312.41"
+      "version": "4.1.2369.11"
     },
     "vlc": {
       "installer": {
@@ -2642,9 +2643,9 @@
         "options": {
           "extension": ".exe"
         },
-        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.19.1/WinSCP-5.19.1-Setup.exe/download"
+        "x86": "https://sourceforge.net/projects/winscp/files/WinSCP/5.19.2/WinSCP-5.19.2-Setup.exe/download"
       },
-      "version": "5.19.1"
+      "version": "5.19.2"
     },
     "wireshark": {
       "installer": {
@@ -2695,9 +2696,9 @@
     "workflowy": {
       "installer": {
         "kind": "nsis",
-        "x86": "https://github.com/workflowy/desktop/releases/download/v1.3.5-5665/WorkFlowy-Installer.exe"
+        "x86": "https://github.com/workflowy/desktop/releases/download/v1.3.6-555/WorkFlowy-Installer.exe"
       },
-      "version": "1.3.5"
+      "version": "1.3.6"
     },
     "wox": {
       "installer": {
