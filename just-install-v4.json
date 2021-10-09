@@ -2603,6 +2603,14 @@
       },
       "version": "latest"
     },
+    "whatsapp-beta": {
+      "installer": {
+        "kind": "squirrel",
+        "x86": "https://web.whatsapp.com/desktop-beta/windows/release/ia32/hatsAppSetup-beta.exe",
+        "x86_64": "https://web.whatsapp.com/desktop-beta/windows/release/x64/hatsAppSetup-beta.exe"
+      },
+      "version": "latest"
+    },
     "windirstat": {
       "installer": {
         "kind": "nsis",
