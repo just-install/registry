@@ -5,6 +5,11 @@
 This repository contains the just-install "registry": the list of packages available for
 installation through just-install.
 
+## :warning: :warning: :warning: Maintenance Mode :warning: :warning: :warning:
+
+This project is no longer being actively developed. We suggest you to switch to Microsoft's
+[winget](https://github.com/microsoft/winget-cli).
+
 ## Submitting new entries
 
 Fork this repository, make your changes to `just-install.json`, then submit a pull request.
